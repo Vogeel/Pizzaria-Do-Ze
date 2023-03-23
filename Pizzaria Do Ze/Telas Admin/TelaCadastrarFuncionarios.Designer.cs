@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastrarFuncionarios));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,12 +49,15 @@
             this.validadeCNHdateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.cadastrarBtn = new System.Windows.Forms.Button();
+            this.GrupoGroupBox = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 65);
+            this.label1.Location = new System.Drawing.Point(60, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 0;
@@ -62,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 92);
+            this.label2.Location = new System.Drawing.Point(60, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 1;
@@ -71,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 116);
+            this.label3.Location = new System.Drawing.Point(60, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 2;
@@ -80,7 +84,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(59, 141);
+            this.label4.Location = new System.Drawing.Point(60, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 3;
@@ -89,7 +93,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(59, 169);
+            this.label5.Location = new System.Drawing.Point(60, 144);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 13);
             this.label5.TabIndex = 4;
@@ -107,7 +111,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(56, 272);
+            this.label7.Location = new System.Drawing.Point(56, 296);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(33, 13);
             this.label7.TabIndex = 6;
@@ -116,7 +120,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(56, 303);
+            this.label8.Location = new System.Drawing.Point(56, 327);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(77, 13);
             this.label8.TabIndex = 7;
@@ -124,35 +128,35 @@
             // 
             // nomeTB
             // 
-            this.nomeTB.Location = new System.Drawing.Point(138, 62);
+            this.nomeTB.Location = new System.Drawing.Point(139, 37);
             this.nomeTB.Name = "nomeTB";
             this.nomeTB.Size = new System.Drawing.Size(100, 20);
             this.nomeTB.TabIndex = 8;
             // 
             // matriculaTB
             // 
-            this.matriculaTB.Location = new System.Drawing.Point(138, 140);
+            this.matriculaTB.Location = new System.Drawing.Point(139, 115);
             this.matriculaTB.Name = "matriculaTB";
             this.matriculaTB.Size = new System.Drawing.Size(100, 20);
             this.matriculaTB.TabIndex = 11;
             // 
             // cpfMaskedTB
             // 
-            this.cpfMaskedTB.Location = new System.Drawing.Point(138, 88);
+            this.cpfMaskedTB.Location = new System.Drawing.Point(139, 63);
             this.cpfMaskedTB.Name = "cpfMaskedTB";
             this.cpfMaskedTB.Size = new System.Drawing.Size(100, 20);
             this.cpfMaskedTB.TabIndex = 12;
             // 
             // telefonemaskedTB
             // 
-            this.telefonemaskedTB.Location = new System.Drawing.Point(138, 114);
+            this.telefonemaskedTB.Location = new System.Drawing.Point(139, 89);
             this.telefonemaskedTB.Name = "telefonemaskedTB";
             this.telefonemaskedTB.Size = new System.Drawing.Size(100, 20);
             this.telefonemaskedTB.TabIndex = 13;
             // 
             // senhaMaskedTB
             // 
-            this.senhaMaskedTB.Location = new System.Drawing.Point(138, 169);
+            this.senhaMaskedTB.Location = new System.Drawing.Point(139, 144);
             this.senhaMaskedTB.Name = "senhaMaskedTB";
             this.senhaMaskedTB.PasswordChar = '*';
             this.senhaMaskedTB.Size = new System.Drawing.Size(100, 20);
@@ -193,23 +197,25 @@
             // 
             // cnhMaskedTB
             // 
-            this.cnhMaskedTB.Location = new System.Drawing.Point(138, 269);
+            this.cnhMaskedTB.Location = new System.Drawing.Point(138, 293);
             this.cnhMaskedTB.Name = "cnhMaskedTB";
             this.cnhMaskedTB.Size = new System.Drawing.Size(100, 20);
             this.cnhMaskedTB.TabIndex = 18;
             // 
             // validadeCNHdateTimePicker
             // 
-            this.validadeCNHdateTimePicker.Location = new System.Drawing.Point(139, 303);
+            this.validadeCNHdateTimePicker.Location = new System.Drawing.Point(139, 327);
             this.validadeCNHdateTimePicker.Name = "validadeCNHdateTimePicker";
             this.validadeCNHdateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.validadeCNHdateTimePicker.TabIndex = 19;
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(457, 30);
+            this.cancelBtn.FlatAppearance.BorderSize = 0;
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelBtn.Location = new System.Drawing.Point(194, 373);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(75, 23);
+            this.cancelBtn.Size = new System.Drawing.Size(87, 32);
             this.cancelBtn.TabIndex = 20;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
@@ -217,19 +223,40 @@
             // 
             // cadastrarBtn
             // 
-            this.cadastrarBtn.Location = new System.Drawing.Point(457, 359);
+            this.cadastrarBtn.FlatAppearance.BorderSize = 0;
+            this.cadastrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cadastrarBtn.Location = new System.Drawing.Point(302, 373);
             this.cadastrarBtn.Name = "cadastrarBtn";
-            this.cadastrarBtn.Size = new System.Drawing.Size(75, 23);
+            this.cadastrarBtn.Size = new System.Drawing.Size(87, 31);
             this.cadastrarBtn.TabIndex = 21;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.cadastrarBtn_Click);
             // 
+            // GrupoGroupBox
+            // 
+            this.GrupoGroupBox.Location = new System.Drawing.Point(59, 170);
+            this.GrupoGroupBox.Name = "GrupoGroupBox";
+            this.GrupoGroupBox.Size = new System.Drawing.Size(179, 117);
+            this.GrupoGroupBox.TabIndex = 22;
+            this.GrupoGroupBox.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-4, 353);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(446, 71);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
+            // 
             // TelaCadastrarFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(558, 416);
+            this.BackColor = System.Drawing.Color.BurlyWood;
+            this.ClientSize = new System.Drawing.Size(401, 416);
             this.Controls.Add(this.cadastrarBtn);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.validadeCNHdateTimePicker);
@@ -250,12 +277,15 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.GrupoGroupBox);
+            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaCadastrarFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaCadastrar";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,5 +313,7 @@
         private System.Windows.Forms.DateTimePicker validadeCNHdateTimePicker;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button cadastrarBtn;
+        private System.Windows.Forms.GroupBox GrupoGroupBox;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

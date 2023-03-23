@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaEditSabores));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.nomePizzaTextBox = new System.Windows.Forms.TextBox();
@@ -38,6 +39,8 @@
             this.cancelBtn = new System.Windows.Forms.Button();
             this.cadastrarBtn = new System.Windows.Forms.Button();
             this.excluirSaborBtn = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -70,12 +73,13 @@
             this.ingredientesComboBox.FormattingEnabled = true;
             this.ingredientesComboBox.Location = new System.Drawing.Point(118, 135);
             this.ingredientesComboBox.Name = "ingredientesComboBox";
-            this.ingredientesComboBox.Size = new System.Drawing.Size(121, 21);
+            this.ingredientesComboBox.Size = new System.Drawing.Size(167, 21);
             this.ingredientesComboBox.TabIndex = 3;
             // 
             // addBtn
             // 
-            this.addBtn.Location = new System.Drawing.Point(262, 133);
+            this.addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addBtn.Location = new System.Drawing.Point(338, 133);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(75, 23);
             this.addBtn.TabIndex = 4;
@@ -84,10 +88,11 @@
             // 
             // ingredienteEscolhidosListBox
             // 
+            this.ingredienteEscolhidosListBox.BackColor = System.Drawing.Color.BurlyWood;
             this.ingredienteEscolhidosListBox.FormattingEnabled = true;
             this.ingredienteEscolhidosListBox.Location = new System.Drawing.Point(118, 192);
             this.ingredienteEscolhidosListBox.Name = "ingredienteEscolhidosListBox";
-            this.ingredienteEscolhidosListBox.Size = new System.Drawing.Size(132, 95);
+            this.ingredienteEscolhidosListBox.Size = new System.Drawing.Size(167, 95);
             this.ingredienteEscolhidosListBox.TabIndex = 5;
             // 
             // especialCheckBox
@@ -102,6 +107,7 @@
             // 
             // cancelBtn
             // 
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cancelBtn.Location = new System.Drawing.Point(380, 21);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(85, 28);
@@ -112,6 +118,7 @@
             // 
             // cadastrarBtn
             // 
+            this.cadastrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cadastrarBtn.Location = new System.Drawing.Point(380, 311);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(85, 30);
@@ -122,17 +129,29 @@
             // 
             // excluirSaborBtn
             // 
-            this.excluirSaborBtn.Location = new System.Drawing.Point(262, 192);
+            this.excluirSaborBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.excluirSaborBtn.Location = new System.Drawing.Point(338, 192);
             this.excluirSaborBtn.Name = "excluirSaborBtn";
             this.excluirSaborBtn.Size = new System.Drawing.Size(112, 23);
             this.excluirSaborBtn.TabIndex = 9;
             this.excluirSaborBtn.Text = "Excluir selecionado";
             this.excluirSaborBtn.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(324, -2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(163, 354);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
             // TelaEditSabores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(485, 354);
             this.Controls.Add(this.excluirSaborBtn);
             this.Controls.Add(this.cadastrarBtn);
@@ -144,12 +163,14 @@
             this.Controls.Add(this.nomePizzaTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaEditSabores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaEditSabores";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,5 +188,6 @@
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button cadastrarBtn;
         private System.Windows.Forms.Button excluirSaborBtn;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

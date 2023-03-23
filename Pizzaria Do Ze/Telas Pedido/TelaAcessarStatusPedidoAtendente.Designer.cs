@@ -53,6 +53,7 @@
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(227, 106);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -63,6 +64,7 @@
             // 
             // acessarBtn
             // 
+            this.acessarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.acessarBtn.Location = new System.Drawing.Point(227, 48);
             this.acessarBtn.Name = "acessarBtn";
             this.acessarBtn.Size = new System.Drawing.Size(75, 23);
@@ -75,6 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(324, 143);
             this.Controls.Add(this.acessarBtn);
             this.Controls.Add(this.button1);

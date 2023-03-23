@@ -37,7 +37,8 @@
             // 
             // cadastrarBtn
             // 
-            this.cadastrarBtn.Location = new System.Drawing.Point(288, 295);
+            this.cadastrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cadastrarBtn.Location = new System.Drawing.Point(298, 295);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(104, 27);
             this.cadastrarBtn.TabIndex = 14;
@@ -47,6 +48,7 @@
             // 
             // voltarBtn
             // 
+            this.voltarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.voltarBtn.Location = new System.Drawing.Point(387, 12);
             this.voltarBtn.Name = "voltarBtn";
             this.voltarBtn.Size = new System.Drawing.Size(89, 28);
@@ -57,7 +59,8 @@
             // 
             // clienteCadastradoBtn
             // 
-            this.clienteCadastradoBtn.Location = new System.Drawing.Point(154, 295);
+            this.clienteCadastradoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.clienteCadastradoBtn.Location = new System.Drawing.Point(164, 295);
             this.clienteCadastradoBtn.Name = "clienteCadastradoBtn";
             this.clienteCadastradoBtn.Size = new System.Drawing.Size(127, 27);
             this.clienteCadastradoBtn.TabIndex = 18;
@@ -67,6 +70,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(10, 325);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(271, 13);
@@ -84,6 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(488, 347);
             this.Controls.Add(this.camposCadsatroUserControl1);
             this.Controls.Add(this.label8);

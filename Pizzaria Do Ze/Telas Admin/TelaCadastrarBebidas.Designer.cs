@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastrarBebidas));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,6 +41,8 @@
             this.cancelbtn = new System.Windows.Forms.Button();
             this.tipoComboBox = new System.Windows.Forms.ComboBox();
             this.tamanhoComboBox = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -94,6 +97,7 @@
             // 
             // bebidasListBox
             // 
+            this.bebidasListBox.BackColor = System.Drawing.Color.BurlyWood;
             this.bebidasListBox.FormattingEnabled = true;
             this.bebidasListBox.Location = new System.Drawing.Point(94, 218);
             this.bebidasListBox.Name = "bebidasListBox";
@@ -102,6 +106,8 @@
             // 
             // cadastrarBtn
             // 
+            this.cadastrarBtn.FlatAppearance.BorderSize = 0;
+            this.cadastrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cadastrarBtn.Location = new System.Drawing.Point(513, 360);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(89, 33);
@@ -112,21 +118,27 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(424, 218);
+            this.button2.BackColor = System.Drawing.Color.BurlyWood;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(487, 218);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 23);
+            this.button2.Size = new System.Drawing.Size(115, 33);
             this.button2.TabIndex = 10;
             this.button2.Text = "Excluir selecionado";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // cancelbtn
             // 
+            this.cancelbtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.cancelbtn.FlatAppearance.BorderSize = 0;
+            this.cancelbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelbtn.Location = new System.Drawing.Point(513, 12);
             this.cancelbtn.Name = "cancelbtn";
             this.cancelbtn.Size = new System.Drawing.Size(89, 33);
             this.cancelbtn.TabIndex = 11;
             this.cancelbtn.Text = "Cancelar";
-            this.cancelbtn.UseVisualStyleBackColor = true;
+            this.cancelbtn.UseVisualStyleBackColor = false;
             // 
             // tipoComboBox
             // 
@@ -156,10 +168,21 @@
             this.tamanhoComboBox.Size = new System.Drawing.Size(121, 21);
             this.tamanhoComboBox.TabIndex = 13;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(467, -14);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(167, 427);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabStop = false;
+            // 
             // TelaCadastrarBebidas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(626, 407);
             this.Controls.Add(this.tamanhoComboBox);
             this.Controls.Add(this.tipoComboBox);
@@ -173,12 +196,14 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaCadastrarBebidas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaCadastrarBebidas";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,5 +223,6 @@
         private System.Windows.Forms.Button cancelbtn;
         private System.Windows.Forms.ComboBox tipoComboBox;
         private System.Windows.Forms.ComboBox tamanhoComboBox;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

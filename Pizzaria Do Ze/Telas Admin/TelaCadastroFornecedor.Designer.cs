@@ -42,6 +42,7 @@
             // 
             // cancelBtn
             // 
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cancelBtn.Location = new System.Drawing.Point(120, 241);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(106, 23);
@@ -52,6 +53,7 @@
             // 
             // cadastrarbtn
             // 
+            this.cadastrarbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cadastrarbtn.Location = new System.Drawing.Point(232, 241);
             this.cadastrarbtn.Name = "cadastrarbtn";
             this.cadastrarbtn.Size = new System.Drawing.Size(119, 23);
@@ -64,6 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(476, 276);
             this.Controls.Add(this.cadastrarbtn);
             this.Controls.Add(this.cancelBtn);
