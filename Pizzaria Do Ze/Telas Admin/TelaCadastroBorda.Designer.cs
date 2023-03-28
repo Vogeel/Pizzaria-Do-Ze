@@ -48,7 +48,7 @@
             this.addBordaBtn.TabIndex = 0;
             this.addBordaBtn.Text = "Adicionar";
             this.addBordaBtn.UseVisualStyleBackColor = false;
-            this.addBordaBtn.Click += new System.EventHandler(this.addBordaBtn_Click);
+            this.addBordaBtn.Click += new System.EventHandler(this.AddBordaBtn_Click);
             // 
             // excluirBtn
             // 
@@ -81,7 +81,7 @@
             this.cancelBtn.TabIndex = 4;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = false;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // pictureBox2
             // 

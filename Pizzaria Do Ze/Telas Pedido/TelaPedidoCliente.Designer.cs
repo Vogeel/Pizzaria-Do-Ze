@@ -184,7 +184,7 @@
             this.seguinteBtn.TabIndex = 12;
             this.seguinteBtn.Text = "Seguinte";
             this.seguinteBtn.UseVisualStyleBackColor = true;
-            this.seguinteBtn.Click += new System.EventHandler(this.seguinteBtn_Click);
+            this.seguinteBtn.Click += new System.EventHandler(this.SeguinteBtn_Click);
             // 
             // cancelBtn
             // 
@@ -195,7 +195,7 @@
             this.cancelBtn.TabIndex = 13;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // label6
             // 
@@ -263,7 +263,7 @@
             this.retirarIngredienteBtn.TabIndex = 20;
             this.retirarIngredienteBtn.Text = "Retirar algum ingrediente";
             this.retirarIngredienteBtn.UseVisualStyleBackColor = true;
-            this.retirarIngredienteBtn.Click += new System.EventHandler(this.retirarIngredienteBtn_Click);
+            this.retirarIngredienteBtn.Click += new System.EventHandler(this.RetirarIngredienteBtn_Click);
             // 
             // saborGroupBox
             // 

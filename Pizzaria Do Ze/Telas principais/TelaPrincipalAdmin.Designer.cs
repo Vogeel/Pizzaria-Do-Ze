@@ -54,7 +54,7 @@
             this.pizzaBtn.TabIndex = 0;
             this.pizzaBtn.Text = "Pizza";
             this.pizzaBtn.UseVisualStyleBackColor = false;
-            this.pizzaBtn.Click += new System.EventHandler(this.pizzaBtn_Click);
+            this.pizzaBtn.Click += new System.EventHandler(this.PizzaBtn_Click);
             // 
             // pedidoBtn
             // 
@@ -67,7 +67,7 @@
             this.pedidoBtn.TabIndex = 5;
             this.pedidoBtn.Text = "Cadastrar Pedido";
             this.pedidoBtn.UseVisualStyleBackColor = false;
-            this.pedidoBtn.Click += new System.EventHandler(this.pedidoBtn_Click);
+            this.pedidoBtn.Click += new System.EventHandler(this.PedidoBtn_Click);
             // 
             // voltarBtn
             // 
@@ -79,7 +79,7 @@
             this.voltarBtn.TabIndex = 8;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = false;
-            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
+            this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
             // 
             // visualizarPedidosBtn
             // 
@@ -92,7 +92,7 @@
             this.visualizarPedidosBtn.TabIndex = 9;
             this.visualizarPedidosBtn.Text = "Visualizar Pedidos";
             this.visualizarPedidosBtn.UseVisualStyleBackColor = false;
-            this.visualizarPedidosBtn.Click += new System.EventHandler(this.visualizarPedidosBtn_Click);
+            this.visualizarPedidosBtn.Click += new System.EventHandler(this.VisualizarPedidosBtn_Click);
             // 
             // cadastroFuncionarioBtn
             // 
@@ -105,7 +105,7 @@
             this.cadastroFuncionarioBtn.TabIndex = 10;
             this.cadastroFuncionarioBtn.Text = "Cadastrar Funcionario";
             this.cadastroFuncionarioBtn.UseVisualStyleBackColor = false;
-            this.cadastroFuncionarioBtn.Click += new System.EventHandler(this.cadastroFuncionarioBtn_Click);
+            this.cadastroFuncionarioBtn.Click += new System.EventHandler(this.CadastroFuncionarioBtn_Click);
             // 
             // editarStatusBtn
             // 
@@ -118,7 +118,7 @@
             this.editarStatusBtn.TabIndex = 11;
             this.editarStatusBtn.Text = "Editar status Pedidos";
             this.editarStatusBtn.UseVisualStyleBackColor = false;
-            this.editarStatusBtn.Click += new System.EventHandler(this.editarStatusBtn_Click);
+            this.editarStatusBtn.Click += new System.EventHandler(this.EditarStatusBtn_Click);
             // 
             // fornecedorBtn
             // 
@@ -131,7 +131,7 @@
             this.fornecedorBtn.TabIndex = 12;
             this.fornecedorBtn.Text = "Cadastrar Fornecedor";
             this.fornecedorBtn.UseVisualStyleBackColor = false;
-            this.fornecedorBtn.Click += new System.EventHandler(this.fornecedorBtn_Click);
+            this.fornecedorBtn.Click += new System.EventHandler(this.FornecedorBtn_Click);
             // 
             // bebidasBtn
             // 
@@ -144,7 +144,7 @@
             this.bebidasBtn.TabIndex = 13;
             this.bebidasBtn.Text = "Cadastrar Bebidas";
             this.bebidasBtn.UseVisualStyleBackColor = false;
-            this.bebidasBtn.Click += new System.EventHandler(this.bebidasBtn_Click);
+            this.bebidasBtn.Click += new System.EventHandler(this.BebidasBtn_Click);
             // 
             // pictureBox2
             // 

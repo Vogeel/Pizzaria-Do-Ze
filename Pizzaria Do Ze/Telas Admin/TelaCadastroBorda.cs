@@ -12,18 +12,18 @@ namespace Pizzaria_Do_Ze.Telas_Admin
 {
     public partial class TelaCadastroBorda : Form
     {
-        TelaAdicionarBorda addborda = new TelaAdicionarBorda();
+        readonly TelaAdicionarBorda addborda = new TelaAdicionarBorda();
         public TelaCadastroBorda()
         {
             InitializeComponent();
         }
 
-        private void addBordaBtn_Click(object sender, EventArgs e)
+        private void AddBordaBtn_Click(object sender, EventArgs e)
         {
             addborda.ShowDialog();
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

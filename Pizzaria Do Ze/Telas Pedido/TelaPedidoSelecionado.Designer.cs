@@ -154,7 +154,7 @@
             this.fecharBtn.TabIndex = 25;
             this.fecharBtn.Text = "Fechar";
             this.fecharBtn.UseVisualStyleBackColor = false;
-            this.fecharBtn.Click += new System.EventHandler(this.fecharBtn_Click);
+            this.fecharBtn.Click += new System.EventHandler(this.FecharBtn_Click);
             // 
             // entregadorResponsavelLabel
             // 

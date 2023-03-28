@@ -17,7 +17,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             InitializeComponent();
         }
 
-        private void cadastrarBtn_Click(object sender, EventArgs e)
+        private void CadastrarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

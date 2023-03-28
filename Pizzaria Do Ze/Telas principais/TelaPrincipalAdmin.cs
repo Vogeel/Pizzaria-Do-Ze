@@ -16,13 +16,13 @@ namespace Pizzaria_Do_Ze
 {
     public partial class TelaPrincipalAdmin : Form
     {
-        TelaPrincipalEntregador entregas = new TelaPrincipalEntregador();
-        TelaCadastrarFuncionarios funcionarios = new TelaCadastrarFuncionarios();
-        TelaCadastroCliente pedido = new TelaCadastroCliente();
-        TelaPizzaAdmin pizza = new TelaPizzaAdmin();
-        TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
-        TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
-        TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
+        readonly TelaPrincipalEntregador entregas = new TelaPrincipalEntregador();
+        readonly TelaCadastrarFuncionarios funcionarios = new TelaCadastrarFuncionarios();
+        readonly TelaCadastroCliente pedido = new TelaCadastroCliente();
+        readonly TelaPizzaAdmin pizza = new TelaPizzaAdmin();
+        readonly TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
+        readonly TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
+        readonly TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
         public TelaPrincipalAdmin()
         {
             InitializeComponent();
@@ -30,41 +30,41 @@ namespace Pizzaria_Do_Ze
 
         
 
-        private void pizzaBtn_Click(object sender, EventArgs e)
+        private void PizzaBtn_Click(object sender, EventArgs e)
         {
             pizza.ShowDialog();
         }
 
-        private void pedidoBtn_Click(object sender, EventArgs e)
+        private void PedidoBtn_Click(object sender, EventArgs e)
         {
             pedido.ShowDialog();
         }
-        private void visualizarPedidosBtn_Click(object sender, EventArgs e)
+        private void VisualizarPedidosBtn_Click(object sender, EventArgs e)
         {
             entregas.ShowDialog();
         }
 
-        private void cadastroFuncionarioBtn_Click(object sender, EventArgs e)
+        private void CadastroFuncionarioBtn_Click(object sender, EventArgs e)
         {
             funcionarios.ShowDialog();
         }
 
-        private void voltarBtn_Click(object sender, EventArgs e)
+        private void VoltarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void editarStatusBtn_Click(object sender, EventArgs e)
+        private void EditarStatusBtn_Click(object sender, EventArgs e)
         {
             editStatus.ShowDialog();
         }
 
-        private void fornecedorBtn_Click(object sender, EventArgs e)
+        private void FornecedorBtn_Click(object sender, EventArgs e)
         {
             fornecedor.ShowDialog();
         }
 
-        private void bebidasBtn_Click(object sender, EventArgs e)
+        private void BebidasBtn_Click(object sender, EventArgs e)
         {
             bebidas.ShowDialog();
         }

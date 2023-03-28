@@ -56,7 +56,7 @@
             this.abrirPedidoBtn.TabIndex = 1;
             this.abrirPedidoBtn.Text = "Abrir pedido selecionado";
             this.abrirPedidoBtn.UseVisualStyleBackColor = false;
-            this.abrirPedidoBtn.Click += new System.EventHandler(this.abrirPedidoBtn_Click);
+            this.abrirPedidoBtn.Click += new System.EventHandler(this.AbrirPedidoBtn_Click);
             // 
             // button1
             // 
@@ -69,7 +69,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Fechar";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // pictureBox2
             // 

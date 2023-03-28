@@ -51,7 +51,7 @@
             this.saboresBtn.TabIndex = 0;
             this.saboresBtn.Text = "Sabores";
             this.saboresBtn.UseVisualStyleBackColor = false;
-            this.saboresBtn.Click += new System.EventHandler(this.saboresBtn_Click);
+            this.saboresBtn.Click += new System.EventHandler(this.SaboresBtn_Click);
             // 
             // valoresBtn
             // 
@@ -64,7 +64,7 @@
             this.valoresBtn.TabIndex = 1;
             this.valoresBtn.Text = "Valores";
             this.valoresBtn.UseVisualStyleBackColor = false;
-            this.valoresBtn.Click += new System.EventHandler(this.valoresBtn_Click);
+            this.valoresBtn.Click += new System.EventHandler(this.ValoresBtn_Click);
             // 
             // button3
             // 
@@ -75,7 +75,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Voltar";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // bordaBtn
             // 
@@ -88,7 +88,7 @@
             this.bordaBtn.TabIndex = 3;
             this.bordaBtn.Text = "Bordas";
             this.bordaBtn.UseVisualStyleBackColor = false;
-            this.bordaBtn.Click += new System.EventHandler(this.bordaBtn_Click);
+            this.bordaBtn.Click += new System.EventHandler(this.BordaBtn_Click);
             // 
             // ingredientesBtn
             // 
@@ -101,7 +101,7 @@
             this.ingredientesBtn.TabIndex = 4;
             this.ingredientesBtn.Text = "Ingredientes";
             this.ingredientesBtn.UseVisualStyleBackColor = false;
-            this.ingredientesBtn.Click += new System.EventHandler(this.ingredientesBtn_Click);
+            this.ingredientesBtn.Click += new System.EventHandler(this.IngredientesBtn_Click);
             // 
             // pictureBox1
             // 

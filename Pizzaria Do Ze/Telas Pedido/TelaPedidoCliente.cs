@@ -12,24 +12,24 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
 {
     public partial class TelaPedidoCliente : Form
     {
-        TelaPedidoFinal pedidoFinal = new TelaPedidoFinal();
-        TelaRetirarIngrediente retirarIngrediente = new TelaRetirarIngrediente();
+        readonly TelaPedidoFinal pedidoFinal = new TelaPedidoFinal();
+        readonly TelaRetirarIngrediente retirarIngrediente = new TelaRetirarIngrediente();
         public TelaPedidoCliente()
         {
             InitializeComponent();
         }
 
-        private void seguinteBtn_Click(object sender, EventArgs e)
+        private void SeguinteBtn_Click(object sender, EventArgs e)
         {
             pedidoFinal.ShowDialog();
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void retirarIngredienteBtn_Click(object sender, EventArgs e)
+        private void RetirarIngredienteBtn_Click(object sender, EventArgs e)
         {
             retirarIngrediente.ShowDialog();
         }

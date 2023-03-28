@@ -17,14 +17,14 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             InitializeComponent();
         }
 
-        private void finalizarBtn_Click(object sender, EventArgs e)
+        private void FinalizarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

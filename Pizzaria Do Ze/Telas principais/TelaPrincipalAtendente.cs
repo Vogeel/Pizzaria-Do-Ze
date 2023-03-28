@@ -14,9 +14,9 @@ namespace Pizzaria_Do_Ze
 {
     public partial class TelaPrincipalAtendente : Form
     {
-        TelaCadastroCliente cliente = new TelaCadastroCliente();
-        TelaAcessarStatusPedidoAtendente status = new TelaAcessarStatusPedidoAtendente();
-        TelaPrincipalEntregador telaPedido = new TelaPrincipalEntregador();
+        readonly TelaCadastroCliente cliente = new TelaCadastroCliente();
+        readonly TelaAcessarStatusPedidoAtendente status = new TelaAcessarStatusPedidoAtendente();
+        readonly TelaPrincipalEntregador telaPedido = new TelaPrincipalEntregador();
         public TelaPrincipalAtendente()
         {
             InitializeComponent();
@@ -24,22 +24,22 @@ namespace Pizzaria_Do_Ze
 
         
 
-        private void clienteBtn_Click(object sender, EventArgs e)
+        private void ClienteBtn_Click(object sender, EventArgs e)
         {
             cliente.ShowDialog();
         }    
 
-        private void visPedidoBtn_Click(object sender, EventArgs e)
+        private void VisPedidoBtn_Click(object sender, EventArgs e)
         {
             telaPedido.ShowDialog();
         }
 
-        private void editarStatusPedidoBtn_Click(object sender, EventArgs e)
+        private void EditarStatusPedidoBtn_Click(object sender, EventArgs e)
         {
             status.ShowDialog();
         }
 
-        private void voltarBtn_Click(object sender, EventArgs e)
+        private void VoltarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

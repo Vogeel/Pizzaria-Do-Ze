@@ -219,7 +219,7 @@
             this.cancelBtn.TabIndex = 20;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // cadastrarBtn
             // 
@@ -231,7 +231,7 @@
             this.cadastrarBtn.TabIndex = 21;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
-            this.cadastrarBtn.Click += new System.EventHandler(this.cadastrarBtn_Click);
+            this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
             // 
             // GrupoGroupBox
             // 

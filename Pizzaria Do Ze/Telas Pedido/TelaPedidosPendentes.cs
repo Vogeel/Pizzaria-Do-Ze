@@ -12,18 +12,18 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
 {
     public partial class TelaPedidosPendentes : Form
     {
-        TelaPedidoSelecionado pedidoSelecionado = new TelaPedidoSelecionado();
+        readonly TelaPedidoSelecionado pedidoSelecionado = new TelaPedidoSelecionado();
         public TelaPedidosPendentes()
         {
             InitializeComponent();
         }
 
-        private void abrirPedidoBtn_Click(object sender, EventArgs e)
+        private void AbrirPedidoBtn_Click(object sender, EventArgs e)
         {
             pedidoSelecionado.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

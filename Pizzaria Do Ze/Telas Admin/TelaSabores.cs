@@ -12,18 +12,18 @@ namespace Pizzaria_Do_Ze.Telas_Admin
 {
     public partial class TelaSabores : Form
     {
-        TelaEditSabores editSabores = new TelaEditSabores();
+        readonly TelaEditSabores editSabores = new TelaEditSabores();
         public TelaSabores()
         {
             InitializeComponent();
         }
 
-        private void voltarBtn_Click(object sender, EventArgs e)
+        private void VoltarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void addBtn_Click(object sender, EventArgs e)
+        private void AddBtn_Click(object sender, EventArgs e)
         {
             editSabores.ShowDialog();
         }

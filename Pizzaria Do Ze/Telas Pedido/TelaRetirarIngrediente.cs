@@ -20,7 +20,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         {
             this.Close();
         }
-        private void cancelbtn_Click(object sender, EventArgs e)
+        private void Cancelbtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

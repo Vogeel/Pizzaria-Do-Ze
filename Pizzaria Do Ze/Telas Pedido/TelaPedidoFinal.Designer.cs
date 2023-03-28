@@ -180,7 +180,7 @@
             this.finalizarBtn.TabIndex = 12;
             this.finalizarBtn.Text = "Finalizar";
             this.finalizarBtn.UseVisualStyleBackColor = true;
-            this.finalizarBtn.Click += new System.EventHandler(this.finalizarBtn_Click);
+            this.finalizarBtn.Click += new System.EventHandler(this.FinalizarBtn_Click);
             // 
             // cancelBtn
             // 
@@ -191,7 +191,7 @@
             this.cancelBtn.TabIndex = 13;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // pagamentoGroupBox
             // 

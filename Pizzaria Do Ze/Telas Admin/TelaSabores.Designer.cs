@@ -57,7 +57,7 @@
             this.addBtn.TabIndex = 1;
             this.addBtn.Text = "Adicionar";
             this.addBtn.UseVisualStyleBackColor = true;
-            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
+            this.addBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // editBtn
             // 
@@ -90,7 +90,7 @@
             this.voltarBtn.TabIndex = 4;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = true;
-            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
+            this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
             // 
             // pictureBox2
             // 

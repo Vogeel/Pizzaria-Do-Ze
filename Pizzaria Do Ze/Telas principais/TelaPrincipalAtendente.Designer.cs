@@ -50,7 +50,7 @@
             this.clienteBtn.TabIndex = 0;
             this.clienteBtn.Text = "Realizar Pedido";
             this.clienteBtn.UseVisualStyleBackColor = false;
-            this.clienteBtn.Click += new System.EventHandler(this.clienteBtn_Click);
+            this.clienteBtn.Click += new System.EventHandler(this.ClienteBtn_Click);
             // 
             // visPedidoBtn
             // 
@@ -63,7 +63,7 @@
             this.visPedidoBtn.TabIndex = 2;
             this.visPedidoBtn.Text = "Visualizar Pedidos";
             this.visPedidoBtn.UseVisualStyleBackColor = false;
-            this.visPedidoBtn.Click += new System.EventHandler(this.visPedidoBtn_Click);
+            this.visPedidoBtn.Click += new System.EventHandler(this.VisPedidoBtn_Click);
             // 
             // voltarBtn
             // 
@@ -75,7 +75,7 @@
             this.voltarBtn.TabIndex = 3;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = false;
-            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
+            this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
             // 
             // editarStatusPedidoBtn
             // 
@@ -88,7 +88,7 @@
             this.editarStatusPedidoBtn.TabIndex = 4;
             this.editarStatusPedidoBtn.Text = "Editar Status Pedidos";
             this.editarStatusPedidoBtn.UseVisualStyleBackColor = false;
-            this.editarStatusPedidoBtn.Click += new System.EventHandler(this.editarStatusPedidoBtn_Click);
+            this.editarStatusPedidoBtn.Click += new System.EventHandler(this.EditarStatusPedidoBtn_Click);
             // 
             // pictureBox1
             // 
