@@ -65,7 +65,7 @@
             this.comprarExtraGiganteBtn.TabIndex = 0;
             this.comprarExtraGiganteBtn.Text = "Comprar";
             this.comprarExtraGiganteBtn.UseVisualStyleBackColor = true;
-            this.comprarExtraGiganteBtn.Click += new System.EventHandler(this.comprarExtraGiganteBtn_Click);
+            this.comprarExtraGiganteBtn.Click += new System.EventHandler(this.ComprarExtraGiganteBtn_Click);
             // 
             // comprarBrotoBtn
             // 
@@ -76,7 +76,7 @@
             this.comprarBrotoBtn.TabIndex = 2;
             this.comprarBrotoBtn.Text = "Comprar";
             this.comprarBrotoBtn.UseVisualStyleBackColor = true;
-            this.comprarBrotoBtn.Click += new System.EventHandler(this.comprarBrotoBtn_Click);
+            this.comprarBrotoBtn.Click += new System.EventHandler(this.ComprarBrotoBtn_Click);
             // 
             // comprarGiganteBtn
             // 
@@ -87,7 +87,7 @@
             this.comprarGiganteBtn.TabIndex = 3;
             this.comprarGiganteBtn.Text = "Comprar";
             this.comprarGiganteBtn.UseVisualStyleBackColor = true;
-            this.comprarGiganteBtn.Click += new System.EventHandler(this.comprarGiganteBtn_Click);
+            this.comprarGiganteBtn.Click += new System.EventHandler(this.ComprarGiganteBtn_Click);
             // 
             // cancelBtn
             // 
@@ -98,7 +98,7 @@
             this.cancelBtn.TabIndex = 4;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // mediapictureBox
             // 
@@ -253,7 +253,7 @@
             this.comprarMediaBtn.TabIndex = 21;
             this.comprarMediaBtn.Text = "Comprar";
             this.comprarMediaBtn.UseVisualStyleBackColor = true;
-            this.comprarMediaBtn.Click += new System.EventHandler(this.comprarMediaBtn_Click);
+            this.comprarMediaBtn.Click += new System.EventHandler(this.ComprarMediaBtn_Click);
             // 
             // TelaTamanhoPizza
             // 

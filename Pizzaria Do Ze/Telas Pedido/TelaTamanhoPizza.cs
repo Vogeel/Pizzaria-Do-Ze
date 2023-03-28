@@ -12,36 +12,36 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
 {
     public partial class TelaTamanhoPizza : Form
     {
-        TelaPedidoCliente pedido = new TelaPedidoCliente();
+        readonly TelaPedidoCliente pedido = new TelaPedidoCliente();
         public TelaTamanhoPizza()
         {
             InitializeComponent();
         }
 
-        private void comprarExtraGiganteBtn_Click(object sender, EventArgs e)
+        private void ComprarExtraGiganteBtn_Click(object sender, EventArgs e)
         {
-            pedido.Show();
+            pedido.ShowDialog();
         }
 
-        private void comprarGiganteBtn_Click(object sender, EventArgs e)
+        private void ComprarGiganteBtn_Click(object sender, EventArgs e)
         {
-            pedido.Show();
+            pedido.ShowDialog();
         }
 
         
-        private void comprarBrotoBtn_Click(object sender, EventArgs e)
+        private void ComprarBrotoBtn_Click(object sender, EventArgs e)
         {
-            pedido.Show();
+            pedido.ShowDialog();
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void comprarMediaBtn_Click(object sender, EventArgs e)
+        private void ComprarMediaBtn_Click(object sender, EventArgs e)
         {
-            pedido.Show();
+            pedido.ShowDialog();
         }
 
        

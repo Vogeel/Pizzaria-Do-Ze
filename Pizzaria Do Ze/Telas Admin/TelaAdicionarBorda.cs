@@ -17,12 +17,12 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             InitializeComponent();
         }
 
-        private void okBtn_Click(object sender, EventArgs e)
+        private void OkBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void cancelbtn_Click(object sender, EventArgs e)
+        private void Cancelbtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

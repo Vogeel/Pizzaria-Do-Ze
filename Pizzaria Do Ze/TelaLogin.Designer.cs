@@ -98,7 +98,7 @@
             this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = false;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // loginBtn
             // 
@@ -113,7 +113,7 @@
             this.loginBtn.TabIndex = 6;
             this.loginBtn.Text = "Login";
             this.loginBtn.UseVisualStyleBackColor = false;
-            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
+            this.loginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // TelaLogin
             // 

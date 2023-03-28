@@ -63,7 +63,7 @@
             this.cancelbtn.TabIndex = 2;
             this.cancelbtn.Text = "Cancelar";
             this.cancelbtn.UseVisualStyleBackColor = true;
-            this.cancelbtn.Click += new System.EventHandler(this.cancelbtn_Click);
+            this.cancelbtn.Click += new System.EventHandler(this.Cancelbtn_Click);
             // 
             // okBtn
             // 
@@ -75,7 +75,7 @@
             this.okBtn.TabIndex = 3;
             this.okBtn.Text = "Concluido";
             this.okBtn.UseVisualStyleBackColor = true;
-            this.okBtn.Click += new System.EventHandler(this.okBtn_Click);
+            this.okBtn.Click += new System.EventHandler(this.OkBtn_Click);
             // 
             // pictureBox2
             // 
