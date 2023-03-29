@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastrarBebidas));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.tipoLabel = new System.Windows.Forms.Label();
+            this.nomeLabel = new System.Windows.Forms.Label();
+            this.tamanhoLabel = new System.Windows.Forms.Label();
+            this.valorLabel = new System.Windows.Forms.Label();
             this.nomeTB = new System.Windows.Forms.TextBox();
             this.valorTB = new System.Windows.Forms.TextBox();
             this.bebidasListBox = new System.Windows.Forms.ListBox();
@@ -45,41 +45,41 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // tipoLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(54, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tipo: ";
+            this.tipoLabel.AutoSize = true;
+            this.tipoLabel.Location = new System.Drawing.Point(54, 55);
+            this.tipoLabel.Name = "tipoLabel";
+            this.tipoLabel.Size = new System.Drawing.Size(34, 13);
+            this.tipoLabel.TabIndex = 0;
+            this.tipoLabel.Text = "Tipo: ";
             // 
-            // label2
+            // nomeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(54, 86);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nome: ";
+            this.nomeLabel.AutoSize = true;
+            this.nomeLabel.Location = new System.Drawing.Point(54, 86);
+            this.nomeLabel.Name = "nomeLabel";
+            this.nomeLabel.Size = new System.Drawing.Size(41, 13);
+            this.nomeLabel.TabIndex = 1;
+            this.nomeLabel.Text = "Nome: ";
             // 
-            // label3
+            // tamanhoLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tamanho (ML):";
+            this.tamanhoLabel.AutoSize = true;
+            this.tamanhoLabel.Location = new System.Drawing.Point(9, 117);
+            this.tamanhoLabel.Name = "tamanhoLabel";
+            this.tamanhoLabel.Size = new System.Drawing.Size(79, 13);
+            this.tamanhoLabel.TabIndex = 2;
+            this.tamanhoLabel.Text = "Tamanho (ML):";
             // 
-            // label4
+            // valorLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 148);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Valor: R$";
+            this.valorLabel.AutoSize = true;
+            this.valorLabel.Location = new System.Drawing.Point(37, 148);
+            this.valorLabel.Name = "valorLabel";
+            this.valorLabel.Size = new System.Drawing.Size(51, 13);
+            this.valorLabel.TabIndex = 3;
+            this.valorLabel.Text = "Valor: R$";
             // 
             // nomeTB
             // 
@@ -192,10 +192,10 @@
             this.Controls.Add(this.bebidasListBox);
             this.Controls.Add(this.valorTB);
             this.Controls.Add(this.nomeTB);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.valorLabel);
+            this.Controls.Add(this.tamanhoLabel);
+            this.Controls.Add(this.nomeLabel);
+            this.Controls.Add(this.tipoLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -211,10 +211,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label tipoLabel;
+        private System.Windows.Forms.Label nomeLabel;
+        private System.Windows.Forms.Label tamanhoLabel;
+        private System.Windows.Forms.Label valorLabel;
         private System.Windows.Forms.TextBox nomeTB;
         private System.Windows.Forms.TextBox valorTB;
         private System.Windows.Forms.ListBox bebidasListBox;

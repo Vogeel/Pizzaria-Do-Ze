@@ -18,6 +18,7 @@ namespace Pizzaria_Do_Ze
         public TelaLogin()
         {
             InitializeComponent();
+            UserTextBox.Focus();
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
@@ -37,7 +38,7 @@ namespace Pizzaria_Do_Ze
                 entregador.ShowDialog();
             }
         }
-
+        
         private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();

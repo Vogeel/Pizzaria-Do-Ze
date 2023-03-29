@@ -28,42 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.stautsPagamentoLabel = new System.Windows.Forms.Label();
+            this.statusPagamentoLabel = new System.Windows.Forms.Label();
             this.pagoRadioBtn = new System.Windows.Forms.RadioButton();
             this.pendenteRadioBtn = new System.Windows.Forms.RadioButton();
             this.preparoRadioBtn = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.idPedidoStaticLabel = new System.Windows.Forms.Label();
             this.idPedidoLabel = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.entregadorLabel = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.statusGroupBox = new System.Windows.Forms.GroupBox();
             this.pedidoGroupBox = new System.Windows.Forms.GroupBox();
             this.pedidoGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // stautsPagamentoLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Status do pagamento:";
+            this.stautsPagamentoLabel.AutoSize = true;
+            this.stautsPagamentoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stautsPagamentoLabel.Location = new System.Drawing.Point(12, 45);
+            this.stautsPagamentoLabel.Name = "stautsPagamentoLabel";
+            this.stautsPagamentoLabel.Size = new System.Drawing.Size(138, 16);
+            this.stautsPagamentoLabel.TabIndex = 0;
+            this.stautsPagamentoLabel.Text = "Status do pagamento:";
             // 
-            // label2
+            // statusPagamentoLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 246);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Status do pedido:";
+            this.statusPagamentoLabel.AutoSize = true;
+            this.statusPagamentoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusPagamentoLabel.Location = new System.Drawing.Point(38, 246);
+            this.statusPagamentoLabel.Name = "statusPagamentoLabel";
+            this.statusPagamentoLabel.Size = new System.Drawing.Size(112, 16);
+            this.statusPagamentoLabel.TabIndex = 2;
+            this.statusPagamentoLabel.Text = "Status do pedido:";
             // 
             // pagoRadioBtn
             // 
@@ -132,15 +132,15 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
-            // label3
+            // idPedidoStaticLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(299, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 16);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "ID Pedido:";
+            this.idPedidoStaticLabel.AutoSize = true;
+            this.idPedidoStaticLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idPedidoStaticLabel.Location = new System.Drawing.Point(299, 19);
+            this.idPedidoStaticLabel.Name = "idPedidoStaticLabel";
+            this.idPedidoStaticLabel.Size = new System.Drawing.Size(70, 16);
+            this.idPedidoStaticLabel.TabIndex = 9;
+            this.idPedidoStaticLabel.Text = "ID Pedido:";
             // 
             // idPedidoLabel
             // 
@@ -152,15 +152,15 @@
             this.idPedidoLabel.TabIndex = 10;
             this.idPedidoLabel.Text = "01011";
             // 
-            // label4
+            // entregadorLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(297, 284);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 15);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Entregador: ";
+            this.entregadorLabel.AutoSize = true;
+            this.entregadorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entregadorLabel.Location = new System.Drawing.Point(297, 284);
+            this.entregadorLabel.Name = "entregadorLabel";
+            this.entregadorLabel.Size = new System.Drawing.Size(74, 15);
+            this.entregadorLabel.TabIndex = 11;
+            this.entregadorLabel.Text = "Entregador: ";
             // 
             // comboBox1
             // 
@@ -196,16 +196,16 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(512, 368);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.entregadorLabel);
             this.Controls.Add(this.idPedidoLabel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.idPedidoStaticLabel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.pendenteRadioBtn);
             this.Controls.Add(this.pagoRadioBtn);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.statusPagamentoLabel);
+            this.Controls.Add(this.stautsPagamentoLabel);
             this.Controls.Add(this.statusGroupBox);
             this.Controls.Add(this.pedidoGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -223,17 +223,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label stautsPagamentoLabel;
+        private System.Windows.Forms.Label statusPagamentoLabel;
         private System.Windows.Forms.RadioButton pagoRadioBtn;
         private System.Windows.Forms.RadioButton pendenteRadioBtn;
         private System.Windows.Forms.RadioButton preparoRadioBtn;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label idPedidoStaticLabel;
         private System.Windows.Forms.Label idPedidoLabel;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label entregadorLabel;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox statusGroupBox;
         private System.Windows.Forms.GroupBox pedidoGroupBox;

@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPedidoCliente));
-            this.label1 = new System.Windows.Forms.Label();
+            this.clienteLabel = new System.Windows.Forms.Label();
             this.nomeClienteLabel = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.totalPagarLabel = new System.Windows.Forms.Label();
+            this.bordaLabel = new System.Windows.Forms.Label();
+            this.saboresLabel = new System.Windows.Forms.Label();
+            this.tamanhoPizzaStaticLabel = new System.Windows.Forms.Label();
             this.tamanhoPizzaLabel = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.totalPagarLabel = new System.Windows.Forms.Label();
+            this.precoTotalPagarLabel = new System.Windows.Forms.Label();
             this.addPizzaBtn = new System.Windows.Forms.Button();
             this.saboresPizzarListBox = new System.Windows.Forms.ListBox();
             this.seguinteBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.bebidaLabel = new System.Windows.Forms.Label();
             this.bebeidasComboBox = new System.Windows.Forms.ComboBox();
             this.addBebidaBtn = new System.Windows.Forms.Button();
             this.bebidaslistBox = new System.Windows.Forms.ListBox();
@@ -57,15 +57,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // clienteLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Wheat;
-            this.label1.Location = new System.Drawing.Point(24, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cliente: ";
+            this.clienteLabel.AutoSize = true;
+            this.clienteLabel.BackColor = System.Drawing.Color.Wheat;
+            this.clienteLabel.Location = new System.Drawing.Point(24, 29);
+            this.clienteLabel.Name = "clienteLabel";
+            this.clienteLabel.Size = new System.Drawing.Size(45, 13);
+            this.clienteLabel.TabIndex = 0;
+            this.clienteLabel.Text = "Cliente: ";
             // 
             // nomeClienteLabel
             // 
@@ -77,46 +77,46 @@
             this.nomeClienteLabel.TabIndex = 1;
             this.nomeClienteLabel.Text = "Fulano ";
             // 
-            // label2
+            // totalPagarLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Wheat;
-            this.label2.Location = new System.Drawing.Point(39, 329);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Total a pagar: ";
+            this.totalPagarLabel.AutoSize = true;
+            this.totalPagarLabel.BackColor = System.Drawing.Color.Wheat;
+            this.totalPagarLabel.Location = new System.Drawing.Point(39, 329);
+            this.totalPagarLabel.Name = "totalPagarLabel";
+            this.totalPagarLabel.Size = new System.Drawing.Size(76, 13);
+            this.totalPagarLabel.TabIndex = 2;
+            this.totalPagarLabel.Text = "Total a pagar: ";
             // 
-            // label3
+            // bordaLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Wheat;
-            this.label3.Location = new System.Drawing.Point(72, 207);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Borda:";
+            this.bordaLabel.AutoSize = true;
+            this.bordaLabel.BackColor = System.Drawing.Color.Wheat;
+            this.bordaLabel.Location = new System.Drawing.Point(72, 207);
+            this.bordaLabel.Name = "bordaLabel";
+            this.bordaLabel.Size = new System.Drawing.Size(38, 13);
+            this.bordaLabel.TabIndex = 3;
+            this.bordaLabel.Text = "Borda:";
             // 
-            // label4
+            // saboresLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Wheat;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Location = new System.Drawing.Point(61, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Sabores:";
+            this.saboresLabel.AutoSize = true;
+            this.saboresLabel.BackColor = System.Drawing.Color.Wheat;
+            this.saboresLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saboresLabel.Location = new System.Drawing.Point(61, 165);
+            this.saboresLabel.Name = "saboresLabel";
+            this.saboresLabel.Size = new System.Drawing.Size(49, 13);
+            this.saboresLabel.TabIndex = 4;
+            this.saboresLabel.Text = "Sabores:";
             // 
-            // label5
+            // tamanhoPizzaStaticLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Wheat;
-            this.label5.Location = new System.Drawing.Point(12, 110);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Tamanho da Pizza:";
+            this.tamanhoPizzaStaticLabel.AutoSize = true;
+            this.tamanhoPizzaStaticLabel.BackColor = System.Drawing.Color.Wheat;
+            this.tamanhoPizzaStaticLabel.Location = new System.Drawing.Point(12, 110);
+            this.tamanhoPizzaStaticLabel.Name = "tamanhoPizzaStaticLabel";
+            this.tamanhoPizzaStaticLabel.Size = new System.Drawing.Size(98, 13);
+            this.tamanhoPizzaStaticLabel.TabIndex = 5;
+            this.tamanhoPizzaStaticLabel.Text = "Tamanho da Pizza:";
             // 
             // tamanhoPizzaLabel
             // 
@@ -144,17 +144,17 @@
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 8;
             // 
-            // totalPagarLabel
+            // precoTotalPagarLabel
             // 
-            this.totalPagarLabel.AutoSize = true;
-            this.totalPagarLabel.BackColor = System.Drawing.Color.Wheat;
-            this.totalPagarLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPagarLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.totalPagarLabel.Location = new System.Drawing.Point(121, 329);
-            this.totalPagarLabel.Name = "totalPagarLabel";
-            this.totalPagarLabel.Size = new System.Drawing.Size(67, 18);
-            this.totalPagarLabel.TabIndex = 9;
-            this.totalPagarLabel.Text = "R$ 90,00";
+            this.precoTotalPagarLabel.AutoSize = true;
+            this.precoTotalPagarLabel.BackColor = System.Drawing.Color.Wheat;
+            this.precoTotalPagarLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.precoTotalPagarLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.precoTotalPagarLabel.Location = new System.Drawing.Point(121, 329);
+            this.precoTotalPagarLabel.Name = "precoTotalPagarLabel";
+            this.precoTotalPagarLabel.Size = new System.Drawing.Size(67, 18);
+            this.precoTotalPagarLabel.TabIndex = 9;
+            this.precoTotalPagarLabel.Text = "R$ 90,00";
             // 
             // addPizzaBtn
             // 
@@ -197,15 +197,15 @@
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
-            // label6
+            // bebidaLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Wheat;
-            this.label6.Location = new System.Drawing.Point(72, 255);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Bebida:";
+            this.bebidaLabel.AutoSize = true;
+            this.bebidaLabel.BackColor = System.Drawing.Color.Wheat;
+            this.bebidaLabel.Location = new System.Drawing.Point(72, 255);
+            this.bebidaLabel.Name = "bebidaLabel";
+            this.bebidaLabel.Size = new System.Drawing.Size(43, 13);
+            this.bebidaLabel.TabIndex = 14;
+            this.bebidaLabel.Text = "Bebida:";
             // 
             // bebeidasComboBox
             // 
@@ -305,21 +305,21 @@
             this.Controls.Add(this.bebidaslistBox);
             this.Controls.Add(this.addBebidaBtn);
             this.Controls.Add(this.bebeidasComboBox);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.bebidaLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.seguinteBtn);
             this.Controls.Add(this.saboresPizzarListBox);
             this.Controls.Add(this.addPizzaBtn);
-            this.Controls.Add(this.totalPagarLabel);
+            this.Controls.Add(this.precoTotalPagarLabel);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.tamanhoPizzaLabel);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.tamanhoPizzaStaticLabel);
+            this.Controls.Add(this.saboresLabel);
+            this.Controls.Add(this.bordaLabel);
+            this.Controls.Add(this.totalPagarLabel);
             this.Controls.Add(this.nomeClienteLabel);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.clienteLabel);
             this.Controls.Add(this.saborGroupBox);
             this.Controls.Add(this.bebidasGroupBox);
             this.Controls.Add(this.pictureBox2);
@@ -338,21 +338,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label clienteLabel;
         private System.Windows.Forms.Label nomeClienteLabel;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label totalPagarLabel;
+        private System.Windows.Forms.Label bordaLabel;
+        private System.Windows.Forms.Label saboresLabel;
+        private System.Windows.Forms.Label tamanhoPizzaStaticLabel;
         private System.Windows.Forms.Label tamanhoPizzaLabel;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label totalPagarLabel;
+        private System.Windows.Forms.Label precoTotalPagarLabel;
         private System.Windows.Forms.Button addPizzaBtn;
         private System.Windows.Forms.ListBox saboresPizzarListBox;
         private System.Windows.Forms.Button seguinteBtn;
         private System.Windows.Forms.Button cancelBtn;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label bebidaLabel;
         private System.Windows.Forms.ComboBox bebeidasComboBox;
         private System.Windows.Forms.Button addBebidaBtn;
         private System.Windows.Forms.ListBox bebidaslistBox;

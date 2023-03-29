@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastrarFuncionarios));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.nomeLabel = new System.Windows.Forms.Label();
+            this.cpfLabel = new System.Windows.Forms.Label();
+            this.telefoneLabel = new System.Windows.Forms.Label();
+            this.matriculaLabel = new System.Windows.Forms.Label();
+            this.senhaLabel = new System.Windows.Forms.Label();
+            this.grupoLabel = new System.Windows.Forms.Label();
+            this.cnhLabel = new System.Windows.Forms.Label();
+            this.validadeCnhLabel = new System.Windows.Forms.Label();
             this.nomeTB = new System.Windows.Forms.TextBox();
             this.matriculaTB = new System.Windows.Forms.TextBox();
             this.cpfMaskedTB = new System.Windows.Forms.MaskedTextBox();
@@ -54,77 +54,77 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // nomeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome:";
+            this.nomeLabel.AutoSize = true;
+            this.nomeLabel.Location = new System.Drawing.Point(60, 40);
+            this.nomeLabel.Name = "nomeLabel";
+            this.nomeLabel.Size = new System.Drawing.Size(38, 13);
+            this.nomeLabel.TabIndex = 0;
+            this.nomeLabel.Text = "Nome:";
             // 
-            // label2
+            // cpfLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 67);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "CPF:";
+            this.cpfLabel.AutoSize = true;
+            this.cpfLabel.Location = new System.Drawing.Point(60, 67);
+            this.cpfLabel.Name = "cpfLabel";
+            this.cpfLabel.Size = new System.Drawing.Size(30, 13);
+            this.cpfLabel.TabIndex = 1;
+            this.cpfLabel.Text = "CPF:";
             // 
-            // label3
+            // telefoneLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Telefone:";
+            this.telefoneLabel.AutoSize = true;
+            this.telefoneLabel.Location = new System.Drawing.Point(60, 91);
+            this.telefoneLabel.Name = "telefoneLabel";
+            this.telefoneLabel.Size = new System.Drawing.Size(52, 13);
+            this.telefoneLabel.TabIndex = 2;
+            this.telefoneLabel.Text = "Telefone:";
             // 
-            // label4
+            // matriculaLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(60, 116);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Matricula:";
+            this.matriculaLabel.AutoSize = true;
+            this.matriculaLabel.Location = new System.Drawing.Point(60, 116);
+            this.matriculaLabel.Name = "matriculaLabel";
+            this.matriculaLabel.Size = new System.Drawing.Size(53, 13);
+            this.matriculaLabel.TabIndex = 3;
+            this.matriculaLabel.Text = "Matricula:";
             // 
-            // label5
+            // senhaLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(60, 144);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Senha:";
+            this.senhaLabel.AutoSize = true;
+            this.senhaLabel.Location = new System.Drawing.Point(60, 144);
+            this.senhaLabel.Name = "senhaLabel";
+            this.senhaLabel.Size = new System.Drawing.Size(41, 13);
+            this.senhaLabel.TabIndex = 4;
+            this.senhaLabel.Text = "Senha:";
             // 
-            // label6
+            // grupoLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(59, 214);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Grupo:";
+            this.grupoLabel.AutoSize = true;
+            this.grupoLabel.Location = new System.Drawing.Point(59, 214);
+            this.grupoLabel.Name = "grupoLabel";
+            this.grupoLabel.Size = new System.Drawing.Size(39, 13);
+            this.grupoLabel.TabIndex = 5;
+            this.grupoLabel.Text = "Grupo:";
             // 
-            // label7
+            // cnhLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(56, 296);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(33, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "CNH:";
+            this.cnhLabel.AutoSize = true;
+            this.cnhLabel.Location = new System.Drawing.Point(56, 296);
+            this.cnhLabel.Name = "cnhLabel";
+            this.cnhLabel.Size = new System.Drawing.Size(33, 13);
+            this.cnhLabel.TabIndex = 6;
+            this.cnhLabel.Text = "CNH:";
             // 
-            // label8
+            // validadeCnhLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(56, 327);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Validade CNH:";
+            this.validadeCnhLabel.AutoSize = true;
+            this.validadeCnhLabel.Location = new System.Drawing.Point(56, 327);
+            this.validadeCnhLabel.Name = "validadeCnhLabel";
+            this.validadeCnhLabel.Size = new System.Drawing.Size(77, 13);
+            this.validadeCnhLabel.TabIndex = 7;
+            this.validadeCnhLabel.Text = "Validade CNH:";
             // 
             // nomeTB
             // 
@@ -269,14 +269,14 @@
             this.Controls.Add(this.cpfMaskedTB);
             this.Controls.Add(this.matriculaTB);
             this.Controls.Add(this.nomeTB);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.validadeCnhLabel);
+            this.Controls.Add(this.cnhLabel);
+            this.Controls.Add(this.grupoLabel);
+            this.Controls.Add(this.senhaLabel);
+            this.Controls.Add(this.matriculaLabel);
+            this.Controls.Add(this.telefoneLabel);
+            this.Controls.Add(this.cpfLabel);
+            this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.GrupoGroupBox);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -293,14 +293,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label nomeLabel;
+        private System.Windows.Forms.Label cpfLabel;
+        private System.Windows.Forms.Label telefoneLabel;
+        private System.Windows.Forms.Label matriculaLabel;
+        private System.Windows.Forms.Label senhaLabel;
+        private System.Windows.Forms.Label grupoLabel;
+        private System.Windows.Forms.Label cnhLabel;
+        private System.Windows.Forms.Label validadeCnhLabel;
         private System.Windows.Forms.TextBox nomeTB;
         private System.Windows.Forms.TextBox matriculaTB;
         private System.Windows.Forms.MaskedTextBox cpfMaskedTB;

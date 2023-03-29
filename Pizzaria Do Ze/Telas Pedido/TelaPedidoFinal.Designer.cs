@@ -30,16 +30,16 @@
         {
             this.retiradaRadioBtn = new System.Windows.Forms.RadioButton();
             this.entregaRadiobtn = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.totalPedidoFinalLabel = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.entregaLabel = new System.Windows.Forms.Label();
+            this.totalPedido = new System.Windows.Forms.Label();
+            this.totalPagarPedidoLabel = new System.Windows.Forms.Label();
+            this.taxaEntregaLabel = new System.Windows.Forms.Label();
+            this.formaPagamentoLabel = new System.Windows.Forms.Label();
             this.cartaoRadioBtn = new System.Windows.Forms.RadioButton();
             this.pixRadioBtn = new System.Windows.Forms.RadioButton();
             this.dinheiroRadioBtn = new System.Windows.Forms.RadioButton();
             this.trocoTextBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.trocoLabel = new System.Windows.Forms.Label();
             this.finalizarBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.pagamentoGroupBox = new System.Windows.Forms.GroupBox();
@@ -70,57 +70,57 @@
             this.entregaRadiobtn.Text = "Entrega";
             this.entregaRadiobtn.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // entregaLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(32, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Entrega:";
+            this.entregaLabel.AutoSize = true;
+            this.entregaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entregaLabel.Location = new System.Drawing.Point(32, 46);
+            this.entregaLabel.Name = "entregaLabel";
+            this.entregaLabel.Size = new System.Drawing.Size(70, 20);
+            this.entregaLabel.TabIndex = 2;
+            this.entregaLabel.Text = "Entrega:";
             // 
-            // label2
+            // totalPedido
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label2.Location = new System.Drawing.Point(33, 352);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 18);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Total do pedido:";
+            this.totalPedido.AutoSize = true;
+            this.totalPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPedido.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.totalPedido.Location = new System.Drawing.Point(33, 352);
+            this.totalPedido.Name = "totalPedido";
+            this.totalPedido.Size = new System.Drawing.Size(114, 18);
+            this.totalPedido.TabIndex = 3;
+            this.totalPedido.Text = "Total do pedido:";
             // 
-            // totalPedidoFinalLabel
+            // totalPagarPedidoLabel
             // 
-            this.totalPedidoFinalLabel.AutoSize = true;
-            this.totalPedidoFinalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPedidoFinalLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.totalPedidoFinalLabel.Location = new System.Drawing.Point(153, 352);
-            this.totalPedidoFinalLabel.Name = "totalPedidoFinalLabel";
-            this.totalPedidoFinalLabel.Size = new System.Drawing.Size(63, 18);
-            this.totalPedidoFinalLabel.TabIndex = 4;
-            this.totalPedidoFinalLabel.Text = "R$95,00";
+            this.totalPagarPedidoLabel.AutoSize = true;
+            this.totalPagarPedidoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPagarPedidoLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.totalPagarPedidoLabel.Location = new System.Drawing.Point(153, 352);
+            this.totalPagarPedidoLabel.Name = "totalPagarPedidoLabel";
+            this.totalPagarPedidoLabel.Size = new System.Drawing.Size(63, 18);
+            this.totalPagarPedidoLabel.TabIndex = 4;
+            this.totalPagarPedidoLabel.Text = "R$95,00";
             // 
-            // label4
+            // taxaEntregaLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(216, 69);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(263, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "*Taxa fixa de R$5,00 em pedidos abaixo de R$100,00";
+            this.taxaEntregaLabel.AutoSize = true;
+            this.taxaEntregaLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.taxaEntregaLabel.Location = new System.Drawing.Point(216, 69);
+            this.taxaEntregaLabel.Name = "taxaEntregaLabel";
+            this.taxaEntregaLabel.Size = new System.Drawing.Size(263, 13);
+            this.taxaEntregaLabel.TabIndex = 5;
+            this.taxaEntregaLabel.Text = "*Taxa fixa de R$5,00 em pedidos abaixo de R$100,00";
             // 
-            // label3
+            // formaPagamentoLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 198);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 20);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Forma de pagamento:";
+            this.formaPagamentoLabel.AutoSize = true;
+            this.formaPagamentoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.formaPagamentoLabel.Location = new System.Drawing.Point(32, 198);
+            this.formaPagamentoLabel.Name = "formaPagamentoLabel";
+            this.formaPagamentoLabel.Size = new System.Drawing.Size(166, 20);
+            this.formaPagamentoLabel.TabIndex = 6;
+            this.formaPagamentoLabel.Text = "Forma de pagamento:";
             // 
             // cartaoRadioBtn
             // 
@@ -162,14 +162,14 @@
             this.trocoTextBox.Size = new System.Drawing.Size(100, 20);
             this.trocoTextBox.TabIndex = 10;
             // 
-            // label5
+            // trocoLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(298, 242);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Troco para:  R$";
+            this.trocoLabel.AutoSize = true;
+            this.trocoLabel.Location = new System.Drawing.Point(298, 242);
+            this.trocoLabel.Name = "trocoLabel";
+            this.trocoLabel.Size = new System.Drawing.Size(82, 13);
+            this.trocoLabel.TabIndex = 11;
+            this.trocoLabel.Text = "Troco para:  R$";
             // 
             // finalizarBtn
             // 
@@ -224,13 +224,13 @@
             this.ClientSize = new System.Drawing.Size(564, 450);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.finalizarBtn);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.trocoLabel);
             this.Controls.Add(this.trocoTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.totalPedidoFinalLabel);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.formaPagamentoLabel);
+            this.Controls.Add(this.taxaEntregaLabel);
+            this.Controls.Add(this.totalPagarPedidoLabel);
+            this.Controls.Add(this.totalPedido);
+            this.Controls.Add(this.entregaLabel);
             this.Controls.Add(this.pagamentoGroupBox);
             this.Controls.Add(this.entregaGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -252,16 +252,16 @@
 
         private System.Windows.Forms.RadioButton retiradaRadioBtn;
         private System.Windows.Forms.RadioButton entregaRadiobtn;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label totalPedidoFinalLabel;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label entregaLabel;
+        private System.Windows.Forms.Label totalPedido;
+        private System.Windows.Forms.Label totalPagarPedidoLabel;
+        private System.Windows.Forms.Label taxaEntregaLabel;
+        private System.Windows.Forms.Label formaPagamentoLabel;
         private System.Windows.Forms.RadioButton cartaoRadioBtn;
         private System.Windows.Forms.RadioButton pixRadioBtn;
         private System.Windows.Forms.RadioButton dinheiroRadioBtn;
         private System.Windows.Forms.TextBox trocoTextBox;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label trocoLabel;
         private System.Windows.Forms.Button finalizarBtn;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.GroupBox pagamentoGroupBox;

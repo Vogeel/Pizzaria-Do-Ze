@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label10 = new System.Windows.Forms.Label();
+            this.valorStaticLabel = new System.Windows.Forms.Label();
             this.pagamentoLabel = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.metodoPagamentoStaticLabel = new System.Windows.Forms.Label();
             this.endereoLabel = new System.Windows.Forms.Label();
             this.pedidoLabel = new System.Windows.Forms.Label();
-            this.statusPedidoLabel = new System.Windows.Forms.Label();
+            this.entregueStaticLabel = new System.Windows.Forms.Label();
             this.idPedidoLabel = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.enderecoStaticLabel = new System.Windows.Forms.Label();
+            this.pedidoStaticLabel = new System.Windows.Forms.Label();
+            this.StatusLabel = new System.Windows.Forms.Label();
+            this.idPedidoStaticLabel = new System.Windows.Forms.Label();
             this.fecharBtn = new System.Windows.Forms.Button();
             this.entregadorResponsavelLabel = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.porStaticLabel = new System.Windows.Forms.Label();
             this.valorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label10
+            // valorStaticLabel
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(34, 217);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(37, 13);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "Valor: ";
+            this.valorStaticLabel.AutoSize = true;
+            this.valorStaticLabel.Location = new System.Drawing.Point(34, 217);
+            this.valorStaticLabel.Name = "valorStaticLabel";
+            this.valorStaticLabel.Size = new System.Drawing.Size(37, 13);
+            this.valorStaticLabel.TabIndex = 22;
+            this.valorStaticLabel.Text = "Valor: ";
             // 
             // pagamentoLabel
             // 
@@ -63,14 +63,14 @@
             this.pagamentoLabel.TabIndex = 21;
             this.pagamentoLabel.Text = "PIX";
             // 
-            // label8
+            // metodoPagamentoStaticLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(34, 177);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 13);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "metodo de pagamento:";
+            this.metodoPagamentoStaticLabel.AutoSize = true;
+            this.metodoPagamentoStaticLabel.Location = new System.Drawing.Point(34, 177);
+            this.metodoPagamentoStaticLabel.Name = "metodoPagamentoStaticLabel";
+            this.metodoPagamentoStaticLabel.Size = new System.Drawing.Size(116, 13);
+            this.metodoPagamentoStaticLabel.TabIndex = 20;
+            this.metodoPagamentoStaticLabel.Text = "metodo de pagamento:";
             // 
             // endereoLabel
             // 
@@ -90,14 +90,14 @@
             this.pedidoLabel.TabIndex = 18;
             this.pedidoLabel.Text = "Pizza broto, calabresa, coca-cola 600ml";
             // 
-            // statusPedidoLabel
+            // entregueStaticLabel
             // 
-            this.statusPedidoLabel.AutoSize = true;
-            this.statusPedidoLabel.Location = new System.Drawing.Point(156, 62);
-            this.statusPedidoLabel.Name = "statusPedidoLabel";
-            this.statusPedidoLabel.Size = new System.Drawing.Size(50, 13);
-            this.statusPedidoLabel.TabIndex = 17;
-            this.statusPedidoLabel.Text = "Entregue";
+            this.entregueStaticLabel.AutoSize = true;
+            this.entregueStaticLabel.Location = new System.Drawing.Point(156, 62);
+            this.entregueStaticLabel.Name = "entregueStaticLabel";
+            this.entregueStaticLabel.Size = new System.Drawing.Size(50, 13);
+            this.entregueStaticLabel.TabIndex = 17;
+            this.entregueStaticLabel.Text = "Entregue";
             // 
             // idPedidoLabel
             // 
@@ -108,41 +108,41 @@
             this.idPedidoLabel.TabIndex = 16;
             this.idPedidoLabel.Text = "123";
             // 
-            // label4
+            // enderecoStaticLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 141);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 13);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Endereço: ";
+            this.enderecoStaticLabel.AutoSize = true;
+            this.enderecoStaticLabel.Location = new System.Drawing.Point(34, 141);
+            this.enderecoStaticLabel.Name = "enderecoStaticLabel";
+            this.enderecoStaticLabel.Size = new System.Drawing.Size(59, 13);
+            this.enderecoStaticLabel.TabIndex = 15;
+            this.enderecoStaticLabel.Text = "Endereço: ";
             // 
-            // label3
+            // pedidoStaticLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(34, 99);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 13);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Pedido: ";
+            this.pedidoStaticLabel.AutoSize = true;
+            this.pedidoStaticLabel.Location = new System.Drawing.Point(34, 99);
+            this.pedidoStaticLabel.Name = "pedidoStaticLabel";
+            this.pedidoStaticLabel.Size = new System.Drawing.Size(46, 13);
+            this.pedidoStaticLabel.TabIndex = 14;
+            this.pedidoStaticLabel.Text = "Pedido: ";
             // 
-            // label2
+            // StatusLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 62);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Status:";
+            this.StatusLabel.AutoSize = true;
+            this.StatusLabel.Location = new System.Drawing.Point(34, 62);
+            this.StatusLabel.Name = "StatusLabel";
+            this.StatusLabel.Size = new System.Drawing.Size(40, 13);
+            this.StatusLabel.TabIndex = 13;
+            this.StatusLabel.Text = "Status:";
             // 
-            // label1
+            // idPedidoStaticLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "ID do pedido: ";
+            this.idPedidoStaticLabel.AutoSize = true;
+            this.idPedidoStaticLabel.Location = new System.Drawing.Point(34, 24);
+            this.idPedidoStaticLabel.Name = "idPedidoStaticLabel";
+            this.idPedidoStaticLabel.Size = new System.Drawing.Size(74, 13);
+            this.idPedidoStaticLabel.TabIndex = 12;
+            this.idPedidoStaticLabel.Text = "ID do pedido: ";
             // 
             // fecharBtn
             // 
@@ -165,14 +165,14 @@
             this.entregadorResponsavelLabel.TabIndex = 26;
             this.entregadorResponsavelLabel.Text = "Joao";
             // 
-            // label6
+            // porStaticLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(232, 62);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 13);
-            this.label6.TabIndex = 27;
-            this.label6.Text = "Por: ";
+            this.porStaticLabel.AutoSize = true;
+            this.porStaticLabel.Location = new System.Drawing.Point(232, 62);
+            this.porStaticLabel.Name = "porStaticLabel";
+            this.porStaticLabel.Size = new System.Drawing.Size(29, 13);
+            this.porStaticLabel.TabIndex = 27;
+            this.porStaticLabel.Text = "Por: ";
             // 
             // valorLabel
             // 
@@ -190,20 +190,20 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(443, 288);
             this.Controls.Add(this.valorLabel);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.porStaticLabel);
             this.Controls.Add(this.entregadorResponsavelLabel);
             this.Controls.Add(this.fecharBtn);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.valorStaticLabel);
             this.Controls.Add(this.pagamentoLabel);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.metodoPagamentoStaticLabel);
             this.Controls.Add(this.endereoLabel);
             this.Controls.Add(this.pedidoLabel);
-            this.Controls.Add(this.statusPedidoLabel);
+            this.Controls.Add(this.entregueStaticLabel);
             this.Controls.Add(this.idPedidoLabel);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.enderecoStaticLabel);
+            this.Controls.Add(this.pedidoStaticLabel);
+            this.Controls.Add(this.StatusLabel);
+            this.Controls.Add(this.idPedidoStaticLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -216,20 +216,20 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label valorStaticLabel;
         private System.Windows.Forms.Label pagamentoLabel;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label metodoPagamentoStaticLabel;
         private System.Windows.Forms.Label endereoLabel;
         private System.Windows.Forms.Label pedidoLabel;
-        private System.Windows.Forms.Label statusPedidoLabel;
+        private System.Windows.Forms.Label entregueStaticLabel;
         private System.Windows.Forms.Label idPedidoLabel;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label enderecoStaticLabel;
+        private System.Windows.Forms.Label pedidoStaticLabel;
+        private System.Windows.Forms.Label StatusLabel;
+        private System.Windows.Forms.Label idPedidoStaticLabel;
         private System.Windows.Forms.Button fecharBtn;
         private System.Windows.Forms.Label entregadorResponsavelLabel;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label porStaticLabel;
         private System.Windows.Forms.Label valorLabel;
     }
 }

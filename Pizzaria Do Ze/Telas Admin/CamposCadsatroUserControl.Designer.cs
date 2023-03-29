@@ -30,13 +30,13 @@
         {
             this.CEPMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.CPFMaskedTB = new System.Windows.Forms.MaskedTextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.complementoLabel = new System.Windows.Forms.Label();
+            this.enderecoLabel = new System.Windows.Forms.Label();
+            this.cepLabel = new System.Windows.Forms.Label();
+            this.cpfCnpjLabel = new System.Windows.Forms.Label();
+            this.emailLabel = new System.Windows.Forms.Label();
+            this.telefoneLabel = new System.Windows.Forms.Label();
+            this.nomeLabel = new System.Windows.Forms.Label();
             this.complementoTextBox = new System.Windows.Forms.TextBox();
             this.enderecoTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
@@ -62,68 +62,68 @@
             this.CPFMaskedTB.Size = new System.Drawing.Size(238, 24);
             this.CPFMaskedTB.TabIndex = 30;
             // 
-            // label7
+            // complementoLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(5, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 13);
-            this.label7.TabIndex = 29;
-            this.label7.Text = "Complemento:";
+            this.complementoLabel.AutoSize = true;
+            this.complementoLabel.Location = new System.Drawing.Point(5, 193);
+            this.complementoLabel.Name = "complementoLabel";
+            this.complementoLabel.Size = new System.Drawing.Size(74, 13);
+            this.complementoLabel.TabIndex = 29;
+            this.complementoLabel.Text = "Complemento:";
             // 
-            // label6
+            // enderecoLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(22, 163);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Endereço:";
+            this.enderecoLabel.AutoSize = true;
+            this.enderecoLabel.Location = new System.Drawing.Point(22, 163);
+            this.enderecoLabel.Name = "enderecoLabel";
+            this.enderecoLabel.Size = new System.Drawing.Size(56, 13);
+            this.enderecoLabel.TabIndex = 28;
+            this.enderecoLabel.Text = "Endereço:";
             // 
-            // label5
+            // cepLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(47, 133);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 13);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "CEP:";
+            this.cepLabel.AutoSize = true;
+            this.cepLabel.Location = new System.Drawing.Point(47, 133);
+            this.cepLabel.Name = "cepLabel";
+            this.cepLabel.Size = new System.Drawing.Size(31, 13);
+            this.cepLabel.TabIndex = 27;
+            this.cepLabel.Text = "CEP:";
             // 
-            // label4
+            // cpfCnpjLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 13);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "CPF/CNPJ:";
+            this.cpfCnpjLabel.AutoSize = true;
+            this.cpfCnpjLabel.Location = new System.Drawing.Point(16, 103);
+            this.cpfCnpjLabel.Name = "cpfCnpjLabel";
+            this.cpfCnpjLabel.Size = new System.Drawing.Size(62, 13);
+            this.cpfCnpjLabel.TabIndex = 26;
+            this.cpfCnpjLabel.Text = "CPF/CNPJ:";
             // 
-            // label3
+            // emailLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(41, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "E-mail:";
+            this.emailLabel.AutoSize = true;
+            this.emailLabel.Location = new System.Drawing.Point(41, 73);
+            this.emailLabel.Name = "emailLabel";
+            this.emailLabel.Size = new System.Drawing.Size(38, 13);
+            this.emailLabel.TabIndex = 25;
+            this.emailLabel.Text = "E-mail:";
             // 
-            // label2
+            // telefoneLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "Telefone:";
+            this.telefoneLabel.AutoSize = true;
+            this.telefoneLabel.Location = new System.Drawing.Point(26, 43);
+            this.telefoneLabel.Name = "telefoneLabel";
+            this.telefoneLabel.Size = new System.Drawing.Size(52, 13);
+            this.telefoneLabel.TabIndex = 24;
+            this.telefoneLabel.Text = "Telefone:";
             // 
-            // label1
+            // nomeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 23;
-            this.label1.Text = "Nome:";
+            this.nomeLabel.AutoSize = true;
+            this.nomeLabel.Location = new System.Drawing.Point(40, 13);
+            this.nomeLabel.Name = "nomeLabel";
+            this.nomeLabel.Size = new System.Drawing.Size(38, 13);
+            this.nomeLabel.TabIndex = 23;
+            this.nomeLabel.Text = "Nome:";
             // 
             // complementoTextBox
             // 
@@ -173,13 +173,13 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.Controls.Add(this.CEPMaskedTB);
             this.Controls.Add(this.CPFMaskedTB);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.complementoLabel);
+            this.Controls.Add(this.enderecoLabel);
+            this.Controls.Add(this.cepLabel);
+            this.Controls.Add(this.cpfCnpjLabel);
+            this.Controls.Add(this.emailLabel);
+            this.Controls.Add(this.telefoneLabel);
+            this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.complementoTextBox);
             this.Controls.Add(this.enderecoTextBox);
             this.Controls.Add(this.emailTextBox);
@@ -193,13 +193,13 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label complementoLabel;
+        private System.Windows.Forms.Label enderecoLabel;
+        private System.Windows.Forms.Label cepLabel;
+        private System.Windows.Forms.Label cpfCnpjLabel;
+        private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.Label telefoneLabel;
+        private System.Windows.Forms.Label nomeLabel;
         public System.Windows.Forms.MaskedTextBox CEPMaskedTB;
         public System.Windows.Forms.MaskedTextBox CPFMaskedTB;
         public System.Windows.Forms.TextBox complementoTextBox;

@@ -28,45 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.bemvindoLabel = new System.Windows.Forms.Label();
+            this.usuarioLabel = new System.Windows.Forms.Label();
+            this.senhaLabel = new System.Windows.Forms.Label();
             this.UserTextBox = new System.Windows.Forms.TextBox();
             this.senhaTextBox = new System.Windows.Forms.TextBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.loginBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // bemvindoLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(128, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bem-Vindo";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.bemvindoLabel.AutoSize = true;
+            this.bemvindoLabel.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bemvindoLabel.Location = new System.Drawing.Point(128, 27);
+            this.bemvindoLabel.Name = "bemvindoLabel";
+            this.bemvindoLabel.Size = new System.Drawing.Size(107, 23);
+            this.bemvindoLabel.TabIndex = 0;
+            this.bemvindoLabel.Text = "Bem-Vindo";
+            this.bemvindoLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label2
+            // usuarioLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Usuario:";
+            this.usuarioLabel.AutoSize = true;
+            this.usuarioLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usuarioLabel.Location = new System.Drawing.Point(44, 83);
+            this.usuarioLabel.Name = "usuarioLabel";
+            this.usuarioLabel.Size = new System.Drawing.Size(64, 18);
+            this.usuarioLabel.TabIndex = 1;
+            this.usuarioLabel.Text = "Usuario:";
             // 
-            // label3
+            // senhaLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(54, 135);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Senha:";
+            this.senhaLabel.AutoSize = true;
+            this.senhaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.senhaLabel.Location = new System.Drawing.Point(54, 135);
+            this.senhaLabel.Name = "senhaLabel";
+            this.senhaLabel.Size = new System.Drawing.Size(54, 18);
+            this.senhaLabel.TabIndex = 2;
+            this.senhaLabel.Text = "Senha:";
             // 
             // UserTextBox
             // 
@@ -103,6 +103,7 @@
             // loginBtn
             // 
             this.loginBtn.BackColor = System.Drawing.Color.Tan;
+            this.loginBtn.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.loginBtn.FlatAppearance.BorderColor = System.Drawing.SystemColors.WindowText;
             this.loginBtn.FlatAppearance.BorderSize = 0;
             this.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -126,9 +127,9 @@
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.senhaTextBox);
             this.Controls.Add(this.UserTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.senhaLabel);
+            this.Controls.Add(this.usuarioLabel);
+            this.Controls.Add(this.bemvindoLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -142,9 +143,9 @@
 
         #endregion
 
-        public System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label bemvindoLabel;
+        private System.Windows.Forms.Label usuarioLabel;
+        private System.Windows.Forms.Label senhaLabel;
         private System.Windows.Forms.TextBox UserTextBox;
         private System.Windows.Forms.TextBox senhaTextBox;
         private System.Windows.Forms.Button cancelBtn;

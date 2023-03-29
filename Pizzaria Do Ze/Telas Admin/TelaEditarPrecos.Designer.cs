@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaEditarPrecos));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.brotoLabel = new System.Windows.Forms.Label();
+            this.mediaLabel = new System.Windows.Forms.Label();
+            this.giganteLabel = new System.Windows.Forms.Label();
+            this.extragiganteLabel = new System.Windows.Forms.Label();
+            this.especiaisLabel = new System.Windows.Forms.Label();
             this.valorBrotoTB = new System.Windows.Forms.TextBox();
             this.valorGrandeTB = new System.Windows.Forms.TextBox();
             this.valorGiganteTB = new System.Windows.Forms.TextBox();
             this.valorExtraGiganteTB = new System.Windows.Forms.TextBox();
             this.Atualizar = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.acrecimoEspecialLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -51,60 +51,60 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // brotoLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Wheat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Broto";
+            this.brotoLabel.AutoSize = true;
+            this.brotoLabel.BackColor = System.Drawing.Color.Wheat;
+            this.brotoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.brotoLabel.Location = new System.Drawing.Point(10, 84);
+            this.brotoLabel.Name = "brotoLabel";
+            this.brotoLabel.Size = new System.Drawing.Size(45, 18);
+            this.brotoLabel.TabIndex = 0;
+            this.brotoLabel.Text = "Broto";
             // 
-            // label2
+            // mediaLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Wheat;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 109);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Media";
+            this.mediaLabel.AutoSize = true;
+            this.mediaLabel.BackColor = System.Drawing.Color.Wheat;
+            this.mediaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mediaLabel.Location = new System.Drawing.Point(10, 109);
+            this.mediaLabel.Name = "mediaLabel";
+            this.mediaLabel.Size = new System.Drawing.Size(48, 18);
+            this.mediaLabel.TabIndex = 1;
+            this.mediaLabel.Text = "Media";
             // 
-            // label3
+            // giganteLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Wheat;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(10, 136);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Gigante";
+            this.giganteLabel.AutoSize = true;
+            this.giganteLabel.BackColor = System.Drawing.Color.Wheat;
+            this.giganteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.giganteLabel.Location = new System.Drawing.Point(10, 136);
+            this.giganteLabel.Name = "giganteLabel";
+            this.giganteLabel.Size = new System.Drawing.Size(59, 18);
+            this.giganteLabel.TabIndex = 2;
+            this.giganteLabel.Text = "Gigante";
             // 
-            // label4
+            // extragiganteLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Wheat;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(10, 161);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Extra-Gigante";
+            this.extragiganteLabel.AutoSize = true;
+            this.extragiganteLabel.BackColor = System.Drawing.Color.Wheat;
+            this.extragiganteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.extragiganteLabel.Location = new System.Drawing.Point(10, 161);
+            this.extragiganteLabel.Name = "extragiganteLabel";
+            this.extragiganteLabel.Size = new System.Drawing.Size(98, 18);
+            this.extragiganteLabel.TabIndex = 3;
+            this.extragiganteLabel.Text = "Extra-Gigante";
             // 
-            // label5
+            // especiaisLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Wheat;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(10, 188);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Especiais";
+            this.especiaisLabel.AutoSize = true;
+            this.especiaisLabel.BackColor = System.Drawing.Color.Wheat;
+            this.especiaisLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.especiaisLabel.Location = new System.Drawing.Point(10, 188);
+            this.especiaisLabel.Name = "especiaisLabel";
+            this.especiaisLabel.Size = new System.Drawing.Size(72, 18);
+            this.especiaisLabel.TabIndex = 4;
+            this.especiaisLabel.Text = "Especiais";
             // 
             // valorBrotoTB
             // 
@@ -157,17 +157,17 @@
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
-            // label6
+            // acrecimoEspecialLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Wheat;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(10, 206);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(236, 13);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "*Tem um acrescimo de 30% sobre o valor normal";
+            this.acrecimoEspecialLabel.AutoSize = true;
+            this.acrecimoEspecialLabel.BackColor = System.Drawing.Color.Wheat;
+            this.acrecimoEspecialLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.acrecimoEspecialLabel.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.acrecimoEspecialLabel.Location = new System.Drawing.Point(10, 206);
+            this.acrecimoEspecialLabel.Name = "acrecimoEspecialLabel";
+            this.acrecimoEspecialLabel.Size = new System.Drawing.Size(236, 13);
+            this.acrecimoEspecialLabel.TabIndex = 12;
+            this.acrecimoEspecialLabel.Text = "*Tem um acrescimo de 30% sobre o valor normal";
             // 
             // label7
             // 
@@ -244,18 +244,18 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.acrecimoEspecialLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.Atualizar);
             this.Controls.Add(this.valorExtraGiganteTB);
             this.Controls.Add(this.valorGiganteTB);
             this.Controls.Add(this.valorGrandeTB);
             this.Controls.Add(this.valorBrotoTB);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.especiaisLabel);
+            this.Controls.Add(this.extragiganteLabel);
+            this.Controls.Add(this.giganteLabel);
+            this.Controls.Add(this.mediaLabel);
+            this.Controls.Add(this.brotoLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -272,18 +272,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label brotoLabel;
+        private System.Windows.Forms.Label mediaLabel;
+        private System.Windows.Forms.Label giganteLabel;
+        private System.Windows.Forms.Label extragiganteLabel;
+        private System.Windows.Forms.Label especiaisLabel;
         private System.Windows.Forms.TextBox valorBrotoTB;
         private System.Windows.Forms.TextBox valorGrandeTB;
         private System.Windows.Forms.TextBox valorGiganteTB;
         private System.Windows.Forms.TextBox valorExtraGiganteTB;
         private System.Windows.Forms.Button Atualizar;
         private System.Windows.Forms.Button cancelBtn;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label acrecimoEspecialLabel;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;

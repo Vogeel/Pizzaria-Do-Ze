@@ -31,7 +31,7 @@
             this.cadastrarBtn = new System.Windows.Forms.Button();
             this.voltarBtn = new System.Windows.Forms.Button();
             this.clienteCadastradoBtn = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.clienteCadastradoLabel = new System.Windows.Forms.Label();
             this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
             this.SuspendLayout();
             // 
@@ -67,18 +67,19 @@
             this.clienteCadastradoBtn.Text = "Cliente ja cadastrado";
             this.clienteCadastradoBtn.UseVisualStyleBackColor = true;
             // 
-            // label8
+            // clienteCadastradoLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(10, 325);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(271, 13);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "* se o cliente ja for cadastrado, preencher o campo CPF";
+            this.clienteCadastradoLabel.AutoSize = true;
+            this.clienteCadastradoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clienteCadastradoLabel.Location = new System.Drawing.Point(10, 325);
+            this.clienteCadastradoLabel.Name = "clienteCadastradoLabel";
+            this.clienteCadastradoLabel.Size = new System.Drawing.Size(271, 13);
+            this.clienteCadastradoLabel.TabIndex = 19;
+            this.clienteCadastradoLabel.Text = "* se o cliente ja for cadastrado, preencher o campo CPF";
             // 
             // camposCadsatroUserControl1
             // 
+            this.camposCadsatroUserControl1.BackColor = System.Drawing.Color.BurlyWood;
             this.camposCadsatroUserControl1.Location = new System.Drawing.Point(58, 60);
             this.camposCadsatroUserControl1.Name = "camposCadsatroUserControl1";
             this.camposCadsatroUserControl1.Size = new System.Drawing.Size(356, 218);
@@ -91,7 +92,7 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(488, 347);
             this.Controls.Add(this.camposCadsatroUserControl1);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.clienteCadastradoLabel);
             this.Controls.Add(this.clienteCadastradoBtn);
             this.Controls.Add(this.voltarBtn);
             this.Controls.Add(this.cadastrarBtn);
@@ -110,7 +111,7 @@
         private System.Windows.Forms.Button cadastrarBtn;
         private System.Windows.Forms.Button voltarBtn;
         private System.Windows.Forms.Button clienteCadastradoBtn;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label clienteCadastradoLabel;
         private Telas_Admin.CamposCadsatroUserControl camposCadsatroUserControl1;
     }
 }

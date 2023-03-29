@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaRetirarIngrediente));
-            this.label1 = new System.Windows.Forms.Label();
+            this.saborLabel = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.ingredientesListBox = new System.Windows.Forms.ListBox();
             this.retirarBtn = new System.Windows.Forms.Button();
@@ -39,14 +39,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // saborLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(54, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sabor:";
+            this.saborLabel.AutoSize = true;
+            this.saborLabel.Location = new System.Drawing.Point(54, 43);
+            this.saborLabel.Name = "saborLabel";
+            this.saborLabel.Size = new System.Drawing.Size(38, 13);
+            this.saborLabel.TabIndex = 0;
+            this.saborLabel.Text = "Sabor:";
             // 
             // comboBox1
             // 
@@ -121,7 +121,7 @@
             this.Controls.Add(this.retirarBtn);
             this.Controls.Add(this.ingredientesListBox);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.saborLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -137,7 +137,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label saborLabel;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListBox ingredientesListBox;
         private System.Windows.Forms.Button retirarBtn;

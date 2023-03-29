@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAdicionarBorda));
-            this.label1 = new System.Windows.Forms.Label();
+            this.nomeLabel = new System.Windows.Forms.Label();
             this.nomeTextBox = new System.Windows.Forms.TextBox();
             this.cancelbtn = new System.Windows.Forms.Button();
             this.okBtn = new System.Windows.Forms.Button();
@@ -37,14 +37,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // nomeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 69);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome";
+            this.nomeLabel.AutoSize = true;
+            this.nomeLabel.Location = new System.Drawing.Point(33, 69);
+            this.nomeLabel.Name = "nomeLabel";
+            this.nomeLabel.Size = new System.Drawing.Size(35, 13);
+            this.nomeLabel.TabIndex = 0;
+            this.nomeLabel.Text = "Nome";
             // 
             // nomeTextBox
             // 
@@ -96,7 +96,7 @@
             this.Controls.Add(this.okBtn);
             this.Controls.Add(this.cancelbtn);
             this.Controls.Add(this.nomeTextBox);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -112,7 +112,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label nomeLabel;
         private System.Windows.Forms.TextBox nomeTextBox;
         private System.Windows.Forms.Button cancelbtn;
         private System.Windows.Forms.Button okBtn;

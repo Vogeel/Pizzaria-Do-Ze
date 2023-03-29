@@ -37,17 +37,17 @@
             this.gigantepictureBox = new System.Windows.Forms.PictureBox();
             this.brotopictureBox = new System.Windows.Forms.PictureBox();
             this.extraGigantepictureBox = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.extragiganteLabel = new System.Windows.Forms.Label();
+            this.pizzaGrandeLabel = new System.Windows.Forms.Label();
+            this.mediaLabel = new System.Windows.Forms.Label();
+            this.brotoLabel = new System.Windows.Forms.Label();
+            this.fatiasSaboresExtraGiganteLabel = new System.Windows.Forms.Label();
+            this.fatiasSaboresGrandeLabel = new System.Windows.Forms.Label();
+            this.fatiasSaboresMediaLabel = new System.Windows.Forms.Label();
+            this.fatiasSaboresBrotoLabel = new System.Windows.Forms.Label();
             this.extraGigantePrecoLabel = new System.Windows.Forms.Label();
             this.gigantePrecoLabel = new System.Windows.Forms.Label();
-            this.grandePrecoLabel = new System.Windows.Forms.Label();
+            this.mediaPrecoLabel = new System.Windows.Forms.Label();
             this.brotoPrecoLabel = new System.Windows.Forms.Label();
             this.comprarMediaBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mediapictureBox)).BeginInit();
@@ -136,77 +136,77 @@
             this.extraGigantepictureBox.TabIndex = 8;
             this.extraGigantepictureBox.TabStop = false;
             // 
-            // label1
+            // extragiganteLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(260, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Pizza Extra-Gigante";
+            this.extragiganteLabel.AutoSize = true;
+            this.extragiganteLabel.Location = new System.Drawing.Point(260, 84);
+            this.extragiganteLabel.Name = "extragiganteLabel";
+            this.extragiganteLabel.Size = new System.Drawing.Size(99, 13);
+            this.extragiganteLabel.TabIndex = 9;
+            this.extragiganteLabel.Text = "Pizza Extra-Gigante";
             // 
-            // label2
+            // pizzaGrandeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(580, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Pizza Gigante";
+            this.pizzaGrandeLabel.AutoSize = true;
+            this.pizzaGrandeLabel.Location = new System.Drawing.Point(580, 84);
+            this.pizzaGrandeLabel.Name = "pizzaGrandeLabel";
+            this.pizzaGrandeLabel.Size = new System.Drawing.Size(72, 13);
+            this.pizzaGrandeLabel.TabIndex = 10;
+            this.pizzaGrandeLabel.Text = "Pizza Gigante";
             // 
-            // label3
+            // mediaLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(260, 289);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 13);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Pizza Media";
+            this.mediaLabel.AutoSize = true;
+            this.mediaLabel.Location = new System.Drawing.Point(260, 289);
+            this.mediaLabel.Name = "mediaLabel";
+            this.mediaLabel.Size = new System.Drawing.Size(64, 13);
+            this.mediaLabel.TabIndex = 11;
+            this.mediaLabel.Text = "Pizza Media";
             // 
-            // label4
+            // brotoLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(580, 325);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Pizza Broto";
+            this.brotoLabel.AutoSize = true;
+            this.brotoLabel.Location = new System.Drawing.Point(580, 325);
+            this.brotoLabel.Name = "brotoLabel";
+            this.brotoLabel.Size = new System.Drawing.Size(60, 13);
+            this.brotoLabel.TabIndex = 12;
+            this.brotoLabel.Text = "Pizza Broto";
             // 
-            // label5
+            // fatiasSaboresExtraGiganteLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(260, 115);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "(16 Fatias) (03 Sabores)";
+            this.fatiasSaboresExtraGiganteLabel.AutoSize = true;
+            this.fatiasSaboresExtraGiganteLabel.Location = new System.Drawing.Point(260, 115);
+            this.fatiasSaboresExtraGiganteLabel.Name = "fatiasSaboresExtraGiganteLabel";
+            this.fatiasSaboresExtraGiganteLabel.Size = new System.Drawing.Size(119, 13);
+            this.fatiasSaboresExtraGiganteLabel.TabIndex = 13;
+            this.fatiasSaboresExtraGiganteLabel.Text = "(16 Fatias) (03 Sabores)";
             // 
-            // label6
+            // fatiasSaboresGrandeLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(580, 115);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "(12 Fatias) (03 Sabores)";
+            this.fatiasSaboresGrandeLabel.AutoSize = true;
+            this.fatiasSaboresGrandeLabel.Location = new System.Drawing.Point(580, 115);
+            this.fatiasSaboresGrandeLabel.Name = "fatiasSaboresGrandeLabel";
+            this.fatiasSaboresGrandeLabel.Size = new System.Drawing.Size(119, 13);
+            this.fatiasSaboresGrandeLabel.TabIndex = 14;
+            this.fatiasSaboresGrandeLabel.Text = "(12 Fatias) (03 Sabores)";
             // 
-            // label7
+            // fatiasSaboresMediaLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(260, 313);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "(09 Fatias) (02 Sabores)";
+            this.fatiasSaboresMediaLabel.AutoSize = true;
+            this.fatiasSaboresMediaLabel.Location = new System.Drawing.Point(260, 313);
+            this.fatiasSaboresMediaLabel.Name = "fatiasSaboresMediaLabel";
+            this.fatiasSaboresMediaLabel.Size = new System.Drawing.Size(119, 13);
+            this.fatiasSaboresMediaLabel.TabIndex = 15;
+            this.fatiasSaboresMediaLabel.Text = "(09 Fatias) (02 Sabores)";
             // 
-            // label8
+            // fatiasSaboresBrotoLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(580, 350);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 13);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "(04 Fatias) (01 Sabor)";
+            this.fatiasSaboresBrotoLabel.AutoSize = true;
+            this.fatiasSaboresBrotoLabel.Location = new System.Drawing.Point(580, 350);
+            this.fatiasSaboresBrotoLabel.Name = "fatiasSaboresBrotoLabel";
+            this.fatiasSaboresBrotoLabel.Size = new System.Drawing.Size(108, 13);
+            this.fatiasSaboresBrotoLabel.TabIndex = 16;
+            this.fatiasSaboresBrotoLabel.Text = "(04 Fatias) (01 Sabor)";
             // 
             // extraGigantePrecoLabel
             // 
@@ -226,14 +226,14 @@
             this.gigantePrecoLabel.TabIndex = 18;
             this.gigantePrecoLabel.Text = "R$ 90,00";
             // 
-            // grandePrecoLabel
+            // mediaPrecoLabel
             // 
-            this.grandePrecoLabel.AutoSize = true;
-            this.grandePrecoLabel.Location = new System.Drawing.Point(263, 341);
-            this.grandePrecoLabel.Name = "grandePrecoLabel";
-            this.grandePrecoLabel.Size = new System.Drawing.Size(48, 13);
-            this.grandePrecoLabel.TabIndex = 19;
-            this.grandePrecoLabel.Text = "R$60,00";
+            this.mediaPrecoLabel.AutoSize = true;
+            this.mediaPrecoLabel.Location = new System.Drawing.Point(263, 341);
+            this.mediaPrecoLabel.Name = "mediaPrecoLabel";
+            this.mediaPrecoLabel.Size = new System.Drawing.Size(48, 13);
+            this.mediaPrecoLabel.TabIndex = 19;
+            this.mediaPrecoLabel.Text = "R$60,00";
             // 
             // brotoPrecoLabel
             // 
@@ -263,17 +263,17 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.comprarMediaBtn);
             this.Controls.Add(this.brotoPrecoLabel);
-            this.Controls.Add(this.grandePrecoLabel);
+            this.Controls.Add(this.mediaPrecoLabel);
             this.Controls.Add(this.gigantePrecoLabel);
             this.Controls.Add(this.extraGigantePrecoLabel);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.fatiasSaboresBrotoLabel);
+            this.Controls.Add(this.fatiasSaboresMediaLabel);
+            this.Controls.Add(this.fatiasSaboresGrandeLabel);
+            this.Controls.Add(this.fatiasSaboresExtraGiganteLabel);
+            this.Controls.Add(this.brotoLabel);
+            this.Controls.Add(this.mediaLabel);
+            this.Controls.Add(this.pizzaGrandeLabel);
+            this.Controls.Add(this.extragiganteLabel);
             this.Controls.Add(this.extraGigantepictureBox);
             this.Controls.Add(this.brotopictureBox);
             this.Controls.Add(this.gigantepictureBox);
@@ -307,17 +307,17 @@
         private System.Windows.Forms.PictureBox gigantepictureBox;
         private System.Windows.Forms.PictureBox brotopictureBox;
         private System.Windows.Forms.PictureBox extraGigantepictureBox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label extragiganteLabel;
+        private System.Windows.Forms.Label pizzaGrandeLabel;
+        private System.Windows.Forms.Label mediaLabel;
+        private System.Windows.Forms.Label brotoLabel;
+        private System.Windows.Forms.Label fatiasSaboresExtraGiganteLabel;
+        private System.Windows.Forms.Label fatiasSaboresGrandeLabel;
+        private System.Windows.Forms.Label fatiasSaboresMediaLabel;
+        private System.Windows.Forms.Label fatiasSaboresBrotoLabel;
         private System.Windows.Forms.Label extraGigantePrecoLabel;
         private System.Windows.Forms.Label gigantePrecoLabel;
-        private System.Windows.Forms.Label grandePrecoLabel;
+        private System.Windows.Forms.Label mediaPrecoLabel;
         private System.Windows.Forms.Label brotoPrecoLabel;
         private System.Windows.Forms.Button comprarMediaBtn;
     }

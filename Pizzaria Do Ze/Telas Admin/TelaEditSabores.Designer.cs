@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaEditSabores));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.nomeLabel = new System.Windows.Forms.Label();
+            this.ingredientesLabel = new System.Windows.Forms.Label();
             this.nomePizzaTextBox = new System.Windows.Forms.TextBox();
             this.ingredientesComboBox = new System.Windows.Forms.ComboBox();
             this.addBtn = new System.Windows.Forms.Button();
@@ -43,23 +43,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // nomeLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(71, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome: ";
+            this.nomeLabel.AutoSize = true;
+            this.nomeLabel.Location = new System.Drawing.Point(71, 62);
+            this.nomeLabel.Name = "nomeLabel";
+            this.nomeLabel.Size = new System.Drawing.Size(41, 13);
+            this.nomeLabel.TabIndex = 0;
+            this.nomeLabel.Text = "Nome: ";
             // 
-            // label2
+            // ingredientesLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 135);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Ingredientes: ";
+            this.ingredientesLabel.AutoSize = true;
+            this.ingredientesLabel.Location = new System.Drawing.Point(41, 135);
+            this.ingredientesLabel.Name = "ingredientesLabel";
+            this.ingredientesLabel.Size = new System.Drawing.Size(71, 13);
+            this.ingredientesLabel.TabIndex = 1;
+            this.ingredientesLabel.Text = "Ingredientes: ";
             // 
             // nomePizzaTextBox
             // 
@@ -161,8 +161,8 @@
             this.Controls.Add(this.addBtn);
             this.Controls.Add(this.ingredientesComboBox);
             this.Controls.Add(this.nomePizzaTextBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ingredientesLabel);
+            this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -178,8 +178,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label nomeLabel;
+        private System.Windows.Forms.Label ingredientesLabel;
         private System.Windows.Forms.TextBox nomePizzaTextBox;
         private System.Windows.Forms.ComboBox ingredientesComboBox;
         private System.Windows.Forms.Button addBtn;
