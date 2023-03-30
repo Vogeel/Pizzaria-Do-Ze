@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAdicionarBorda));
             this.nomeLabel = new System.Windows.Forms.Label();
             this.nomeTextBox = new System.Windows.Forms.TextBox();
-            this.cancelbtn = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.okBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -53,17 +53,17 @@
             this.nomeTextBox.Size = new System.Drawing.Size(125, 20);
             this.nomeTextBox.TabIndex = 1;
             // 
-            // cancelbtn
+            // cancelBtn
             // 
-            this.cancelbtn.FlatAppearance.BorderSize = 0;
-            this.cancelbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelbtn.Location = new System.Drawing.Point(214, 12);
-            this.cancelbtn.Name = "cancelbtn";
-            this.cancelbtn.Size = new System.Drawing.Size(75, 23);
-            this.cancelbtn.TabIndex = 2;
-            this.cancelbtn.Text = "Cancelar";
-            this.cancelbtn.UseVisualStyleBackColor = true;
-            this.cancelbtn.Click += new System.EventHandler(this.Cancelbtn_Click);
+            this.cancelBtn.FlatAppearance.BorderSize = 0;
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelBtn.Location = new System.Drawing.Point(214, 12);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(75, 23);
+            this.cancelBtn.TabIndex = 2;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.Cancelbtn_Click);
             // 
             // okBtn
             // 
@@ -94,7 +94,7 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(301, 149);
             this.Controls.Add(this.okBtn);
-            this.Controls.Add(this.cancelbtn);
+            this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.nomeTextBox);
             this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.pictureBox2);
@@ -114,7 +114,7 @@
 
         private System.Windows.Forms.Label nomeLabel;
         private System.Windows.Forms.TextBox nomeTextBox;
-        private System.Windows.Forms.Button cancelbtn;
+        private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button okBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

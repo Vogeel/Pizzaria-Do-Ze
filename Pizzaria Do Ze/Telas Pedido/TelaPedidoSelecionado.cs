@@ -17,12 +17,9 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             InitializeComponent();
         }
 
-        private void FecharBtn_Click(object sender, EventArgs e)
+        private void cancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-       
-        
     }
 }

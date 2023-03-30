@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPedidosEntregues));
             this.pediosEntreguesListBox = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.abrirPedidoBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -45,18 +45,18 @@
             this.pediosEntreguesListBox.Size = new System.Drawing.Size(513, 407);
             this.pediosEntreguesListBox.TabIndex = 0;
             // 
-            // button1
+            // cancelBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.BurlyWood;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(548, 401);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 37);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Fechar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.cancelBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.cancelBtn.FlatAppearance.BorderSize = 0;
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelBtn.Location = new System.Drawing.Point(548, 401);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(135, 37);
+            this.cancelBtn.TabIndex = 4;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = false;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // abrirPedidoBtn
             // 
@@ -87,7 +87,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(700, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.abrirPedidoBtn);
             this.Controls.Add(this.pediosEntreguesListBox);
             this.Controls.Add(this.pictureBox2);
@@ -105,7 +105,7 @@
         #endregion
 
         private System.Windows.Forms.ListBox pediosEntreguesListBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button abrirPedidoBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

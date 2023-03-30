@@ -16,5 +16,10 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
             InitializeComponent();
         }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

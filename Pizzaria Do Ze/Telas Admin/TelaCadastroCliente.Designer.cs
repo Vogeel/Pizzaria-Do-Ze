@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.cadastrarBtn = new System.Windows.Forms.Button();
-            this.voltarBtn = new System.Windows.Forms.Button();
             this.clienteCadastradoBtn = new System.Windows.Forms.Button();
             this.clienteCadastradoLabel = new System.Windows.Forms.Label();
             this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cadastrarBtn
@@ -46,17 +46,6 @@
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
             // 
-            // voltarBtn
-            // 
-            this.voltarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.voltarBtn.Location = new System.Drawing.Point(387, 12);
-            this.voltarBtn.Name = "voltarBtn";
-            this.voltarBtn.Size = new System.Drawing.Size(89, 28);
-            this.voltarBtn.TabIndex = 15;
-            this.voltarBtn.Text = "Voltar";
-            this.voltarBtn.UseVisualStyleBackColor = true;
-            this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
-            // 
             // clienteCadastradoBtn
             // 
             this.clienteCadastradoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -64,7 +53,7 @@
             this.clienteCadastradoBtn.Name = "clienteCadastradoBtn";
             this.clienteCadastradoBtn.Size = new System.Drawing.Size(127, 27);
             this.clienteCadastradoBtn.TabIndex = 18;
-            this.clienteCadastradoBtn.Text = "Cliente ja cadastrado";
+            this.clienteCadastradoBtn.Text = "Cliente já cadastrado";
             this.clienteCadastradoBtn.UseVisualStyleBackColor = true;
             // 
             // clienteCadastradoLabel
@@ -85,16 +74,27 @@
             this.camposCadsatroUserControl1.Size = new System.Drawing.Size(356, 218);
             this.camposCadsatroUserControl1.TabIndex = 20;
             // 
+            // cancelBtn
+            // 
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cancelBtn.Location = new System.Drawing.Point(387, 12);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(89, 28);
+            this.cancelBtn.TabIndex = 21;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            // 
             // TelaCadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(488, 347);
+            this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.camposCadsatroUserControl1);
             this.Controls.Add(this.clienteCadastradoLabel);
             this.Controls.Add(this.clienteCadastradoBtn);
-            this.Controls.Add(this.voltarBtn);
             this.Controls.Add(this.cadastrarBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -109,9 +109,9 @@
 
         #endregion
         private System.Windows.Forms.Button cadastrarBtn;
-        private System.Windows.Forms.Button voltarBtn;
         private System.Windows.Forms.Button clienteCadastradoBtn;
         private System.Windows.Forms.Label clienteCadastradoLabel;
         private Telas_Admin.CamposCadsatroUserControl camposCadsatroUserControl1;
+        private System.Windows.Forms.Button cancelBtn;
     }
 }

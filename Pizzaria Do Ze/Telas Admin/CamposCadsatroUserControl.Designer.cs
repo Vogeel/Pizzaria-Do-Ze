@@ -31,7 +31,7 @@
             this.CEPMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.CPFMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.complementoLabel = new System.Windows.Forms.Label();
-            this.enderecoLabel = new System.Windows.Forms.Label();
+            this.enderecoStaticLabel = new System.Windows.Forms.Label();
             this.cepLabel = new System.Windows.Forms.Label();
             this.cpfCnpjLabel = new System.Windows.Forms.Label();
             this.emailLabel = new System.Windows.Forms.Label();
@@ -71,14 +71,14 @@
             this.complementoLabel.TabIndex = 29;
             this.complementoLabel.Text = "Complemento:";
             // 
-            // enderecoLabel
+            // enderecoStaticLabel
             // 
-            this.enderecoLabel.AutoSize = true;
-            this.enderecoLabel.Location = new System.Drawing.Point(22, 163);
-            this.enderecoLabel.Name = "enderecoLabel";
-            this.enderecoLabel.Size = new System.Drawing.Size(56, 13);
-            this.enderecoLabel.TabIndex = 28;
-            this.enderecoLabel.Text = "Endereço:";
+            this.enderecoStaticLabel.AutoSize = true;
+            this.enderecoStaticLabel.Location = new System.Drawing.Point(22, 163);
+            this.enderecoStaticLabel.Name = "enderecoStaticLabel";
+            this.enderecoStaticLabel.Size = new System.Drawing.Size(56, 13);
+            this.enderecoStaticLabel.TabIndex = 28;
+            this.enderecoStaticLabel.Text = "Endereço:";
             // 
             // cepLabel
             // 
@@ -174,7 +174,7 @@
             this.Controls.Add(this.CEPMaskedTB);
             this.Controls.Add(this.CPFMaskedTB);
             this.Controls.Add(this.complementoLabel);
-            this.Controls.Add(this.enderecoLabel);
+            this.Controls.Add(this.enderecoStaticLabel);
             this.Controls.Add(this.cepLabel);
             this.Controls.Add(this.cpfCnpjLabel);
             this.Controls.Add(this.emailLabel);
@@ -194,7 +194,7 @@
 
         #endregion
         private System.Windows.Forms.Label complementoLabel;
-        private System.Windows.Forms.Label enderecoLabel;
+        private System.Windows.Forms.Label enderecoStaticLabel;
         private System.Windows.Forms.Label cepLabel;
         private System.Windows.Forms.Label cpfCnpjLabel;
         private System.Windows.Forms.Label emailLabel;

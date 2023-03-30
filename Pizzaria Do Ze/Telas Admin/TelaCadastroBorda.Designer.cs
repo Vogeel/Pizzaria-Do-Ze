@@ -29,38 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastroBorda));
-            this.addBordaBtn = new System.Windows.Forms.Button();
-            this.excluirBtn = new System.Windows.Forms.Button();
+            this.addBtn = new System.Windows.Forms.Button();
+            this.excluirSelecionadoBtn = new System.Windows.Forms.Button();
             this.bordaListBox = new System.Windows.Forms.ListBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // addBordaBtn
+            // addBtn
             // 
-            this.addBordaBtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.addBordaBtn.FlatAppearance.BorderSize = 0;
-            this.addBordaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addBordaBtn.Location = new System.Drawing.Point(12, 30);
-            this.addBordaBtn.Name = "addBordaBtn";
-            this.addBordaBtn.Size = new System.Drawing.Size(95, 33);
-            this.addBordaBtn.TabIndex = 0;
-            this.addBordaBtn.Text = "Adicionar";
-            this.addBordaBtn.UseVisualStyleBackColor = false;
-            this.addBordaBtn.Click += new System.EventHandler(this.AddBordaBtn_Click);
+            this.addBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.addBtn.FlatAppearance.BorderSize = 0;
+            this.addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addBtn.Location = new System.Drawing.Point(12, 30);
+            this.addBtn.Name = "addBtn";
+            this.addBtn.Size = new System.Drawing.Size(95, 33);
+            this.addBtn.TabIndex = 0;
+            this.addBtn.Text = "Adicionar";
+            this.addBtn.UseVisualStyleBackColor = false;
+            this.addBtn.Click += new System.EventHandler(this.AddBordaBtn_Click);
             // 
-            // excluirBtn
+            // excluirSelecionadoBtn
             // 
-            this.excluirBtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.excluirBtn.FlatAppearance.BorderSize = 0;
-            this.excluirBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.excluirBtn.Location = new System.Drawing.Point(159, 30);
-            this.excluirBtn.Name = "excluirBtn";
-            this.excluirBtn.Size = new System.Drawing.Size(122, 33);
-            this.excluirBtn.TabIndex = 2;
-            this.excluirBtn.Text = "Excluir selecionado";
-            this.excluirBtn.UseVisualStyleBackColor = false;
+            this.excluirSelecionadoBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.excluirSelecionadoBtn.FlatAppearance.BorderSize = 0;
+            this.excluirSelecionadoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.excluirSelecionadoBtn.Location = new System.Drawing.Point(159, 30);
+            this.excluirSelecionadoBtn.Name = "excluirSelecionadoBtn";
+            this.excluirSelecionadoBtn.Size = new System.Drawing.Size(122, 33);
+            this.excluirSelecionadoBtn.TabIndex = 2;
+            this.excluirSelecionadoBtn.Text = "Excluir selecionado";
+            this.excluirSelecionadoBtn.UseVisualStyleBackColor = false;
             // 
             // bordaListBox
             // 
@@ -101,8 +101,8 @@
             this.ClientSize = new System.Drawing.Size(382, 235);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.bordaListBox);
-            this.Controls.Add(this.excluirBtn);
-            this.Controls.Add(this.addBordaBtn);
+            this.Controls.Add(this.excluirSelecionadoBtn);
+            this.Controls.Add(this.addBtn);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -117,8 +117,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button addBordaBtn;
-        private System.Windows.Forms.Button excluirBtn;
+        private System.Windows.Forms.Button addBtn;
+        private System.Windows.Forms.Button excluirSelecionadoBtn;
         private System.Windows.Forms.ListBox bordaListBox;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.PictureBox pictureBox2;

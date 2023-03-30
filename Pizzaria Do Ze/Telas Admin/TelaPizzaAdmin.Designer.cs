@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPizzaAdmin));
             this.saboresBtn = new System.Windows.Forms.Button();
             this.valoresBtn = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.bordaBtn = new System.Windows.Forms.Button();
             this.ingredientesBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -66,16 +66,16 @@
             this.valoresBtn.UseVisualStyleBackColor = false;
             this.valoresBtn.Click += new System.EventHandler(this.ValoresBtn_Click);
             // 
-            // button3
+            // cancelBtn
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(340, 251);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 37);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Voltar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.CancelBtn_Click);
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cancelBtn.Location = new System.Drawing.Point(340, 251);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(96, 37);
+            this.cancelBtn.TabIndex = 2;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // bordaBtn
             // 
@@ -132,7 +132,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.ingredientesBtn);
             this.Controls.Add(this.bordaBtn);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.valoresBtn);
             this.Controls.Add(this.saboresBtn);
             this.Controls.Add(this.pictureBox2);
@@ -152,7 +152,7 @@
 
         private System.Windows.Forms.Button saboresBtn;
         private System.Windows.Forms.Button valoresBtn;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button bordaBtn;
         private System.Windows.Forms.Button ingredientesBtn;
         private System.Windows.Forms.PictureBox pictureBox1;

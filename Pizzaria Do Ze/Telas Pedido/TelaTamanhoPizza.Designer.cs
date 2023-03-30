@@ -141,36 +141,36 @@
             this.extragiganteLabel.AutoSize = true;
             this.extragiganteLabel.Location = new System.Drawing.Point(260, 84);
             this.extragiganteLabel.Name = "extragiganteLabel";
-            this.extragiganteLabel.Size = new System.Drawing.Size(99, 13);
+            this.extragiganteLabel.Size = new System.Drawing.Size(71, 13);
             this.extragiganteLabel.TabIndex = 9;
-            this.extragiganteLabel.Text = "Pizza Extra-Gigante";
+            this.extragiganteLabel.Text = "Extra-Gigante";
             // 
             // pizzaGrandeLabel
             // 
             this.pizzaGrandeLabel.AutoSize = true;
             this.pizzaGrandeLabel.Location = new System.Drawing.Point(580, 84);
             this.pizzaGrandeLabel.Name = "pizzaGrandeLabel";
-            this.pizzaGrandeLabel.Size = new System.Drawing.Size(72, 13);
+            this.pizzaGrandeLabel.Size = new System.Drawing.Size(44, 13);
             this.pizzaGrandeLabel.TabIndex = 10;
-            this.pizzaGrandeLabel.Text = "Pizza Gigante";
+            this.pizzaGrandeLabel.Text = "Gigante";
             // 
             // mediaLabel
             // 
             this.mediaLabel.AutoSize = true;
             this.mediaLabel.Location = new System.Drawing.Point(260, 289);
             this.mediaLabel.Name = "mediaLabel";
-            this.mediaLabel.Size = new System.Drawing.Size(64, 13);
+            this.mediaLabel.Size = new System.Drawing.Size(36, 13);
             this.mediaLabel.TabIndex = 11;
-            this.mediaLabel.Text = "Pizza Media";
+            this.mediaLabel.Text = "Media";
             // 
             // brotoLabel
             // 
             this.brotoLabel.AutoSize = true;
             this.brotoLabel.Location = new System.Drawing.Point(580, 325);
             this.brotoLabel.Name = "brotoLabel";
-            this.brotoLabel.Size = new System.Drawing.Size(60, 13);
+            this.brotoLabel.Size = new System.Drawing.Size(32, 13);
             this.brotoLabel.TabIndex = 12;
-            this.brotoLabel.Text = "Pizza Broto";
+            this.brotoLabel.Text = "Broto";
             // 
             // fatiasSaboresExtraGiganteLabel
             // 

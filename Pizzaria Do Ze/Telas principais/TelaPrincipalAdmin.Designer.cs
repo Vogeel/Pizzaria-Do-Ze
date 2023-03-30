@@ -32,13 +32,13 @@
             this.pizzaBtn = new System.Windows.Forms.Button();
             this.pedidoBtn = new System.Windows.Forms.Button();
             this.voltarBtn = new System.Windows.Forms.Button();
-            this.visualizarPedidosBtn = new System.Windows.Forms.Button();
             this.cadastroFuncionarioBtn = new System.Windows.Forms.Button();
-            this.editarStatusBtn = new System.Windows.Forms.Button();
             this.fornecedorBtn = new System.Windows.Forms.Button();
             this.bebidasBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.EditarStatusPedido = new System.Windows.Forms.Button();
+            this.visPedidoBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +65,7 @@
             this.pedidoBtn.Name = "pedidoBtn";
             this.pedidoBtn.Size = new System.Drawing.Size(247, 35);
             this.pedidoBtn.TabIndex = 5;
-            this.pedidoBtn.Text = "Cadastrar Pedido";
+            this.pedidoBtn.Text = "Realizar Pedido";
             this.pedidoBtn.UseVisualStyleBackColor = false;
             this.pedidoBtn.Click += new System.EventHandler(this.PedidoBtn_Click);
             // 
@@ -81,19 +81,6 @@
             this.voltarBtn.UseVisualStyleBackColor = false;
             this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
             // 
-            // visualizarPedidosBtn
-            // 
-            this.visualizarPedidosBtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.visualizarPedidosBtn.FlatAppearance.BorderSize = 0;
-            this.visualizarPedidosBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.visualizarPedidosBtn.Location = new System.Drawing.Point(12, 113);
-            this.visualizarPedidosBtn.Name = "visualizarPedidosBtn";
-            this.visualizarPedidosBtn.Size = new System.Drawing.Size(247, 35);
-            this.visualizarPedidosBtn.TabIndex = 9;
-            this.visualizarPedidosBtn.Text = "Visualizar Pedidos";
-            this.visualizarPedidosBtn.UseVisualStyleBackColor = false;
-            this.visualizarPedidosBtn.Click += new System.EventHandler(this.VisualizarPedidosBtn_Click);
-            // 
             // cadastroFuncionarioBtn
             // 
             this.cadastroFuncionarioBtn.BackColor = System.Drawing.Color.BurlyWood;
@@ -106,19 +93,6 @@
             this.cadastroFuncionarioBtn.Text = "Cadastrar Funcionario";
             this.cadastroFuncionarioBtn.UseVisualStyleBackColor = false;
             this.cadastroFuncionarioBtn.Click += new System.EventHandler(this.CadastroFuncionarioBtn_Click);
-            // 
-            // editarStatusBtn
-            // 
-            this.editarStatusBtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.editarStatusBtn.FlatAppearance.BorderSize = 0;
-            this.editarStatusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editarStatusBtn.Location = new System.Drawing.Point(12, 72);
-            this.editarStatusBtn.Name = "editarStatusBtn";
-            this.editarStatusBtn.Size = new System.Drawing.Size(247, 35);
-            this.editarStatusBtn.TabIndex = 11;
-            this.editarStatusBtn.Text = "Editar status Pedidos";
-            this.editarStatusBtn.UseVisualStyleBackColor = false;
-            this.editarStatusBtn.Click += new System.EventHandler(this.EditarStatusBtn_Click);
             // 
             // fornecedorBtn
             // 
@@ -166,18 +140,44 @@
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
+            // EditarStatusPedido
+            // 
+            this.EditarStatusPedido.BackColor = System.Drawing.Color.BurlyWood;
+            this.EditarStatusPedido.FlatAppearance.BorderSize = 0;
+            this.EditarStatusPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EditarStatusPedido.Location = new System.Drawing.Point(12, 72);
+            this.EditarStatusPedido.Name = "EditarStatusPedido";
+            this.EditarStatusPedido.Size = new System.Drawing.Size(247, 35);
+            this.EditarStatusPedido.TabIndex = 16;
+            this.EditarStatusPedido.Text = "Editar Status Pedidos";
+            this.EditarStatusPedido.UseVisualStyleBackColor = false;
+            this.EditarStatusPedido.Click += new System.EventHandler(this.EditarStatusPedido_Click);
+            // 
+            // visPedidoBtn
+            // 
+            this.visPedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.visPedidoBtn.FlatAppearance.BorderSize = 0;
+            this.visPedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.visPedidoBtn.Location = new System.Drawing.Point(12, 113);
+            this.visPedidoBtn.Name = "visPedidoBtn";
+            this.visPedidoBtn.Size = new System.Drawing.Size(247, 35);
+            this.visPedidoBtn.TabIndex = 17;
+            this.visPedidoBtn.Text = "Visualizar Pedidos";
+            this.visPedidoBtn.UseVisualStyleBackColor = false;
+            this.visPedidoBtn.Click += new System.EventHandler(this.visPedidoBtn_Click);
+            // 
             // TelaPrincipalAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(633, 328);
+            this.Controls.Add(this.visPedidoBtn);
+            this.Controls.Add(this.EditarStatusPedido);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bebidasBtn);
             this.Controls.Add(this.fornecedorBtn);
-            this.Controls.Add(this.editarStatusBtn);
             this.Controls.Add(this.cadastroFuncionarioBtn);
-            this.Controls.Add(this.visualizarPedidosBtn);
             this.Controls.Add(this.voltarBtn);
             this.Controls.Add(this.pedidoBtn);
             this.Controls.Add(this.pizzaBtn);
@@ -199,12 +199,12 @@
         private System.Windows.Forms.Button pizzaBtn;
         private System.Windows.Forms.Button pedidoBtn;
         private System.Windows.Forms.Button voltarBtn;
-        private System.Windows.Forms.Button visualizarPedidosBtn;
         private System.Windows.Forms.Button cadastroFuncionarioBtn;
-        private System.Windows.Forms.Button editarStatusBtn;
         private System.Windows.Forms.Button fornecedorBtn;
         private System.Windows.Forms.Button bebidasBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button EditarStatusPedido;
+        private System.Windows.Forms.Button visPedidoBtn;
     }
 }

@@ -29,28 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipalAtendente));
-            this.clienteBtn = new System.Windows.Forms.Button();
             this.visPedidoBtn = new System.Windows.Forms.Button();
             this.voltarBtn = new System.Windows.Forms.Button();
             this.editarStatusPedidoBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pedidoBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // clienteBtn
-            // 
-            this.clienteBtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.clienteBtn.FlatAppearance.BorderSize = 0;
-            this.clienteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.clienteBtn.Location = new System.Drawing.Point(12, 40);
-            this.clienteBtn.Name = "clienteBtn";
-            this.clienteBtn.Size = new System.Drawing.Size(170, 40);
-            this.clienteBtn.TabIndex = 0;
-            this.clienteBtn.Text = "Realizar Pedido";
-            this.clienteBtn.UseVisualStyleBackColor = false;
-            this.clienteBtn.Click += new System.EventHandler(this.ClienteBtn_Click);
             // 
             // visPedidoBtn
             // 
@@ -69,7 +56,7 @@
             // 
             this.voltarBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.voltarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.voltarBtn.Location = new System.Drawing.Point(300, 22);
+            this.voltarBtn.Location = new System.Drawing.Point(304, 12);
             this.voltarBtn.Name = "voltarBtn";
             this.voltarBtn.Size = new System.Drawing.Size(149, 23);
             this.voltarBtn.TabIndex = 3;
@@ -110,17 +97,30 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
+            // pedidoBtn
+            // 
+            this.pedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.pedidoBtn.FlatAppearance.BorderSize = 0;
+            this.pedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pedidoBtn.Location = new System.Drawing.Point(12, 34);
+            this.pedidoBtn.Name = "pedidoBtn";
+            this.pedidoBtn.Size = new System.Drawing.Size(170, 40);
+            this.pedidoBtn.TabIndex = 7;
+            this.pedidoBtn.Text = "Realizar Pedido";
+            this.pedidoBtn.UseVisualStyleBackColor = false;
+            this.pedidoBtn.Click += new System.EventHandler(this.pedidoBtn_Click);
+            // 
             // TelaPrincipalAtendente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(465, 216);
+            this.Controls.Add(this.pedidoBtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.editarStatusPedidoBtn);
             this.Controls.Add(this.voltarBtn);
             this.Controls.Add(this.visPedidoBtn);
-            this.Controls.Add(this.clienteBtn);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -135,12 +135,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button clienteBtn;
         private System.Windows.Forms.Button visPedidoBtn;
         private System.Windows.Forms.Button voltarBtn;
         private System.Windows.Forms.Button editarStatusPedidoBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button pedidoBtn;
     }
 }

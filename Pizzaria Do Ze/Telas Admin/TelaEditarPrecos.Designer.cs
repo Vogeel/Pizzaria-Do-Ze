@@ -38,7 +38,7 @@
             this.valorGrandeTB = new System.Windows.Forms.TextBox();
             this.valorGiganteTB = new System.Windows.Forms.TextBox();
             this.valorExtraGiganteTB = new System.Windows.Forms.TextBox();
-            this.Atualizar = new System.Windows.Forms.Button();
+            this.atualizarBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.acrecimoEspecialLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -134,17 +134,17 @@
             this.valorExtraGiganteTB.Size = new System.Drawing.Size(100, 20);
             this.valorExtraGiganteTB.TabIndex = 8;
             // 
-            // Atualizar
+            // atualizarBtn
             // 
-            this.Atualizar.FlatAppearance.BorderSize = 0;
-            this.Atualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Atualizar.Location = new System.Drawing.Point(135, 240);
-            this.Atualizar.Name = "Atualizar";
-            this.Atualizar.Size = new System.Drawing.Size(107, 35);
-            this.Atualizar.TabIndex = 10;
-            this.Atualizar.Text = "Atualizar preços";
-            this.Atualizar.UseVisualStyleBackColor = true;
-            this.Atualizar.Click += new System.EventHandler(this.Atualizar_Click);
+            this.atualizarBtn.FlatAppearance.BorderSize = 0;
+            this.atualizarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.atualizarBtn.Location = new System.Drawing.Point(135, 240);
+            this.atualizarBtn.Name = "atualizarBtn";
+            this.atualizarBtn.Size = new System.Drawing.Size(107, 35);
+            this.atualizarBtn.TabIndex = 10;
+            this.atualizarBtn.Text = "Substituir preços";
+            this.atualizarBtn.UseVisualStyleBackColor = true;
+            this.atualizarBtn.Click += new System.EventHandler(this.Atualizar_Click);
             // 
             // cancelBtn
             // 
@@ -246,7 +246,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.acrecimoEspecialLabel);
             this.Controls.Add(this.cancelBtn);
-            this.Controls.Add(this.Atualizar);
+            this.Controls.Add(this.atualizarBtn);
             this.Controls.Add(this.valorExtraGiganteTB);
             this.Controls.Add(this.valorGiganteTB);
             this.Controls.Add(this.valorGrandeTB);
@@ -281,7 +281,7 @@
         private System.Windows.Forms.TextBox valorGrandeTB;
         private System.Windows.Forms.TextBox valorGiganteTB;
         private System.Windows.Forms.TextBox valorExtraGiganteTB;
-        private System.Windows.Forms.Button Atualizar;
+        private System.Windows.Forms.Button atualizarBtn;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Label acrecimoEspecialLabel;
         private System.Windows.Forms.Label label7;

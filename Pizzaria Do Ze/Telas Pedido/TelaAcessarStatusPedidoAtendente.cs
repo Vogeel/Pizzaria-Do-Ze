@@ -18,14 +18,16 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+      
 
         private void AcessarBtn_Click(object sender, EventArgs e)
         {
             statusPedido.ShowDialog();
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -30,7 +30,7 @@
         {
             this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
             this.cancelBtn = new System.Windows.Forms.Button();
-            this.cadastrarbtn = new System.Windows.Forms.Button();
+            this.cadastrarBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // camposCadsatroUserControl1
@@ -51,16 +51,16 @@
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
-            // cadastrarbtn
+            // cadastrarBtn
             // 
-            this.cadastrarbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cadastrarbtn.Location = new System.Drawing.Point(232, 241);
-            this.cadastrarbtn.Name = "cadastrarbtn";
-            this.cadastrarbtn.Size = new System.Drawing.Size(119, 23);
-            this.cadastrarbtn.TabIndex = 2;
-            this.cadastrarbtn.Text = "Cadastrar";
-            this.cadastrarbtn.UseVisualStyleBackColor = true;
-            this.cadastrarbtn.Click += new System.EventHandler(this.Cadastrarbtn_Click);
+            this.cadastrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cadastrarBtn.Location = new System.Drawing.Point(232, 241);
+            this.cadastrarBtn.Name = "cadastrarBtn";
+            this.cadastrarBtn.Size = new System.Drawing.Size(119, 23);
+            this.cadastrarBtn.TabIndex = 2;
+            this.cadastrarBtn.Text = "Cadastrar";
+            this.cadastrarBtn.UseVisualStyleBackColor = true;
+            this.cadastrarBtn.Click += new System.EventHandler(this.Cadastrarbtn_Click);
             // 
             // TelaCadastroFornecedor
             // 
@@ -68,7 +68,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(476, 276);
-            this.Controls.Add(this.cadastrarbtn);
+            this.Controls.Add(this.cadastrarBtn);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.camposCadsatroUserControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -85,6 +85,6 @@
 
         private CamposCadsatroUserControl camposCadsatroUserControl1;
         private System.Windows.Forms.Button cancelBtn;
-        private System.Windows.Forms.Button cadastrarbtn;
+        private System.Windows.Forms.Button cadastrarBtn;
     }
 }

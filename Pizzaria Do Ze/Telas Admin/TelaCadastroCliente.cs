@@ -19,15 +19,17 @@ namespace Pizzaria_Do_Ze.Telas_cadastros
             InitializeComponent();
         }
 
-        private void VoltarBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
         private void CadastrarBtn_Click(object sender, EventArgs e)
         {
             
             pedido.ShowDialog();
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

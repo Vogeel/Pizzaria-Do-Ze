@@ -239,9 +239,9 @@
             this.excluirBebidaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.excluirBebidaBtn.Location = new System.Drawing.Point(634, 255);
             this.excluirBebidaBtn.Name = "excluirBebidaBtn";
-            this.excluirBebidaBtn.Size = new System.Drawing.Size(75, 23);
+            this.excluirBebidaBtn.Size = new System.Drawing.Size(111, 23);
             this.excluirBebidaBtn.TabIndex = 18;
-            this.excluirBebidaBtn.Text = "Excluir";
+            this.excluirBebidaBtn.Text = "Excluir selecionado";
             this.excluirBebidaBtn.UseVisualStyleBackColor = true;
             // 
             // excluirPizzaBtn
@@ -249,7 +249,7 @@
             this.excluirPizzaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.excluirPizzaBtn.Location = new System.Drawing.Point(199, 15);
             this.excluirPizzaBtn.Name = "excluirPizzaBtn";
-            this.excluirPizzaBtn.Size = new System.Drawing.Size(75, 23);
+            this.excluirPizzaBtn.Size = new System.Drawing.Size(111, 23);
             this.excluirPizzaBtn.TabIndex = 19;
             this.excluirPizzaBtn.Text = "Excluir selecionado";
             this.excluirPizzaBtn.UseVisualStyleBackColor = true;
@@ -270,7 +270,7 @@
             this.saborGroupBox.Controls.Add(this.excluirPizzaBtn);
             this.saborGroupBox.Location = new System.Drawing.Point(435, 47);
             this.saborGroupBox.Name = "saborGroupBox";
-            this.saborGroupBox.Size = new System.Drawing.Size(286, 178);
+            this.saborGroupBox.Size = new System.Drawing.Size(316, 178);
             this.saborGroupBox.TabIndex = 21;
             this.saborGroupBox.TabStop = false;
             this.saborGroupBox.Text = "Sabores Escolhidos";
@@ -279,10 +279,10 @@
             // 
             this.bebidasGroupBox.Location = new System.Drawing.Point(435, 228);
             this.bebidasGroupBox.Name = "bebidasGroupBox";
-            this.bebidasGroupBox.Size = new System.Drawing.Size(286, 178);
+            this.bebidasGroupBox.Size = new System.Drawing.Size(316, 178);
             this.bebidasGroupBox.TabIndex = 22;
             this.bebidasGroupBox.TabStop = false;
-            this.bebidasGroupBox.Text = "bebidas Escolhidas";
+            this.bebidasGroupBox.Text = "Bebidas Escolhidas";
             // 
             // pictureBox2
             // 

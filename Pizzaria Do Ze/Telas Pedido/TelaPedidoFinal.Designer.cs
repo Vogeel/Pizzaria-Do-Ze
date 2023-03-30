@@ -31,7 +31,7 @@
             this.retiradaRadioBtn = new System.Windows.Forms.RadioButton();
             this.entregaRadiobtn = new System.Windows.Forms.RadioButton();
             this.entregaLabel = new System.Windows.Forms.Label();
-            this.totalPedido = new System.Windows.Forms.Label();
+            this.totalPedidoLabel = new System.Windows.Forms.Label();
             this.totalPagarPedidoLabel = new System.Windows.Forms.Label();
             this.taxaEntregaLabel = new System.Windows.Forms.Label();
             this.formaPagamentoLabel = new System.Windows.Forms.Label();
@@ -80,16 +80,16 @@
             this.entregaLabel.TabIndex = 2;
             this.entregaLabel.Text = "Entrega:";
             // 
-            // totalPedido
+            // totalPedidoLabel
             // 
-            this.totalPedido.AutoSize = true;
-            this.totalPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPedido.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.totalPedido.Location = new System.Drawing.Point(33, 352);
-            this.totalPedido.Name = "totalPedido";
-            this.totalPedido.Size = new System.Drawing.Size(114, 18);
-            this.totalPedido.TabIndex = 3;
-            this.totalPedido.Text = "Total do pedido:";
+            this.totalPedidoLabel.AutoSize = true;
+            this.totalPedidoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPedidoLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.totalPedidoLabel.Location = new System.Drawing.Point(33, 352);
+            this.totalPedidoLabel.Name = "totalPedidoLabel";
+            this.totalPedidoLabel.Size = new System.Drawing.Size(114, 18);
+            this.totalPedidoLabel.TabIndex = 3;
+            this.totalPedidoLabel.Text = "Total do pedido:";
             // 
             // totalPagarPedidoLabel
             // 
@@ -229,7 +229,7 @@
             this.Controls.Add(this.formaPagamentoLabel);
             this.Controls.Add(this.taxaEntregaLabel);
             this.Controls.Add(this.totalPagarPedidoLabel);
-            this.Controls.Add(this.totalPedido);
+            this.Controls.Add(this.totalPedidoLabel);
             this.Controls.Add(this.entregaLabel);
             this.Controls.Add(this.pagamentoGroupBox);
             this.Controls.Add(this.entregaGroupBox);
@@ -253,7 +253,7 @@
         private System.Windows.Forms.RadioButton retiradaRadioBtn;
         private System.Windows.Forms.RadioButton entregaRadiobtn;
         private System.Windows.Forms.Label entregaLabel;
-        private System.Windows.Forms.Label totalPedido;
+        private System.Windows.Forms.Label totalPedidoLabel;
         private System.Windows.Forms.Label totalPagarPedidoLabel;
         private System.Windows.Forms.Label taxaEntregaLabel;
         private System.Windows.Forms.Label formaPagamentoLabel;

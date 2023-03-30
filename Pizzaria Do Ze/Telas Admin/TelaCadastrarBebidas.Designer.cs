@@ -32,13 +32,13 @@
             this.tipoLabel = new System.Windows.Forms.Label();
             this.nomeLabel = new System.Windows.Forms.Label();
             this.tamanhoLabel = new System.Windows.Forms.Label();
-            this.valorLabel = new System.Windows.Forms.Label();
+            this.valorStaticLabel = new System.Windows.Forms.Label();
             this.nomeTB = new System.Windows.Forms.TextBox();
             this.valorTB = new System.Windows.Forms.TextBox();
             this.bebidasListBox = new System.Windows.Forms.ListBox();
             this.cadastrarBtn = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.cancelbtn = new System.Windows.Forms.Button();
+            this.excluirSelecionado = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.tipoComboBox = new System.Windows.Forms.ComboBox();
             this.tamanhoComboBox = new System.Windows.Forms.ComboBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -72,14 +72,14 @@
             this.tamanhoLabel.TabIndex = 2;
             this.tamanhoLabel.Text = "Tamanho (ML):";
             // 
-            // valorLabel
+            // valorStaticLabel
             // 
-            this.valorLabel.AutoSize = true;
-            this.valorLabel.Location = new System.Drawing.Point(37, 148);
-            this.valorLabel.Name = "valorLabel";
-            this.valorLabel.Size = new System.Drawing.Size(51, 13);
-            this.valorLabel.TabIndex = 3;
-            this.valorLabel.Text = "Valor: R$";
+            this.valorStaticLabel.AutoSize = true;
+            this.valorStaticLabel.Location = new System.Drawing.Point(37, 148);
+            this.valorStaticLabel.Name = "valorStaticLabel";
+            this.valorStaticLabel.Size = new System.Drawing.Size(51, 13);
+            this.valorStaticLabel.TabIndex = 3;
+            this.valorStaticLabel.Text = "Valor: R$";
             // 
             // nomeTB
             // 
@@ -116,29 +116,29 @@
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
             // 
-            // button2
+            // excluirSelecionado
             // 
-            this.button2.BackColor = System.Drawing.Color.BurlyWood;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(487, 218);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 33);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Excluir selecionado";
-            this.button2.UseVisualStyleBackColor = false;
+            this.excluirSelecionado.BackColor = System.Drawing.Color.BurlyWood;
+            this.excluirSelecionado.FlatAppearance.BorderSize = 0;
+            this.excluirSelecionado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.excluirSelecionado.Location = new System.Drawing.Point(487, 218);
+            this.excluirSelecionado.Name = "excluirSelecionado";
+            this.excluirSelecionado.Size = new System.Drawing.Size(115, 33);
+            this.excluirSelecionado.TabIndex = 10;
+            this.excluirSelecionado.Text = "Excluir selecionado";
+            this.excluirSelecionado.UseVisualStyleBackColor = false;
             // 
-            // cancelbtn
+            // cancelBtn
             // 
-            this.cancelbtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.cancelbtn.FlatAppearance.BorderSize = 0;
-            this.cancelbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelbtn.Location = new System.Drawing.Point(513, 12);
-            this.cancelbtn.Name = "cancelbtn";
-            this.cancelbtn.Size = new System.Drawing.Size(89, 33);
-            this.cancelbtn.TabIndex = 11;
-            this.cancelbtn.Text = "Cancelar";
-            this.cancelbtn.UseVisualStyleBackColor = false;
+            this.cancelBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.cancelBtn.FlatAppearance.BorderSize = 0;
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelBtn.Location = new System.Drawing.Point(513, 12);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(89, 33);
+            this.cancelBtn.TabIndex = 11;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = false;
             // 
             // tipoComboBox
             // 
@@ -186,13 +186,13 @@
             this.ClientSize = new System.Drawing.Size(626, 407);
             this.Controls.Add(this.tamanhoComboBox);
             this.Controls.Add(this.tipoComboBox);
-            this.Controls.Add(this.cancelbtn);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.cancelBtn);
+            this.Controls.Add(this.excluirSelecionado);
             this.Controls.Add(this.cadastrarBtn);
             this.Controls.Add(this.bebidasListBox);
             this.Controls.Add(this.valorTB);
             this.Controls.Add(this.nomeTB);
-            this.Controls.Add(this.valorLabel);
+            this.Controls.Add(this.valorStaticLabel);
             this.Controls.Add(this.tamanhoLabel);
             this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.tipoLabel);
@@ -214,13 +214,13 @@
         private System.Windows.Forms.Label tipoLabel;
         private System.Windows.Forms.Label nomeLabel;
         private System.Windows.Forms.Label tamanhoLabel;
-        private System.Windows.Forms.Label valorLabel;
+        private System.Windows.Forms.Label valorStaticLabel;
         private System.Windows.Forms.TextBox nomeTB;
         private System.Windows.Forms.TextBox valorTB;
         private System.Windows.Forms.ListBox bebidasListBox;
         private System.Windows.Forms.Button cadastrarBtn;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button cancelbtn;
+        private System.Windows.Forms.Button excluirSelecionado;
+        private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.ComboBox tipoComboBox;
         private System.Windows.Forms.ComboBox tamanhoComboBox;
         private System.Windows.Forms.PictureBox pictureBox2;

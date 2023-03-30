@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.idPedidoLabel = new System.Windows.Forms.Label();
+            this.idPedidoStaticLabel = new System.Windows.Forms.Label();
             this.idPedidosAbertoscomboBox = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.acessarBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // idPedidoLabel
+            // idPedidoStaticLabel
             // 
-            this.idPedidoLabel.AutoSize = true;
-            this.idPedidoLabel.Location = new System.Drawing.Point(23, 51);
-            this.idPedidoLabel.Name = "idPedidoLabel";
-            this.idPedidoLabel.Size = new System.Drawing.Size(71, 13);
-            this.idPedidoLabel.TabIndex = 0;
-            this.idPedidoLabel.Text = "ID do pedido:";
+            this.idPedidoStaticLabel.AutoSize = true;
+            this.idPedidoStaticLabel.Location = new System.Drawing.Point(23, 51);
+            this.idPedidoStaticLabel.Name = "idPedidoStaticLabel";
+            this.idPedidoStaticLabel.Size = new System.Drawing.Size(71, 13);
+            this.idPedidoStaticLabel.TabIndex = 0;
+            this.idPedidoStaticLabel.Text = "ID do pedido:";
             // 
             // idPedidosAbertoscomboBox
             // 
@@ -51,16 +51,16 @@
             this.idPedidosAbertoscomboBox.Size = new System.Drawing.Size(121, 21);
             this.idPedidosAbertoscomboBox.TabIndex = 1;
             // 
-            // button1
+            // cancelBtn
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(227, 106);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Fechar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cancelBtn.Location = new System.Drawing.Point(227, 106);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(75, 23);
+            this.cancelBtn.TabIndex = 2;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // acessarBtn
             // 
@@ -80,9 +80,9 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(324, 143);
             this.Controls.Add(this.acessarBtn);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.idPedidosAbertoscomboBox);
-            this.Controls.Add(this.idPedidoLabel);
+            this.Controls.Add(this.idPedidoStaticLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -96,9 +96,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label idPedidoLabel;
+        private System.Windows.Forms.Label idPedidoStaticLabel;
         private System.Windows.Forms.ComboBox idPedidosAbertoscomboBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button acessarBtn;
     }
 }

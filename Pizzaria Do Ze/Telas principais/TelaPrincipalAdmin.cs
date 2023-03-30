@@ -39,10 +39,8 @@ namespace Pizzaria_Do_Ze
         {
             pedido.ShowDialog();
         }
-        private void VisualizarPedidosBtn_Click(object sender, EventArgs e)
-        {
-            entregas.ShowDialog();
-        }
+
+       
 
         private void CadastroFuncionarioBtn_Click(object sender, EventArgs e)
         {
@@ -54,10 +52,7 @@ namespace Pizzaria_Do_Ze
             this.Close();
         }
 
-        private void EditarStatusBtn_Click(object sender, EventArgs e)
-        {
-            editStatus.ShowDialog();
-        }
+       
 
         private void FornecedorBtn_Click(object sender, EventArgs e)
         {
@@ -69,6 +64,16 @@ namespace Pizzaria_Do_Ze
             bebidas.ShowDialog();
         }
 
-        
+        private void EditarStatusPedido_Click(object sender, EventArgs e)
+        {
+            editStatus.ShowDialog();
+
+        }
+
+        private void visPedidoBtn_Click(object sender, EventArgs e)
+        {
+            entregas.ShowDialog();
+
+        }
     }
 }

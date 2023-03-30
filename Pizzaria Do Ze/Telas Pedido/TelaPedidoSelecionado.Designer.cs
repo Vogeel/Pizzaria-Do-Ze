@@ -33,15 +33,14 @@
             this.metodoPagamentoStaticLabel = new System.Windows.Forms.Label();
             this.endereoLabel = new System.Windows.Forms.Label();
             this.pedidoLabel = new System.Windows.Forms.Label();
-            this.entregueStaticLabel = new System.Windows.Forms.Label();
+            this.entreguePorStaticLabel = new System.Windows.Forms.Label();
             this.idPedidoLabel = new System.Windows.Forms.Label();
             this.enderecoStaticLabel = new System.Windows.Forms.Label();
             this.pedidoStaticLabel = new System.Windows.Forms.Label();
             this.StatusLabel = new System.Windows.Forms.Label();
             this.idPedidoStaticLabel = new System.Windows.Forms.Label();
-            this.fecharBtn = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
             this.entregadorResponsavelLabel = new System.Windows.Forms.Label();
-            this.porStaticLabel = new System.Windows.Forms.Label();
             this.valorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -90,14 +89,14 @@
             this.pedidoLabel.TabIndex = 18;
             this.pedidoLabel.Text = "Pizza broto, calabresa, coca-cola 600ml";
             // 
-            // entregueStaticLabel
+            // entreguePorStaticLabel
             // 
-            this.entregueStaticLabel.AutoSize = true;
-            this.entregueStaticLabel.Location = new System.Drawing.Point(156, 62);
-            this.entregueStaticLabel.Name = "entregueStaticLabel";
-            this.entregueStaticLabel.Size = new System.Drawing.Size(50, 13);
-            this.entregueStaticLabel.TabIndex = 17;
-            this.entregueStaticLabel.Text = "Entregue";
+            this.entreguePorStaticLabel.AutoSize = true;
+            this.entreguePorStaticLabel.Location = new System.Drawing.Point(156, 62);
+            this.entreguePorStaticLabel.Name = "entreguePorStaticLabel";
+            this.entreguePorStaticLabel.Size = new System.Drawing.Size(74, 13);
+            this.entreguePorStaticLabel.TabIndex = 17;
+            this.entreguePorStaticLabel.Text = "Entregue por: ";
             // 
             // idPedidoLabel
             // 
@@ -122,9 +121,9 @@
             this.pedidoStaticLabel.AutoSize = true;
             this.pedidoStaticLabel.Location = new System.Drawing.Point(34, 99);
             this.pedidoStaticLabel.Name = "pedidoStaticLabel";
-            this.pedidoStaticLabel.Size = new System.Drawing.Size(46, 13);
+            this.pedidoStaticLabel.Size = new System.Drawing.Size(112, 13);
             this.pedidoStaticLabel.TabIndex = 14;
-            this.pedidoStaticLabel.Text = "Pedido: ";
+            this.pedidoStaticLabel.Text = "Descrição do Pedido: ";
             // 
             // StatusLabel
             // 
@@ -144,35 +143,26 @@
             this.idPedidoStaticLabel.TabIndex = 12;
             this.idPedidoStaticLabel.Text = "ID do pedido: ";
             // 
-            // fecharBtn
+            // cancelBtn
             // 
-            this.fecharBtn.BackColor = System.Drawing.Color.BurlyWood;
-            this.fecharBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.fecharBtn.Location = new System.Drawing.Point(348, 248);
-            this.fecharBtn.Name = "fecharBtn";
-            this.fecharBtn.Size = new System.Drawing.Size(83, 28);
-            this.fecharBtn.TabIndex = 25;
-            this.fecharBtn.Text = "Fechar";
-            this.fecharBtn.UseVisualStyleBackColor = false;
-            this.fecharBtn.Click += new System.EventHandler(this.FecharBtn_Click);
+            this.cancelBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cancelBtn.Location = new System.Drawing.Point(348, 248);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(83, 28);
+            this.cancelBtn.TabIndex = 25;
+            this.cancelBtn.Text = "Cancelar";
+            this.cancelBtn.UseVisualStyleBackColor = false;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // entregadorResponsavelLabel
             // 
             this.entregadorResponsavelLabel.AutoSize = true;
-            this.entregadorResponsavelLabel.Location = new System.Drawing.Point(278, 62);
+            this.entregadorResponsavelLabel.Location = new System.Drawing.Point(233, 62);
             this.entregadorResponsavelLabel.Name = "entregadorResponsavelLabel";
             this.entregadorResponsavelLabel.Size = new System.Drawing.Size(30, 13);
             this.entregadorResponsavelLabel.TabIndex = 26;
             this.entregadorResponsavelLabel.Text = "Joao";
-            // 
-            // porStaticLabel
-            // 
-            this.porStaticLabel.AutoSize = true;
-            this.porStaticLabel.Location = new System.Drawing.Point(232, 62);
-            this.porStaticLabel.Name = "porStaticLabel";
-            this.porStaticLabel.Size = new System.Drawing.Size(29, 13);
-            this.porStaticLabel.TabIndex = 27;
-            this.porStaticLabel.Text = "Por: ";
             // 
             // valorLabel
             // 
@@ -190,15 +180,14 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(443, 288);
             this.Controls.Add(this.valorLabel);
-            this.Controls.Add(this.porStaticLabel);
             this.Controls.Add(this.entregadorResponsavelLabel);
-            this.Controls.Add(this.fecharBtn);
+            this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.valorStaticLabel);
             this.Controls.Add(this.pagamentoLabel);
             this.Controls.Add(this.metodoPagamentoStaticLabel);
             this.Controls.Add(this.endereoLabel);
             this.Controls.Add(this.pedidoLabel);
-            this.Controls.Add(this.entregueStaticLabel);
+            this.Controls.Add(this.entreguePorStaticLabel);
             this.Controls.Add(this.idPedidoLabel);
             this.Controls.Add(this.enderecoStaticLabel);
             this.Controls.Add(this.pedidoStaticLabel);
@@ -221,15 +210,14 @@
         private System.Windows.Forms.Label metodoPagamentoStaticLabel;
         private System.Windows.Forms.Label endereoLabel;
         private System.Windows.Forms.Label pedidoLabel;
-        private System.Windows.Forms.Label entregueStaticLabel;
+        private System.Windows.Forms.Label entreguePorStaticLabel;
         private System.Windows.Forms.Label idPedidoLabel;
         private System.Windows.Forms.Label enderecoStaticLabel;
         private System.Windows.Forms.Label pedidoStaticLabel;
         private System.Windows.Forms.Label StatusLabel;
         private System.Windows.Forms.Label idPedidoStaticLabel;
-        private System.Windows.Forms.Button fecharBtn;
+        private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Label entregadorResponsavelLabel;
-        private System.Windows.Forms.Label porStaticLabel;
         private System.Windows.Forms.Label valorLabel;
     }
 }
