@@ -88,7 +88,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaAcessarStatusPedidoAtendente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaAcessarStatusPedidoAtendente";
+            this.Text = "Acessar Status do pedido";
             this.ResumeLayout(false);
             this.PerformLayout();
 

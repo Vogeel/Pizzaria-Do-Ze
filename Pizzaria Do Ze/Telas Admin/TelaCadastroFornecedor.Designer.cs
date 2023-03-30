@@ -76,7 +76,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaCadastroFornecedor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaCadastroFornecedor";
+            this.Text = "Cadastrar Fornecedor";
             this.ResumeLayout(false);
 
         }

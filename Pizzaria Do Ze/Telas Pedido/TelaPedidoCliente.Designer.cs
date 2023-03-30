@@ -328,7 +328,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPedidoCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaPedidoCliente";
+            this.Text = "Pedido";
             this.saborGroupBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

@@ -213,7 +213,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaStatusPedidoAtendente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaStatusPedidoAtendente";
+            this.Text = "Editar Status Pedidos";
             this.pedidoGroupBox.ResumeLayout(false);
             this.pedidoGroupBox.PerformLayout();
             this.ResumeLayout(false);

@@ -96,7 +96,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPedidosPendentes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PedidosPendentes";
+            this.Text = "Pedidos Pendentes";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

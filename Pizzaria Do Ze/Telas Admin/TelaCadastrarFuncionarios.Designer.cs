@@ -284,7 +284,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaCadastrarFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaCadastrar";
+            this.Text = "Cadastrar Funcionario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -141,7 +141,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPizzaAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaPizzaAdmin";
+            this.Text = "Pizza";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

@@ -101,7 +101,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaCadastroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaCadastroCliente";
+            this.Text = "Cadastrar Funcionario";
             this.ResumeLayout(false);
             this.PerformLayout();
 

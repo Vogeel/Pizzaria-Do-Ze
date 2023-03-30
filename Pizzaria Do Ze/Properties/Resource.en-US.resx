@@ -117,16 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="abrirPedidoBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="acessarBtn.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="acrecimoEspecialLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="addBebidaBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="addBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="addPizzaBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AtendenteRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="atualizarBtn.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="bebeidaLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bebidasBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bebidasGroupBox.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bemvindoLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bordaBtn.text" xml:space="preserve">
     <value />
   </data>
   <data name="bordaLabel.text" xml:space="preserve">
     <value />
   </data>
   <data name="brotoLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cadastrarBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cadastroFuncionarioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cancelBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cartaoRadioBtn" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clienteCadastradoBtn.text" xml:space="preserve">
     <value />
   </data>
   <data name="clienteCadastradoLabel.text" xml:space="preserve">
@@ -138,13 +186,49 @@
   <data name="complementoLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="comprarBrotoBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comprarExtraGiganteBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comprarGiganteBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comprarMediaBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ConcluirBtn.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="cpfLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dinheiroRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="editarStatusPedidoBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="editBtn.text" xml:space="preserve">
     <value />
   </data>
   <data name="enderecoStaticLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="entregadorRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="entregaGroupBox.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="entregaLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="entregaRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="entregaRetiradaRadioBtn.text" xml:space="preserve">
     <value />
   </data>
   <data name="entreguePorStaticLabel.text" xml:space="preserve">
@@ -153,10 +237,46 @@
   <data name="especiaisLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="especialCheckBox.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="excluirBebidaBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="excluirBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="excluirPizzaBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="excluirSaborBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="excluirSelecionadoBtn.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="extregiganteLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="fatiasSaboresBrotoLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fatiasSaboresExtraGiganteLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fatiasSaboresGiganteLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fatiasSaboresMediaLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="finalizarBtn.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="formaPagamentoLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fornecedorBtn.text" xml:space="preserve">
     <value />
   </data>
   <data name="giganteLabel.text" xml:space="preserve">
@@ -171,22 +291,91 @@
   <data name="ingredienteLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="ingredientesBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="loginBtn.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="matriculaLabel.text" xml:space="preserve">
     <value />
   </data>
   <data name="mediaLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="metodoPagamentoStaticLabel.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="nomeLabe.text" xml:space="preserve">
-    <value>Type</value>
+    <value />
+  </data>
+  <data name="okBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pagamentoGroupBox.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pagoRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pedEntreguesBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pedidoBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pedidoStaticLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pedPendentesBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pendenteRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pizzaBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="preparoRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retiradaRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retirarBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retirarIngredienteBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saboresBtn.text" xml:space="preserve">
+    <value />
   </data>
   <data name="saboresLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saborGroupBox.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saborLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sairEntregaRadioBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="seguindoBtn.text" xml:space="preserve">
     <value />
   </data>
   <data name="senhaLabel.text" xml:space="preserve">
     <value />
   </data>
   <data name="statusLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="statusPagamentoLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="statusPedidoLabel.text" xml:space="preserve">
     <value />
   </data>
   <data name="tamanhoLabel.text" xml:space="preserve">
@@ -196,6 +385,78 @@
     <value />
   </data>
   <data name="taxaEntregaLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaAcessarStatusPedidoAtendente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaAdicionarBorda" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaCadastrarBebidas" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaCadastrarFuncionario.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaCadastrarIngrediente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaCadastroBorda.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaCadastroCliente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaCadastroFornecedor.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaEditarPrecos.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaEditSabores.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaLogin.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPedidoCliente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPedidoFinal.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPedidoSelecionado.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPedidosEntregues.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPedidosPendentes.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPizzaAdmin.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPrincipalAdmin" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPrincipalAtendente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaPrincipalEntregador.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaRetirarIngrediente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaSabores.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaStatusPedidoAtendente.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TelaTamanhoPizza.text" xml:space="preserve">
     <value />
   </data>
   <data name="telefoneLabel.text" xml:space="preserve">
@@ -213,10 +474,22 @@
   <data name="trocoLabel.text" xml:space="preserve">
     <value />
   </data>
+  <data name="usuarioLabel.text" xml:space="preserve">
+    <value />
+  </data>
   <data name="validadeCnhLabel.text" xml:space="preserve">
     <value />
   </data>
   <data name="valorStaticLabel.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valroesBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="visPedidoBtn.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="voltarBtn.text" xml:space="preserve">
     <value />
   </data>
 </root>

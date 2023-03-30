@@ -238,7 +238,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPedidoFinal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaPedidoFinal";
+            this.Text = "Finalizar Pedido";
             this.pagamentoGroupBox.ResumeLayout(false);
             this.pagamentoGroupBox.PerformLayout();
             this.entregaGroupBox.ResumeLayout(false);

@@ -187,7 +187,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPrincipalAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaPrincipalAdmin";
+            this.Text = "Tela do Admin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

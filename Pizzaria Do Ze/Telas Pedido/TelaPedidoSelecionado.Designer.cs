@@ -198,7 +198,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPedidoSelecionado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaPedidoSelecionadoEntregue";
+            this.Text = "Pedido Selecionado";
             this.ResumeLayout(false);
             this.PerformLayout();
 

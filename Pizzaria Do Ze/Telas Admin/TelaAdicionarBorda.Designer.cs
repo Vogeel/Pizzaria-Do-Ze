@@ -103,7 +103,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaAdicionarBorda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaAdicionarBorda";
+            this.Text = "Nome da borda";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

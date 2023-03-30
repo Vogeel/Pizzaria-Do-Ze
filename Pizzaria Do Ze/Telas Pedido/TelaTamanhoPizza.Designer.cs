@@ -287,7 +287,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaTamanhoPizza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaTamanhoPizza";
+            this.Text = "Tamanho da pizza";
             ((System.ComponentModel.ISupportInitialize)(this.mediapictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gigantepictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brotopictureBox)).EndInit();

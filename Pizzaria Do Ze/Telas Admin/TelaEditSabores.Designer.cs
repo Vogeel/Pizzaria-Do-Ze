@@ -169,7 +169,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaEditSabores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaEditSabores";
+            this.Text = "Adicionar Sabores";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

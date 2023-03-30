@@ -109,7 +109,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaCadastroBorda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaCadastroBorda";
+            this.Text = "Borda";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

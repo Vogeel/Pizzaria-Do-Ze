@@ -128,7 +128,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaRetirarIngrediente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaRetirarIngrediente";
+            this.Text = "Retirar Ingrediente";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

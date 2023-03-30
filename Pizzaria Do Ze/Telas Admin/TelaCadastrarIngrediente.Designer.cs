@@ -128,7 +128,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaCadastrarIngrediente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaCadastrarIngrediente";
+            this.Text = "Ingredientes";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

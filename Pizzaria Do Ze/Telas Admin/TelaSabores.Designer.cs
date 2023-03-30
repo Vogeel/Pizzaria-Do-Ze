@@ -119,7 +119,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaSabores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaSabores";
+            this.Text = "Sabores";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
