@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abrirPedidoBtn.Text" xml:space="preserve">
+    <value>Abra el pedido seleccionado</value>
+  </data>
+  <data name="acessarBtn.Text" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="acrecimoEspecialLabel.Text" xml:space="preserve">
+    <value>*Tiene un 30% agregado sobre el valor normal</value>
+  </data>
+  <data name="addBebidaBtn.Text" xml:space="preserve">
+    <value>Beber</value>
+  </data>
+  <data name="addBtn.Text" xml:space="preserve">
+    <value>Para agregar</value>
+  </data>
+  <data name="addPizzaBtn.Text" xml:space="preserve">
+    <value>Para agregar</value>
+  </data>
+  <data name="AtendenteRadioBtn.Text" xml:space="preserve">
+    <value>Asistente</value>
+  </data>
+  <data name="atualizarBtn.Text" xml:space="preserve">
+    <value>reemplazar precios</value>
+  </data>
+  <data name="bebidaLabel.Text" xml:space="preserve">
+    <value>Beber:</value>
+  </data>
+  <data name="bebidasBtn.Text" xml:space="preserve">
+    <value>Registrar bebidas</value>
+  </data>
+  <data name="bebidasGroupBox.Text" xml:space="preserve">
+    <value>Bebidas elegidas</value>
+  </data>
+  <data name="bemvindoLabel.Text" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="bordaBtn.Text" xml:space="preserve">
+    <value>Fronteras</value>
+  </data>
+  <data name="bordaLabel.Text" xml:space="preserve">
+    <value>Borde:</value>
+  </data>
+  <data name="brotoLabel.Text" xml:space="preserve">
+    <value>brote</value>
+  </data>
+  <data name="cadastrarBtn.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="cadastroFuncionarioBtn.Text" xml:space="preserve">
+    <value>Registrar empleado</value>
+  </data>
+  <data name="cancelBtn.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="cartaoRadioBtn.Text" xml:space="preserve">
+    <value>Tarjeta</value>
+  </data>
+  <data name="clienteCadastradoBtn.Text" xml:space="preserve">
+    <value>Cliente ya registrado</value>
+  </data>
+  <data name="clienteCadastradoLabel.Text" xml:space="preserve">
+    <value>* Si el cliente ya está registrado, complete el campo CPF</value>
+  </data>
+  <data name="clienteLabel.Text" xml:space="preserve">
+    <value>Cliente:</value>
+  </data>
+  <data name="complementoLabel.Text" xml:space="preserve">
+    <value>Complementar</value>
+  </data>
+  <data name="comprarBrotoBtn.Text" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="comprarExtraGiganteBtn.Text" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="comprarGiganteBtn.Text" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="comprarMediaBtn.Text" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="ConcluirBtn.Text" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="cpfLabel.Text" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="dinheiroRadioBtn.Text" xml:space="preserve">
+    <value>Dinero</value>
+  </data>
+  <data name="editarStatusPedidoBtn.Text" xml:space="preserve">
+    <value>Editar solicitudes de estado</value>
+  </data>
+  <data name="editBtn.Text" xml:space="preserve">
+    <value>Para editar</value>
+  </data>
+  <data name="enderecoStaticLabel.Text" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="entregadorRadioBtn.Text" xml:space="preserve">
+    <value>Repartidor</value>
+  </data>
+  <data name="entregaGroupBox.Text" xml:space="preserve">
+    <value>Entrega</value>
+  </data>
+  <data name="entregaLabel.Text" xml:space="preserve">
+    <value>Entrega:</value>
+  </data>
+  <data name="entregaRadioBtn.Text" xml:space="preserve">
+    <value>Entrega</value>
+  </data>
+  <data name="entregaRetiradaRadioBtn.Text" xml:space="preserve">
+    <value>Eliminación</value>
+  </data>
+  <data name="entreguePorStaticLabel.Text" xml:space="preserve">
+    <value>Entregado por:</value>
+  </data>
+  <data name="especiaisLabel.Text" xml:space="preserve">
+    <value>Especial</value>
+  </data>
+  <data name="especialCheckBox.Text" xml:space="preserve">
+    <value>Pizza especial</value>
+  </data>
+  <data name="excluirBebidaBtn.Text" xml:space="preserve">
+    <value>Eliminar seleccionado</value>
+  </data>
+  <data name="excluirBtn.Text" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="excluirPizzaBtn.Text" xml:space="preserve">
+    <value>Eliminar seleccionado</value>
+  </data>
+  <data name="excluirSaborBtn.Text" xml:space="preserve">
+    <value>Eliminar seleccionado</value>
+  </data>
+  <data name="excluirSelecionadoBtn.Text" xml:space="preserve">
+    <value>Eliminar seleccionado</value>
+  </data>
+  <data name="extragiganteLabel.Text" xml:space="preserve">
+    <value>Extra-gigante</value>
+  </data>
+  <data name="fatiasSaboresBrotoLabel.Text" xml:space="preserve">
+    <value>(04 rebanadas) (01 sabor)</value>
+  </data>
+  <data name="fatiasSaboresExtraGiganteLabel.Text" xml:space="preserve">
+    <value>(16 rebanadas) (03 sabores)</value>
+  </data>
+  <data name="fatiasSaboresGiganteLabel.Text" xml:space="preserve">
+    <value>(12 rebanadas) (03 sabores)</value>
+  </data>
+  <data name="fatiasSaboresMediaLabel.Text" xml:space="preserve">
+    <value>(09 rebanadas) (02 sabores)</value>
+  </data>
+  <data name="finalizarBtn.Text" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="formaPagamentoLabel.Text" xml:space="preserve">
+    <value>Forma de pago:</value>
+  </data>
+  <data name="fornecedorBtn.Text" xml:space="preserve">
+    <value>Proveedor de registro</value>
+  </data>
+  <data name="giganteLabel.Text" xml:space="preserve">
+    <value>Gigante</value>
+  </data>
+  <data name="grupoLabel.Text" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="idPedidoStaticLabel.Text" xml:space="preserve">
+    <value>Solicitar ID</value>
+  </data>
+  <data name="ingredienteLabel.Text" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="ingredientesBtn.Text" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="loginBtn.Text" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="matriculaLabel.Text" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="mediaLabel.Text" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="metodoPagamentoStaticLabel.Text" xml:space="preserve">
+    <value>Pago metido:</value>
+  </data>
+  <data name="nomeLabel.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="okBtn.Text" xml:space="preserve">
+    <value>Concluido</value>
+  </data>
+  <data name="pagamentoGroupBox.Text" xml:space="preserve">
+    <value>Pago</value>
+  </data>
+  <data name="pagoRadioBtn.Text" xml:space="preserve">
+    <value>Pagado</value>
+  </data>
+  <data name="pedEntreguesBtn.Text" xml:space="preserve">
+    <value>Ver solicitudes entregadas</value>
+  </data>
+  <data name="pedidoBtn.Text" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="pedidoGroupBox.Text" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="pedidoStaticLabel.Text" xml:space="preserve">
+    <value>Descripción del pedido:</value>
+  </data>
+  <data name="pedPendentesBtn.Text" xml:space="preserve">
+    <value>Ver pedidos pendientes</value>
+  </data>
+  <data name="pendenteRadioBtn.Text" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="pizzaBtn.Text" xml:space="preserve">
+    <value>Pizza</value>
+  </data>
+  <data name="preparoRadioBtn.Text" xml:space="preserve">
+    <value>En la preparación de</value>
+  </data>
+  <data name="retiradaRadioBtn.Text" xml:space="preserve">
+    <value>Listo para recojer</value>
+  </data>
+  <data name="retirarBtn.Text" xml:space="preserve">
+    <value>Eliminar selección</value>
+  </data>
+  <data name="retirarIngredienteBtn.Text" xml:space="preserve">
+    <value>Eliminar un ingrediente</value>
+  </data>
+  <data name="saboresBtn.Text" xml:space="preserve">
+    <value>Sabores</value>
+  </data>
+  <data name="saboresLabel.Text" xml:space="preserve">
+    <value>Sabores:</value>
+  </data>
+  <data name="saborGroupBox.Text" xml:space="preserve">
+    <value>Sabores elegidos</value>
+  </data>
+  <data name="saborLabel.Text" xml:space="preserve">
+    <value>Sabor:</value>
+  </data>
+  <data name="saiuEntregaRadioBtn.Text" xml:space="preserve">
+    <value>Fuera para entrega</value>
+  </data>
+  <data name="seguinteBtn.Text" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="senhaLabel.Text" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="statusGroupBox.Text" xml:space="preserve">
+    <value>Pago</value>
+  </data>
+  <data name="statusLabel.Text" xml:space="preserve">
+    <value>Estado:</value>
+  </data>
+  <data name="statusPagamentoLabel.Text" xml:space="preserve">
+    <value>Estado de pago:</value>
+  </data>
+  <data name="statusPedidoLabel.Text" xml:space="preserve">
+    <value>Estado del pedido:</value>
+  </data>
+  <data name="tamanhoLabel.Text" xml:space="preserve">
+    <value>Tamaño (ML):</value>
+  </data>
+  <data name="tamanhoPizzaStaticLabel.Text" xml:space="preserve">
+    <value>Tamaño de pizza:</value>
+  </data>
+  <data name="taxaEntregaLabel.Text" xml:space="preserve">
+    <value>*Tarifa fija de R$ 5,00 en pedidos por debajo de R$ 100,00</value>
+  </data>
+  <data name="TelaAcessarStatusPedidoAtendente.Text" xml:space="preserve">
+    <value>Estado de la orden de acceso</value>
+  </data>
+  <data name="TelaAdicionarBorda.Text" xml:space="preserve">
+    <value>Nombre de la frontera</value>
+  </data>
+  <data name="TelaCadastrarBebidas.Text" xml:space="preserve">
+    <value>Bebidas</value>
+  </data>
+  <data name="TelaCadastrarFuncionario.Text" xml:space="preserve">
+    <value>Registrar empleado</value>
+  </data>
+  <data name="TelaCadastrarIngrediente.Text" xml:space="preserve">
+    <value>Ingredientes</value>
+  </data>
+  <data name="TelaCadastroBorda.Text" xml:space="preserve">
+    <value>Borde</value>
+  </data>
+  <data name="TelaCadastroCliente.Text" xml:space="preserve">
+    <value>Registrar al cliente</value>
+  </data>
+  <data name="TelaCadastroFornecedor.Text" xml:space="preserve">
+    <value>Proveedor de registro</value>
+  </data>
+  <data name="TelaEditarPrecos.Text" xml:space="preserve">
+    <value>Precios de edición</value>
+  </data>
+  <data name="TelaEditSabores.Text" xml:space="preserve">
+    <value>Agregar sabores</value>
+  </data>
+  <data name="TelaLogin.Text" xml:space="preserve">
+    <value>Acceso</value>
+  </data>
+  <data name="TelaPedidoCliente.Text" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="TelaPedidoFinal.Text" xml:space="preserve">
+    <value>Solicitud de finalización</value>
+  </data>
+  <data name="TelaPedidoSelecionado.Text" xml:space="preserve">
+    <value>Pedido seleccionado</value>
+  </data>
+  <data name="TelaPedidosEntregues.Text" xml:space="preserve">
+    <value>Pedidos entregados</value>
+  </data>
+  <data name="TelaPedidosPendentes.Text" xml:space="preserve">
+    <value>Ordenes pendientes</value>
+  </data>
+  <data name="TelaPizzaAdmin.Text" xml:space="preserve">
+    <value>Pizza</value>
+  </data>
+  <data name="TelaPrincipalAdmin.Textx" xml:space="preserve">
+    <value>Pantalla de administración</value>
+  </data>
+  <data name="TelaPrincipalAtendente.Text" xml:space="preserve">
+    <value>Pantalla asistente</value>
+  </data>
+  <data name="TelaPrincipalEntregador.Text" xml:space="preserve">
+    <value>Pantalla de entrega</value>
+  </data>
+  <data name="TelaRetirarIngrediente.Text" xml:space="preserve">
+    <value>Eliminar el ingrediente</value>
+  </data>
+  <data name="TelaSabores.Text" xml:space="preserve">
+    <value>Sabores</value>
+  </data>
+  <data name="TelaStatusPedidoAtendente.Text" xml:space="preserve">
+    <value>Editar solicitudes de estado</value>
+  </data>
+  <data name="TelaTamanhoPizza.Text" xml:space="preserve">
+    <value>Tamaño de pizza</value>
+  </data>
+  <data name="telefoneLabel.Text" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="tipoLabel.Text" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="totalPagarLabel.Text" xml:space="preserve">
+    <value>Total a pagar:</value>
+  </data>
+  <data name="totalPedidoLabel.Text" xml:space="preserve">
+    <value>Orden total:</value>
+  </data>
+  <data name="trocoLabel.Text" xml:space="preserve">
+    <value>Cambio a: R$</value>
+  </data>
+  <data name="usuarioLabel.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="validadeCnhLabel.Text" xml:space="preserve">
+    <value>Validez CNH</value>
+  </data>
+  <data name="valoresBtn.Text" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="valorStaticLabel.Text" xml:space="preserve">
+    <value>Precio: R$</value>
+  </data>
+  <data name="visPedidoBtn.Text" xml:space="preserve">
+    <value>Ver solicitudes</value>
+  </data>
+  <data name="voltarBtn.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+</root>

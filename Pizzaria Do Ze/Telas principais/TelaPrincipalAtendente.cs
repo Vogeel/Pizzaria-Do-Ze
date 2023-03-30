@@ -20,11 +20,9 @@ namespace Pizzaria_Do_Ze
         public TelaPrincipalAtendente()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
+
         }
-
-        
-
-          
 
         private void VisPedidoBtn_Click(object sender, EventArgs e)
         {

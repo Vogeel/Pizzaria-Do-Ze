@@ -26,9 +26,9 @@ namespace Pizzaria_Do_Ze
         public TelaPrincipalAdmin()
         {
             InitializeComponent();
-        }
+            Funcoes.AjustaResourcesControl(this);
 
-        
+        }
 
         private void PizzaBtn_Click(object sender, EventArgs e)
         {
@@ -39,9 +39,7 @@ namespace Pizzaria_Do_Ze
         {
             pedido.ShowDialog();
         }
-
-       
-
+      
         private void CadastroFuncionarioBtn_Click(object sender, EventArgs e)
         {
             funcionarios.ShowDialog();

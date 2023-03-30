@@ -37,7 +37,7 @@
             this.valorTB = new System.Windows.Forms.TextBox();
             this.bebidasListBox = new System.Windows.Forms.ListBox();
             this.cadastrarBtn = new System.Windows.Forms.Button();
-            this.excluirSelecionado = new System.Windows.Forms.Button();
+            this.excluirSelecionadoBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.tipoComboBox = new System.Windows.Forms.ComboBox();
             this.tamanhoComboBox = new System.Windows.Forms.ComboBox();
@@ -116,17 +116,17 @@
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
             // 
-            // excluirSelecionado
+            // excluirSelecionadoBtn
             // 
-            this.excluirSelecionado.BackColor = System.Drawing.Color.BurlyWood;
-            this.excluirSelecionado.FlatAppearance.BorderSize = 0;
-            this.excluirSelecionado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.excluirSelecionado.Location = new System.Drawing.Point(487, 218);
-            this.excluirSelecionado.Name = "excluirSelecionado";
-            this.excluirSelecionado.Size = new System.Drawing.Size(115, 33);
-            this.excluirSelecionado.TabIndex = 10;
-            this.excluirSelecionado.Text = "Excluir selecionado";
-            this.excluirSelecionado.UseVisualStyleBackColor = false;
+            this.excluirSelecionadoBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.excluirSelecionadoBtn.FlatAppearance.BorderSize = 0;
+            this.excluirSelecionadoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.excluirSelecionadoBtn.Location = new System.Drawing.Point(487, 218);
+            this.excluirSelecionadoBtn.Name = "excluirSelecionadoBtn";
+            this.excluirSelecionadoBtn.Size = new System.Drawing.Size(115, 33);
+            this.excluirSelecionadoBtn.TabIndex = 10;
+            this.excluirSelecionadoBtn.Text = "Excluir selecionado";
+            this.excluirSelecionadoBtn.UseVisualStyleBackColor = false;
             // 
             // cancelBtn
             // 
@@ -187,7 +187,7 @@
             this.Controls.Add(this.tamanhoComboBox);
             this.Controls.Add(this.tipoComboBox);
             this.Controls.Add(this.cancelBtn);
-            this.Controls.Add(this.excluirSelecionado);
+            this.Controls.Add(this.excluirSelecionadoBtn);
             this.Controls.Add(this.cadastrarBtn);
             this.Controls.Add(this.bebidasListBox);
             this.Controls.Add(this.valorTB);
@@ -219,7 +219,7 @@
         private System.Windows.Forms.TextBox valorTB;
         private System.Windows.Forms.ListBox bebidasListBox;
         private System.Windows.Forms.Button cadastrarBtn;
-        private System.Windows.Forms.Button excluirSelecionado;
+        private System.Windows.Forms.Button excluirSelecionadoBtn;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.ComboBox tipoComboBox;
         private System.Windows.Forms.ComboBox tamanhoComboBox;

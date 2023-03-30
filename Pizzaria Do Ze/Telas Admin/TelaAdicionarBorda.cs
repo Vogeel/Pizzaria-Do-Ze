@@ -15,6 +15,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaAdicionarBorda()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void OkBtn_Click(object sender, EventArgs e)

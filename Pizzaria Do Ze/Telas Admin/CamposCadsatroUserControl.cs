@@ -15,6 +15,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public CamposCadsatroUserControl()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
     }
 }

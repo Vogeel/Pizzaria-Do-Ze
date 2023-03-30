@@ -15,6 +15,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaPedidoFinal()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void FinalizarBtn_Click(object sender, EventArgs e)

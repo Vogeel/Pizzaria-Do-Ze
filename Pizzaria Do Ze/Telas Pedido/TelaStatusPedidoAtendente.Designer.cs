@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.stautsPagamentoLabel = new System.Windows.Forms.Label();
             this.statusPagamentoLabel = new System.Windows.Forms.Label();
+            this.statusPedidoLabel = new System.Windows.Forms.Label();
             this.pagoRadioBtn = new System.Windows.Forms.RadioButton();
             this.pendenteRadioBtn = new System.Windows.Forms.RadioButton();
             this.preparoRadioBtn = new System.Windows.Forms.RadioButton();
@@ -37,7 +37,7 @@
             this.saiuEntregaRadioBtn = new System.Windows.Forms.RadioButton();
             this.idPedidoStaticLabel = new System.Windows.Forms.Label();
             this.idPedidoLabel = new System.Windows.Forms.Label();
-            this.entregadoPorStaticLabel = new System.Windows.Forms.Label();
+            this.entreguePorStaticLabel = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.statusGroupBox = new System.Windows.Forms.GroupBox();
             this.pedidoGroupBox = new System.Windows.Forms.GroupBox();
@@ -45,25 +45,25 @@
             this.pedidoGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // stautsPagamentoLabel
-            // 
-            this.stautsPagamentoLabel.AutoSize = true;
-            this.stautsPagamentoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stautsPagamentoLabel.Location = new System.Drawing.Point(12, 45);
-            this.stautsPagamentoLabel.Name = "stautsPagamentoLabel";
-            this.stautsPagamentoLabel.Size = new System.Drawing.Size(138, 16);
-            this.stautsPagamentoLabel.TabIndex = 0;
-            this.stautsPagamentoLabel.Text = "Status do pagamento:";
-            // 
             // statusPagamentoLabel
             // 
             this.statusPagamentoLabel.AutoSize = true;
             this.statusPagamentoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusPagamentoLabel.Location = new System.Drawing.Point(38, 246);
+            this.statusPagamentoLabel.Location = new System.Drawing.Point(12, 45);
             this.statusPagamentoLabel.Name = "statusPagamentoLabel";
-            this.statusPagamentoLabel.Size = new System.Drawing.Size(112, 16);
-            this.statusPagamentoLabel.TabIndex = 2;
-            this.statusPagamentoLabel.Text = "Status do pedido:";
+            this.statusPagamentoLabel.Size = new System.Drawing.Size(138, 16);
+            this.statusPagamentoLabel.TabIndex = 0;
+            this.statusPagamentoLabel.Text = "Status do pagamento:";
+            // 
+            // statusPedidoLabel
+            // 
+            this.statusPedidoLabel.AutoSize = true;
+            this.statusPedidoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusPedidoLabel.Location = new System.Drawing.Point(38, 246);
+            this.statusPedidoLabel.Name = "statusPedidoLabel";
+            this.statusPedidoLabel.Size = new System.Drawing.Size(112, 16);
+            this.statusPedidoLabel.TabIndex = 2;
+            this.statusPedidoLabel.Text = "Status do pedido:";
             // 
             // pagoRadioBtn
             // 
@@ -140,15 +140,15 @@
             this.idPedidoLabel.TabIndex = 10;
             this.idPedidoLabel.Text = "01011";
             // 
-            // entregadoPorStaticLabel
+            // entreguePorStaticLabel
             // 
-            this.entregadoPorStaticLabel.AutoSize = true;
-            this.entregadoPorStaticLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.entregadoPorStaticLabel.Location = new System.Drawing.Point(297, 284);
-            this.entregadoPorStaticLabel.Name = "entregadoPorStaticLabel";
-            this.entregadoPorStaticLabel.Size = new System.Drawing.Size(81, 15);
-            this.entregadoPorStaticLabel.TabIndex = 11;
-            this.entregadoPorStaticLabel.Text = "Entregue por:";
+            this.entreguePorStaticLabel.AutoSize = true;
+            this.entreguePorStaticLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entreguePorStaticLabel.Location = new System.Drawing.Point(297, 284);
+            this.entreguePorStaticLabel.Name = "entreguePorStaticLabel";
+            this.entreguePorStaticLabel.Size = new System.Drawing.Size(81, 15);
+            this.entreguePorStaticLabel.TabIndex = 11;
+            this.entreguePorStaticLabel.Text = "Entregue por:";
             // 
             // comboBox1
             // 
@@ -197,15 +197,15 @@
             this.ClientSize = new System.Drawing.Size(512, 368);
             this.Controls.Add(this.cancelarBtn);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.entregadoPorStaticLabel);
+            this.Controls.Add(this.entreguePorStaticLabel);
             this.Controls.Add(this.idPedidoLabel);
             this.Controls.Add(this.idPedidoStaticLabel);
             this.Controls.Add(this.saiuEntregaRadioBtn);
             this.Controls.Add(this.retiradaRadioBtn);
             this.Controls.Add(this.pendenteRadioBtn);
             this.Controls.Add(this.pagoRadioBtn);
+            this.Controls.Add(this.statusPedidoLabel);
             this.Controls.Add(this.statusPagamentoLabel);
-            this.Controls.Add(this.stautsPagamentoLabel);
             this.Controls.Add(this.statusGroupBox);
             this.Controls.Add(this.pedidoGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -223,8 +223,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label stautsPagamentoLabel;
         private System.Windows.Forms.Label statusPagamentoLabel;
+        private System.Windows.Forms.Label statusPedidoLabel;
         private System.Windows.Forms.RadioButton pagoRadioBtn;
         private System.Windows.Forms.RadioButton pendenteRadioBtn;
         private System.Windows.Forms.RadioButton preparoRadioBtn;
@@ -232,7 +232,7 @@
         private System.Windows.Forms.RadioButton saiuEntregaRadioBtn;
         private System.Windows.Forms.Label idPedidoStaticLabel;
         private System.Windows.Forms.Label idPedidoLabel;
-        private System.Windows.Forms.Label entregadoPorStaticLabel;
+        private System.Windows.Forms.Label entreguePorStaticLabel;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox statusGroupBox;
         private System.Windows.Forms.GroupBox pedidoGroupBox;

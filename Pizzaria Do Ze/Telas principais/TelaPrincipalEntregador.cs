@@ -18,6 +18,8 @@ namespace Pizzaria_Do_Ze
         public TelaPrincipalEntregador()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
+
         }
 
         private void pedPendentesBtn_Click(object sender, EventArgs e)

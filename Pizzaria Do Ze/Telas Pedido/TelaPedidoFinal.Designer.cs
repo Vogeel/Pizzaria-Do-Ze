@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.retiradaRadioBtn = new System.Windows.Forms.RadioButton();
-            this.entregaRadiobtn = new System.Windows.Forms.RadioButton();
+            this.entregaRadioBtn = new System.Windows.Forms.RadioButton();
             this.entregaLabel = new System.Windows.Forms.Label();
             this.totalPedidoLabel = new System.Windows.Forms.Label();
             this.totalPagarPedidoLabel = new System.Windows.Forms.Label();
@@ -59,16 +59,16 @@
             this.retiradaRadioBtn.Text = "Retirada";
             this.retiradaRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // entregaRadiobtn
+            // entregaRadioBtn
             // 
-            this.entregaRadiobtn.AutoSize = true;
-            this.entregaRadiobtn.Location = new System.Drawing.Point(6, 53);
-            this.entregaRadiobtn.Name = "entregaRadiobtn";
-            this.entregaRadiobtn.Size = new System.Drawing.Size(62, 17);
-            this.entregaRadiobtn.TabIndex = 1;
-            this.entregaRadiobtn.TabStop = true;
-            this.entregaRadiobtn.Text = "Entrega";
-            this.entregaRadiobtn.UseVisualStyleBackColor = true;
+            this.entregaRadioBtn.AutoSize = true;
+            this.entregaRadioBtn.Location = new System.Drawing.Point(6, 53);
+            this.entregaRadioBtn.Name = "entregaRadioBtn";
+            this.entregaRadioBtn.Size = new System.Drawing.Size(62, 17);
+            this.entregaRadioBtn.TabIndex = 1;
+            this.entregaRadioBtn.TabStop = true;
+            this.entregaRadioBtn.Text = "Entrega";
+            this.entregaRadioBtn.UseVisualStyleBackColor = true;
             // 
             // entregaLabel
             // 
@@ -207,7 +207,7 @@
             // 
             // entregaGroupBox
             // 
-            this.entregaGroupBox.Controls.Add(this.entregaRadiobtn);
+            this.entregaGroupBox.Controls.Add(this.entregaRadioBtn);
             this.entregaGroupBox.Controls.Add(this.retiradaRadioBtn);
             this.entregaGroupBox.Location = new System.Drawing.Point(110, 12);
             this.entregaGroupBox.Name = "entregaGroupBox";
@@ -251,7 +251,7 @@
         #endregion
 
         private System.Windows.Forms.RadioButton retiradaRadioBtn;
-        private System.Windows.Forms.RadioButton entregaRadiobtn;
+        private System.Windows.Forms.RadioButton entregaRadioBtn;
         private System.Windows.Forms.Label entregaLabel;
         private System.Windows.Forms.Label totalPedidoLabel;
         private System.Windows.Forms.Label totalPagarPedidoLabel;

@@ -16,6 +16,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaCadastroFornecedor()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void CancelBtn_Click(object sender, EventArgs e)

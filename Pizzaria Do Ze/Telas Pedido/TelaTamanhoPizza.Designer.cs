@@ -38,7 +38,7 @@
             this.brotopictureBox = new System.Windows.Forms.PictureBox();
             this.extraGigantepictureBox = new System.Windows.Forms.PictureBox();
             this.extragiganteLabel = new System.Windows.Forms.Label();
-            this.pizzaGrandeLabel = new System.Windows.Forms.Label();
+            this.giganteLabel = new System.Windows.Forms.Label();
             this.mediaLabel = new System.Windows.Forms.Label();
             this.brotoLabel = new System.Windows.Forms.Label();
             this.fatiasSaboresExtraGiganteLabel = new System.Windows.Forms.Label();
@@ -145,14 +145,14 @@
             this.extragiganteLabel.TabIndex = 9;
             this.extragiganteLabel.Text = "Extra-Gigante";
             // 
-            // pizzaGrandeLabel
+            // giganteLabel
             // 
-            this.pizzaGrandeLabel.AutoSize = true;
-            this.pizzaGrandeLabel.Location = new System.Drawing.Point(580, 84);
-            this.pizzaGrandeLabel.Name = "pizzaGrandeLabel";
-            this.pizzaGrandeLabel.Size = new System.Drawing.Size(44, 13);
-            this.pizzaGrandeLabel.TabIndex = 10;
-            this.pizzaGrandeLabel.Text = "Gigante";
+            this.giganteLabel.AutoSize = true;
+            this.giganteLabel.Location = new System.Drawing.Point(580, 84);
+            this.giganteLabel.Name = "giganteLabel";
+            this.giganteLabel.Size = new System.Drawing.Size(44, 13);
+            this.giganteLabel.TabIndex = 10;
+            this.giganteLabel.Text = "Gigante";
             // 
             // mediaLabel
             // 
@@ -272,7 +272,7 @@
             this.Controls.Add(this.fatiasSaboresExtraGiganteLabel);
             this.Controls.Add(this.brotoLabel);
             this.Controls.Add(this.mediaLabel);
-            this.Controls.Add(this.pizzaGrandeLabel);
+            this.Controls.Add(this.giganteLabel);
             this.Controls.Add(this.extragiganteLabel);
             this.Controls.Add(this.extraGigantepictureBox);
             this.Controls.Add(this.brotopictureBox);
@@ -308,7 +308,7 @@
         private System.Windows.Forms.PictureBox brotopictureBox;
         private System.Windows.Forms.PictureBox extraGigantepictureBox;
         private System.Windows.Forms.Label extragiganteLabel;
-        private System.Windows.Forms.Label pizzaGrandeLabel;
+        private System.Windows.Forms.Label giganteLabel;
         private System.Windows.Forms.Label mediaLabel;
         private System.Windows.Forms.Label brotoLabel;
         private System.Windows.Forms.Label fatiasSaboresExtraGiganteLabel;

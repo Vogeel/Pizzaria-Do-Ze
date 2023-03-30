@@ -18,6 +18,7 @@ namespace Pizzaria_Do_Ze
         public TelaLogin()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
             UserTextBox.Focus();
         }
 

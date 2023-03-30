@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CEPMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.CPFMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.complementoLabel = new System.Windows.Forms.Label();
             this.enderecoStaticLabel = new System.Windows.Forms.Label();
@@ -42,16 +41,8 @@
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.telefoneMaskTB = new System.Windows.Forms.MaskedTextBox();
             this.nomeTextBot = new System.Windows.Forms.TextBox();
+            this.CEPMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
-            // 
-            // CEPMaskedTB
-            // 
-            this.CEPMaskedTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CEPMaskedTB.Location = new System.Drawing.Point(105, 127);
-            this.CEPMaskedTB.Mask = "00000-000";
-            this.CEPMaskedTB.Name = "CEPMaskedTB";
-            this.CEPMaskedTB.Size = new System.Drawing.Size(238, 24);
-            this.CEPMaskedTB.TabIndex = 31;
             // 
             // CPFMaskedTB
             // 
@@ -166,6 +157,15 @@
             this.nomeTextBot.Size = new System.Drawing.Size(238, 24);
             this.nomeTextBot.TabIndex = 18;
             // 
+            // CEPMaskedTB
+            // 
+            this.CEPMaskedTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CEPMaskedTB.Location = new System.Drawing.Point(105, 127);
+            this.CEPMaskedTB.Mask = "00000-000";
+            this.CEPMaskedTB.Name = "CEPMaskedTB";
+            this.CEPMaskedTB.Size = new System.Drawing.Size(238, 24);
+            this.CEPMaskedTB.TabIndex = 31;
+            // 
             // CamposCadsatroUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,12 +200,12 @@
         private System.Windows.Forms.Label emailLabel;
         private System.Windows.Forms.Label telefoneLabel;
         private System.Windows.Forms.Label nomeLabel;
-        public System.Windows.Forms.MaskedTextBox CEPMaskedTB;
         public System.Windows.Forms.MaskedTextBox CPFMaskedTB;
         public System.Windows.Forms.TextBox complementoTextBox;
         public System.Windows.Forms.TextBox enderecoTextBox;
         public System.Windows.Forms.TextBox emailTextBox;
         public System.Windows.Forms.MaskedTextBox telefoneMaskTB;
         public System.Windows.Forms.TextBox nomeTextBot;
+        public System.Windows.Forms.MaskedTextBox CEPMaskedTB;
     }
 }

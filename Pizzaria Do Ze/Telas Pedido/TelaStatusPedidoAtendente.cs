@@ -15,6 +15,8 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaStatusPedidoAtendente()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
+
         }
 
         private void cancelarBtn_Click(object sender, EventArgs e)

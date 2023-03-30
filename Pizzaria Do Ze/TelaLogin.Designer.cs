@@ -52,7 +52,7 @@
             // 
             this.usuarioLabel.AutoSize = true;
             this.usuarioLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuarioLabel.Location = new System.Drawing.Point(44, 83);
+            this.usuarioLabel.Location = new System.Drawing.Point(21, 83);
             this.usuarioLabel.Name = "usuarioLabel";
             this.usuarioLabel.Size = new System.Drawing.Size(64, 18);
             this.usuarioLabel.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             this.senhaLabel.AutoSize = true;
             this.senhaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.senhaLabel.Location = new System.Drawing.Point(54, 135);
+            this.senhaLabel.Location = new System.Drawing.Point(21, 135);
             this.senhaLabel.Name = "senhaLabel";
             this.senhaLabel.Size = new System.Drawing.Size(54, 18);
             this.senhaLabel.TabIndex = 2;

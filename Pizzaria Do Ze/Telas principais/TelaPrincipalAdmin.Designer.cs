@@ -37,7 +37,7 @@
             this.bebidasBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.EditarStatusPedido = new System.Windows.Forms.Button();
+            this.editarStatusPedidoBtn = new System.Windows.Forms.Button();
             this.visPedidoBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -140,18 +140,18 @@
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
-            // EditarStatusPedido
+            // editarStatusPedidoBtn
             // 
-            this.EditarStatusPedido.BackColor = System.Drawing.Color.BurlyWood;
-            this.EditarStatusPedido.FlatAppearance.BorderSize = 0;
-            this.EditarStatusPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EditarStatusPedido.Location = new System.Drawing.Point(12, 72);
-            this.EditarStatusPedido.Name = "EditarStatusPedido";
-            this.EditarStatusPedido.Size = new System.Drawing.Size(247, 35);
-            this.EditarStatusPedido.TabIndex = 16;
-            this.EditarStatusPedido.Text = "Editar Status Pedidos";
-            this.EditarStatusPedido.UseVisualStyleBackColor = false;
-            this.EditarStatusPedido.Click += new System.EventHandler(this.EditarStatusPedido_Click);
+            this.editarStatusPedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.editarStatusPedidoBtn.FlatAppearance.BorderSize = 0;
+            this.editarStatusPedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editarStatusPedidoBtn.Location = new System.Drawing.Point(12, 72);
+            this.editarStatusPedidoBtn.Name = "editarStatusPedidoBtn";
+            this.editarStatusPedidoBtn.Size = new System.Drawing.Size(247, 35);
+            this.editarStatusPedidoBtn.TabIndex = 16;
+            this.editarStatusPedidoBtn.Text = "Editar Status Pedidos";
+            this.editarStatusPedidoBtn.UseVisualStyleBackColor = false;
+            this.editarStatusPedidoBtn.Click += new System.EventHandler(this.EditarStatusPedido_Click);
             // 
             // visPedidoBtn
             // 
@@ -173,7 +173,7 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(633, 328);
             this.Controls.Add(this.visPedidoBtn);
-            this.Controls.Add(this.EditarStatusPedido);
+            this.Controls.Add(this.editarStatusPedidoBtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bebidasBtn);
             this.Controls.Add(this.fornecedorBtn);
@@ -204,7 +204,7 @@
         private System.Windows.Forms.Button bebidasBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button EditarStatusPedido;
+        private System.Windows.Forms.Button editarStatusPedidoBtn;
         private System.Windows.Forms.Button visPedidoBtn;
     }
 }

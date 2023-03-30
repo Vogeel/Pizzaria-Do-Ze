@@ -15,6 +15,7 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
         public TelaCadastrarFuncionarios()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void CadastrarBtn_Click(object sender, EventArgs e)

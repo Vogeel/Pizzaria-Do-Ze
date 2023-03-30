@@ -15,6 +15,8 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaRetirarIngrediente()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
+
         }
         private void ConcluirBtn_Click(object sender, EventArgs e)
         {

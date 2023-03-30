@@ -44,7 +44,7 @@
             this.visPedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.visPedidoBtn.FlatAppearance.BorderSize = 0;
             this.visPedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.visPedidoBtn.Location = new System.Drawing.Point(12, 105);
+            this.visPedidoBtn.Location = new System.Drawing.Point(12, 98);
             this.visPedidoBtn.Name = "visPedidoBtn";
             this.visPedidoBtn.Size = new System.Drawing.Size(170, 40);
             this.visPedidoBtn.TabIndex = 2;

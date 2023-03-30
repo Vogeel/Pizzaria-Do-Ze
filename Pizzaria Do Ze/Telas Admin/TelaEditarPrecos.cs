@@ -15,6 +15,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaEditarPrecos()
         {
             InitializeComponent();
+            Funcoes.AjustaResourcesControl(this);
         }
 
         private void CancelBtn_Click(object sender, EventArgs e)
