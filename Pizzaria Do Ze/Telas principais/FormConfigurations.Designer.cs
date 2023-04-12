@@ -50,9 +50,10 @@
             // 
             // okBtn
             // 
-            this.okBtn.Location = new System.Drawing.Point(411, 229);
+            this.okBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.okBtn.Location = new System.Drawing.Point(367, 219);
             this.okBtn.Name = "okBtn";
-            this.okBtn.Size = new System.Drawing.Size(75, 23);
+            this.okBtn.Size = new System.Drawing.Size(75, 33);
             this.okBtn.TabIndex = 1;
             this.okBtn.Text = "Ok";
             this.okBtn.UseVisualStyleBackColor = true;
@@ -88,25 +89,32 @@
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(330, 229);
+            this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cancelBtn.Location = new System.Drawing.Point(286, 219);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(75, 23);
+            this.cancelBtn.Size = new System.Drawing.Size(75, 33);
             this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // FormConfigurations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 264);
+            this.BackColor = System.Drawing.Color.BurlyWood;
+            this.ClientSize = new System.Drawing.Size(455, 264);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.reiniciarCheckBox);
             this.Controls.Add(this.mudarIdiomaLabel);
             this.Controls.Add(this.okBtn);
             this.Controls.Add(this.idiomaComboBox);
             this.Controls.Add(this.IdiomaRegiaoGroupBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormConfigurations";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormConfigurations";
             this.ResumeLayout(false);
             this.PerformLayout();

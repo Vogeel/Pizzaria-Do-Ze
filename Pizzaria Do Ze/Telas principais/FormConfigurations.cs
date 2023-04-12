@@ -40,5 +40,10 @@ namespace Pizzaria_Do_Ze.Telas_principais
                 Environment.Exit(0);
             }
         }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
