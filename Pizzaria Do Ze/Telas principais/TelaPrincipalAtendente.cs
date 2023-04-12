@@ -12,11 +12,17 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze
 {
+    /// <summary>
+    /// Tela se um atendente logar
+    /// </summary>
     public partial class TelaPrincipalAtendente : Form
     {
         readonly TelaCadastroCliente cadCliente = new TelaCadastroCliente();
         readonly TelaAcessarStatusPedidoAtendente status = new TelaAcessarStatusPedidoAtendente();
         readonly TelaPrincipalEntregador telaPedido = new TelaPrincipalEntregador();
+        /// <summary>
+        /// construtor da tela do atendente
+        /// </summary>
         public TelaPrincipalAtendente()
         {
             InitializeComponent();

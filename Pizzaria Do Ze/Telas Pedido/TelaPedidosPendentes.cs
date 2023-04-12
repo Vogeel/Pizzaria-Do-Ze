@@ -10,9 +10,15 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// Tela para o Entregador ver seus pedidos pendentes (que estao em produção)
+    /// </summary>
     public partial class TelaPedidosPendentes : Form
     {
         readonly TelaPedidoSelecionado pedidoSelecionado = new TelaPedidoSelecionado();
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaPedidosPendentes()
         {
             InitializeComponent();

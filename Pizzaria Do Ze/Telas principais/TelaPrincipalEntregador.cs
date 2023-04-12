@@ -15,6 +15,9 @@ namespace Pizzaria_Do_Ze
     {
         TelaPedidosEntregues entregues = new TelaPedidosEntregues();
         TelaPedidosPendentes pendentes = new TelaPedidosPendentes();
+        /// <summary>
+        /// Tela se um entregador logar
+        /// </summary>
         public TelaPrincipalEntregador()
         {
             InitializeComponent();

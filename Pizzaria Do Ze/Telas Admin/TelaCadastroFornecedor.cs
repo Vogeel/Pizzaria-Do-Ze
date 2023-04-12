@@ -13,6 +13,9 @@ namespace Pizzaria_Do_Ze.Telas_Admin
 {
     public partial class TelaCadastroFornecedor : Form
     {
+        /// <summary>
+        /// Tela para cadastrar um novo fornecedor
+        /// </summary>
         public TelaCadastroFornecedor()
         {
             InitializeComponent();

@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Cadastrais
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class TelaCadastrarFuncionarios : Form
     {
+        /// <summary>
+        /// Tela para cadastrar um novo funcionario e sua atuação(entregador, atendente ou admin)
+        /// </summary>
         public TelaCadastrarFuncionarios()
         {
             InitializeComponent();

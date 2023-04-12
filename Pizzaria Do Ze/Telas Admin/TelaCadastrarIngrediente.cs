@@ -12,6 +12,9 @@ namespace Pizzaria_Do_Ze.Telas_Admin
 {
     public partial class TelaCadastrarIngrediente : Form
     {
+        /// <summary>
+        /// Tela para CRUD de ingredientes
+        /// </summary>
         public TelaCadastrarIngrediente()
         {
             InitializeComponent();

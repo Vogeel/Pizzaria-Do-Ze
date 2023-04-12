@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// Tela para retirar algum ingredietne do sabor da pizza escolhida pelo cliente
+    /// </summary>
     public partial class TelaRetirarIngrediente : Form
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaRetirarIngrediente()
         {
             InitializeComponent();

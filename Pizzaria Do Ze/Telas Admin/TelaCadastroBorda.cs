@@ -13,6 +13,9 @@ namespace Pizzaria_Do_Ze.Telas_Admin
     public partial class TelaCadastroBorda : Form
     {
         readonly TelaAdicionarBorda addborda = new TelaAdicionarBorda();
+        /// <summary>
+        /// Tela de CRUD das bordas
+        /// </summary>
         public TelaCadastroBorda()
         {
             InitializeComponent();

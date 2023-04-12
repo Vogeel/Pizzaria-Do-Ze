@@ -7,20 +7,24 @@ using System.Globalization;
 using System.Threading;
 using System.Reflection;
 using System.Resources;
+using System.Configuration;
 
 namespace Pizzaria_Do_Ze
 {
     internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// aplicação de incio
         /// </summary>
         [STAThread]
         static void Main()
         {
 
-          
-            string auxIdiomaRegiao = "";
+            /// <summary>
+            /// Parte que se faz para alterar o idioma do projeto todo
+            /// </summary>
+            /// <param name="auxIdiomaRegiao"> string que leva o novo idioma </param>
+            string auxIdiomaRegiao = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(auxIdiomaRegiao);
             Thread.CurrentThread.CurrentCulture = new CultureInfo(auxIdiomaRegiao);
 

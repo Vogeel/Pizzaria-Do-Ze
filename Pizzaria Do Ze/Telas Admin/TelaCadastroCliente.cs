@@ -11,9 +11,16 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_cadastros
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class TelaCadastroCliente : Form
     {
+        
         readonly TelaTamanhoPizza pedido = new TelaTamanhoPizza();
+        /// <summary>
+        /// Tela para cadastrar um novo cliente ou puxar um cadastro antigo
+        /// </summary>
         public TelaCadastroCliente()
         {
             InitializeComponent();

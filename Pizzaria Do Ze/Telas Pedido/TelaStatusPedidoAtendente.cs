@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// Tela para o adtendete/admin alterar o status do pedido
+    /// </summary>
     public partial class TelaStatusPedidoAtendente : Form
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaStatusPedidoAtendente()
         {
             InitializeComponent();

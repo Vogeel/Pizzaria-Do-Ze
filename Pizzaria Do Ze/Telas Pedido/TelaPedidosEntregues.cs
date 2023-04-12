@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// Tela para o Entregador ver quais pedidos ele ja entregou
+    /// </summary>
     public partial class TelaPedidosEntregues : Form
     {
+        /// <summary>
+        /// 
+        /// </summary>
         readonly TelaPedidoSelecionado pedidoSelecionado = new TelaPedidoSelecionado();
         public TelaPedidosEntregues()
         {

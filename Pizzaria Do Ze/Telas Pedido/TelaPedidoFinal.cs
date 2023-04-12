@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// ultima tela do pedido do cliente, onde ele seleciona forma de pagamento e se vai retirar ou vai ser pro Delivery a entrega
+    /// </summary>
     public partial class TelaPedidoFinal : Form
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaPedidoFinal()
         {
             InitializeComponent();

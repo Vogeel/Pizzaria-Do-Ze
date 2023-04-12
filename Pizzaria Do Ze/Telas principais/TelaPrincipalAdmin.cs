@@ -14,6 +14,9 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze
 {
+        /// <summary>
+        /// Tela quando um admin logar
+        /// </summary>
     public partial class TelaPrincipalAdmin : Form
     {
         readonly TelaPrincipalEntregador entregas = new TelaPrincipalEntregador();
@@ -23,6 +26,9 @@ namespace Pizzaria_Do_Ze
         readonly TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
         readonly TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
         readonly TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
+        /// <summary>
+        /// Tela quando um admin logar
+        /// </summary>
         public TelaPrincipalAdmin()
         {
             InitializeComponent();

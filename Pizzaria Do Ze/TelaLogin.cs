@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pizzaria_Do_Ze.Telas_principais;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,10 @@ namespace Pizzaria_Do_Ze
         readonly TelaPrincipalAdmin admin = new TelaPrincipalAdmin();
         readonly TelaPrincipalAtendente atendente = new TelaPrincipalAtendente();
         readonly TelaPrincipalEntregador entregador = new TelaPrincipalEntregador();
+        readonly FormConfigurations configurations = new FormConfigurations();
+        /// <summary>
+        /// Tela incial de Login para ver permiçoes dadas ao usuario logado
+        /// </summary>
         public TelaLogin()
         {
             InitializeComponent();
@@ -43,6 +48,11 @@ namespace Pizzaria_Do_Ze
         private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            configurations.ShowDialog();
         }
     }
 }

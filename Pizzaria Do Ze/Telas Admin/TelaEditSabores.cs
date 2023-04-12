@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Admin
 {
+    /// <summary>
+    /// Tela para editar o sabor(excluindo/adicionadno ingrediente)
+    /// </summary>
     public partial class TelaEditSabores : Form
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaEditSabores()
         {
             InitializeComponent();

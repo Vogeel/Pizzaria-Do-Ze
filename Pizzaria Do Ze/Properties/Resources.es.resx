@@ -127,7 +127,7 @@
     <value>*Tiene un 30% agregado sobre el valor normal</value>
   </data>
   <data name="addBebidaBtn.Text" xml:space="preserve">
-    <value>Beber</value>
+    <value>Para agregar</value>
   </data>
   <data name="addBtn.Text" xml:space="preserve">
     <value>Para agregar</value>

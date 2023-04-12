@@ -10,9 +10,15 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Admin
 {
+    /// <summary>
+    /// tela de CRUD de sabores
+    /// </summary>
     public partial class TelaSabores : Form
     {
         readonly TelaEditSabores editSabores = new TelaEditSabores();
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaSabores()
         {
             InitializeComponent();

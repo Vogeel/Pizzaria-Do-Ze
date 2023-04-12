@@ -12,6 +12,9 @@ namespace Pizzaria_Do_Ze.Telas_Admin
 {
     public partial class TelaEditarPrecos : Form
     {
+        /// <summary>
+        /// Tela para editar os preços das pizzas
+        /// </summary>
         public TelaEditarPrecos()
         {
             InitializeComponent();

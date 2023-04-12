@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Admin
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class TelaAdicionarBorda : Form
     {
+        /// <summary>
+        /// Tela para adicionar uma nova borda
+        /// </summary>
         public TelaAdicionarBorda()
         {
             InitializeComponent();

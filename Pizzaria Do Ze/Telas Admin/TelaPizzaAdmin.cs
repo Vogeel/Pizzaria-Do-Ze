@@ -11,12 +11,18 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Cadastrais
 {
+    /// <summary>
+    /// Tela que o admin tem acesso para editar coisas como borda, pizza, valores, etc
+    /// </summary>
     public partial class TelaPizzaAdmin : Form
     {
         readonly TelaSabores sabores = new TelaSabores();
         readonly TelaEditarPrecos precos = new TelaEditarPrecos();
         readonly TelaCadastrarIngrediente ingrediente = new TelaCadastrarIngrediente();
         readonly TelaCadastroBorda borda = new TelaCadastroBorda();
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaPizzaAdmin()
         {
             InitializeComponent();

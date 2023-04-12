@@ -12,6 +12,9 @@ namespace Pizzaria_Do_Ze.Telas_Admin
 {
     public partial class CamposCadsatroUserControl : UserControl
     {
+        /// <summary>
+        /// User control para padrao de cadastro
+        /// </summary>
         public CamposCadsatroUserControl()
         {
             InitializeComponent();

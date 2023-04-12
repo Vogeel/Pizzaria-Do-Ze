@@ -10,10 +10,16 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// Tela para o atendete/admin adcionar sabores, bebidas do cliente
+    /// </summary>
     public partial class TelaPedidoCliente : Form
     {
         readonly TelaPedidoFinal pedidoFinal = new TelaPedidoFinal();
         readonly TelaRetirarIngrediente retirarIngrediente = new TelaRetirarIngrediente();
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaPedidoCliente()
         {
             InitializeComponent();

@@ -10,9 +10,15 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Pedido
 {
+    /// <summary>
+    /// Tela para o usuario escolher qual tamanho de pizza ele deseja
+    /// </summary>
     public partial class TelaTamanhoPizza : Form
     {
         readonly TelaPedidoCliente pedido = new TelaPedidoCliente();
+        /// <summary>
+        /// 
+        /// </summary>
         public TelaTamanhoPizza()
         {
             InitializeComponent();
