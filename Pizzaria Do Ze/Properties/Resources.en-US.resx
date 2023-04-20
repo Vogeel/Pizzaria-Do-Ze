@@ -285,6 +285,9 @@
   <data name="grupoLabel.Text" xml:space="preserve">
     <value>Group</value>
   </data>
+  <data name="IdiomaRegiaoGroupBox.Text" xml:space="preserve">
+    <value>Language/Region</value>
+  </data>
   <data name="idPedidoStaticLabel.Text" xml:space="preserve">
     <value>Order ID</value>
   </data>
@@ -305,6 +308,21 @@
   </data>
   <data name="metodoPagamentoStaticLabel.Text" xml:space="preserve">
     <value>Payment Meted:</value>
+  </data>
+  <data name="moedaLabel.Text" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="moedaLabel1.Text" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="moedaLabel2.Text" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="moedaLabel3.Text" xml:space="preserve">
+    <value>US$</value>
+  </data>
+  <data name="mudarIdiomaLabel.Text" xml:space="preserve">
+    <value>Language/Region</value>
   </data>
   <data name="nomeLabel.Text" xml:space="preserve">
     <value>Name:</value>
@@ -341,6 +359,9 @@
   </data>
   <data name="preparoRadioBtn.Text" xml:space="preserve">
     <value>In preparation</value>
+  </data>
+  <data name="reiniciarCheckBox.Text" xml:space="preserve">
+    <value>Restart app to change language</value>
   </data>
   <data name="retiradaRadioBtn.Text" xml:space="preserve">
     <value>Ready for pickup</value>
@@ -391,7 +412,7 @@
     <value>Pizza size:</value>
   </data>
   <data name="taxaEntregaLabel.Text" xml:space="preserve">
-    <value>*Fixed fee of R$ 5,00 in orders below R$ 100,00</value>
+    <value>*Fixed fee of US$ 5,00 in orders below R$ 100,00</value>
   </data>
   <data name="TelaAcessarStatusPedidoAtendente.Text" xml:space="preserve">
     <value>Access Order Status</value>
@@ -478,7 +499,7 @@
     <value>Total order:</value>
   </data>
   <data name="trocoLabel.Text" xml:space="preserve">
-    <value>Change to: R$</value>
+    <value>Change to: US$</value>
   </data>
   <data name="usuarioLabel.Text" xml:space="preserve">
     <value>User</value>

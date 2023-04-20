@@ -285,6 +285,9 @@
   <data name="grupoLabel.Text" xml:space="preserve">
     <value>Grupo</value>
   </data>
+  <data name="IdiomaRegiaoGroupBox.Text" xml:space="preserve">
+    <value>Idioma/Región</value>
+  </data>
   <data name="idPedidoStaticLabel.Text" xml:space="preserve">
     <value>Solicitar ID</value>
   </data>
@@ -305,6 +308,21 @@
   </data>
   <data name="metodoPagamentoStaticLabel.Text" xml:space="preserve">
     <value>Pago metido:</value>
+  </data>
+  <data name="moedaLabel" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="moedaLabel1" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="moedaLabel2" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="moedaLabel3" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="mudarIdiomaLabel.Text" xml:space="preserve">
+    <value>Idioma/Región</value>
   </data>
   <data name="nomeLabel.Text" xml:space="preserve">
     <value>Nombre:</value>
@@ -341,6 +359,9 @@
   </data>
   <data name="preparoRadioBtn.Text" xml:space="preserve">
     <value>En la preparación de</value>
+  </data>
+  <data name="reiniciarCheckBox.Text" xml:space="preserve">
+    <value>Reinicie la aplicación para cambiar el idioma</value>
   </data>
   <data name="retiradaRadioBtn.Text" xml:space="preserve">
     <value>Listo para recojer</value>
@@ -391,7 +412,7 @@
     <value>Tamaño de pizza:</value>
   </data>
   <data name="taxaEntregaLabel.Text" xml:space="preserve">
-    <value>*Tarifa fija de R$ 5,00 en pedidos por debajo de R$ 100,00</value>
+    <value>*Tarifa fija de € 5,00 en pedidos por debajo de R$ 100,00</value>
   </data>
   <data name="TelaAcessarStatusPedidoAtendente.Text" xml:space="preserve">
     <value>Estado de la orden de acceso</value>
@@ -490,7 +511,7 @@
     <value>Valores</value>
   </data>
   <data name="valorStaticLabel.Text" xml:space="preserve">
-    <value>Precio: R$</value>
+    <value>Precio: €</value>
   </data>
   <data name="visPedidoBtn.Text" xml:space="preserve">
     <value>Ver solicitudes</value>

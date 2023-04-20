@@ -36,8 +36,8 @@
             this.saboresLabel = new System.Windows.Forms.Label();
             this.tamanhoPizzaStaticLabel = new System.Windows.Forms.Label();
             this.tamanhoPizzaLabel = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.saborComboBox = new System.Windows.Forms.ComboBox();
+            this.bordaComboBox = new System.Windows.Forms.ComboBox();
             this.precoTotalPagarLabel = new System.Windows.Forms.Label();
             this.addPizzaBtn = new System.Windows.Forms.Button();
             this.saboresPizzarListBox = new System.Windows.Forms.ListBox();
@@ -128,21 +128,21 @@
             this.tamanhoPizzaLabel.TabIndex = 6;
             this.tamanhoPizzaLabel.Text = "Pizza Gigante";
             // 
-            // comboBox1
+            // saborComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(116, 162);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
+            this.saborComboBox.FormattingEnabled = true;
+            this.saborComboBox.Location = new System.Drawing.Point(116, 162);
+            this.saborComboBox.Name = "saborComboBox";
+            this.saborComboBox.Size = new System.Drawing.Size(121, 21);
+            this.saborComboBox.TabIndex = 1;
             // 
-            // comboBox2
+            // bordaComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(116, 207);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 8;
+            this.bordaComboBox.FormattingEnabled = true;
+            this.bordaComboBox.Location = new System.Drawing.Point(116, 207);
+            this.bordaComboBox.Name = "bordaComboBox";
+            this.bordaComboBox.Size = new System.Drawing.Size(121, 21);
+            this.bordaComboBox.TabIndex = 3;
             // 
             // precoTotalPagarLabel
             // 
@@ -162,7 +162,7 @@
             this.addPizzaBtn.Location = new System.Drawing.Point(243, 160);
             this.addPizzaBtn.Name = "addPizzaBtn";
             this.addPizzaBtn.Size = new System.Drawing.Size(75, 23);
-            this.addPizzaBtn.TabIndex = 10;
+            this.addPizzaBtn.TabIndex = 2;
             this.addPizzaBtn.Text = "Adicionar";
             this.addPizzaBtn.UseVisualStyleBackColor = true;
             // 
@@ -181,7 +181,7 @@
             this.seguinteBtn.Location = new System.Drawing.Point(651, 412);
             this.seguinteBtn.Name = "seguinteBtn";
             this.seguinteBtn.Size = new System.Drawing.Size(85, 28);
-            this.seguinteBtn.TabIndex = 12;
+            this.seguinteBtn.TabIndex = 9;
             this.seguinteBtn.Text = "Seguinte";
             this.seguinteBtn.UseVisualStyleBackColor = true;
             this.seguinteBtn.Click += new System.EventHandler(this.SeguinteBtn_Click);
@@ -192,7 +192,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(651, 12);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(85, 30);
-            this.cancelBtn.TabIndex = 13;
+            this.cancelBtn.TabIndex = 10;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -213,7 +213,7 @@
             this.bebeidasComboBox.Location = new System.Drawing.Point(116, 255);
             this.bebeidasComboBox.Name = "bebeidasComboBox";
             this.bebeidasComboBox.Size = new System.Drawing.Size(121, 21);
-            this.bebeidasComboBox.TabIndex = 15;
+            this.bebeidasComboBox.TabIndex = 4;
             // 
             // addBebidaBtn
             // 
@@ -221,7 +221,7 @@
             this.addBebidaBtn.Location = new System.Drawing.Point(243, 253);
             this.addBebidaBtn.Name = "addBebidaBtn";
             this.addBebidaBtn.Size = new System.Drawing.Size(75, 23);
-            this.addBebidaBtn.TabIndex = 16;
+            this.addBebidaBtn.TabIndex = 5;
             this.addBebidaBtn.Text = "Adicionar";
             this.addBebidaBtn.UseVisualStyleBackColor = true;
             // 
@@ -240,7 +240,7 @@
             this.excluirBebidaBtn.Location = new System.Drawing.Point(634, 255);
             this.excluirBebidaBtn.Name = "excluirBebidaBtn";
             this.excluirBebidaBtn.Size = new System.Drawing.Size(111, 23);
-            this.excluirBebidaBtn.TabIndex = 18;
+            this.excluirBebidaBtn.TabIndex = 8;
             this.excluirBebidaBtn.Text = "Excluir selecionado";
             this.excluirBebidaBtn.UseVisualStyleBackColor = true;
             // 
@@ -250,7 +250,7 @@
             this.excluirPizzaBtn.Location = new System.Drawing.Point(199, 15);
             this.excluirPizzaBtn.Name = "excluirPizzaBtn";
             this.excluirPizzaBtn.Size = new System.Drawing.Size(111, 23);
-            this.excluirPizzaBtn.TabIndex = 19;
+            this.excluirPizzaBtn.TabIndex = 6;
             this.excluirPizzaBtn.Text = "Excluir selecionado";
             this.excluirPizzaBtn.UseVisualStyleBackColor = true;
             // 
@@ -260,7 +260,7 @@
             this.retirarIngredienteBtn.Location = new System.Drawing.Point(451, 189);
             this.retirarIngredienteBtn.Name = "retirarIngredienteBtn";
             this.retirarIngredienteBtn.Size = new System.Drawing.Size(177, 23);
-            this.retirarIngredienteBtn.TabIndex = 20;
+            this.retirarIngredienteBtn.TabIndex = 7;
             this.retirarIngredienteBtn.Text = "Retirar algum ingrediente";
             this.retirarIngredienteBtn.UseVisualStyleBackColor = true;
             this.retirarIngredienteBtn.Click += new System.EventHandler(this.RetirarIngredienteBtn_Click);
@@ -311,8 +311,8 @@
             this.Controls.Add(this.saboresPizzarListBox);
             this.Controls.Add(this.addPizzaBtn);
             this.Controls.Add(this.precoTotalPagarLabel);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.bordaComboBox);
+            this.Controls.Add(this.saborComboBox);
             this.Controls.Add(this.tamanhoPizzaLabel);
             this.Controls.Add(this.tamanhoPizzaStaticLabel);
             this.Controls.Add(this.saboresLabel);
@@ -345,8 +345,8 @@
         private System.Windows.Forms.Label saboresLabel;
         private System.Windows.Forms.Label tamanhoPizzaStaticLabel;
         private System.Windows.Forms.Label tamanhoPizzaLabel;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox saborComboBox;
+        private System.Windows.Forms.ComboBox bordaComboBox;
         private System.Windows.Forms.Label precoTotalPagarLabel;
         private System.Windows.Forms.Button addPizzaBtn;
         private System.Windows.Forms.ListBox saboresPizzarListBox;

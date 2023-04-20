@@ -51,7 +51,7 @@
             this.CPFMaskedTB.Mask = "000.000.000-00";
             this.CPFMaskedTB.Name = "CPFMaskedTB";
             this.CPFMaskedTB.Size = new System.Drawing.Size(238, 24);
-            this.CPFMaskedTB.TabIndex = 30;
+            this.CPFMaskedTB.TabIndex = 4;
             // 
             // complementoLabel
             // 
@@ -122,7 +122,7 @@
             this.complementoTextBox.Location = new System.Drawing.Point(105, 186);
             this.complementoTextBox.Name = "complementoTextBox";
             this.complementoTextBox.Size = new System.Drawing.Size(238, 24);
-            this.complementoTextBox.TabIndex = 22;
+            this.complementoTextBox.TabIndex = 7;
             // 
             // enderecoTextBox
             // 
@@ -130,7 +130,7 @@
             this.enderecoTextBox.Location = new System.Drawing.Point(105, 156);
             this.enderecoTextBox.Name = "enderecoTextBox";
             this.enderecoTextBox.Size = new System.Drawing.Size(238, 24);
-            this.enderecoTextBox.TabIndex = 21;
+            this.enderecoTextBox.TabIndex = 6;
             // 
             // emailTextBox
             // 
@@ -138,7 +138,7 @@
             this.emailTextBox.Location = new System.Drawing.Point(105, 66);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(238, 24);
-            this.emailTextBox.TabIndex = 20;
+            this.emailTextBox.TabIndex = 3;
             // 
             // telefoneMaskTB
             // 
@@ -147,7 +147,7 @@
             this.telefoneMaskTB.Mask = "(99) 0000-0000";
             this.telefoneMaskTB.Name = "telefoneMaskTB";
             this.telefoneMaskTB.Size = new System.Drawing.Size(238, 24);
-            this.telefoneMaskTB.TabIndex = 19;
+            this.telefoneMaskTB.TabIndex = 2;
             // 
             // nomeTextBot
             // 
@@ -155,7 +155,7 @@
             this.nomeTextBot.Location = new System.Drawing.Point(105, 6);
             this.nomeTextBot.Name = "nomeTextBot";
             this.nomeTextBot.Size = new System.Drawing.Size(238, 24);
-            this.nomeTextBot.TabIndex = 18;
+            this.nomeTextBot.TabIndex = 1;
             // 
             // CEPMaskedTB
             // 
@@ -164,7 +164,7 @@
             this.CEPMaskedTB.Mask = "00000-000";
             this.CEPMaskedTB.Name = "CEPMaskedTB";
             this.CEPMaskedTB.Size = new System.Drawing.Size(238, 24);
-            this.CEPMaskedTB.TabIndex = 31;
+            this.CEPMaskedTB.TabIndex = 5;
             // 
             // CamposCadsatroUserControl
             // 

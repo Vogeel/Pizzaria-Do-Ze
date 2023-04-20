@@ -53,7 +53,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(548, 401);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(135, 37);
-            this.cancelBtn.TabIndex = 4;
+            this.cancelBtn.TabIndex = 2;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = false;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click_1);
@@ -66,7 +66,7 @@
             this.abrirPedidoBtn.Location = new System.Drawing.Point(548, 26);
             this.abrirPedidoBtn.Name = "abrirPedidoBtn";
             this.abrirPedidoBtn.Size = new System.Drawing.Size(135, 37);
-            this.abrirPedidoBtn.TabIndex = 3;
+            this.abrirPedidoBtn.TabIndex = 1;
             this.abrirPedidoBtn.Text = "Abrir pedido selecionado";
             this.abrirPedidoBtn.UseVisualStyleBackColor = false;
             this.abrirPedidoBtn.Click += new System.EventHandler(this.AbrirPedidoBtn_Click);

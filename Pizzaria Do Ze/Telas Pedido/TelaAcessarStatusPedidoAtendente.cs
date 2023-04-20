@@ -24,6 +24,13 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            acessarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            acessarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            idPedidosAbertoscomboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            idPedidosAbertoscomboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
 
 

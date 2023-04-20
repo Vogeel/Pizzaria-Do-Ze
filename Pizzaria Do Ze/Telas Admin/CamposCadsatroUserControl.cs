@@ -19,6 +19,21 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            CEPMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            CEPMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            CPFMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            CPFMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            telefoneMaskTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            telefoneMaskTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            complementoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            complementoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            emailTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            emailTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            enderecoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            enderecoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            nomeTextBot.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            nomeTextBot.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
     }
 }

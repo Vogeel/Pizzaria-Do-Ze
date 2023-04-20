@@ -62,7 +62,7 @@
             this.comprarExtraGiganteBtn.Location = new System.Drawing.Point(260, 198);
             this.comprarExtraGiganteBtn.Name = "comprarExtraGiganteBtn";
             this.comprarExtraGiganteBtn.Size = new System.Drawing.Size(97, 21);
-            this.comprarExtraGiganteBtn.TabIndex = 0;
+            this.comprarExtraGiganteBtn.TabIndex = 1;
             this.comprarExtraGiganteBtn.Text = "Comprar";
             this.comprarExtraGiganteBtn.UseVisualStyleBackColor = true;
             this.comprarExtraGiganteBtn.Click += new System.EventHandler(this.ComprarExtraGiganteBtn_Click);
@@ -73,7 +73,7 @@
             this.comprarBrotoBtn.Location = new System.Drawing.Point(580, 404);
             this.comprarBrotoBtn.Name = "comprarBrotoBtn";
             this.comprarBrotoBtn.Size = new System.Drawing.Size(97, 21);
-            this.comprarBrotoBtn.TabIndex = 2;
+            this.comprarBrotoBtn.TabIndex = 4;
             this.comprarBrotoBtn.Text = "Comprar";
             this.comprarBrotoBtn.UseVisualStyleBackColor = true;
             this.comprarBrotoBtn.Click += new System.EventHandler(this.ComprarBrotoBtn_Click);
@@ -84,7 +84,7 @@
             this.comprarGiganteBtn.Location = new System.Drawing.Point(580, 198);
             this.comprarGiganteBtn.Name = "comprarGiganteBtn";
             this.comprarGiganteBtn.Size = new System.Drawing.Size(97, 21);
-            this.comprarGiganteBtn.TabIndex = 3;
+            this.comprarGiganteBtn.TabIndex = 2;
             this.comprarGiganteBtn.Text = "Comprar";
             this.comprarGiganteBtn.UseVisualStyleBackColor = true;
             this.comprarGiganteBtn.Click += new System.EventHandler(this.ComprarGiganteBtn_Click);
@@ -95,7 +95,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(699, 12);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(75, 23);
-            this.cancelBtn.TabIndex = 4;
+            this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -250,7 +250,7 @@
             this.comprarMediaBtn.Location = new System.Drawing.Point(260, 404);
             this.comprarMediaBtn.Name = "comprarMediaBtn";
             this.comprarMediaBtn.Size = new System.Drawing.Size(97, 21);
-            this.comprarMediaBtn.TabIndex = 21;
+            this.comprarMediaBtn.TabIndex = 3;
             this.comprarMediaBtn.Text = "Comprar";
             this.comprarMediaBtn.UseVisualStyleBackColor = true;
             this.comprarMediaBtn.Click += new System.EventHandler(this.ComprarMediaBtn_Click);

@@ -54,7 +54,7 @@
             this.retiradaRadioBtn.Location = new System.Drawing.Point(6, 19);
             this.retiradaRadioBtn.Name = "retiradaRadioBtn";
             this.retiradaRadioBtn.Size = new System.Drawing.Size(65, 17);
-            this.retiradaRadioBtn.TabIndex = 0;
+            this.retiradaRadioBtn.TabIndex = 1;
             this.retiradaRadioBtn.TabStop = true;
             this.retiradaRadioBtn.Text = "Retirada";
             this.retiradaRadioBtn.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             this.entregaRadioBtn.Location = new System.Drawing.Point(6, 53);
             this.entregaRadioBtn.Name = "entregaRadioBtn";
             this.entregaRadioBtn.Size = new System.Drawing.Size(62, 17);
-            this.entregaRadioBtn.TabIndex = 1;
+            this.entregaRadioBtn.TabIndex = 2;
             this.entregaRadioBtn.TabStop = true;
             this.entregaRadioBtn.Text = "Entrega";
             this.entregaRadioBtn.UseVisualStyleBackColor = true;
@@ -128,7 +128,7 @@
             this.cartaoRadioBtn.Location = new System.Drawing.Point(6, 19);
             this.cartaoRadioBtn.Name = "cartaoRadioBtn";
             this.cartaoRadioBtn.Size = new System.Drawing.Size(56, 17);
-            this.cartaoRadioBtn.TabIndex = 7;
+            this.cartaoRadioBtn.TabIndex = 3;
             this.cartaoRadioBtn.TabStop = true;
             this.cartaoRadioBtn.Text = "Cartão";
             this.cartaoRadioBtn.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@
             this.pixRadioBtn.Location = new System.Drawing.Point(6, 57);
             this.pixRadioBtn.Name = "pixRadioBtn";
             this.pixRadioBtn.Size = new System.Drawing.Size(42, 17);
-            this.pixRadioBtn.TabIndex = 8;
+            this.pixRadioBtn.TabIndex = 4;
             this.pixRadioBtn.TabStop = true;
             this.pixRadioBtn.Text = "PIX";
             this.pixRadioBtn.UseVisualStyleBackColor = true;
@@ -150,7 +150,7 @@
             this.dinheiroRadioBtn.Location = new System.Drawing.Point(6, 97);
             this.dinheiroRadioBtn.Name = "dinheiroRadioBtn";
             this.dinheiroRadioBtn.Size = new System.Drawing.Size(64, 17);
-            this.dinheiroRadioBtn.TabIndex = 9;
+            this.dinheiroRadioBtn.TabIndex = 5;
             this.dinheiroRadioBtn.TabStop = true;
             this.dinheiroRadioBtn.Text = "Dinheiro";
             this.dinheiroRadioBtn.UseVisualStyleBackColor = true;
@@ -160,7 +160,7 @@
             this.trocoTextBox.Location = new System.Drawing.Point(386, 239);
             this.trocoTextBox.Name = "trocoTextBox";
             this.trocoTextBox.Size = new System.Drawing.Size(100, 20);
-            this.trocoTextBox.TabIndex = 10;
+            this.trocoTextBox.TabIndex = 6;
             // 
             // trocoLabel
             // 
@@ -177,7 +177,7 @@
             this.finalizarBtn.Location = new System.Drawing.Point(458, 405);
             this.finalizarBtn.Name = "finalizarBtn";
             this.finalizarBtn.Size = new System.Drawing.Size(96, 23);
-            this.finalizarBtn.TabIndex = 12;
+            this.finalizarBtn.TabIndex = 7;
             this.finalizarBtn.Text = "Finalizar";
             this.finalizarBtn.UseVisualStyleBackColor = true;
             this.finalizarBtn.Click += new System.EventHandler(this.FinalizarBtn_Click);
@@ -188,7 +188,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(458, 12);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(96, 23);
-            this.cancelBtn.TabIndex = 13;
+            this.cancelBtn.TabIndex = 8;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);

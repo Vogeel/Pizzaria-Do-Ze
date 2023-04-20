@@ -38,7 +38,7 @@
             this.idPedidoStaticLabel = new System.Windows.Forms.Label();
             this.idPedidoLabel = new System.Windows.Forms.Label();
             this.entreguePorStaticLabel = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.entregadorComboBox = new System.Windows.Forms.ComboBox();
             this.statusGroupBox = new System.Windows.Forms.GroupBox();
             this.pedidoGroupBox = new System.Windows.Forms.GroupBox();
             this.cancelarBtn = new System.Windows.Forms.Button();
@@ -71,7 +71,7 @@
             this.pagoRadioBtn.Location = new System.Drawing.Point(173, 32);
             this.pagoRadioBtn.Name = "pagoRadioBtn";
             this.pagoRadioBtn.Size = new System.Drawing.Size(50, 17);
-            this.pagoRadioBtn.TabIndex = 3;
+            this.pagoRadioBtn.TabIndex = 1;
             this.pagoRadioBtn.TabStop = true;
             this.pagoRadioBtn.Text = "Pago";
             this.pagoRadioBtn.UseVisualStyleBackColor = true;
@@ -82,7 +82,7 @@
             this.pendenteRadioBtn.Location = new System.Drawing.Point(173, 71);
             this.pendenteRadioBtn.Name = "pendenteRadioBtn";
             this.pendenteRadioBtn.Size = new System.Drawing.Size(71, 17);
-            this.pendenteRadioBtn.TabIndex = 4;
+            this.pendenteRadioBtn.TabIndex = 2;
             this.pendenteRadioBtn.TabStop = true;
             this.pendenteRadioBtn.Text = "Pendente";
             this.pendenteRadioBtn.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@
             this.preparoRadioBtn.Location = new System.Drawing.Point(17, 39);
             this.preparoRadioBtn.Name = "preparoRadioBtn";
             this.preparoRadioBtn.Size = new System.Drawing.Size(79, 17);
-            this.preparoRadioBtn.TabIndex = 5;
+            this.preparoRadioBtn.TabIndex = 3;
             this.preparoRadioBtn.TabStop = true;
             this.preparoRadioBtn.Text = "Em preparo";
             this.preparoRadioBtn.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             this.retiradaRadioBtn.Location = new System.Drawing.Point(173, 246);
             this.retiradaRadioBtn.Name = "retiradaRadioBtn";
             this.retiradaRadioBtn.Size = new System.Drawing.Size(118, 17);
-            this.retiradaRadioBtn.TabIndex = 6;
+            this.retiradaRadioBtn.TabIndex = 4;
             this.retiradaRadioBtn.TabStop = true;
             this.retiradaRadioBtn.Text = "Pronto para retirada";
             this.retiradaRadioBtn.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             this.saiuEntregaRadioBtn.Location = new System.Drawing.Point(173, 284);
             this.saiuEntregaRadioBtn.Name = "saiuEntregaRadioBtn";
             this.saiuEntregaRadioBtn.Size = new System.Drawing.Size(109, 17);
-            this.saiuEntregaRadioBtn.TabIndex = 7;
+            this.saiuEntregaRadioBtn.TabIndex = 5;
             this.saiuEntregaRadioBtn.TabStop = true;
             this.saiuEntregaRadioBtn.Text = "Saiu para entrega";
             this.saiuEntregaRadioBtn.UseVisualStyleBackColor = true;
@@ -150,13 +150,13 @@
             this.entreguePorStaticLabel.TabIndex = 11;
             this.entreguePorStaticLabel.Text = "Entregue por:";
             // 
-            // comboBox1
+            // entregadorComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(377, 284);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 12;
+            this.entregadorComboBox.FormattingEnabled = true;
+            this.entregadorComboBox.Location = new System.Drawing.Point(377, 284);
+            this.entregadorComboBox.Name = "entregadorComboBox";
+            this.entregadorComboBox.Size = new System.Drawing.Size(121, 21);
+            this.entregadorComboBox.TabIndex = 6;
             // 
             // statusGroupBox
             // 
@@ -184,7 +184,7 @@
             this.cancelarBtn.Location = new System.Drawing.Point(408, 329);
             this.cancelarBtn.Name = "cancelarBtn";
             this.cancelarBtn.Size = new System.Drawing.Size(92, 27);
-            this.cancelarBtn.TabIndex = 15;
+            this.cancelarBtn.TabIndex = 7;
             this.cancelarBtn.Text = "Cancelar";
             this.cancelarBtn.UseVisualStyleBackColor = false;
             this.cancelarBtn.Click += new System.EventHandler(this.cancelarBtn_Click);
@@ -196,7 +196,7 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(512, 368);
             this.Controls.Add(this.cancelarBtn);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.entregadorComboBox);
             this.Controls.Add(this.entreguePorStaticLabel);
             this.Controls.Add(this.idPedidoLabel);
             this.Controls.Add(this.idPedidoStaticLabel);
@@ -233,7 +233,7 @@
         private System.Windows.Forms.Label idPedidoStaticLabel;
         private System.Windows.Forms.Label idPedidoLabel;
         private System.Windows.Forms.Label entreguePorStaticLabel;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox entregadorComboBox;
         private System.Windows.Forms.GroupBox statusGroupBox;
         private System.Windows.Forms.GroupBox pedidoGroupBox;
         private System.Windows.Forms.Button cancelarBtn;

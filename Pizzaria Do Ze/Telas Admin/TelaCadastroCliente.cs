@@ -25,6 +25,13 @@ namespace Pizzaria_Do_Ze.Telas_cadastros
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            clienteCadastradoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            clienteCadastradoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
 
 

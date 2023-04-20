@@ -84,7 +84,7 @@
             this.excluirSelecionadoBtn.Location = new System.Drawing.Point(247, 101);
             this.excluirSelecionadoBtn.Name = "excluirSelecionadoBtn";
             this.excluirSelecionadoBtn.Size = new System.Drawing.Size(107, 31);
-            this.excluirSelecionadoBtn.TabIndex = 4;
+            this.excluirSelecionadoBtn.TabIndex = 3;
             this.excluirSelecionadoBtn.Text = "Excluir selecionado";
             this.excluirSelecionadoBtn.UseVisualStyleBackColor = false;
             // 
@@ -105,7 +105,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(247, 195);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(112, 27);
-            this.cancelBtn.TabIndex = 22;
+            this.cancelBtn.TabIndex = 4;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = false;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);

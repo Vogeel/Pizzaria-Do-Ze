@@ -66,7 +66,7 @@
             this.nomePizzaTextBox.Location = new System.Drawing.Point(118, 59);
             this.nomePizzaTextBox.Name = "nomePizzaTextBox";
             this.nomePizzaTextBox.Size = new System.Drawing.Size(100, 20);
-            this.nomePizzaTextBox.TabIndex = 2;
+            this.nomePizzaTextBox.TabIndex = 1;
             // 
             // ingredientesComboBox
             // 
@@ -101,7 +101,7 @@
             this.especialCheckBox.Location = new System.Drawing.Point(118, 97);
             this.especialCheckBox.Name = "especialCheckBox";
             this.especialCheckBox.Size = new System.Drawing.Size(93, 17);
-            this.especialCheckBox.TabIndex = 6;
+            this.especialCheckBox.TabIndex = 2;
             this.especialCheckBox.Text = "Pizza especial";
             this.especialCheckBox.UseVisualStyleBackColor = true;
             // 
@@ -122,7 +122,7 @@
             this.cadastrarBtn.Location = new System.Drawing.Point(380, 311);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(85, 30);
-            this.cadastrarBtn.TabIndex = 8;
+            this.cadastrarBtn.TabIndex = 6;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
@@ -133,7 +133,7 @@
             this.excluirSaborBtn.Location = new System.Drawing.Point(338, 192);
             this.excluirSaborBtn.Name = "excluirSaborBtn";
             this.excluirSaborBtn.Size = new System.Drawing.Size(112, 23);
-            this.excluirSaborBtn.TabIndex = 9;
+            this.excluirSaborBtn.TabIndex = 5;
             this.excluirSaborBtn.Text = "Excluir selecionado";
             this.excluirSaborBtn.UseVisualStyleBackColor = true;
             // 
@@ -142,7 +142,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(324, -2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(163, 354);
+            this.pictureBox2.Size = new System.Drawing.Size(163, 361);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;

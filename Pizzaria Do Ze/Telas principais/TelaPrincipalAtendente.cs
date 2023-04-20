@@ -27,6 +27,15 @@ namespace Pizzaria_Do_Ze
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            editarStatusPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            editarStatusPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            pedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            visPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            visPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
 
         }
 
@@ -49,5 +58,7 @@ namespace Pizzaria_Do_Ze
         {
             cadCliente.ShowDialog();
         }
+
+        
     }
 }

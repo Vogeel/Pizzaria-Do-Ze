@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,6 +37,87 @@ namespace Pizzaria_Do_Ze
                 AjustaResourcesControl(c);
                 ComponentResourceManager resources = new ComponentResourceManager(typeof(Properties.Resources));
                 resources.ApplyResources(c, c.Name);
+            }
+        }
+        /// <summary>
+        /// Altera a cor do back gorund quando esta o elemnto esta selecionado
+        /// </summary>
+        /// <param name="sender"> Obejto que gerou evento</param>
+        /// <param name="e"> Evento que foi capturado</param>
+        /// <example> textBoxUser.Enter += new System.EventHandler(ClassFuncoes.CampoEventoEnter)</example>
+        public static void CampoEventoEnter(object sender, EventArgs e) 
+        {
+        if(sender is TextBoxBase txt)
+            {
+                txt.BackColor = Color.LightGray;
+            }
+        else if(sender is ComboBox cb)
+            {
+                cb.BackColor = Color.LightGray;
+            }
+        else if (sender is RadioButton rb)
+            {
+                rb.BackColor = Color.LightGray;
+            }
+        else if (sender is ButtonBase btn)
+            {
+                btn.BackColor = Color.LightGray;
+            }
+        }
+
+        /// <summary>
+        /// Altera a cor do back gorund quando esta o elemnto parou de estar selecionado
+        /// </summary>
+        /// <param name="sender"> Obejto que gerou evento</param>
+        /// <param name="e"> Evento que foi capturado</param>
+        /// <example> textBoxUser.Enter += new System.EventHandler(ClassFuncoes.CampoEventoLeave)</example>
+        public static void CampoEventoLeave(object sender, EventArgs e)
+        {
+            if (sender is TextBoxBase txt)
+            {
+                txt.BackColor = Color.White;
+            }
+            else if (sender is ComboBox cb)
+            {
+                cb.BackColor = Color.White;
+            }
+            else if (sender is RadioButton rb)
+            {
+                rb.BackColor = Color.White;
+            }
+            else if (sender is ButtonBase btn)
+            {
+                btn.BackColor = Color.BurlyWood;
+            }
+        }
+        /// <summary>
+        /// Tratar eventos de teclado, no caso tecla ENTER funcionando com TAB e tecla ESC para fechar
+        /// </summary>
+        /// <remarks>KeyPreview do formulário para true.</remarks>
+        /// <param name="sender">Objeto que gerou o evento</param>
+        /// <param name="e">Evento que foi capturado</param>
+        /// <example>No construtor do formulário:
+        /// this.KeyDown += new System.Windows.Forms.KeyEventHandler(ClassFuncoes.FormEventoKeyDown);
+        ///</example>
+        public static void FormEventoKeyDown(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            if (e.KeyCode == Keys.Enter)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.SelectNextControl(form.ActiveControl, !e.Shift, true, true, true);
+            }
+            //verifica se foi pressionado ESC
+            else if (e.KeyCode == Keys.Escape)
+            {
+                form.Close();
             }
         }
     }

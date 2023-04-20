@@ -59,7 +59,7 @@
             this.voltarBtn.Location = new System.Drawing.Point(304, 12);
             this.voltarBtn.Name = "voltarBtn";
             this.voltarBtn.Size = new System.Drawing.Size(149, 23);
-            this.voltarBtn.TabIndex = 3;
+            this.voltarBtn.TabIndex = 4;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = false;
             this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
@@ -72,7 +72,7 @@
             this.editarStatusPedidoBtn.Location = new System.Drawing.Point(12, 164);
             this.editarStatusPedidoBtn.Name = "editarStatusPedidoBtn";
             this.editarStatusPedidoBtn.Size = new System.Drawing.Size(170, 40);
-            this.editarStatusPedidoBtn.TabIndex = 4;
+            this.editarStatusPedidoBtn.TabIndex = 3;
             this.editarStatusPedidoBtn.Text = "Editar Status Pedidos";
             this.editarStatusPedidoBtn.UseVisualStyleBackColor = false;
             this.editarStatusPedidoBtn.Click += new System.EventHandler(this.EditarStatusPedidoBtn_Click);
@@ -105,7 +105,7 @@
             this.pedidoBtn.Location = new System.Drawing.Point(12, 34);
             this.pedidoBtn.Name = "pedidoBtn";
             this.pedidoBtn.Size = new System.Drawing.Size(170, 40);
-            this.pedidoBtn.TabIndex = 7;
+            this.pedidoBtn.TabIndex = 1;
             this.pedidoBtn.Text = "Realizar Pedido";
             this.pedidoBtn.UseVisualStyleBackColor = false;
             this.pedidoBtn.Click += new System.EventHandler(this.pedidoBtn_Click);

@@ -131,28 +131,28 @@
             this.nomeTB.Location = new System.Drawing.Point(139, 37);
             this.nomeTB.Name = "nomeTB";
             this.nomeTB.Size = new System.Drawing.Size(100, 20);
-            this.nomeTB.TabIndex = 8;
+            this.nomeTB.TabIndex = 1;
             // 
             // matriculaTB
             // 
             this.matriculaTB.Location = new System.Drawing.Point(139, 115);
             this.matriculaTB.Name = "matriculaTB";
             this.matriculaTB.Size = new System.Drawing.Size(100, 20);
-            this.matriculaTB.TabIndex = 11;
+            this.matriculaTB.TabIndex = 4;
             // 
             // cpfMaskedTB
             // 
             this.cpfMaskedTB.Location = new System.Drawing.Point(139, 63);
             this.cpfMaskedTB.Name = "cpfMaskedTB";
             this.cpfMaskedTB.Size = new System.Drawing.Size(100, 20);
-            this.cpfMaskedTB.TabIndex = 12;
+            this.cpfMaskedTB.TabIndex = 2;
             // 
             // telefonemaskedTB
             // 
             this.telefonemaskedTB.Location = new System.Drawing.Point(139, 89);
             this.telefonemaskedTB.Name = "telefonemaskedTB";
             this.telefonemaskedTB.Size = new System.Drawing.Size(100, 20);
-            this.telefonemaskedTB.TabIndex = 13;
+            this.telefonemaskedTB.TabIndex = 3;
             // 
             // senhaMaskedTB
             // 
@@ -160,7 +160,7 @@
             this.senhaMaskedTB.Name = "senhaMaskedTB";
             this.senhaMaskedTB.PasswordChar = '*';
             this.senhaMaskedTB.Size = new System.Drawing.Size(100, 20);
-            this.senhaMaskedTB.TabIndex = 14;
+            this.senhaMaskedTB.TabIndex = 5;
             // 
             // adminRadioBtn
             // 
@@ -168,7 +168,7 @@
             this.adminRadioBtn.Location = new System.Drawing.Point(138, 195);
             this.adminRadioBtn.Name = "adminRadioBtn";
             this.adminRadioBtn.Size = new System.Drawing.Size(54, 17);
-            this.adminRadioBtn.TabIndex = 15;
+            this.adminRadioBtn.TabIndex = 6;
             this.adminRadioBtn.TabStop = true;
             this.adminRadioBtn.Text = "Admin";
             this.adminRadioBtn.UseVisualStyleBackColor = true;
@@ -179,7 +179,7 @@
             this.AtendenteRadioBtn.Location = new System.Drawing.Point(138, 221);
             this.AtendenteRadioBtn.Name = "AtendenteRadioBtn";
             this.AtendenteRadioBtn.Size = new System.Drawing.Size(74, 17);
-            this.AtendenteRadioBtn.TabIndex = 16;
+            this.AtendenteRadioBtn.TabIndex = 7;
             this.AtendenteRadioBtn.TabStop = true;
             this.AtendenteRadioBtn.Text = "Atendente";
             this.AtendenteRadioBtn.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@
             this.entregadorRadioBtn.Location = new System.Drawing.Point(138, 244);
             this.entregadorRadioBtn.Name = "entregadorRadioBtn";
             this.entregadorRadioBtn.Size = new System.Drawing.Size(77, 17);
-            this.entregadorRadioBtn.TabIndex = 17;
+            this.entregadorRadioBtn.TabIndex = 8;
             this.entregadorRadioBtn.TabStop = true;
             this.entregadorRadioBtn.Text = "Entregador";
             this.entregadorRadioBtn.UseVisualStyleBackColor = true;
@@ -200,14 +200,14 @@
             this.cnhMaskedTB.Location = new System.Drawing.Point(138, 293);
             this.cnhMaskedTB.Name = "cnhMaskedTB";
             this.cnhMaskedTB.Size = new System.Drawing.Size(100, 20);
-            this.cnhMaskedTB.TabIndex = 18;
+            this.cnhMaskedTB.TabIndex = 9;
             // 
             // validadeCNHdateTimePicker
             // 
             this.validadeCNHdateTimePicker.Location = new System.Drawing.Point(139, 327);
             this.validadeCNHdateTimePicker.Name = "validadeCNHdateTimePicker";
             this.validadeCNHdateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.validadeCNHdateTimePicker.TabIndex = 19;
+            this.validadeCNHdateTimePicker.TabIndex = 10;
             // 
             // cancelBtn
             // 
@@ -216,7 +216,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(194, 373);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(87, 32);
-            this.cancelBtn.TabIndex = 20;
+            this.cancelBtn.TabIndex = 11;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -228,7 +228,7 @@
             this.cadastrarBtn.Location = new System.Drawing.Point(302, 373);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(87, 31);
-            this.cadastrarBtn.TabIndex = 21;
+            this.cadastrarBtn.TabIndex = 12;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);

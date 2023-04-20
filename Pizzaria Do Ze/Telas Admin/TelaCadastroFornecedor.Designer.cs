@@ -35,6 +35,7 @@
             // 
             // camposCadsatroUserControl1
             // 
+            this.camposCadsatroUserControl1.BackColor = System.Drawing.Color.BurlyWood;
             this.camposCadsatroUserControl1.Location = new System.Drawing.Point(12, 12);
             this.camposCadsatroUserControl1.Name = "camposCadsatroUserControl1";
             this.camposCadsatroUserControl1.Size = new System.Drawing.Size(364, 224);
@@ -46,7 +47,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(120, 241);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(106, 23);
-            this.cancelBtn.TabIndex = 1;
+            this.cancelBtn.TabIndex = 8;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -57,7 +58,7 @@
             this.cadastrarBtn.Location = new System.Drawing.Point(232, 241);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(119, 23);
-            this.cadastrarBtn.TabIndex = 2;
+            this.cadastrarBtn.TabIndex = 9;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.Cadastrarbtn_Click);

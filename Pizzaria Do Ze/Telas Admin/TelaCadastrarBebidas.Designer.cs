@@ -86,14 +86,14 @@
             this.nomeTB.Location = new System.Drawing.Point(94, 86);
             this.nomeTB.Name = "nomeTB";
             this.nomeTB.Size = new System.Drawing.Size(121, 20);
-            this.nomeTB.TabIndex = 5;
+            this.nomeTB.TabIndex = 2;
             // 
             // valorTB
             // 
             this.valorTB.Location = new System.Drawing.Point(94, 145);
             this.valorTB.Name = "valorTB";
             this.valorTB.Size = new System.Drawing.Size(121, 20);
-            this.valorTB.TabIndex = 7;
+            this.valorTB.TabIndex = 4;
             // 
             // bebidasListBox
             // 
@@ -111,7 +111,7 @@
             this.cadastrarBtn.Location = new System.Drawing.Point(513, 360);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(89, 33);
-            this.cadastrarBtn.TabIndex = 9;
+            this.cadastrarBtn.TabIndex = 7;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
@@ -124,7 +124,7 @@
             this.excluirSelecionadoBtn.Location = new System.Drawing.Point(487, 218);
             this.excluirSelecionadoBtn.Name = "excluirSelecionadoBtn";
             this.excluirSelecionadoBtn.Size = new System.Drawing.Size(115, 33);
-            this.excluirSelecionadoBtn.TabIndex = 10;
+            this.excluirSelecionadoBtn.TabIndex = 6;
             this.excluirSelecionadoBtn.Text = "Excluir selecionado";
             this.excluirSelecionadoBtn.UseVisualStyleBackColor = false;
             // 
@@ -136,7 +136,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(513, 12);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(89, 33);
-            this.cancelBtn.TabIndex = 11;
+            this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = false;
             // 
@@ -151,7 +151,7 @@
             this.tipoComboBox.Location = new System.Drawing.Point(94, 52);
             this.tipoComboBox.Name = "tipoComboBox";
             this.tipoComboBox.Size = new System.Drawing.Size(121, 21);
-            this.tipoComboBox.TabIndex = 12;
+            this.tipoComboBox.TabIndex = 1;
             // 
             // tamanhoComboBox
             // 
@@ -166,7 +166,7 @@
             this.tamanhoComboBox.Location = new System.Drawing.Point(94, 114);
             this.tamanhoComboBox.Name = "tamanhoComboBox";
             this.tamanhoComboBox.Size = new System.Drawing.Size(121, 21);
-            this.tamanhoComboBox.TabIndex = 13;
+            this.tamanhoComboBox.TabIndex = 3;
             // 
             // pictureBox2
             // 

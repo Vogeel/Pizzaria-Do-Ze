@@ -51,7 +51,7 @@
             this.pizzaBtn.Location = new System.Drawing.Point(12, 31);
             this.pizzaBtn.Name = "pizzaBtn";
             this.pizzaBtn.Size = new System.Drawing.Size(247, 35);
-            this.pizzaBtn.TabIndex = 0;
+            this.pizzaBtn.TabIndex = 1;
             this.pizzaBtn.Text = "Pizza";
             this.pizzaBtn.UseVisualStyleBackColor = false;
             this.pizzaBtn.Click += new System.EventHandler(this.PizzaBtn_Click);
@@ -64,7 +64,7 @@
             this.pedidoBtn.Location = new System.Drawing.Point(12, 154);
             this.pedidoBtn.Name = "pedidoBtn";
             this.pedidoBtn.Size = new System.Drawing.Size(247, 35);
-            this.pedidoBtn.TabIndex = 5;
+            this.pedidoBtn.TabIndex = 4;
             this.pedidoBtn.Text = "Realizar Pedido";
             this.pedidoBtn.UseVisualStyleBackColor = false;
             this.pedidoBtn.Click += new System.EventHandler(this.PedidoBtn_Click);
@@ -89,7 +89,7 @@
             this.cadastroFuncionarioBtn.Location = new System.Drawing.Point(12, 195);
             this.cadastroFuncionarioBtn.Name = "cadastroFuncionarioBtn";
             this.cadastroFuncionarioBtn.Size = new System.Drawing.Size(247, 35);
-            this.cadastroFuncionarioBtn.TabIndex = 10;
+            this.cadastroFuncionarioBtn.TabIndex = 5;
             this.cadastroFuncionarioBtn.Text = "Cadastrar Funcionario";
             this.cadastroFuncionarioBtn.UseVisualStyleBackColor = false;
             this.cadastroFuncionarioBtn.Click += new System.EventHandler(this.CadastroFuncionarioBtn_Click);
@@ -102,7 +102,7 @@
             this.fornecedorBtn.Location = new System.Drawing.Point(12, 236);
             this.fornecedorBtn.Name = "fornecedorBtn";
             this.fornecedorBtn.Size = new System.Drawing.Size(247, 35);
-            this.fornecedorBtn.TabIndex = 12;
+            this.fornecedorBtn.TabIndex = 6;
             this.fornecedorBtn.Text = "Cadastrar Fornecedor";
             this.fornecedorBtn.UseVisualStyleBackColor = false;
             this.fornecedorBtn.Click += new System.EventHandler(this.FornecedorBtn_Click);
@@ -115,7 +115,7 @@
             this.bebidasBtn.Location = new System.Drawing.Point(12, 277);
             this.bebidasBtn.Name = "bebidasBtn";
             this.bebidasBtn.Size = new System.Drawing.Size(247, 35);
-            this.bebidasBtn.TabIndex = 13;
+            this.bebidasBtn.TabIndex = 7;
             this.bebidasBtn.Text = "Cadastrar Bebidas";
             this.bebidasBtn.UseVisualStyleBackColor = false;
             this.bebidasBtn.Click += new System.EventHandler(this.BebidasBtn_Click);
@@ -148,7 +148,7 @@
             this.editarStatusPedidoBtn.Location = new System.Drawing.Point(12, 72);
             this.editarStatusPedidoBtn.Name = "editarStatusPedidoBtn";
             this.editarStatusPedidoBtn.Size = new System.Drawing.Size(247, 35);
-            this.editarStatusPedidoBtn.TabIndex = 16;
+            this.editarStatusPedidoBtn.TabIndex = 2;
             this.editarStatusPedidoBtn.Text = "Editar Status Pedidos";
             this.editarStatusPedidoBtn.UseVisualStyleBackColor = false;
             this.editarStatusPedidoBtn.Click += new System.EventHandler(this.EditarStatusPedido_Click);
@@ -161,7 +161,7 @@
             this.visPedidoBtn.Location = new System.Drawing.Point(12, 113);
             this.visPedidoBtn.Name = "visPedidoBtn";
             this.visPedidoBtn.Size = new System.Drawing.Size(247, 35);
-            this.visPedidoBtn.TabIndex = 17;
+            this.visPedidoBtn.TabIndex = 3;
             this.visPedidoBtn.Text = "Visualizar Pedidos";
             this.visPedidoBtn.UseVisualStyleBackColor = false;
             this.visPedidoBtn.Click += new System.EventHandler(this.visPedidoBtn_Click);

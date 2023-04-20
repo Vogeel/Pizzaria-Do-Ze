@@ -22,12 +22,20 @@ namespace Pizzaria_Do_Ze
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            pedEntreguesBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pedEntreguesBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            pedPendentesBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pedPendentesBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
 
         }
 
         private void pedPendentesBtn_Click(object sender, EventArgs e)
         {
             pendentes.ShowDialog();
+            
         }
 
         private void pedEntreguesBtn_Click(object sender, EventArgs e)
@@ -39,5 +47,9 @@ namespace Pizzaria_Do_Ze
         {
             this.Close();
         }
+
+
+
+        
     }
 }

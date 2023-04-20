@@ -41,10 +41,10 @@
             this.atualizarBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.acrecimoEspecialLabel = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.moedaLabel = new System.Windows.Forms.Label();
+            this.moedaLabel1 = new System.Windows.Forms.Label();
+            this.moedaLabel2 = new System.Windows.Forms.Label();
+            this.moedaLabel3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -111,28 +111,28 @@
             this.valorBrotoTB.Location = new System.Drawing.Point(142, 84);
             this.valorBrotoTB.Name = "valorBrotoTB";
             this.valorBrotoTB.Size = new System.Drawing.Size(100, 20);
-            this.valorBrotoTB.TabIndex = 5;
+            this.valorBrotoTB.TabIndex = 1;
             // 
             // valorGrandeTB
             // 
             this.valorGrandeTB.Location = new System.Drawing.Point(142, 110);
             this.valorGrandeTB.Name = "valorGrandeTB";
             this.valorGrandeTB.Size = new System.Drawing.Size(100, 20);
-            this.valorGrandeTB.TabIndex = 6;
+            this.valorGrandeTB.TabIndex = 2;
             // 
             // valorGiganteTB
             // 
             this.valorGiganteTB.Location = new System.Drawing.Point(142, 136);
             this.valorGiganteTB.Name = "valorGiganteTB";
             this.valorGiganteTB.Size = new System.Drawing.Size(100, 20);
-            this.valorGiganteTB.TabIndex = 7;
+            this.valorGiganteTB.TabIndex = 3;
             // 
             // valorExtraGiganteTB
             // 
             this.valorExtraGiganteTB.Location = new System.Drawing.Point(142, 162);
             this.valorExtraGiganteTB.Name = "valorExtraGiganteTB";
             this.valorExtraGiganteTB.Size = new System.Drawing.Size(100, 20);
-            this.valorExtraGiganteTB.TabIndex = 8;
+            this.valorExtraGiganteTB.TabIndex = 4;
             // 
             // atualizarBtn
             // 
@@ -141,7 +141,7 @@
             this.atualizarBtn.Location = new System.Drawing.Point(135, 240);
             this.atualizarBtn.Name = "atualizarBtn";
             this.atualizarBtn.Size = new System.Drawing.Size(107, 35);
-            this.atualizarBtn.TabIndex = 10;
+            this.atualizarBtn.TabIndex = 5;
             this.atualizarBtn.Text = "Substituir preços";
             this.atualizarBtn.UseVisualStyleBackColor = true;
             this.atualizarBtn.Click += new System.EventHandler(this.Atualizar_Click);
@@ -152,7 +152,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(399, 12);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(107, 35);
-            this.cancelBtn.TabIndex = 11;
+            this.cancelBtn.TabIndex = 6;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -169,49 +169,49 @@
             this.acrecimoEspecialLabel.TabIndex = 12;
             this.acrecimoEspecialLabel.Text = "*Tem um acrescimo de 30% sobre o valor normal";
             // 
-            // label7
+            // moedaLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Wheat;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(109, 84);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(27, 18);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "R$";
+            this.moedaLabel.AutoSize = true;
+            this.moedaLabel.BackColor = System.Drawing.Color.Wheat;
+            this.moedaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moedaLabel.Location = new System.Drawing.Point(109, 84);
+            this.moedaLabel.Name = "moedaLabel";
+            this.moedaLabel.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel.TabIndex = 13;
+            this.moedaLabel.Text = "R$";
             // 
-            // label9
+            // moedaLabel1
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Wheat;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(109, 112);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 18);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "R$";
+            this.moedaLabel1.AutoSize = true;
+            this.moedaLabel1.BackColor = System.Drawing.Color.Wheat;
+            this.moedaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moedaLabel1.Location = new System.Drawing.Point(109, 112);
+            this.moedaLabel1.Name = "moedaLabel1";
+            this.moedaLabel1.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel1.TabIndex = 15;
+            this.moedaLabel1.Text = "R$";
             // 
-            // label10
+            // moedaLabel2
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Wheat;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(109, 138);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(27, 18);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "R$";
+            this.moedaLabel2.AutoSize = true;
+            this.moedaLabel2.BackColor = System.Drawing.Color.Wheat;
+            this.moedaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moedaLabel2.Location = new System.Drawing.Point(109, 138);
+            this.moedaLabel2.Name = "moedaLabel2";
+            this.moedaLabel2.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel2.TabIndex = 16;
+            this.moedaLabel2.Text = "R$";
             // 
-            // label11
+            // moedaLabel3
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Wheat;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(109, 161);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(27, 18);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "R$";
+            this.moedaLabel3.AutoSize = true;
+            this.moedaLabel3.BackColor = System.Drawing.Color.Wheat;
+            this.moedaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moedaLabel3.Location = new System.Drawing.Point(109, 161);
+            this.moedaLabel3.Name = "moedaLabel3";
+            this.moedaLabel3.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel3.TabIndex = 17;
+            this.moedaLabel3.Text = "R$";
             // 
             // pictureBox1
             // 
@@ -240,10 +240,10 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(537, 301);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.moedaLabel3);
+            this.Controls.Add(this.moedaLabel2);
+            this.Controls.Add(this.moedaLabel1);
+            this.Controls.Add(this.moedaLabel);
             this.Controls.Add(this.acrecimoEspecialLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.atualizarBtn);
@@ -284,10 +284,10 @@
         private System.Windows.Forms.Button atualizarBtn;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Label acrecimoEspecialLabel;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label moedaLabel;
+        private System.Windows.Forms.Label moedaLabel1;
+        private System.Windows.Forms.Label moedaLabel2;
+        private System.Windows.Forms.Label moedaLabel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

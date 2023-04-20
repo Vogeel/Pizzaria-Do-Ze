@@ -46,7 +46,7 @@
             this.idiomaComboBox.Location = new System.Drawing.Point(38, 111);
             this.idiomaComboBox.Name = "idiomaComboBox";
             this.idiomaComboBox.Size = new System.Drawing.Size(121, 21);
-            this.idiomaComboBox.TabIndex = 0;
+            this.idiomaComboBox.TabIndex = 1;
             // 
             // okBtn
             // 
@@ -54,7 +54,7 @@
             this.okBtn.Location = new System.Drawing.Point(367, 219);
             this.okBtn.Name = "okBtn";
             this.okBtn.Size = new System.Drawing.Size(75, 33);
-            this.okBtn.TabIndex = 1;
+            this.okBtn.TabIndex = 4;
             this.okBtn.Text = "Ok";
             this.okBtn.UseVisualStyleBackColor = true;
             this.okBtn.Click += new System.EventHandler(this.okBtn_Click);
@@ -74,7 +74,7 @@
             this.reiniciarCheckBox.Location = new System.Drawing.Point(165, 113);
             this.reiniciarCheckBox.Name = "reiniciarCheckBox";
             this.reiniciarCheckBox.Size = new System.Drawing.Size(205, 17);
-            this.reiniciarCheckBox.TabIndex = 3;
+            this.reiniciarCheckBox.TabIndex = 2;
             this.reiniciarCheckBox.Text = "Reiniciar aplicação para mudar idioma";
             this.reiniciarCheckBox.UseVisualStyleBackColor = true;
             // 
@@ -93,7 +93,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(286, 219);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(75, 33);
-            this.cancelBtn.TabIndex = 5;
+            this.cancelBtn.TabIndex = 3;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);

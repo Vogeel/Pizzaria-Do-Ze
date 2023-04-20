@@ -22,6 +22,31 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            adminRadioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            adminRadioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            AtendenteRadioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            AtendenteRadioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            entregadorRadioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            entregadorRadioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cnhMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cnhMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cpfMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cpfMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            matriculaTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            matriculaTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            nomeTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            nomeTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            senhaMaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            senhaMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            telefonemaskedTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            telefonemaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            validadeCNHdateTimePicker.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            validadeCNHdateTimePicker.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
 
         private void CadastrarBtn_Click(object sender, EventArgs e)

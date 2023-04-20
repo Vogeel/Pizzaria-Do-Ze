@@ -57,7 +57,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(227, 106);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(75, 23);
-            this.cancelBtn.TabIndex = 2;
+            this.cancelBtn.TabIndex = 3;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
@@ -68,7 +68,7 @@
             this.acessarBtn.Location = new System.Drawing.Point(227, 48);
             this.acessarBtn.Name = "acessarBtn";
             this.acessarBtn.Size = new System.Drawing.Size(75, 23);
-            this.acessarBtn.TabIndex = 3;
+            this.acessarBtn.TabIndex = 2;
             this.acessarBtn.Text = "Acessar";
             this.acessarBtn.UseVisualStyleBackColor = true;
             this.acessarBtn.Click += new System.EventHandler(this.AcessarBtn_Click);

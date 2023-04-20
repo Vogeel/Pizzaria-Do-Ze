@@ -33,6 +33,23 @@ namespace Pizzaria_Do_Ze
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            bebidasBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            bebidasBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cadastroFuncionarioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cadastroFuncionarioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            editarStatusPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            editarStatusPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            fornecedorBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            fornecedorBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            pedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            pizzaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            pizzaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            visPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            visPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
 
         }
 

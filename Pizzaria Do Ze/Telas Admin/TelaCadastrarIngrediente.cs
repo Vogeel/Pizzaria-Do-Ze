@@ -19,6 +19,15 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            addBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            addBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            excluirSelecionadoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            excluirSelecionadoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            nomeTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            nomeTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
 
         private void cancelBtn_Click(object sender, EventArgs e)

@@ -24,6 +24,27 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            addBebidaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            addBebidaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            addPizzaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            addPizzaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            excluirBebidaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            excluirBebidaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            excluirPizzaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            excluirPizzaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            retirarIngredienteBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            retirarIngredienteBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            seguinteBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            seguinteBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            bebeidasComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            bebeidasComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            bordaComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            bordaComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            saborComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            saborComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
 
         private void SeguinteBtn_Click(object sender, EventArgs e)

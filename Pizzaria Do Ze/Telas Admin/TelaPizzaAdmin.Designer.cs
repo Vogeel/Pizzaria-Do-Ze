@@ -48,7 +48,7 @@
             this.saboresBtn.Location = new System.Drawing.Point(23, 88);
             this.saboresBtn.Name = "saboresBtn";
             this.saboresBtn.Size = new System.Drawing.Size(142, 44);
-            this.saboresBtn.TabIndex = 0;
+            this.saboresBtn.TabIndex = 2;
             this.saboresBtn.Text = "Sabores";
             this.saboresBtn.UseVisualStyleBackColor = false;
             this.saboresBtn.Click += new System.EventHandler(this.SaboresBtn_Click);
@@ -61,7 +61,7 @@
             this.valoresBtn.Location = new System.Drawing.Point(23, 188);
             this.valoresBtn.Name = "valoresBtn";
             this.valoresBtn.Size = new System.Drawing.Size(142, 44);
-            this.valoresBtn.TabIndex = 1;
+            this.valoresBtn.TabIndex = 4;
             this.valoresBtn.Text = "Valores";
             this.valoresBtn.UseVisualStyleBackColor = false;
             this.valoresBtn.Click += new System.EventHandler(this.ValoresBtn_Click);
@@ -72,7 +72,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(340, 251);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(96, 37);
-            this.cancelBtn.TabIndex = 2;
+            this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -98,7 +98,7 @@
             this.ingredientesBtn.Location = new System.Drawing.Point(23, 38);
             this.ingredientesBtn.Name = "ingredientesBtn";
             this.ingredientesBtn.Size = new System.Drawing.Size(142, 44);
-            this.ingredientesBtn.TabIndex = 4;
+            this.ingredientesBtn.TabIndex = 1;
             this.ingredientesBtn.Text = "Ingredientes";
             this.ingredientesBtn.UseVisualStyleBackColor = false;
             this.ingredientesBtn.Click += new System.EventHandler(this.IngredientesBtn_Click);

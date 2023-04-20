@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaRetirarIngrediente));
             this.saborLabel = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.saborComboBox = new System.Windows.Forms.ComboBox();
             this.ingredientesListBox = new System.Windows.Forms.ListBox();
             this.retirarBtn = new System.Windows.Forms.Button();
             this.cancelbtn = new System.Windows.Forms.Button();
@@ -48,13 +48,13 @@
             this.saborLabel.TabIndex = 0;
             this.saborLabel.Text = "Sabor:";
             // 
-            // comboBox1
+            // saborComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(105, 40);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(167, 21);
-            this.comboBox1.TabIndex = 1;
+            this.saborComboBox.FormattingEnabled = true;
+            this.saborComboBox.Location = new System.Drawing.Point(105, 40);
+            this.saborComboBox.Name = "saborComboBox";
+            this.saborComboBox.Size = new System.Drawing.Size(167, 21);
+            this.saborComboBox.TabIndex = 1;
             // 
             // ingredientesListBox
             // 
@@ -83,7 +83,7 @@
             this.cancelbtn.Location = new System.Drawing.Point(323, 12);
             this.cancelbtn.Name = "cancelbtn";
             this.cancelbtn.Size = new System.Drawing.Size(86, 27);
-            this.cancelbtn.TabIndex = 4;
+            this.cancelbtn.TabIndex = 2;
             this.cancelbtn.Text = "Cancelar";
             this.cancelbtn.UseVisualStyleBackColor = true;
             this.cancelbtn.Click += new System.EventHandler(this.Cancelbtn_Click);
@@ -95,7 +95,7 @@
             this.ConcluirBtn.Location = new System.Drawing.Point(323, 206);
             this.ConcluirBtn.Name = "ConcluirBtn";
             this.ConcluirBtn.Size = new System.Drawing.Size(86, 27);
-            this.ConcluirBtn.TabIndex = 5;
+            this.ConcluirBtn.TabIndex = 4;
             this.ConcluirBtn.Text = "Concluir";
             this.ConcluirBtn.UseVisualStyleBackColor = true;
             this.ConcluirBtn.Click += new System.EventHandler(this.ConcluirBtn_Click);
@@ -120,7 +120,7 @@
             this.Controls.Add(this.cancelbtn);
             this.Controls.Add(this.retirarBtn);
             this.Controls.Add(this.ingredientesListBox);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.saborComboBox);
             this.Controls.Add(this.saborLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -138,7 +138,7 @@
         #endregion
 
         private System.Windows.Forms.Label saborLabel;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox saborComboBox;
         private System.Windows.Forms.ListBox ingredientesListBox;
         private System.Windows.Forms.Button retirarBtn;
         private System.Windows.Forms.Button cancelbtn;

@@ -41,7 +41,7 @@
             this.cadastrarBtn.Location = new System.Drawing.Point(298, 295);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(104, 27);
-            this.cadastrarBtn.TabIndex = 14;
+            this.cadastrarBtn.TabIndex = 9;
             this.cadastrarBtn.Text = "Cadastrar";
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.CadastrarBtn_Click);
@@ -52,7 +52,7 @@
             this.clienteCadastradoBtn.Location = new System.Drawing.Point(164, 295);
             this.clienteCadastradoBtn.Name = "clienteCadastradoBtn";
             this.clienteCadastradoBtn.Size = new System.Drawing.Size(127, 27);
-            this.clienteCadastradoBtn.TabIndex = 18;
+            this.clienteCadastradoBtn.TabIndex = 8;
             this.clienteCadastradoBtn.Text = "Cliente já cadastrado";
             this.clienteCadastradoBtn.UseVisualStyleBackColor = true;
             // 
@@ -80,7 +80,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(387, 12);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(89, 28);
-            this.cancelBtn.TabIndex = 21;
+            this.cancelBtn.TabIndex = 10;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
