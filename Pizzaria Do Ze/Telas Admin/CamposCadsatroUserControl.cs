@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Admin
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class CamposCadsatroUserControl : UserControl
     {
         /// <summary>

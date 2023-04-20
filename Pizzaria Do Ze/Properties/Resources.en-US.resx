@@ -135,6 +135,9 @@
   <data name="addPizzaBtn.Text" xml:space="preserve">
     <value>To add</value>
   </data>
+  <data name="adminToolStripMenuItem.Text" xml:space="preserve">
+    <value>Items Admin</value>
+  </data>
   <data name="AtendenteRadioBtn.Text" xml:space="preserve">
     <value>Attendant</value>
   </data>
@@ -150,6 +153,9 @@
   <data name="bebidasGroupBox.Text" xml:space="preserve">
     <value>Chosen drinks</value>
   </data>
+  <data name="bebidaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Drink</value>
+  </data>
   <data name="bemvindoLabel.Text" xml:space="preserve">
     <value>Welcome</value>
   </data>
@@ -163,6 +169,9 @@
     <value>Bud</value>
   </data>
   <data name="cadastrarBtn.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="cadastrarToolStripMenuItem" xml:space="preserve">
     <value>Register</value>
   </data>
   <data name="cadastroFuncionarioBtn.Text" xml:space="preserve">
@@ -209,6 +218,12 @@
   </data>
   <data name="editarStatusPedidoBtn.Text" xml:space="preserve">
     <value>Edit status requests</value>
+  </data>
+  <data name="editarStatusPedidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit status order</value>
+  </data>
+  <data name="editarStatusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit status</value>
   </data>
   <data name="editBtn.Text" xml:space="preserve">
     <value>To edit</value>
@@ -279,6 +294,12 @@
   <data name="fornecedorBtn.Text" xml:space="preserve">
     <value>Register Supplier</value>
   </data>
+  <data name="fornecedorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="funcionarioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Employee</value>
+  </data>
   <data name="giganteLabel.Text" xml:space="preserve">
     <value>Giant</value>
   </data>
@@ -296,6 +317,9 @@
   </data>
   <data name="ingredientesBtn.Text" xml:space="preserve">
     <value>Ingredients</value>
+  </data>
+  <data name="itensEntregadorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Items Delivery guy</value>
   </data>
   <data name="loginBtn.Text" xml:space="preserve">
     <value>Login</value>
@@ -345,8 +369,17 @@
   <data name="pedidoGroupBox.Text" xml:space="preserve">
     <value>Order</value>
   </data>
+  <data name="pedidosEntreguesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pending delivered</value>
+  </data>
+  <data name="pedidosPendentesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pending orders</value>
+  </data>
   <data name="pedidoStaticLabel.Text" xml:space="preserve">
     <value>Order Description:</value>
+  </data>
+  <data name="pedidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Order</value>
   </data>
   <data name="pedPendentesBtn.Text" xml:space="preserve">
     <value>View pending orders</value>
@@ -359,6 +392,12 @@
   </data>
   <data name="preparoRadioBtn.Text" xml:space="preserve">
     <value>In preparation</value>
+  </data>
+  <data name="realizarPedidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Place order</value>
+  </data>
+  <data name="realizarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Checkout</value>
   </data>
   <data name="reiniciarCheckBox.Text" xml:space="preserve">
     <value>Restart app to change language</value>
@@ -383,6 +422,9 @@
   </data>
   <data name="saborLabel.Text" xml:space="preserve">
     <value>Flavors:</value>
+  </data>
+  <data name="sairToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
   </data>
   <data name="saiuEntregaRadioBtn.Text" xml:space="preserve">
     <value>Out for delivery</value>
@@ -515,6 +557,12 @@
   </data>
   <data name="visPedidoBtn.Text" xml:space="preserve">
     <value>View requests</value>
+  </data>
+  <data name="visualizarPedidoToolStripMenuItem.Text" xml:space="preserve">
+    <value>View order</value>
+  </data>
+  <data name="visualizarToolStripMenuItem.Text" xml:space="preserve">
+    <value>View</value>
   </data>
   <data name="voltarBtn.Text" xml:space="preserve">
     <value>Back</value>

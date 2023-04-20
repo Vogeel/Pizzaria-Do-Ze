@@ -135,6 +135,9 @@
   <data name="addPizzaBtn.Text" xml:space="preserve">
     <value>Para agregar</value>
   </data>
+  <data name="adminToolStripMenuItem.Text" xml:space="preserve">
+    <value>Elementos de administración</value>
+  </data>
   <data name="AtendenteRadioBtn.Text" xml:space="preserve">
     <value>Asistente</value>
   </data>
@@ -150,6 +153,9 @@
   <data name="bebidasGroupBox.Text" xml:space="preserve">
     <value>Bebidas elegidas</value>
   </data>
+  <data name="bebidaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copa</value>
+  </data>
   <data name="bemvindoLabel.Text" xml:space="preserve">
     <value>Bienvenido</value>
   </data>
@@ -163,6 +169,9 @@
     <value>brote</value>
   </data>
   <data name="cadastrarBtn.Text" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="cadastrarToolStripMenuItem.Text" xml:space="preserve">
     <value>Registrar</value>
   </data>
   <data name="cadastroFuncionarioBtn.Text" xml:space="preserve">
@@ -279,6 +288,12 @@
   <data name="fornecedorBtn.Text" xml:space="preserve">
     <value>Proveedor de registro</value>
   </data>
+  <data name="fornecedorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="funcionarioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
   <data name="giganteLabel.Text" xml:space="preserve">
     <value>Gigante</value>
   </data>
@@ -383,6 +398,9 @@
   </data>
   <data name="saborLabel.Text" xml:space="preserve">
     <value>Sabor:</value>
+  </data>
+  <data name="sairToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salir</value>
   </data>
   <data name="saiuEntregaRadioBtn.Text" xml:space="preserve">
     <value>Fuera para entrega</value>

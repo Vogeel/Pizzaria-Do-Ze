@@ -25,6 +25,7 @@ namespace Pizzaria_Do_Ze
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
             UserTextBox.Focus();
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
             UserTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             UserTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             senhaTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
@@ -33,7 +34,6 @@ namespace Pizzaria_Do_Ze
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             loginBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             loginBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
@@ -59,11 +59,12 @@ namespace Pizzaria_Do_Ze
             this.Close();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        
+
+        private void configBtn_Click(object sender, EventArgs e)
         {
             configurations.ShowDialog();
-        }
 
-        
+        }
     }
 }

@@ -26,6 +26,8 @@ namespace Pizzaria_Do_Ze
         readonly TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
         readonly TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
         readonly TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
+        readonly ContextMenuStrip menuContext = new ContextMenuStrip();
+
         /// <summary>
         /// Tela quando um admin logar
         /// </summary>
@@ -50,6 +52,17 @@ namespace Pizzaria_Do_Ze
             voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            pizzaToolStripMenuItem.Click += new EventHandler(PizzaBtn_Click);
+            bebidaToolStripMenuItem.Click += new EventHandler(BebidasBtn_Click);
+            editarStatusToolStripMenuItem.Click += new EventHandler(EditarStatusPedido_Click);
+            fornecedorToolStripMenuItem.Click += new EventHandler(FornecedorBtn_Click);
+            funcionarioToolStripMenuItem.Click += new EventHandler(CadastroFuncionarioBtn_Click);
+            realizarToolStripMenuItem.Click += new EventHandler(PedidoBtn_Click);
+            sairToolStripMenuItem.Click += new EventHandler(VoltarBtn_Click);
+            visualizarToolStripMenuItem.Click += new EventHandler(visPedidoBtn_Click);
+
+
+
 
         }
 
@@ -61,8 +74,7 @@ namespace Pizzaria_Do_Ze
         private void PedidoBtn_Click(object sender, EventArgs e)
         {
             pedido.ShowDialog();
-        }
-      
+        }   
         private void CadastroFuncionarioBtn_Click(object sender, EventArgs e)
         {
             funcionarios.ShowDialog();
@@ -71,10 +83,7 @@ namespace Pizzaria_Do_Ze
         private void VoltarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-       
-
+        }    
         private void FornecedorBtn_Click(object sender, EventArgs e)
         {
             fornecedor.ShowDialog();
@@ -96,5 +105,7 @@ namespace Pizzaria_Do_Ze
             entregas.ShowDialog();
 
         }
+
+        
     }
 }

@@ -36,6 +36,10 @@ namespace Pizzaria_Do_Ze
             visPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             visPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            editarStatusPedidoToolStripMenuItem.Click += new EventHandler(EditarStatusPedidoBtn_Click);
+            realizarPedidoToolStripMenuItem.Click += new EventHandler(pedidoBtn_Click);
+            visualizarPedidoToolStripMenuItem.Click += new EventHandler(VisPedidoBtn_Click);
+
 
         }
 

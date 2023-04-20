@@ -36,8 +36,7 @@
             this.senhaTextBox = new System.Windows.Forms.TextBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.loginBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.configBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bemvindoLabel
@@ -119,16 +118,24 @@
             this.loginBtn.UseVisualStyleBackColor = false;
             this.loginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
-            // pictureBox1
+            // configBtn
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 25);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.configBtn.BackColor = System.Drawing.Color.Transparent;
+            this.configBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.configBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.configBtn.FlatAppearance.BorderColor = System.Drawing.Color.BurlyWood;
+            this.configBtn.FlatAppearance.BorderSize = 0;
+            this.configBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.BurlyWood;
+            this.configBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.BurlyWood;
+            this.configBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.configBtn.Image = ((System.Drawing.Image)(resources.GetObject("configBtn.Image")));
+            this.configBtn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.configBtn.Location = new System.Drawing.Point(2, -4);
+            this.configBtn.Name = "configBtn";
+            this.configBtn.Size = new System.Drawing.Size(59, 54);
+            this.configBtn.TabIndex = 8;
+            this.configBtn.UseVisualStyleBackColor = false;
+            this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
             // 
             // TelaLogin
             // 
@@ -137,7 +144,7 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(335, 223);
             this.ControlBox = false;
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.configBtn);
             this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.senhaTextBox);
@@ -151,7 +158,6 @@
             this.Name = "TelaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,7 +172,7 @@
         private System.Windows.Forms.TextBox senhaTextBox;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button loginBtn;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button configBtn;
     }
 }
 

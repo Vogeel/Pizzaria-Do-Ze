@@ -29,7 +29,8 @@ namespace Pizzaria_Do_Ze
             voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
-
+            pedidosEntreguesToolStripMenuItem.Click += new EventHandler(pedEntreguesBtn_Click);
+            pedidosPendentesToolStripMenuItem.Click += new EventHandler(pedPendentesBtn_Click);
         }
 
         private void pedPendentesBtn_Click(object sender, EventArgs e)

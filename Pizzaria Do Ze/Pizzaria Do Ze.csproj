@@ -89,6 +89,12 @@
     <Compile Include="Telas Admin\CamposCadsatroUserControl.Designer.cs">
       <DependentUpon>CamposCadsatroUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas Admin\OperacoesUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Telas Admin\OperacoesUserControl.Designer.cs">
+      <DependentUpon>OperacoesUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas Admin\TelaAdicionarBorda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,6 +261,9 @@
     </Compile>
     <EmbeddedResource Include="Telas Admin\CamposCadsatroUserControl.resx">
       <DependentUpon>CamposCadsatroUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Admin\OperacoesUserControl.resx">
+      <DependentUpon>OperacoesUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas Admin\TelaAdicionarBorda.resx">
       <DependentUpon>TelaAdicionarBorda.cs</DependentUpon>
