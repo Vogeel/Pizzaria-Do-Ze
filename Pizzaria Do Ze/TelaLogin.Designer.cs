@@ -75,14 +75,14 @@
             this.UserTextBox.Location = new System.Drawing.Point(114, 84);
             this.UserTextBox.Name = "UserTextBox";
             this.UserTextBox.Size = new System.Drawing.Size(132, 20);
-            this.UserTextBox.TabIndex = 3;
+            this.UserTextBox.TabIndex = 0;
             // 
             // senhaTextBox
             // 
             this.senhaTextBox.Location = new System.Drawing.Point(114, 136);
             this.senhaTextBox.Name = "senhaTextBox";
             this.senhaTextBox.Size = new System.Drawing.Size(132, 20);
-            this.senhaTextBox.TabIndex = 4;
+            this.senhaTextBox.TabIndex = 1;
             // 
             // cancelBtn
             // 
@@ -97,7 +97,7 @@
             this.cancelBtn.Location = new System.Drawing.Point(104, 174);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(75, 23);
-            this.cancelBtn.TabIndex = 5;
+            this.cancelBtn.TabIndex = 2;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = false;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
@@ -113,7 +113,7 @@
             this.loginBtn.Location = new System.Drawing.Point(185, 174);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(75, 23);
-            this.loginBtn.TabIndex = 6;
+            this.loginBtn.TabIndex = 3;
             this.loginBtn.Text = "Login";
             this.loginBtn.UseVisualStyleBackColor = false;
             this.loginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
@@ -133,7 +133,7 @@
             this.configBtn.Location = new System.Drawing.Point(2, -4);
             this.configBtn.Name = "configBtn";
             this.configBtn.Size = new System.Drawing.Size(59, 54);
-            this.configBtn.TabIndex = 8;
+            this.configBtn.TabIndex = 4;
             this.configBtn.UseVisualStyleBackColor = false;
             this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
             // 
@@ -153,11 +153,13 @@
             this.Controls.Add(this.usuarioLabel);
             this.Controls.Add(this.bemvindoLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelaLogin_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

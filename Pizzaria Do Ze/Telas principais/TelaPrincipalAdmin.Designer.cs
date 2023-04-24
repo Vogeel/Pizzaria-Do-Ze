@@ -50,8 +50,8 @@
             this.funcionarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bebidaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.adminMenuStrip.SuspendLayout();
@@ -178,7 +178,7 @@
             this.visPedidoBtn.TabIndex = 3;
             this.visPedidoBtn.Text = "Visualizar Pedidos";
             this.visPedidoBtn.UseVisualStyleBackColor = false;
-            this.visPedidoBtn.Click += new System.EventHandler(this.visPedidoBtn_Click);
+            this.visPedidoBtn.Click += new System.EventHandler(this.VisPedidoBtn_Click);
             // 
             // adminMenuStrip
             // 
@@ -207,7 +207,7 @@
             // 
             this.pizzaToolStripMenuItem.Name = "pizzaToolStripMenuItem";
             this.pizzaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F1)));
-            this.pizzaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pizzaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.pizzaToolStripMenuItem.Text = "Pizza";
             // 
             // pedidoToolStripMenuItem
@@ -217,7 +217,7 @@
             this.visualizarToolStripMenuItem,
             this.realizarToolStripMenuItem});
             this.pedidoToolStripMenuItem.Name = "pedidoToolStripMenuItem";
-            this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.pedidoToolStripMenuItem.Text = "Pedido";
             // 
             // editarStatusToolStripMenuItem
@@ -248,7 +248,7 @@
             this.bebidaToolStripMenuItem,
             this.fornecedorToolStripMenuItem});
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.cadastrarToolStripMenuItem.Text = "Cadastrar";
             // 
             // funcionarioToolStripMenuItem
@@ -272,17 +272,17 @@
             this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.fornecedorToolStripMenuItem.Text = "Fornecedor";
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F8)));
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(148, 6);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Delete)));
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
             // 
             // TelaPrincipalAdmin
             // 
@@ -302,6 +302,8 @@
             this.Controls.Add(this.pizzaBtn);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MainMenuStrip = this.adminMenuStrip;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

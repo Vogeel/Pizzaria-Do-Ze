@@ -26,7 +26,6 @@ namespace Pizzaria_Do_Ze
         readonly TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
         readonly TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
         readonly TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
-        readonly ContextMenuStrip menuContext = new ContextMenuStrip();
 
         /// <summary>
         /// Tela quando um admin logar
@@ -34,6 +33,7 @@ namespace Pizzaria_Do_Ze
         public TelaPrincipalAdmin()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             bebidasBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             bebidasBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -59,7 +59,7 @@ namespace Pizzaria_Do_Ze
             funcionarioToolStripMenuItem.Click += new EventHandler(CadastroFuncionarioBtn_Click);
             realizarToolStripMenuItem.Click += new EventHandler(PedidoBtn_Click);
             sairToolStripMenuItem.Click += new EventHandler(VoltarBtn_Click);
-            visualizarToolStripMenuItem.Click += new EventHandler(visPedidoBtn_Click);
+            visualizarToolStripMenuItem.Click += new EventHandler(VisPedidoBtn_Click);
 
 
 
@@ -100,12 +100,12 @@ namespace Pizzaria_Do_Ze
 
         }
 
-        private void visPedidoBtn_Click(object sender, EventArgs e)
+        private void VisPedidoBtn_Click(object sender, EventArgs e)
         {
             entregas.ShowDialog();
 
         }
 
-        
+       
     }
 }

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Admin
@@ -21,6 +14,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaCadastrarBebidas()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -37,11 +31,14 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             tipoComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             tipoComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            tipoComboBox.Focus();
         }
 
         private void CadastrarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+
     }
 }

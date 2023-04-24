@@ -21,6 +21,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaAdicionarBorda()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -29,6 +30,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             nomeTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             nomeTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            nomeTextBox.Focus();
         }
 
         private void OkBtn_Click(object sender, EventArgs e)
@@ -40,5 +42,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
             this.Close();
         }
+
+        
     }
 }

@@ -23,6 +23,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaPedidoCliente()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             addBebidaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             addBebidaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -45,6 +46,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             saborComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             saborComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            saborComboBox.Focus();
         }
 
         private void SeguinteBtn_Click(object sender, EventArgs e)
@@ -61,5 +63,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         {
             retirarIngrediente.ShowDialog();
         }
+
+        
     }
 }

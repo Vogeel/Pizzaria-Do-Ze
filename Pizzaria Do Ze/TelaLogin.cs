@@ -11,6 +11,9 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class TelaLogin : Form
     {
         readonly TelaPrincipalAdmin admin = new TelaPrincipalAdmin();
@@ -24,6 +27,7 @@ namespace Pizzaria_Do_Ze
         {
             InitializeComponent();
             Funcoes.AjustaResourcesControl(this);
+            Funcoes.FecharEsc(this);
             UserTextBox.Focus();
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
             UserTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
@@ -53,7 +57,8 @@ namespace Pizzaria_Do_Ze
                 entregador.ShowDialog();
             }
         }
-        
+       
+           
         private void CancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -66,5 +71,16 @@ namespace Pizzaria_Do_Ze
             configurations.ShowDialog();
 
         }
+
+        private void TelaLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Deseja realmente sair?", "Confirmação", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+
+        }
+
+        
     }
 }

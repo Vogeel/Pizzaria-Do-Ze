@@ -18,7 +18,11 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         /// </summary>
         public TelaCadastroFornecedor()
         {
-            InitializeComponent();
+                   
+            InitializeComponent(); 
+            CamposCadsatroUserControl campos = new CamposCadsatroUserControl();
+            campos.nomeTextBot.Focus();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -37,5 +41,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
 
         }
+
+        
     }
 }

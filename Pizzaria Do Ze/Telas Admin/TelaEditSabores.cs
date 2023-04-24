@@ -21,6 +21,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaEditSabores()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             addBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             addBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -35,6 +36,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             ingredientesComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             ingredientesComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            nomePizzaTextBox.Focus();
         }
 
         private void CadastrarBtn_Click(object sender, EventArgs e)
@@ -46,5 +48,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
             this.Close();
         }
+
+        
     }
 }

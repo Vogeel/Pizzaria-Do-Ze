@@ -34,10 +34,6 @@
             this.giganteLabel = new System.Windows.Forms.Label();
             this.extragiganteLabel = new System.Windows.Forms.Label();
             this.especiaisLabel = new System.Windows.Forms.Label();
-            this.valorBrotoTB = new System.Windows.Forms.TextBox();
-            this.valorGrandeTB = new System.Windows.Forms.TextBox();
-            this.valorGiganteTB = new System.Windows.Forms.TextBox();
-            this.valorExtraGiganteTB = new System.Windows.Forms.TextBox();
             this.atualizarBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.acrecimoEspecialLabel = new System.Windows.Forms.Label();
@@ -47,6 +43,10 @@
             this.moedaLabel3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.valorBrotoMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.valorGiganteMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.valorMediaMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.valorExtraMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -105,34 +105,6 @@
             this.especiaisLabel.Size = new System.Drawing.Size(72, 18);
             this.especiaisLabel.TabIndex = 4;
             this.especiaisLabel.Text = "Especiais";
-            // 
-            // valorBrotoTB
-            // 
-            this.valorBrotoTB.Location = new System.Drawing.Point(142, 84);
-            this.valorBrotoTB.Name = "valorBrotoTB";
-            this.valorBrotoTB.Size = new System.Drawing.Size(100, 20);
-            this.valorBrotoTB.TabIndex = 1;
-            // 
-            // valorGrandeTB
-            // 
-            this.valorGrandeTB.Location = new System.Drawing.Point(142, 110);
-            this.valorGrandeTB.Name = "valorGrandeTB";
-            this.valorGrandeTB.Size = new System.Drawing.Size(100, 20);
-            this.valorGrandeTB.TabIndex = 2;
-            // 
-            // valorGiganteTB
-            // 
-            this.valorGiganteTB.Location = new System.Drawing.Point(142, 136);
-            this.valorGiganteTB.Name = "valorGiganteTB";
-            this.valorGiganteTB.Size = new System.Drawing.Size(100, 20);
-            this.valorGiganteTB.TabIndex = 3;
-            // 
-            // valorExtraGiganteTB
-            // 
-            this.valorExtraGiganteTB.Location = new System.Drawing.Point(142, 162);
-            this.valorExtraGiganteTB.Name = "valorExtraGiganteTB";
-            this.valorExtraGiganteTB.Size = new System.Drawing.Size(100, 20);
-            this.valorExtraGiganteTB.TabIndex = 4;
             // 
             // atualizarBtn
             // 
@@ -233,12 +205,52 @@
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
             // 
+            // valorBrotoMaskedTextBox
+            // 
+            this.valorBrotoMaskedTextBox.Location = new System.Drawing.Point(142, 82);
+            this.valorBrotoMaskedTextBox.Mask = "#,###.##";
+            this.valorBrotoMaskedTextBox.Name = "valorBrotoMaskedTextBox";
+            this.valorBrotoMaskedTextBox.PromptChar = ' ';
+            this.valorBrotoMaskedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.valorBrotoMaskedTextBox.TabIndex = 1;
+            // 
+            // valorGiganteMaskedTextBox
+            // 
+            this.valorGiganteMaskedTextBox.Location = new System.Drawing.Point(142, 136);
+            this.valorGiganteMaskedTextBox.Mask = "#,###.##";
+            this.valorGiganteMaskedTextBox.Name = "valorGiganteMaskedTextBox";
+            this.valorGiganteMaskedTextBox.PromptChar = ' ';
+            this.valorGiganteMaskedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.valorGiganteMaskedTextBox.TabIndex = 3;
+            // 
+            // valorMediaMaskedTextBox
+            // 
+            this.valorMediaMaskedTextBox.Location = new System.Drawing.Point(142, 109);
+            this.valorMediaMaskedTextBox.Mask = "#,###.##";
+            this.valorMediaMaskedTextBox.Name = "valorMediaMaskedTextBox";
+            this.valorMediaMaskedTextBox.PromptChar = ' ';
+            this.valorMediaMaskedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.valorMediaMaskedTextBox.TabIndex = 2;
+            // 
+            // valorExtraMaskedTextBox
+            // 
+            this.valorExtraMaskedTextBox.Location = new System.Drawing.Point(142, 162);
+            this.valorExtraMaskedTextBox.Mask = "#,###.##";
+            this.valorExtraMaskedTextBox.Name = "valorExtraMaskedTextBox";
+            this.valorExtraMaskedTextBox.PromptChar = ' ';
+            this.valorExtraMaskedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.valorExtraMaskedTextBox.TabIndex = 4;
+            // 
             // TelaEditarPrecos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(537, 301);
+            this.Controls.Add(this.valorExtraMaskedTextBox);
+            this.Controls.Add(this.valorMediaMaskedTextBox);
+            this.Controls.Add(this.valorGiganteMaskedTextBox);
+            this.Controls.Add(this.valorBrotoMaskedTextBox);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.moedaLabel3);
             this.Controls.Add(this.moedaLabel2);
@@ -247,10 +259,6 @@
             this.Controls.Add(this.acrecimoEspecialLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.atualizarBtn);
-            this.Controls.Add(this.valorExtraGiganteTB);
-            this.Controls.Add(this.valorGiganteTB);
-            this.Controls.Add(this.valorGrandeTB);
-            this.Controls.Add(this.valorBrotoTB);
             this.Controls.Add(this.especiaisLabel);
             this.Controls.Add(this.extragiganteLabel);
             this.Controls.Add(this.giganteLabel);
@@ -258,6 +266,8 @@
             this.Controls.Add(this.brotoLabel);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaEditarPrecos";
@@ -277,10 +287,6 @@
         private System.Windows.Forms.Label giganteLabel;
         private System.Windows.Forms.Label extragiganteLabel;
         private System.Windows.Forms.Label especiaisLabel;
-        private System.Windows.Forms.TextBox valorBrotoTB;
-        private System.Windows.Forms.TextBox valorGrandeTB;
-        private System.Windows.Forms.TextBox valorGiganteTB;
-        private System.Windows.Forms.TextBox valorExtraGiganteTB;
         private System.Windows.Forms.Button atualizarBtn;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Label acrecimoEspecialLabel;
@@ -290,5 +296,9 @@
         private System.Windows.Forms.Label moedaLabel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.MaskedTextBox valorBrotoMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox valorGiganteMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox valorMediaMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox valorExtraMaskedTextBox;
     }
 }

@@ -22,12 +22,14 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaPedidosPendentes()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             abrirPedidoBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             abrirPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            pedidosPendentesListBox.Focus();
         }
 
         private void AbrirPedidoBtn_Click(object sender, EventArgs e)
@@ -39,5 +41,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         {
             this.Close();
         }
+
+        
     }
 }

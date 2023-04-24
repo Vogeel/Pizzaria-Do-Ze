@@ -138,7 +138,7 @@
   <data name="adminToolStripMenuItem.Text" xml:space="preserve">
     <value>Elementos de administración</value>
   </data>
-  <data name="AtendenteRadioBtn.Text" xml:space="preserve">
+  <data name="atendenteRadioBtn.Text" xml:space="preserve">
     <value>Asistente</value>
   </data>
   <data name="atualizarBtn.Text" xml:space="preserve">

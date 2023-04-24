@@ -11,16 +11,20 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class TelaPrincipalEntregador : Form
     {
-        TelaPedidosEntregues entregues = new TelaPedidosEntregues();
-        TelaPedidosPendentes pendentes = new TelaPedidosPendentes();
+        readonly TelaPedidosEntregues entregues = new TelaPedidosEntregues();
+        readonly TelaPedidosPendentes pendentes = new TelaPedidosPendentes();
         /// <summary>
         /// Tela se um entregador logar
         /// </summary>
         public TelaPrincipalEntregador()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             pedEntreguesBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             pedEntreguesBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -29,27 +33,25 @@ namespace Pizzaria_Do_Ze
             voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
-            pedidosEntreguesToolStripMenuItem.Click += new EventHandler(pedEntreguesBtn_Click);
-            pedidosPendentesToolStripMenuItem.Click += new EventHandler(pedPendentesBtn_Click);
+            pedidosEntreguesToolStripMenuItem.Click += new EventHandler(PedEntreguesBtn_Click);
+            pedidosPendentesToolStripMenuItem.Click += new EventHandler(PedPendentesBtn_Click);
         }
 
-        private void pedPendentesBtn_Click(object sender, EventArgs e)
+        private void PedPendentesBtn_Click(object sender, EventArgs e)
         {
             pendentes.ShowDialog();
             
         }
 
-        private void pedEntreguesBtn_Click(object sender, EventArgs e)
+        private void PedEntreguesBtn_Click(object sender, EventArgs e)
         {
             entregues.ShowDialog();
         }
 
-        private void voltarBtn_Click(object sender, EventArgs e)
+        private void VoltarBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-
 
         
     }

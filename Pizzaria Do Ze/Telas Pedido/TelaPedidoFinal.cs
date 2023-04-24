@@ -21,6 +21,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaPedidoFinal()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -39,6 +40,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             trocoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             trocoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            retiradaRadioBtn.Focus();
         }
 
         private void FinalizarBtn_Click(object sender, EventArgs e)

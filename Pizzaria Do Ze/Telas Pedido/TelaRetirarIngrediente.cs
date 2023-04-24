@@ -21,6 +21,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaRetirarIngrediente()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             ConcluirBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             ConcluirBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -31,7 +32,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
             saborComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             saborComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
-
+            saborComboBox.Focus();
         }
         private void ConcluirBtn_Click(object sender, EventArgs e)
         {

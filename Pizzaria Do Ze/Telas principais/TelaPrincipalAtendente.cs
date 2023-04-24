@@ -26,6 +26,7 @@ namespace Pizzaria_Do_Ze
         public TelaPrincipalAtendente()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -37,7 +38,7 @@ namespace Pizzaria_Do_Ze
             visPedidoBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
             editarStatusPedidoToolStripMenuItem.Click += new EventHandler(EditarStatusPedidoBtn_Click);
-            realizarPedidoToolStripMenuItem.Click += new EventHandler(pedidoBtn_Click);
+            realizarPedidoToolStripMenuItem.Click += new EventHandler(PedidoBtn_Click);
             visualizarPedidoToolStripMenuItem.Click += new EventHandler(VisPedidoBtn_Click);
 
 
@@ -58,7 +59,7 @@ namespace Pizzaria_Do_Ze
             this.Close();
         }
 
-        private void pedidoBtn_Click(object sender, EventArgs e)
+        private void PedidoBtn_Click(object sender, EventArgs e)
         {
             cadCliente.ShowDialog();
         }

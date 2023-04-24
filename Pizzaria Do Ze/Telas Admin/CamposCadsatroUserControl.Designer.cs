@@ -187,6 +187,7 @@
             this.Controls.Add(this.nomeTextBot);
             this.Name = "CamposCadsatroUserControl";
             this.Size = new System.Drawing.Size(356, 218);
+           // this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CamposCadsatroUserControl_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

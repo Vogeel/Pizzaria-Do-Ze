@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaStatusPedidoAtendente));
             this.statusPagamentoLabel = new System.Windows.Forms.Label();
             this.statusPedidoLabel = new System.Windows.Forms.Label();
             this.pagoRadioBtn = new System.Windows.Forms.RadioButton();
@@ -209,6 +210,8 @@
             this.Controls.Add(this.statusGroupBox);
             this.Controls.Add(this.pedidoGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaStatusPedidoAtendente";

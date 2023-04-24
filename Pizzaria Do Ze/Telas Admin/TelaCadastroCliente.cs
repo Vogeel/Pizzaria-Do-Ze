@@ -1,4 +1,5 @@
-﻿using Pizzaria_Do_Ze.Telas_Pedido;
+﻿using Pizzaria_Do_Ze.Telas_Admin;
+using Pizzaria_Do_Ze.Telas_Pedido;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,9 @@ namespace Pizzaria_Do_Ze.Telas_cadastros
         public TelaCadastroCliente()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
+            CamposCadsatroUserControl campos = new CamposCadsatroUserControl();
+            campos.nomeTextBot.Focus();
             Funcoes.AjustaResourcesControl(this);
             cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -46,5 +50,7 @@ namespace Pizzaria_Do_Ze.Telas_cadastros
         {
             this.Close();
         }
+
+       
     }
 }

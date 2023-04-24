@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormConfigurations));
             this.idiomaComboBox = new System.Windows.Forms.ComboBox();
             this.okBtn = new System.Windows.Forms.Button();
             this.mudarIdiomaLabel = new System.Windows.Forms.Label();
@@ -111,6 +112,8 @@
             this.Controls.Add(this.idiomaComboBox);
             this.Controls.Add(this.IdiomaRegiaoGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormConfigurations";

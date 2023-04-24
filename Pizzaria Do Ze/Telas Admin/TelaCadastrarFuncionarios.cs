@@ -21,11 +21,12 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
         public TelaCadastrarFuncionarios()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             adminRadioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             adminRadioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            AtendenteRadioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
-            AtendenteRadioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            atendenteRadioBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            atendenteRadioBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             cadastrarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cadastrarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
@@ -47,6 +48,7 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
             validadeCNHdateTimePicker.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             validadeCNHdateTimePicker.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            nomeTB.Focus();
         }
 
         private void CadastrarBtn_Click(object sender, EventArgs e)
@@ -58,5 +60,7 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
         {
             this.Close ();
         }
+
+       
     }
 }

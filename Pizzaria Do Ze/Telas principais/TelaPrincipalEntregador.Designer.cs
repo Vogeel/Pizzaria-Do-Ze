@@ -56,7 +56,7 @@
             this.pedPendentesBtn.TabIndex = 0;
             this.pedPendentesBtn.Text = "Visualizar Pedidos Pendentes";
             this.pedPendentesBtn.UseVisualStyleBackColor = false;
-            this.pedPendentesBtn.Click += new System.EventHandler(this.pedPendentesBtn_Click);
+            this.pedPendentesBtn.Click += new System.EventHandler(this.PedPendentesBtn_Click);
             // 
             // pedEntreguesBtn
             // 
@@ -70,7 +70,7 @@
             this.pedEntreguesBtn.TabIndex = 1;
             this.pedEntreguesBtn.Text = "Visualizar Pedidos Entregues";
             this.pedEntreguesBtn.UseVisualStyleBackColor = false;
-            this.pedEntreguesBtn.Click += new System.EventHandler(this.pedEntreguesBtn_Click);
+            this.pedEntreguesBtn.Click += new System.EventHandler(this.PedEntreguesBtn_Click);
             // 
             // voltarBtn
             // 
@@ -82,7 +82,7 @@
             this.voltarBtn.TabIndex = 2;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = false;
-            this.voltarBtn.Click += new System.EventHandler(this.voltarBtn_Click);
+            this.voltarBtn.Click += new System.EventHandler(this.VoltarBtn_Click);
             // 
             // pictureBox1
             // 
@@ -106,6 +106,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.BurlyWood;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.itensEntregadorToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -147,7 +148,7 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F3)));
+            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Delete)));
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
@@ -164,6 +165,8 @@
             this.Controls.Add(this.pedPendentesBtn);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

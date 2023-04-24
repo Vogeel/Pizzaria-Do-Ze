@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPedidoFinal));
             this.retiradaRadioBtn = new System.Windows.Forms.RadioButton();
             this.entregaRadioBtn = new System.Windows.Forms.RadioButton();
             this.entregaLabel = new System.Windows.Forms.Label();
@@ -44,6 +45,7 @@
             this.cancelBtn = new System.Windows.Forms.Button();
             this.pagamentoGroupBox = new System.Windows.Forms.GroupBox();
             this.entregaGroupBox = new System.Windows.Forms.GroupBox();
+            this.moedaLabel = new System.Windows.Forms.Label();
             this.pagamentoGroupBox.SuspendLayout();
             this.entregaGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -167,9 +169,9 @@
             this.trocoLabel.AutoSize = true;
             this.trocoLabel.Location = new System.Drawing.Point(298, 242);
             this.trocoLabel.Name = "trocoLabel";
-            this.trocoLabel.Size = new System.Drawing.Size(82, 13);
+            this.trocoLabel.Size = new System.Drawing.Size(65, 13);
             this.trocoLabel.TabIndex = 11;
-            this.trocoLabel.Text = "Troco para:  R$";
+            this.trocoLabel.Text = "Troco para: ";
             // 
             // finalizarBtn
             // 
@@ -216,12 +218,22 @@
             this.entregaGroupBox.TabStop = false;
             this.entregaGroupBox.Text = "Entrega";
             // 
+            // moedaLabel
+            // 
+            this.moedaLabel.AutoSize = true;
+            this.moedaLabel.Location = new System.Drawing.Point(358, 242);
+            this.moedaLabel.Name = "moedaLabel";
+            this.moedaLabel.Size = new System.Drawing.Size(21, 13);
+            this.moedaLabel.TabIndex = 29;
+            this.moedaLabel.Text = "R$";
+            // 
             // TelaPedidoFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(564, 450);
+            this.Controls.Add(this.moedaLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.finalizarBtn);
             this.Controls.Add(this.trocoLabel);
@@ -234,6 +246,8 @@
             this.Controls.Add(this.pagamentoGroupBox);
             this.Controls.Add(this.entregaGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaPedidoFinal";
@@ -266,5 +280,6 @@
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.GroupBox pagamentoGroupBox;
         private System.Windows.Forms.GroupBox entregaGroupBox;
+        private System.Windows.Forms.Label moedaLabel;
     }
 }

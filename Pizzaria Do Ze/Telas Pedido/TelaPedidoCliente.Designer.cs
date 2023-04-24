@@ -53,6 +53,7 @@
             this.saborGroupBox = new System.Windows.Forms.GroupBox();
             this.bebidasGroupBox = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.moedaLabel = new System.Windows.Forms.Label();
             this.saborGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -150,11 +151,11 @@
             this.precoTotalPagarLabel.BackColor = System.Drawing.Color.Wheat;
             this.precoTotalPagarLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.precoTotalPagarLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.precoTotalPagarLabel.Location = new System.Drawing.Point(121, 329);
+            this.precoTotalPagarLabel.Location = new System.Drawing.Point(135, 329);
             this.precoTotalPagarLabel.Name = "precoTotalPagarLabel";
-            this.precoTotalPagarLabel.Size = new System.Drawing.Size(67, 18);
+            this.precoTotalPagarLabel.Size = new System.Drawing.Size(44, 18);
             this.precoTotalPagarLabel.TabIndex = 9;
-            this.precoTotalPagarLabel.Text = "R$ 90,00";
+            this.precoTotalPagarLabel.Text = "90,00";
             // 
             // addPizzaBtn
             // 
@@ -294,12 +295,26 @@
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
             // 
+            // moedaLabel
+            // 
+            this.moedaLabel.AutoSize = true;
+            this.moedaLabel.BackColor = System.Drawing.Color.Wheat;
+            this.moedaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moedaLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.moedaLabel.Location = new System.Drawing.Point(113, 329);
+            this.moedaLabel.Name = "moedaLabel";
+            this.moedaLabel.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel.TabIndex = 24;
+            this.moedaLabel.Text = "R$";
+            // 
             // TelaPedidoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(758, 452);
+            this.Controls.Add(this.precoTotalPagarLabel);
+            this.Controls.Add(this.moedaLabel);
             this.Controls.Add(this.retirarIngredienteBtn);
             this.Controls.Add(this.excluirBebidaBtn);
             this.Controls.Add(this.bebidaslistBox);
@@ -310,7 +325,6 @@
             this.Controls.Add(this.seguinteBtn);
             this.Controls.Add(this.saboresPizzarListBox);
             this.Controls.Add(this.addPizzaBtn);
-            this.Controls.Add(this.precoTotalPagarLabel);
             this.Controls.Add(this.bordaComboBox);
             this.Controls.Add(this.saborComboBox);
             this.Controls.Add(this.tamanhoPizzaLabel);
@@ -324,6 +338,8 @@
             this.Controls.Add(this.bebidasGroupBox);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaPedidoCliente";
@@ -362,5 +378,6 @@
         private System.Windows.Forms.GroupBox saborGroupBox;
         private System.Windows.Forms.GroupBox bebidasGroupBox;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label moedaLabel;
     }
 }

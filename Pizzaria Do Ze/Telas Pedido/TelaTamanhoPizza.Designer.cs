@@ -283,6 +283,8 @@
             this.Controls.Add(this.comprarBrotoBtn);
             this.Controls.Add(this.comprarExtraGiganteBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaTamanhoPizza";

@@ -22,16 +22,28 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         public TelaSabores()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
-            //addBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
-            //addBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            //editBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
-            //editBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            //excluirBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
-            //excluirBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            OperacoesUserControl operacoes = new OperacoesUserControl();
+            operacoes.Dock = DockStyle.Top;
+            Controls.Add(operacoes);
+            operacoes.addBtn.Click += AddBtn_Click;
+            operacoes.editBtn.Click += editBtn_Click;
+            operacoes.excluirBtn.Click += excluirBtn_Click;
             voltarBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             voltarBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            operacoes.addBtn.Focus();
+        }
+
+        private void excluirBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editBtn_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void VoltarBtn_Click(object sender, EventArgs e)
@@ -43,5 +55,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
         {
             editSabores.ShowDialog();
         }
+
+       
     }
 }

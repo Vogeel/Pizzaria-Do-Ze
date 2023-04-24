@@ -28,18 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastroFornecedor));
             this.cancelBtn = new System.Windows.Forms.Button();
             this.cadastrarBtn = new System.Windows.Forms.Button();
+            this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
             this.SuspendLayout();
-            // 
-            // camposCadsatroUserControl1
-            // 
-            this.camposCadsatroUserControl1.BackColor = System.Drawing.Color.BurlyWood;
-            this.camposCadsatroUserControl1.Location = new System.Drawing.Point(12, 12);
-            this.camposCadsatroUserControl1.Name = "camposCadsatroUserControl1";
-            this.camposCadsatroUserControl1.Size = new System.Drawing.Size(364, 224);
-            this.camposCadsatroUserControl1.TabIndex = 0;
             // 
             // cancelBtn
             // 
@@ -63,6 +56,14 @@
             this.cadastrarBtn.UseVisualStyleBackColor = true;
             this.cadastrarBtn.Click += new System.EventHandler(this.Cadastrarbtn_Click);
             // 
+            // camposCadsatroUserControl1
+            // 
+            this.camposCadsatroUserControl1.BackColor = System.Drawing.Color.BurlyWood;
+            this.camposCadsatroUserControl1.Location = new System.Drawing.Point(12, 12);
+            this.camposCadsatroUserControl1.Name = "camposCadsatroUserControl1";
+            this.camposCadsatroUserControl1.Size = new System.Drawing.Size(364, 224);
+            this.camposCadsatroUserControl1.TabIndex = 0;
+            // 
             // TelaCadastroFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -73,6 +74,8 @@
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.camposCadsatroUserControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaCadastroFornecedor";

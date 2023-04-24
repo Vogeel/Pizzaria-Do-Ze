@@ -43,14 +43,15 @@
             this.telefonemaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.senhaMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.adminRadioBtn = new System.Windows.Forms.RadioButton();
-            this.AtendenteRadioBtn = new System.Windows.Forms.RadioButton();
-            this.entregadorRadioBtn = new System.Windows.Forms.RadioButton();
             this.cnhMaskedTB = new System.Windows.Forms.MaskedTextBox();
             this.validadeCNHdateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.cadastrarBtn = new System.Windows.Forms.Button();
             this.GrupoGroupBox = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.atendenteRadioBtn = new System.Windows.Forms.RadioButton();
+            this.entregadorRadioBtn = new System.Windows.Forms.RadioButton();
+            this.GrupoGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -173,28 +174,6 @@
             this.adminRadioBtn.Text = "Admin";
             this.adminRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // AtendenteRadioBtn
-            // 
-            this.AtendenteRadioBtn.AutoSize = true;
-            this.AtendenteRadioBtn.Location = new System.Drawing.Point(138, 221);
-            this.AtendenteRadioBtn.Name = "AtendenteRadioBtn";
-            this.AtendenteRadioBtn.Size = new System.Drawing.Size(74, 17);
-            this.AtendenteRadioBtn.TabIndex = 7;
-            this.AtendenteRadioBtn.TabStop = true;
-            this.AtendenteRadioBtn.Text = "Atendente";
-            this.AtendenteRadioBtn.UseVisualStyleBackColor = true;
-            // 
-            // entregadorRadioBtn
-            // 
-            this.entregadorRadioBtn.AutoSize = true;
-            this.entregadorRadioBtn.Location = new System.Drawing.Point(138, 244);
-            this.entregadorRadioBtn.Name = "entregadorRadioBtn";
-            this.entregadorRadioBtn.Size = new System.Drawing.Size(77, 17);
-            this.entregadorRadioBtn.TabIndex = 8;
-            this.entregadorRadioBtn.TabStop = true;
-            this.entregadorRadioBtn.Text = "Entregador";
-            this.entregadorRadioBtn.UseVisualStyleBackColor = true;
-            // 
             // cnhMaskedTB
             // 
             this.cnhMaskedTB.Location = new System.Drawing.Point(138, 293);
@@ -235,6 +214,8 @@
             // 
             // GrupoGroupBox
             // 
+            this.GrupoGroupBox.Controls.Add(this.entregadorRadioBtn);
+            this.GrupoGroupBox.Controls.Add(this.atendenteRadioBtn);
             this.GrupoGroupBox.Location = new System.Drawing.Point(59, 170);
             this.GrupoGroupBox.Name = "GrupoGroupBox";
             this.GrupoGroupBox.Size = new System.Drawing.Size(179, 117);
@@ -251,6 +232,28 @@
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
             // 
+            // atendenteRadioBtn
+            // 
+            this.atendenteRadioBtn.AutoSize = true;
+            this.atendenteRadioBtn.Location = new System.Drawing.Point(80, 48);
+            this.atendenteRadioBtn.Name = "atendenteRadioBtn";
+            this.atendenteRadioBtn.Size = new System.Drawing.Size(74, 17);
+            this.atendenteRadioBtn.TabIndex = 7;
+            this.atendenteRadioBtn.TabStop = true;
+            this.atendenteRadioBtn.Text = "Atendente";
+            this.atendenteRadioBtn.UseVisualStyleBackColor = true;
+            // 
+            // entregadorRadioBtn
+            // 
+            this.entregadorRadioBtn.AutoSize = true;
+            this.entregadorRadioBtn.Location = new System.Drawing.Point(80, 71);
+            this.entregadorRadioBtn.Name = "entregadorRadioBtn";
+            this.entregadorRadioBtn.Size = new System.Drawing.Size(77, 17);
+            this.entregadorRadioBtn.TabIndex = 24;
+            this.entregadorRadioBtn.TabStop = true;
+            this.entregadorRadioBtn.Text = "Entregador";
+            this.entregadorRadioBtn.UseVisualStyleBackColor = true;
+            // 
             // TelaCadastrarFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,8 +264,6 @@
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.validadeCNHdateTimePicker);
             this.Controls.Add(this.cnhMaskedTB);
-            this.Controls.Add(this.entregadorRadioBtn);
-            this.Controls.Add(this.AtendenteRadioBtn);
             this.Controls.Add(this.adminRadioBtn);
             this.Controls.Add(this.senhaMaskedTB);
             this.Controls.Add(this.telefonemaskedTB);
@@ -280,11 +281,15 @@
             this.Controls.Add(this.GrupoGroupBox);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaCadastrarFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar Funcionario";
+            this.GrupoGroupBox.ResumeLayout(false);
+            this.GrupoGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -307,13 +312,13 @@
         private System.Windows.Forms.MaskedTextBox telefonemaskedTB;
         private System.Windows.Forms.MaskedTextBox senhaMaskedTB;
         private System.Windows.Forms.RadioButton adminRadioBtn;
-        private System.Windows.Forms.RadioButton AtendenteRadioBtn;
-        private System.Windows.Forms.RadioButton entregadorRadioBtn;
         private System.Windows.Forms.MaskedTextBox cnhMaskedTB;
         private System.Windows.Forms.DateTimePicker validadeCNHdateTimePicker;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button cadastrarBtn;
         private System.Windows.Forms.GroupBox GrupoGroupBox;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.RadioButton atendenteRadioBtn;
+        private System.Windows.Forms.RadioButton entregadorRadioBtn;
     }
 }

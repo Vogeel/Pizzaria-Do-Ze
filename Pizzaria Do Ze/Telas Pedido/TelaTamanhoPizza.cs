@@ -22,6 +22,7 @@ namespace Pizzaria_Do_Ze.Telas_Pedido
         public TelaTamanhoPizza()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);

@@ -19,6 +19,7 @@ namespace Pizzaria_Do_Ze.Telas_principais
         public FormConfigurations()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             //seleciona no comboBox o idioma/cultura atual
             idiomaComboBox.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
@@ -28,6 +29,7 @@ namespace Pizzaria_Do_Ze.Telas_principais
             idiomaComboBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             idiomaComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            idiomaComboBox.Focus();
 
         }
 
@@ -53,5 +55,7 @@ namespace Pizzaria_Do_Ze.Telas_principais
         {
             this.Close();
         }
+
+        
     }
 }

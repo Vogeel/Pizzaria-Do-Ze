@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPedidoSelecionado));
             this.valorStaticLabel = new System.Windows.Forms.Label();
             this.pagamentoLabel = new System.Windows.Forms.Label();
             this.metodoPagamentoStaticLabel = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@
             this.cancelBtn = new System.Windows.Forms.Button();
             this.entregadorResponsavelLabel = new System.Windows.Forms.Label();
             this.valorLabel = new System.Windows.Forms.Label();
+            this.moedaLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // valorStaticLabel
@@ -167,11 +169,20 @@
             // valorLabel
             // 
             this.valorLabel.AutoSize = true;
-            this.valorLabel.Location = new System.Drawing.Point(156, 217);
+            this.valorLabel.Location = new System.Drawing.Point(180, 217);
             this.valorLabel.Name = "valorLabel";
-            this.valorLabel.Size = new System.Drawing.Size(48, 13);
+            this.valorLabel.Size = new System.Drawing.Size(34, 13);
             this.valorLabel.TabIndex = 28;
-            this.valorLabel.Text = "R$46,00";
+            this.valorLabel.Text = "46,00";
+            // 
+            // moedaLabel
+            // 
+            this.moedaLabel.AutoSize = true;
+            this.moedaLabel.Location = new System.Drawing.Point(156, 217);
+            this.moedaLabel.Name = "moedaLabel";
+            this.moedaLabel.Size = new System.Drawing.Size(21, 13);
+            this.moedaLabel.TabIndex = 29;
+            this.moedaLabel.Text = "R$";
             // 
             // TelaPedidoSelecionado
             // 
@@ -179,6 +190,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(443, 288);
+            this.Controls.Add(this.moedaLabel);
             this.Controls.Add(this.valorLabel);
             this.Controls.Add(this.entregadorResponsavelLabel);
             this.Controls.Add(this.cancelBtn);
@@ -194,6 +206,8 @@
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.idPedidoStaticLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaPedidoSelecionado";
@@ -219,5 +233,6 @@
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Label entregadorResponsavelLabel;
         private System.Windows.Forms.Label valorLabel;
+        private System.Windows.Forms.Label moedaLabel;
     }
 }

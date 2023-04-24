@@ -45,21 +45,21 @@ namespace Pizzaria_Do_Ze
         /// <param name="sender"> Obejto que gerou evento</param>
         /// <param name="e"> Evento que foi capturado</param>
         /// <example> textBoxUser.Enter += new System.EventHandler(ClassFuncoes.CampoEventoEnter)</example>
-        public static void CampoEventoEnter(object sender, EventArgs e) 
+        public static void CampoEventoEnter(object sender, EventArgs e)
         {
-        if(sender is TextBoxBase txt)
+            if (sender is TextBoxBase txt)
             {
                 txt.BackColor = Color.LightGray;
             }
-        else if(sender is ComboBox cb)
+            else if (sender is ComboBox cb)
             {
                 cb.BackColor = Color.LightGray;
             }
-        else if (sender is RadioButton rb)
+            else if (sender is RadioButton rb)
             {
                 rb.BackColor = Color.LightGray;
             }
-        else if (sender is ButtonBase btn)
+            else if (sender is ButtonBase btn)
             {
                 btn.BackColor = Color.LightGray;
             }
@@ -120,5 +120,30 @@ namespace Pizzaria_Do_Ze
                 form.Close();
             }
         }
+
+
+        
+        /// <summary>
+        /// Serve para fechar o formulario ao apertar Esc
+        /// </summary>
+        /// <param name="form">formulario que vai ser usado</param>
+        public static void FecharEsc(Form form)
+        {
+            form.KeyPreview = true;
+            form.KeyDown += (sender, e) =>
+            {
+                if (e.KeyCode == Keys.Escape)
+                {
+                    form.Close();
+                }
+            };
+        }
+        /// <summary>
+        /// Configuração para apertar enter e ir para o proximo campo
+        /// </summary>
+        /// <param name="e"> tecla pressionada</param>
+        /// <param name="form">formulario atual</param>
+        
+
     }
 }

@@ -26,6 +26,7 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
         public TelaPizzaAdmin()
         {
             InitializeComponent();
+            Funcoes.FecharEsc(this);
             Funcoes.AjustaResourcesControl(this);
             bordaBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             bordaBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
@@ -64,5 +65,7 @@ namespace Pizzaria_Do_Ze.Telas_Cadastrais
         {
             ingrediente.ShowDialog();
         }
+
+        
     }
 }

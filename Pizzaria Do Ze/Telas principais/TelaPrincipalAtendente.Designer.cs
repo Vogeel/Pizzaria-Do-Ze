@@ -40,8 +40,8 @@
             this.realizarPedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visualizarPedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarStatusPedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -116,7 +116,7 @@
             this.pedidoBtn.TabIndex = 1;
             this.pedidoBtn.Text = "Realizar Pedido";
             this.pedidoBtn.UseVisualStyleBackColor = false;
-            this.pedidoBtn.Click += new System.EventHandler(this.pedidoBtn_Click);
+            this.pedidoBtn.Click += new System.EventHandler(this.PedidoBtn_Click);
             // 
             // menuStrip1
             // 
@@ -162,17 +162,17 @@
             this.editarStatusPedidoToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.editarStatusPedidoToolStripMenuItem.Text = "Editar status pedido";
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F4)));
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(226, 6);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Delete)));
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
             // 
             // TelaPrincipalAtendente
             // 
@@ -188,6 +188,8 @@
             this.Controls.Add(this.visPedidoBtn);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

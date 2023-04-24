@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Telas_Admin
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class OperacoesUserControl : UserControl
     {
         /// <summary>
@@ -26,5 +29,7 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             excluirBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             excluirBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
         }
+
+       
     }
 }
