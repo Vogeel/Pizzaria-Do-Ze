@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLogin));
             this.bemvindoLabel = new System.Windows.Forms.Label();
             this.usuarioLabel = new System.Windows.Forms.Label();
@@ -37,6 +38,12 @@
             this.cancelBtn = new System.Windows.Forms.Button();
             this.loginBtn = new System.Windows.Forms.Button();
             this.configBtn = new System.Windows.Forms.Button();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.trayContextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.encerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trayContextMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // bemvindoLabel
@@ -137,6 +144,43 @@
             this.configBtn.UseVisualStyleBackColor = false;
             this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.notifyIcon1.BalloonTipText = "Aplicação continua em excução na bandeja";
+            this.notifyIcon1.BalloonTipTitle = "Pizzaria do zé";
+            this.notifyIcon1.ContextMenuStrip = this.trayContextMenuStrip;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
+            // trayContextMenuStrip
+            // 
+            this.trayContextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirToolStripMenuItem,
+            this.encerrarToolStripMenuItem,
+            this.sobreToolStripMenuItem});
+            this.trayContextMenuStrip.Name = "trayContextMenuStrip";
+            this.trayContextMenuStrip.Size = new System.Drawing.Size(118, 70);
+            // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.abrirToolStripMenuItem.Text = "Abrir";
+            // 
+            // encerrarToolStripMenuItem
+            // 
+            this.encerrarToolStripMenuItem.Name = "encerrarToolStripMenuItem";
+            this.encerrarToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.encerrarToolStripMenuItem.Text = "Encerrar";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
             // TelaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,11 +199,12 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "TelaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelaLogin_FormClosing);
+            this.Resize += new System.EventHandler(this.TelaLogin_Resize);
+            this.trayContextMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,6 +220,11 @@
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.Button configBtn;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ContextMenuStrip trayContextMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem encerrarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
     }
 }
 

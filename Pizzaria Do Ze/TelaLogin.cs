@@ -38,6 +38,19 @@ namespace Pizzaria_Do_Ze
             cancelBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             loginBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             loginBtn.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            encerrarToolStripMenuItem.Click += new EventHandler(CancelBtn_Click);
+            sobreToolStripMenuItem.Click += new EventHandler(SobreMenuItem_Click);
+            abrirToolStripMenuItem.Click += new EventHandler(AbrirTela_Click);
+        }
+
+        private void AbrirTela_Click(object sender, EventArgs e)
+        {
+            this.Show();
+        }
+
+        private void SobreMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Direitos reservados a Vitor Vogel e ChatGPT", "Sobre", MessageBoxButtons.OK);
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
@@ -77,10 +90,31 @@ namespace Pizzaria_Do_Ze
             if (MessageBox.Show("Deseja realmente sair?", "Confirmação", MessageBoxButtons.YesNo) == DialogResult.No)
             {
                 e.Cancel = true;
+                this.Hide();
             }
-
+            
+        }
+       
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            WindowState = FormWindowState.Normal;
+            notifyIcon1.Visible = false;
         }
 
-        
+        private void TelaLogin_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+                notifyIcon1.Visible = true;
+                notifyIcon1.ShowBalloonTip(1000);
+
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIcon1.Visible = false;
+            }
+        }
     }
 }
