@@ -36,9 +36,10 @@ namespace Pizzaria_Do_Ze.Telas_Admin
             enderecoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             nomeTextBot.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             nomeTextBot.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
 
         }
 
-       
+
     }
 }

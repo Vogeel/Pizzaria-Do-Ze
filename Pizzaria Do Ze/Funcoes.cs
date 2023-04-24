@@ -111,8 +111,8 @@ namespace Pizzaria_Do_Ze
                 //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
                 //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
                 e.SuppressKeyPress = true;
-                //SendKeys.Send("{TAB}");
-                form.SelectNextControl(form.ActiveControl, !e.Shift, true, true, true);
+                SendKeys.Send("{TAB}");
+                //form.SelectNextControl(form.ActiveControl, !e.Shift, true, true, true);
             }
             //verifica se foi pressionado ESC
             else if (e.KeyCode == Keys.Escape)
@@ -121,8 +121,10 @@ namespace Pizzaria_Do_Ze
             }
         }
 
+       
 
-        
+
+
         /// <summary>
         /// Serve para fechar o formulario ao apertar Esc
         /// </summary>
