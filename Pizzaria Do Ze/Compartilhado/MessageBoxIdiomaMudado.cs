@@ -29,7 +29,7 @@ namespace Pizzaria_Do_Ze.Compartilhado
             okBtn.Focus();
         }
 
-        private void okBtn_Click(object sender, EventArgs e)
+        private void OkBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }

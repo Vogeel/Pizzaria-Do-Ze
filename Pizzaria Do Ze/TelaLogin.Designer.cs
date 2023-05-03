@@ -142,7 +142,7 @@
             this.configBtn.Size = new System.Drawing.Size(59, 54);
             this.configBtn.TabIndex = 4;
             this.configBtn.UseVisualStyleBackColor = false;
-            this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
+            this.configBtn.Click += new System.EventHandler(this.ConfigBtn_Click);
             // 
             // notifyIcon1
             // 
@@ -152,7 +152,7 @@
             this.notifyIcon1.ContextMenuStrip = this.trayContextMenuStrip;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.NotifyIcon1_MouseDoubleClick);
             // 
             // trayContextMenuStrip
             // 
@@ -211,7 +211,9 @@
         }
 
         #endregion
-
+        /// <summary>
+        /// 
+        /// </summary>
         public System.Windows.Forms.Label bemvindoLabel;
         private System.Windows.Forms.Label usuarioLabel;
         private System.Windows.Forms.Label senhaLabel;

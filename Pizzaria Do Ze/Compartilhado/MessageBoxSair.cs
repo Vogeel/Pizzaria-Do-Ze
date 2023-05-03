@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Pizzaria_Do_Ze.Compartilhado
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class MessageBoxSair : Form
     {
         /// <summary>
@@ -28,15 +31,15 @@ namespace Pizzaria_Do_Ze.Compartilhado
             cancelBtn.Focus();
         }
 
-        private void okBtn_Click(object sender, EventArgs e)
+        private void OkBtn_Click(object sender, EventArgs e)
         {
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
         }
 
-        private void bandejaBtn_Click(object sender, EventArgs e)
+        private void BandejaBtn_Click(object sender, EventArgs e)
         {
             
             

@@ -80,7 +80,7 @@ namespace Pizzaria_Do_Ze
 
         
 
-        private void configBtn_Click(object sender, EventArgs e)
+        private void ConfigBtn_Click(object sender, EventArgs e)
         {
             configurations.ShowDialog();
 
@@ -109,7 +109,7 @@ namespace Pizzaria_Do_Ze
             }
         }
        
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void NotifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Show();
             WindowState = FormWindowState.Normal;

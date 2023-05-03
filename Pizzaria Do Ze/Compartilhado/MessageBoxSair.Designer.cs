@@ -46,7 +46,7 @@
             this.cancelBtn.TabIndex = 0;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // okBtn
             // 
@@ -57,7 +57,7 @@
             this.okBtn.TabIndex = 1;
             this.okBtn.Text = "Sim";
             this.okBtn.UseVisualStyleBackColor = true;
-            this.okBtn.Click += new System.EventHandler(this.okBtn_Click);
+            this.okBtn.Click += new System.EventHandler(this.OkBtn_Click);
             // 
             // labelRealmenteSair
             // 
@@ -88,7 +88,7 @@
             this.bandejaBtn.TabIndex = 4;
             this.bandejaBtn.Text = "Jogar para Bandeja";
             this.bandejaBtn.UseVisualStyleBackColor = true;
-            this.bandejaBtn.Click += new System.EventHandler(this.bandejaBtn_Click);
+            this.bandejaBtn.Click += new System.EventHandler(this.BandejaBtn_Click);
             // 
             // MessageBoxSair
             // 
