@@ -64,6 +64,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compartilhado\MessageBoxIdiomaMudado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compartilhado\MessageBoxIdiomaMudado.Designer.cs">
+      <DependentUpon>MessageBoxIdiomaMudado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compartilhado\MessageBoxSair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compartilhado\MessageBoxSair.Designer.cs">
+      <DependentUpon>MessageBoxSair.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funcoes.cs" />
     <Compile Include="Properties\Resources.es.Designer.cs">
       <DependentUpon>Resources.es.resx</DependentUpon>
@@ -239,6 +251,12 @@
     <Compile Include="Telas principais\TelaPrincipalEntregador.Designer.cs">
       <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Compartilhado\MessageBoxIdiomaMudado.resx">
+      <DependentUpon>MessageBoxIdiomaMudado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compartilhado\MessageBoxSair.resx">
+      <DependentUpon>MessageBoxSair.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>

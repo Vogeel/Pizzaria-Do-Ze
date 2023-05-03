@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pizzaria_Do_Ze.Compartilhado;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
@@ -13,6 +14,8 @@ namespace Pizzaria_Do_Ze.Telas_principais
 {
     public partial class FormConfigurations : Form
     {
+        MessageBoxIdiomaMudado menssagem = new MessageBoxIdiomaMudado();
+
         /// <summary>
         /// Tela para mudar ocnfiguraçoes antes de logar
         /// </summary>
@@ -20,6 +23,7 @@ namespace Pizzaria_Do_Ze.Telas_principais
         {
             InitializeComponent();
             Funcoes.FecharEsc(this);
+            Funcoes.AjustaResourcesControl(this);
             //seleciona no comboBox o idioma/cultura atual
             idiomaComboBox.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
             cancelBtn.Enter += new EventHandler(Funcoes.CampoEventoEnter);
@@ -30,6 +34,7 @@ namespace Pizzaria_Do_Ze.Telas_principais
             idiomaComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
             idiomaComboBox.Focus();
+
 
         }
 
@@ -42,7 +47,8 @@ namespace Pizzaria_Do_Ze.Telas_principais
             config.Save(ConfigurationSaveMode.Modified);//salva modificações
             ConfigurationManager.RefreshSection("appSettings");//atualiza appSettings
             Close();
-            _ = MessageBox.Show("Idioma/região alterada com sucesso! Reinicie a aplicação para aplicar o novo Idioma/região!");
+            menssagem.ShowDialog();
+            
 
             if (reiniciarCheckBox.Checked)
             {

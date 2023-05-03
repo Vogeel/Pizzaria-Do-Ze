@@ -144,6 +144,9 @@
   <data name="atualizarBtn.Text" xml:space="preserve">
     <value>replace prices</value>
   </data>
+  <data name="bandejaBtn.Text" xml:space="preserve">
+    <value>Send to tray</value>
+  </data>
   <data name="bebidaLabel.Text" xml:space="preserve">
     <value>Drink:</value>
   </data>
@@ -206,6 +209,9 @@
   </data>
   <data name="comprarMediaBtn.Text" xml:space="preserve">
     <value>Purchase</value>
+  </data>
+  <data name="concluidoBtn.Text" xml:space="preserve">
+    <value>Concluded</value>
   </data>
   <data name="ConcluirBtn.Text" xml:space="preserve">
     <value>Conclude</value>
@@ -306,6 +312,9 @@
   <data name="grupoLabel.Text" xml:space="preserve">
     <value>Group</value>
   </data>
+  <data name="IdiomaRegiaoGroupBox" xml:space="preserve">
+    <value />
+  </data>
   <data name="IdiomaRegiaoGroupBox.Text" xml:space="preserve">
     <value>Language/Region</value>
   </data>
@@ -320,6 +329,18 @@
   </data>
   <data name="itensEntregadorToolStripMenuItem.Text" xml:space="preserve">
     <value>Items Delivery guy</value>
+  </data>
+  <data name="labelIdiomaAlterado.Text" xml:space="preserve">
+    <value>Language/Region changed successfully!</value>
+  </data>
+  <data name="labelRealmenteSair.Text" xml:space="preserve">
+    <value>Do you really want to exit?</value>
+  </data>
+  <data name="labelReiniciar.Text" xml:space="preserve">
+    <value>Restart app to change language</value>
+  </data>
+  <data name="labelReiniciarAplicacao.Text" xml:space="preserve">
+    <value>Restart the application to apply the new Language/Region!</value>
   </data>
   <data name="loginBtn.Text" xml:space="preserve">
     <value>Login</value>
@@ -352,7 +373,7 @@
     <value>Name:</value>
   </data>
   <data name="okBtn.Text" xml:space="preserve">
-    <value>Concluded</value>
+    <value>Ok</value>
   </data>
   <data name="pagamentoGroupBox.Text" xml:space="preserve">
     <value>Payment</value>
@@ -398,9 +419,6 @@
   </data>
   <data name="realizarToolStripMenuItem.Text" xml:space="preserve">
     <value>Checkout</value>
-  </data>
-  <data name="reiniciarCheckBox.Text" xml:space="preserve">
-    <value>Restart app to change language</value>
   </data>
   <data name="retiradaRadioBtn.Text" xml:space="preserve">
     <value>Ready for pickup</value>

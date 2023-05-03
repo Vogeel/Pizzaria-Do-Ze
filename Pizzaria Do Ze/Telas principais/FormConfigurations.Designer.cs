@@ -35,6 +35,8 @@
             this.reiniciarCheckBox = new System.Windows.Forms.CheckBox();
             this.IdiomaRegiaoGroupBox = new System.Windows.Forms.GroupBox();
             this.cancelBtn = new System.Windows.Forms.Button();
+            this.labelReiniciar = new System.Windows.Forms.Label();
+            this.IdiomaRegiaoGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // idiomaComboBox
@@ -74,13 +76,13 @@
             this.reiniciarCheckBox.AutoSize = true;
             this.reiniciarCheckBox.Location = new System.Drawing.Point(165, 113);
             this.reiniciarCheckBox.Name = "reiniciarCheckBox";
-            this.reiniciarCheckBox.Size = new System.Drawing.Size(205, 17);
+            this.reiniciarCheckBox.Size = new System.Drawing.Size(15, 14);
             this.reiniciarCheckBox.TabIndex = 2;
-            this.reiniciarCheckBox.Text = "Reiniciar aplicação para mudar idioma";
             this.reiniciarCheckBox.UseVisualStyleBackColor = true;
             // 
             // IdiomaRegiaoGroupBox
             // 
+            this.IdiomaRegiaoGroupBox.Controls.Add(this.labelReiniciar);
             this.IdiomaRegiaoGroupBox.Location = new System.Drawing.Point(29, 61);
             this.IdiomaRegiaoGroupBox.Name = "IdiomaRegiaoGroupBox";
             this.IdiomaRegiaoGroupBox.Size = new System.Drawing.Size(359, 144);
@@ -98,6 +100,15 @@
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            // 
+            // labelReiniciar
+            // 
+            this.labelReiniciar.AutoSize = true;
+            this.labelReiniciar.Location = new System.Drawing.Point(157, 53);
+            this.labelReiniciar.Name = "labelReiniciar";
+            this.labelReiniciar.Size = new System.Drawing.Size(186, 13);
+            this.labelReiniciar.TabIndex = 0;
+            this.labelReiniciar.Text = "Reiniciar aplicação para mudar idioma";
             // 
             // FormConfigurations
             // 
@@ -119,6 +130,8 @@
             this.Name = "FormConfigurations";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormConfigurations";
+            this.IdiomaRegiaoGroupBox.ResumeLayout(false);
+            this.IdiomaRegiaoGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,5 +145,6 @@
         private System.Windows.Forms.CheckBox reiniciarCheckBox;
         private System.Windows.Forms.GroupBox IdiomaRegiaoGroupBox;
         private System.Windows.Forms.Button cancelBtn;
+        private System.Windows.Forms.Label labelReiniciar;
     }
 }

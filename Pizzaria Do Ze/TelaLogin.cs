@@ -1,4 +1,5 @@
-﻿using Pizzaria_Do_Ze.Telas_principais;
+﻿using Pizzaria_Do_Ze.Compartilhado;
+using Pizzaria_Do_Ze.Telas_principais;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -87,12 +88,25 @@ namespace Pizzaria_Do_Ze
 
         private void TelaLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente sair?", "Confirmação", MessageBoxButtons.YesNo) == DialogResult.No)
+            MessageBoxSair sairTela = new MessageBoxSair();
+            DialogResult result = sairTela.ShowDialog();
+
+            if(result == DialogResult.Abort)
             {
                 e.Cancel = true;
-                this.Hide();
+                this.WindowState = FormWindowState.Minimized;
+                notifyIcon1.ShowBalloonTip(1000);
             }
-            
+            else if (result == DialogResult.OK)
+            {
+                
+
+            }
+            else if(result == DialogResult.Cancel)
+            {
+                e.Cancel = true;
+                
+            }
         }
        
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)

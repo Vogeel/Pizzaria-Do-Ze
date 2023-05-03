@@ -144,6 +144,9 @@
   <data name="atualizarBtn.Text" xml:space="preserve">
     <value>reemplazar precios</value>
   </data>
+  <data name="bandejaBtn.Text" xml:space="preserve">
+    <value>Enviar a la bandeja</value>
+  </data>
   <data name="bebidaLabel.Text" xml:space="preserve">
     <value>Beber:</value>
   </data>
@@ -206,6 +209,9 @@
   </data>
   <data name="comprarMediaBtn.Text" xml:space="preserve">
     <value>Compra</value>
+  </data>
+  <data name="concluido.Text" xml:space="preserve">
+    <value>Completado</value>
   </data>
   <data name="ConcluirBtn.Text" xml:space="preserve">
     <value>Concluir</value>
@@ -312,6 +318,18 @@
   <data name="ingredientesBtn.Text" xml:space="preserve">
     <value>Ingredientes</value>
   </data>
+  <data name="labelIdiomaAlterado.Text" xml:space="preserve">
+    <value>¡Idioma/Región cambiado con éxito!</value>
+  </data>
+  <data name="labelRealmenteSair.Text" xml:space="preserve">
+    <value>¿Realmente desea salir?</value>
+  </data>
+  <data name="labelReiniciar.Text" xml:space="preserve">
+    <value>Reinicie la aplicación para cambiar el idioma</value>
+  </data>
+  <data name="labelReiniciarAplicacao.Text" xml:space="preserve">
+    <value>¡Reinicie la aplicación para aplicar el nuevo Idioma/Región!</value>
+  </data>
   <data name="loginBtn.Text" xml:space="preserve">
     <value>Acceso</value>
   </data>
@@ -343,7 +361,7 @@
     <value>Nombre:</value>
   </data>
   <data name="okBtn.Text" xml:space="preserve">
-    <value>Concluido</value>
+    <value>Ok</value>
   </data>
   <data name="pagamentoGroupBox.Text" xml:space="preserve">
     <value>Pago</value>
@@ -374,9 +392,6 @@
   </data>
   <data name="preparoRadioBtn.Text" xml:space="preserve">
     <value>En la preparación de</value>
-  </data>
-  <data name="reiniciarCheckBox.Text" xml:space="preserve">
-    <value>Reinicie la aplicación para cambiar el idioma</value>
   </data>
   <data name="retiradaRadioBtn.Text" xml:space="preserve">
     <value>Listo para recojer</value>
