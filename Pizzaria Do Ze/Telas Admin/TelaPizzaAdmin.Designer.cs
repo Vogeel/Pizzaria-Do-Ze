@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_Cadastrais
+﻿namespace PizzariaDoZe.Telas_Cadastrais
 {
     partial class TelaPizzaAdmin
     {

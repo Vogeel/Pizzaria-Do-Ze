@@ -10,8 +10,9 @@
     <AssemblyName>Pizzaria Do Ze</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -38,6 +38,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\Pizzaria Do Ze.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>BasicCorrectnessRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,16 +69,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compartilhado\MessageBoxIdiomaMudado.cs">
+    <Compile Include="MessageBoxIdiomaMudado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compartilhado\MessageBoxIdiomaMudado.Designer.cs">
+    <Compile Include="MessageBoxIdiomaMudado.Designer.cs">
       <DependentUpon>MessageBoxIdiomaMudado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Compartilhado\MessageBoxSair.cs">
+    <Compile Include="MessageBoxSair.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compartilhado\MessageBoxSair.Designer.cs">
+    <Compile Include="MessageBoxSair.Designer.cs">
       <DependentUpon>MessageBoxSair.cs</DependentUpon>
     </Compile>
     <Compile Include="Funcoes.cs" />
@@ -251,10 +256,10 @@
     <Compile Include="Telas principais\TelaPrincipalEntregador.Designer.cs">
       <DependentUpon>TelaPrincipalEntregador.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Compartilhado\MessageBoxIdiomaMudado.resx">
+    <EmbeddedResource Include="MessageBoxIdiomaMudado.resx">
       <DependentUpon>MessageBoxIdiomaMudado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Compartilhado\MessageBoxSair.resx">
+    <EmbeddedResource Include="MessageBoxSair.resx">
       <DependentUpon>MessageBoxSair.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.es.resx">
@@ -382,6 +387,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Compartilhado\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

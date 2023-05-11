@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_cadastros
+﻿namespace PizzariaDoZe.Telas_cadastros
 {
     partial class TelaCadastroCliente
     {
@@ -32,7 +32,7 @@
             this.cadastrarBtn = new System.Windows.Forms.Button();
             this.clienteCadastradoBtn = new System.Windows.Forms.Button();
             this.clienteCadastradoLabel = new System.Windows.Forms.Label();
-            this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
+            this.camposCadsatroUserControl1 = new PizzariaDoZe.Telas_Admin.CamposCadsatroUserControl();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 

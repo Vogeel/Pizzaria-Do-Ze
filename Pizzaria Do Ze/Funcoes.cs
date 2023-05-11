@@ -34,9 +34,9 @@ namespace Pizzaria_Do_Ze
         {
             foreach (Control c in container.Controls)
             {
-                AjustaResourcesControl(c);
-                ComponentResourceManager resources = new ComponentResourceManager(typeof(Properties.Resources));
-                resources.ApplyResources(c, c.Name);
+                //AjustaResourcesControl(c);
+                //ComponentResourceManager resources = new ComponentResourceManager(typeof(Properties.Resources));
+                //resources.ApplyResources(c, c.Name);
             }
         }
         /// <summary>

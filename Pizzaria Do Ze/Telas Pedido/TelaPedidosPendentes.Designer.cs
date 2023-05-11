@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_Pedido
+﻿namespace PizzariaDoZe.Telas_Pedido
 {
     partial class TelaPedidosPendentes
     {

@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_principais
+﻿namespace PizzariaDoZe.Telas_principais
 {
     partial class FormConfigurations
     {

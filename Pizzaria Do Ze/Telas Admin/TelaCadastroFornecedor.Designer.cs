@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_Admin
+﻿namespace PizzariaDoZe.Telas_Admin
 {
     partial class TelaCadastroFornecedor
     {
@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCadastroFornecedor));
             this.cancelBtn = new System.Windows.Forms.Button();
             this.cadastrarBtn = new System.Windows.Forms.Button();
-            this.camposCadsatroUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.CamposCadsatroUserControl();
+            this.camposCadsatroUserControl1 = new PizzariaDoZe.Telas_Admin.CamposCadsatroUserControl();
             this.SuspendLayout();
             // 
             // cancelBtn

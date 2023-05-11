@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Pizzaria_Do_Ze.Properties
+namespace PizzariaDoZe.Properties
 {
 
 

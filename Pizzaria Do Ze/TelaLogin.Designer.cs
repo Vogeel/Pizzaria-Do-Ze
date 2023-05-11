@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze
+﻿namespace PizzariaDoZe
 {
     partial class TelaLogin
     {

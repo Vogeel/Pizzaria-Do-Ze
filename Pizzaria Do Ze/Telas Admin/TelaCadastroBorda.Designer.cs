@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_Admin
+﻿namespace PizzariaDoZe.Telas_Admin
 {
     partial class TelaCadastroBorda
     {

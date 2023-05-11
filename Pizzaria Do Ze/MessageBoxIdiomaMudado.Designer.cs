@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Compartilhado
+﻿namespace PizzariaDoZe.Compartilhado
 {
     partial class MessageBoxIdiomaMudado
     {

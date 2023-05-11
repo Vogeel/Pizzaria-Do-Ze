@@ -1,4 +1,4 @@
-﻿namespace Pizzaria_Do_Ze.Telas_Admin
+﻿namespace PizzariaDoZe.Telas_Admin
 {
     partial class TelaSabores
     {
@@ -32,7 +32,7 @@
             this.saboresListBox = new System.Windows.Forms.ListBox();
             this.voltarBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.operacoesUserControl1 = new Pizzaria_Do_Ze.Telas_Admin.OperacoesUserControl();
+            this.operacoesUserControl1 = new PizzariaDoZe.Telas_Admin.OperacoesUserControl();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
