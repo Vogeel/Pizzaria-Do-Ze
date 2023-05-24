@@ -28,18 +28,20 @@ namespace PizzariaDoZe
             CPFMaskedTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             telefoneMaskTB.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             telefoneMaskTB.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            complementoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
-            complementoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            longradouroTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            longradouroTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             emailTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             emailTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
-            enderecoTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
-            enderecoTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
+            cidadeTextBox.Enter += new EventHandler(Funcoes.CampoEventoEnter);
+            cidadeTextBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             nomeTextBot.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             nomeTextBot.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
-
         }
 
-
+        private void CEPMaskedTB_Leave(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

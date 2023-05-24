@@ -23,6 +23,7 @@ namespace PizzariaDoZe
         readonly TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
         readonly TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
         readonly TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
+        readonly TelaListagemEndereco endereco = new TelaListagemEndereco();
 
         /// <summary>
         /// Tela quando um admin logar
@@ -103,6 +104,9 @@ namespace PizzariaDoZe
 
         }
 
-       
+        private void enderecoBtn_Click(object sender, EventArgs e)
+        {
+            endereco.ShowDialog();
+        }
     }
 }

@@ -52,6 +52,7 @@
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enderecoBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.adminMenuStrip.SuspendLayout();
@@ -62,9 +63,10 @@
             this.pizzaBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.pizzaBtn.FlatAppearance.BorderSize = 0;
             this.pizzaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pizzaBtn.Location = new System.Drawing.Point(12, 95);
+            this.pizzaBtn.Location = new System.Drawing.Point(14, 110);
+            this.pizzaBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pizzaBtn.Name = "pizzaBtn";
-            this.pizzaBtn.Size = new System.Drawing.Size(247, 35);
+            this.pizzaBtn.Size = new System.Drawing.Size(288, 40);
             this.pizzaBtn.TabIndex = 1;
             this.pizzaBtn.Text = "Pizza";
             this.pizzaBtn.UseVisualStyleBackColor = false;
@@ -75,9 +77,10 @@
             this.pedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.pedidoBtn.FlatAppearance.BorderSize = 0;
             this.pedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pedidoBtn.Location = new System.Drawing.Point(12, 218);
+            this.pedidoBtn.Location = new System.Drawing.Point(14, 252);
+            this.pedidoBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pedidoBtn.Name = "pedidoBtn";
-            this.pedidoBtn.Size = new System.Drawing.Size(247, 35);
+            this.pedidoBtn.Size = new System.Drawing.Size(288, 40);
             this.pedidoBtn.TabIndex = 4;
             this.pedidoBtn.Text = "Realizar Pedido";
             this.pedidoBtn.UseVisualStyleBackColor = false;
@@ -87,9 +90,10 @@
             // 
             this.voltarBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.voltarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.voltarBtn.Location = new System.Drawing.Point(474, 59);
+            this.voltarBtn.Location = new System.Drawing.Point(553, 68);
+            this.voltarBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.voltarBtn.Name = "voltarBtn";
-            this.voltarBtn.Size = new System.Drawing.Size(141, 33);
+            this.voltarBtn.Size = new System.Drawing.Size(164, 38);
             this.voltarBtn.TabIndex = 8;
             this.voltarBtn.Text = "Voltar";
             this.voltarBtn.UseVisualStyleBackColor = false;
@@ -100,9 +104,10 @@
             this.cadastroFuncionarioBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.cadastroFuncionarioBtn.FlatAppearance.BorderSize = 0;
             this.cadastroFuncionarioBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cadastroFuncionarioBtn.Location = new System.Drawing.Point(12, 259);
+            this.cadastroFuncionarioBtn.Location = new System.Drawing.Point(14, 299);
+            this.cadastroFuncionarioBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cadastroFuncionarioBtn.Name = "cadastroFuncionarioBtn";
-            this.cadastroFuncionarioBtn.Size = new System.Drawing.Size(247, 35);
+            this.cadastroFuncionarioBtn.Size = new System.Drawing.Size(288, 40);
             this.cadastroFuncionarioBtn.TabIndex = 5;
             this.cadastroFuncionarioBtn.Text = "Cadastrar Funcionario";
             this.cadastroFuncionarioBtn.UseVisualStyleBackColor = false;
@@ -113,9 +118,10 @@
             this.fornecedorBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.fornecedorBtn.FlatAppearance.BorderSize = 0;
             this.fornecedorBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.fornecedorBtn.Location = new System.Drawing.Point(12, 300);
+            this.fornecedorBtn.Location = new System.Drawing.Point(14, 346);
+            this.fornecedorBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.fornecedorBtn.Name = "fornecedorBtn";
-            this.fornecedorBtn.Size = new System.Drawing.Size(247, 35);
+            this.fornecedorBtn.Size = new System.Drawing.Size(288, 40);
             this.fornecedorBtn.TabIndex = 6;
             this.fornecedorBtn.Text = "Cadastrar Fornecedor";
             this.fornecedorBtn.UseVisualStyleBackColor = false;
@@ -126,9 +132,10 @@
             this.bebidasBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.bebidasBtn.FlatAppearance.BorderSize = 0;
             this.bebidasBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bebidasBtn.Location = new System.Drawing.Point(12, 341);
+            this.bebidasBtn.Location = new System.Drawing.Point(14, 393);
+            this.bebidasBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bebidasBtn.Name = "bebidasBtn";
-            this.bebidasBtn.Size = new System.Drawing.Size(247, 35);
+            this.bebidasBtn.Size = new System.Drawing.Size(288, 40);
             this.bebidasBtn.TabIndex = 7;
             this.bebidasBtn.Text = "Cadastrar Bebidas";
             this.bebidasBtn.UseVisualStyleBackColor = false;
@@ -137,9 +144,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(1, 31);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(291, 374);
+            this.pictureBox2.Size = new System.Drawing.Size(340, 432);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -147,9 +155,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(352, 119);
+            this.pictureBox1.Location = new System.Drawing.Point(411, 137);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 230);
+            this.pictureBox1.Size = new System.Drawing.Size(282, 265);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
@@ -159,9 +168,10 @@
             this.editarStatusPedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.editarStatusPedidoBtn.FlatAppearance.BorderSize = 0;
             this.editarStatusPedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editarStatusPedidoBtn.Location = new System.Drawing.Point(12, 136);
+            this.editarStatusPedidoBtn.Location = new System.Drawing.Point(14, 157);
+            this.editarStatusPedidoBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.editarStatusPedidoBtn.Name = "editarStatusPedidoBtn";
-            this.editarStatusPedidoBtn.Size = new System.Drawing.Size(247, 35);
+            this.editarStatusPedidoBtn.Size = new System.Drawing.Size(288, 40);
             this.editarStatusPedidoBtn.TabIndex = 2;
             this.editarStatusPedidoBtn.Text = "Editar Status Pedidos";
             this.editarStatusPedidoBtn.UseVisualStyleBackColor = false;
@@ -172,9 +182,10 @@
             this.visPedidoBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.visPedidoBtn.FlatAppearance.BorderSize = 0;
             this.visPedidoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.visPedidoBtn.Location = new System.Drawing.Point(12, 177);
+            this.visPedidoBtn.Location = new System.Drawing.Point(14, 204);
+            this.visPedidoBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.visPedidoBtn.Name = "visPedidoBtn";
-            this.visPedidoBtn.Size = new System.Drawing.Size(247, 35);
+            this.visPedidoBtn.Size = new System.Drawing.Size(288, 40);
             this.visPedidoBtn.TabIndex = 3;
             this.visPedidoBtn.Text = "Visualizar Pedidos";
             this.visPedidoBtn.UseVisualStyleBackColor = false;
@@ -187,7 +198,8 @@
             this.adminToolStripMenuItem});
             this.adminMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.adminMenuStrip.Name = "adminMenuStrip";
-            this.adminMenuStrip.Size = new System.Drawing.Size(633, 24);
+            this.adminMenuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.adminMenuStrip.Size = new System.Drawing.Size(738, 24);
             this.adminMenuStrip.TabIndex = 16;
             this.adminMenuStrip.Text = "menuStrip1";
             // 
@@ -284,12 +296,27 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
+            // enderecoBtn
+            // 
+            this.enderecoBtn.BackColor = System.Drawing.Color.BurlyWood;
+            this.enderecoBtn.FlatAppearance.BorderSize = 0;
+            this.enderecoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.enderecoBtn.Location = new System.Drawing.Point(14, 64);
+            this.enderecoBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.enderecoBtn.Name = "enderecoBtn";
+            this.enderecoBtn.Size = new System.Drawing.Size(288, 40);
+            this.enderecoBtn.TabIndex = 17;
+            this.enderecoBtn.Text = "Endereços";
+            this.enderecoBtn.UseVisualStyleBackColor = false;
+            this.enderecoBtn.Click += new System.EventHandler(this.enderecoBtn_Click);
+            // 
             // TelaPrincipalAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(633, 395);
+            this.ClientSize = new System.Drawing.Size(738, 456);
+            this.Controls.Add(this.enderecoBtn);
             this.Controls.Add(this.adminMenuStrip);
             this.Controls.Add(this.visPedidoBtn);
             this.Controls.Add(this.editarStatusPedidoBtn);
@@ -305,6 +332,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MainMenuStrip = this.adminMenuStrip;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaPrincipalAdmin";
@@ -344,5 +372,6 @@
         private System.Windows.Forms.ToolStripMenuItem fornecedorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private Button enderecoBtn;
     }
 }
