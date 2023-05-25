@@ -32,13 +32,16 @@
             this.nomeLabel = new System.Windows.Forms.Label();
             this.nomeTextBox = new System.Windows.Forms.TextBox();
             this.addBtn = new System.Windows.Forms.Button();
-            this.ingredientelistBox = new System.Windows.Forms.ListBox();
             this.excluirSelecionadoBtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.IDTextBox = new System.Windows.Forms.TextBox();
             this.idLabel = new System.Windows.Forms.Label();
+            this.dataGridViewDados = new System.Windows.Forms.DataGridView();
+            this.idColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomeCOlumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDados)).BeginInit();
             this.SuspendLayout();
             // 
             // nomeLabel
@@ -72,17 +75,6 @@
             this.addBtn.Text = "Adicionar";
             this.addBtn.UseVisualStyleBackColor = false;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
-            // 
-            // ingredientelistBox
-            // 
-            this.ingredientelistBox.BackColor = System.Drawing.Color.BurlyWood;
-            this.ingredientelistBox.FormattingEnabled = true;
-            this.ingredientelistBox.ItemHeight = 15;
-            this.ingredientelistBox.Location = new System.Drawing.Point(47, 117);
-            this.ingredientelistBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.ingredientelistBox.Name = "ingredientelistBox";
-            this.ingredientelistBox.Size = new System.Drawing.Size(184, 139);
-            this.ingredientelistBox.TabIndex = 3;
             // 
             // excluirSelecionadoBtn
             // 
@@ -123,6 +115,7 @@
             // 
             // IDTextBox
             // 
+            this.IDTextBox.Enabled = false;
             this.IDTextBox.Location = new System.Drawing.Point(62, 9);
             this.IDTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.IDTextBox.Name = "IDTextBox";
@@ -139,17 +132,39 @@
             this.idLabel.TabIndex = 23;
             this.idLabel.Text = "ID:";
             // 
+            // dataGridViewDados
+            // 
+            this.dataGridViewDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewDados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idColumn,
+            this.nomeCOlumn});
+            this.dataGridViewDados.Location = new System.Drawing.Point(12, 64);
+            this.dataGridViewDados.Name = "dataGridViewDados";
+            this.dataGridViewDados.RowTemplate.Height = 25;
+            this.dataGridViewDados.Size = new System.Drawing.Size(243, 194);
+            this.dataGridViewDados.TabIndex = 24;
+            // 
+            // idColumn
+            // 
+            this.idColumn.HeaderText = "ID";
+            this.idColumn.Name = "idColumn";
+            // 
+            // nomeCOlumn
+            // 
+            this.nomeCOlumn.HeaderText = "Nome";
+            this.nomeCOlumn.Name = "nomeCOlumn";
+            // 
             // TelaCadastrarIngrediente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(430, 270);
+            this.Controls.Add(this.dataGridViewDados);
             this.Controls.Add(this.idLabel);
             this.Controls.Add(this.IDTextBox);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.excluirSelecionadoBtn);
-            this.Controls.Add(this.ingredientelistBox);
             this.Controls.Add(this.addBtn);
             this.Controls.Add(this.nomeTextBox);
             this.Controls.Add(this.nomeLabel);
@@ -164,6 +179,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ingredientes";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,11 +190,13 @@
         private System.Windows.Forms.Label nomeLabel;
         private System.Windows.Forms.TextBox nomeTextBox;
         private System.Windows.Forms.Button addBtn;
-        private System.Windows.Forms.ListBox ingredientelistBox;
         private System.Windows.Forms.Button excluirSelecionadoBtn;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button cancelBtn;
         private TextBox IDTextBox;
         private Label idLabel;
+        private DataGridView dataGridViewDados;
+        private DataGridViewTextBoxColumn idColumn;
+        private DataGridViewTextBoxColumn nomeCOlumn;
     }
 }

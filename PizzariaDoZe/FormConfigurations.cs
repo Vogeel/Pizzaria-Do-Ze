@@ -19,6 +19,8 @@ namespace PizzariaDoZe
         /// <summary>
         /// Tela para mudar ocnfiguraçoes antes de logar
         /// </summary>
+            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+        /// 
         public FormConfigurations()
         {
             InitializeComponent();
@@ -34,7 +36,9 @@ namespace PizzariaDoZe
             idiomaComboBox.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
             idiomaComboBox.Focus();
-
+            ConnectionStringSettings connection = ConfigurationManager.ConnectionStrings["BD"];
+            comboBoxProvider.Text = connection.ProviderName;
+            textBoxConexao.Text = connection.ConnectionString;
 
         }
 
@@ -46,9 +50,12 @@ namespace PizzariaDoZe
             config.AppSettings.Settings.Add("IdiomaRegiao", idiomaComboBox.Text);//coloca o idioma escolhido
             config.Save(ConfigurationSaveMode.Modified);//salva modificações
             ConfigurationManager.RefreshSection("appSettings");//atualiza appSettings
+            config.ConnectionStrings.ConnectionStrings["BD"].ProviderName = comboBoxProvider.Text;
+            config.ConnectionStrings.ConnectionStrings["BD"].ConnectionString = textBoxConexao.Text;
+            config.Save(ConfigurationSaveMode.Modified, true);
+            ConfigurationManager.RefreshSection("connectionStrings");
             Close();
-            menssagem.ShowDialog();
-            
+            _ = MessageBox.Show("Dados alterados com sucesso");
 
             if (reiniciarCheckBox.Checked)
             {

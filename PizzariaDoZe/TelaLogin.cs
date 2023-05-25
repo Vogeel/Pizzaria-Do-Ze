@@ -2,7 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.Common;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -107,7 +109,25 @@ namespace PizzariaDoZe
                 
             }
         }
-       
+        public static void ValidaConexaoDB()
+        {
+            DbProviderFactory factory;
+            try
+            {
+                factory = DbProviderFactories.GetFactory(ConfigurationManager.ConnectionStrings["BD"].ProviderName);
+                using var conexao = factory.CreateConnection();
+                conexao!.ConnectionString = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
+                using var comando = factory.CreateCommand();
+                comando!.Connection = conexao;
+                conexao.Open();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                new FormConfigurations().ShowDialog();
+                ValidaConexaoDB();
+            }
+        }
         private void NotifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Show();

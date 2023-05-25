@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿using System.Data;
+using System.Data.Common;
 
 namespace PizzariaDoZe.DAO
 {
@@ -45,6 +46,34 @@ namespace PizzariaDoZe.DAO
             //Executa o script na conexão e retorna o número de linhas afetadas.
             var linhas = comando.ExecuteNonQuery();
             //using faz o Close() automático quando fecha o seu escopo
+        }
+        public DataTable Buscar(Ingrediente ingrediente)
+        {
+            using var conexao = factory.CreateConnection(); //Cria conexão
+            conexao!.ConnectionString = StringConexao; //Atribui a string de conexão
+            using var comando = factory.CreateCommand(); //Cria comando
+            comando!.Connection = conexao; //Atribui conexão
+                                           //verifica se tem filtro e personaliza o SQL do filtro
+            string auxSqlFiltro = "";
+            if (ingrediente.Id > 0)
+            {
+                auxSqlFiltro = "WHERE i.id_ingrediente = " + ingrediente.Id + " ";
+            }
+            else if (ingrediente.Nome.Length > 0)
+            {
+                auxSqlFiltro = "WHERE i.descricao_ingrediente like '%" + ingrediente.Nome + "%' ";
+            }
+            conexao.Open();
+            comando.CommandText = @" " +
+            "SELECT i.id_ingrediente AS ID, i.descricao_ingrediente AS Nome " +
+            "FROM cad_ingredientes AS i " +
+            auxSqlFiltro +
+            "ORDER BY i.descricao_ingrediente;";
+            //Executa o script na conexão e retorna as linhas afetadas.
+            var sdr = comando.ExecuteReader();
+            DataTable linhas = new();
+            linhas.Load(sdr);
+            return linhas;
         }
     }
    
