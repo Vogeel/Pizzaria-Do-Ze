@@ -17,6 +17,7 @@ namespace PizzariaDoZe
     /// </summary>
     public partial class TelaCadastroCliente : Form
     {
+        TelaVisualizarCliente vis;
         
         readonly TelaTamanhoPizza pedido = new TelaTamanhoPizza();
         /// <summary>
@@ -24,8 +25,8 @@ namespace PizzariaDoZe
         /// </summary>
         /// 
         private readonly EnderecoDAO enderecoDAO;
+        private readonly ClienteDAO clienteDAO;
 
-       
         public TelaCadastroCliente()
         {
             InitializeComponent();
@@ -45,7 +46,7 @@ namespace PizzariaDoZe
             string strConnection = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
             // cria a instancia da classe da model
             enderecoDAO = new EnderecoDAO(provider, strConnection);
-
+            clienteDAO = new ClienteDAO(provider, strConnection);
             camposCadsatroUserControl1.CEPMaskedTB.Leave += MaskedTextBoxCep_Leave;
         }
 
@@ -53,7 +54,33 @@ namespace PizzariaDoZe
 
         private void CadastrarBtn_Click(object sender, EventArgs e)
         {
-            
+            if (camposCadsatroUserControl1.idTextBox.Text.Length <= 0)
+            {
+                MessageBox.Show("Selecione um endereço valido!");
+                return;
+            }
+            //Instância e Preenche o objeto com os dados da view
+            var cliente = new Cliente
+            {
+                Id = 0,
+                Nome = camposCadsatroUserControl1.nomeTextBot.Text,
+                Cpf = camposCadsatroUserControl1.CPFMaskedTB.Text,
+                Telefone = camposCadsatroUserControl1.telefoneMaskTB.Text,
+                Email = camposCadsatroUserControl1.emailTextBox.Text,
+                EnderecoId = int.Parse(camposCadsatroUserControl1.idTextBox.Text),
+                Numero = camposCadsatroUserControl1.numeroTextBox.Text,
+                Complemento = camposCadsatroUserControl1.complementoTextBox.Text,
+            };
+            try
+            {
+                // chama o método da model para inserir e capturar o ID do cliente
+                int IdClienteGerado = clienteDAO.Inserir(cliente);
+                MessageBox.Show("Dados inseridos com sucesso! ClienteID: " + IdClienteGerado);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             pedido.ShowDialog();
         }
 

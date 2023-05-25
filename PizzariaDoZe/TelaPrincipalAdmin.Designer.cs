@@ -82,7 +82,7 @@
             this.pedidoBtn.Name = "pedidoBtn";
             this.pedidoBtn.Size = new System.Drawing.Size(288, 40);
             this.pedidoBtn.TabIndex = 4;
-            this.pedidoBtn.Text = "Realizar Pedido";
+            this.pedidoBtn.Text = "Cliente";
             this.pedidoBtn.UseVisualStyleBackColor = false;
             this.pedidoBtn.Click += new System.EventHandler(this.PedidoBtn_Click);
             // 
@@ -109,7 +109,7 @@
             this.cadastroFuncionarioBtn.Name = "cadastroFuncionarioBtn";
             this.cadastroFuncionarioBtn.Size = new System.Drawing.Size(288, 40);
             this.cadastroFuncionarioBtn.TabIndex = 5;
-            this.cadastroFuncionarioBtn.Text = "Cadastrar Funcionario";
+            this.cadastroFuncionarioBtn.Text = "Funcionario";
             this.cadastroFuncionarioBtn.UseVisualStyleBackColor = false;
             this.cadastroFuncionarioBtn.Click += new System.EventHandler(this.CadastroFuncionarioBtn_Click);
             // 

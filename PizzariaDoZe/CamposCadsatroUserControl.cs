@@ -37,6 +37,7 @@ namespace PizzariaDoZe
             nomeTextBot.Enter += new EventHandler(Funcoes.CampoEventoEnter);
             nomeTextBot.Leave += new EventHandler(Funcoes.CampoEventoLeave);
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown);
+            
         }
 
         private void CEPMaskedTB_Leave(object sender, EventArgs e)

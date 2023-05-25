@@ -45,9 +45,10 @@
             this.saboresBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.saboresBtn.FlatAppearance.BorderSize = 0;
             this.saboresBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.saboresBtn.Location = new System.Drawing.Point(23, 88);
+            this.saboresBtn.Location = new System.Drawing.Point(27, 102);
+            this.saboresBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.saboresBtn.Name = "saboresBtn";
-            this.saboresBtn.Size = new System.Drawing.Size(142, 44);
+            this.saboresBtn.Size = new System.Drawing.Size(166, 51);
             this.saboresBtn.TabIndex = 2;
             this.saboresBtn.Text = "Sabores";
             this.saboresBtn.UseVisualStyleBackColor = false;
@@ -58,9 +59,10 @@
             this.valoresBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.valoresBtn.FlatAppearance.BorderSize = 0;
             this.valoresBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.valoresBtn.Location = new System.Drawing.Point(23, 188);
+            this.valoresBtn.Location = new System.Drawing.Point(27, 217);
+            this.valoresBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.valoresBtn.Name = "valoresBtn";
-            this.valoresBtn.Size = new System.Drawing.Size(142, 44);
+            this.valoresBtn.Size = new System.Drawing.Size(166, 51);
             this.valoresBtn.TabIndex = 4;
             this.valoresBtn.Text = "Valores";
             this.valoresBtn.UseVisualStyleBackColor = false;
@@ -69,9 +71,10 @@
             // cancelBtn
             // 
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cancelBtn.Location = new System.Drawing.Point(340, 251);
+            this.cancelBtn.Location = new System.Drawing.Point(397, 290);
+            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(96, 37);
+            this.cancelBtn.Size = new System.Drawing.Size(112, 43);
             this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
@@ -82,9 +85,10 @@
             this.bordaBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.bordaBtn.FlatAppearance.BorderSize = 0;
             this.bordaBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bordaBtn.Location = new System.Drawing.Point(23, 138);
+            this.bordaBtn.Location = new System.Drawing.Point(27, 159);
+            this.bordaBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bordaBtn.Name = "bordaBtn";
-            this.bordaBtn.Size = new System.Drawing.Size(142, 44);
+            this.bordaBtn.Size = new System.Drawing.Size(166, 51);
             this.bordaBtn.TabIndex = 3;
             this.bordaBtn.Text = "Bordas";
             this.bordaBtn.UseVisualStyleBackColor = false;
@@ -95,9 +99,10 @@
             this.ingredientesBtn.BackColor = System.Drawing.Color.BurlyWood;
             this.ingredientesBtn.FlatAppearance.BorderSize = 0;
             this.ingredientesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ingredientesBtn.Location = new System.Drawing.Point(23, 38);
+            this.ingredientesBtn.Location = new System.Drawing.Point(27, 44);
+            this.ingredientesBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ingredientesBtn.Name = "ingredientesBtn";
-            this.ingredientesBtn.Size = new System.Drawing.Size(142, 44);
+            this.ingredientesBtn.Size = new System.Drawing.Size(166, 51);
             this.ingredientesBtn.TabIndex = 1;
             this.ingredientesBtn.Text = "Ingredientes";
             this.ingredientesBtn.UseVisualStyleBackColor = false;
@@ -106,9 +111,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(218, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(254, 48);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(218, 190);
+            this.pictureBox1.Size = new System.Drawing.Size(254, 219);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -116,19 +122,20 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-104, -21);
+            this.pictureBox2.Location = new System.Drawing.Point(-94, -29);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(291, 349);
+            this.pictureBox2.Size = new System.Drawing.Size(340, 403);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             // 
             // TelaPizzaAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(448, 297);
+            this.ClientSize = new System.Drawing.Size(523, 343);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.ingredientesBtn);
             this.Controls.Add(this.bordaBtn);
@@ -139,6 +146,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaPizzaAdmin";

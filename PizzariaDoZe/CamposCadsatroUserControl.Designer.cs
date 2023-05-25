@@ -50,6 +50,10 @@
             this.paisTextBox = new System.Windows.Forms.TextBox();
             this.idTextBox = new System.Windows.Forms.TextBox();
             this.idLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label = new System.Windows.Forms.Label();
+            this.numeroTextBox = new System.Windows.Forms.TextBox();
+            this.complementoTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // CPFMaskedTB
@@ -61,6 +65,7 @@
             this.CPFMaskedTB.Name = "CPFMaskedTB";
             this.CPFMaskedTB.Size = new System.Drawing.Size(277, 24);
             this.CPFMaskedTB.TabIndex = 4;
+            this.CPFMaskedTB.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // longradouroLabel
             // 
@@ -168,6 +173,7 @@
             this.telefoneMaskTB.Name = "telefoneMaskTB";
             this.telefoneMaskTB.Size = new System.Drawing.Size(277, 24);
             this.telefoneMaskTB.TabIndex = 2;
+            this.telefoneMaskTB.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // nomeTextBot
             // 
@@ -249,6 +255,7 @@
             // 
             // idTextBox
             // 
+            this.idTextBox.Enabled = false;
             this.idTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.idTextBox.Location = new System.Drawing.Point(116, 17);
             this.idTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -266,11 +273,53 @@
             this.idLabel.TabIndex = 37;
             this.idLabel.Text = "ID:";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 429);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "numero:";
+            // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(13, 394);
+            this.label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(85, 15);
+            this.label.TabIndex = 39;
+            this.label.Text = "complemento:";
+            // 
+            // numeroTextBox
+            // 
+            this.numeroTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.numeroTextBox.Location = new System.Drawing.Point(116, 423);
+            this.numeroTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.numeroTextBox.Name = "numeroTextBox";
+            this.numeroTextBox.Size = new System.Drawing.Size(277, 24);
+            this.numeroTextBox.TabIndex = 40;
+            // 
+            // complementoTextBox
+            // 
+            this.complementoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.complementoTextBox.Location = new System.Drawing.Point(116, 388);
+            this.complementoTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.complementoTextBox.Name = "complementoTextBox";
+            this.complementoTextBox.Size = new System.Drawing.Size(277, 24);
+            this.complementoTextBox.TabIndex = 41;
+            // 
             // CamposCadsatroUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
+            this.Controls.Add(this.complementoTextBox);
+            this.Controls.Add(this.numeroTextBox);
+            this.Controls.Add(this.label);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.idLabel);
             this.Controls.Add(this.idTextBox);
             this.Controls.Add(this.paisTextBox);
@@ -295,7 +344,7 @@
             this.Controls.Add(this.nomeTextBot);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "CamposCadsatroUserControl";
-            this.Size = new System.Drawing.Size(415, 382);
+            this.Size = new System.Drawing.Size(415, 457);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,5 +373,9 @@
         public TextBox paisTextBox;
         public TextBox idTextBox;
         private Label idLabel;
+        private Label label1;
+        private Label label;
+        public TextBox numeroTextBox;
+        public TextBox complementoTextBox;
     }
 }

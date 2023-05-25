@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -140,12 +141,25 @@ namespace PizzariaDoZe
                 }
             };
         }
-        /// <summary>
-        /// Configuração para apertar enter e ir para o proximo campo
-        /// </summary>
-        /// <param name="e"> tecla pressionada</param>
-        /// <param name="form">formulario atual</param>
         
+        public string Sha256Hash(string senha)
+        {
+            // Create a new Stringbuilder to collect the bytes and create a string.
+            var hash = new StringBuilder();
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                // Convert the input string to a byte array and compute the hash.
+                byte[] data = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(senha));
+                // Loop through each byte of the hashed data and format each one as a hexadecimal string.
+                for (int i = 0; i < data.Length; i++)
+                {
+                    hash.Append(data[i].ToString("x2"));
+                }
+            }
+            // retorna o hash SHA256.
+            return hash.ToString();
+        }
+
 
     }
 }

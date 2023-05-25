@@ -39,7 +39,7 @@
             // cadastrarBtn
             // 
             this.cadastrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cadastrarBtn.Location = new System.Drawing.Point(304, 435);
+            this.cadastrarBtn.Location = new System.Drawing.Point(304, 505);
             this.cadastrarBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cadastrarBtn.Name = "cadastrarBtn";
             this.cadastrarBtn.Size = new System.Drawing.Size(121, 31);
@@ -51,7 +51,7 @@
             // clienteCadastradoBtn
             // 
             this.clienteCadastradoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.clienteCadastradoBtn.Location = new System.Drawing.Point(136, 435);
+            this.clienteCadastradoBtn.Location = new System.Drawing.Point(136, 505);
             this.clienteCadastradoBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.clienteCadastradoBtn.Name = "clienteCadastradoBtn";
             this.clienteCadastradoBtn.Size = new System.Drawing.Size(148, 31);
@@ -63,7 +63,7 @@
             // 
             this.clienteCadastradoLabel.AutoSize = true;
             this.clienteCadastradoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
-            this.clienteCadastradoLabel.Location = new System.Drawing.Point(13, 408);
+            this.clienteCadastradoLabel.Location = new System.Drawing.Point(13, 478);
             this.clienteCadastradoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.clienteCadastradoLabel.Name = "clienteCadastradoLabel";
             this.clienteCadastradoLabel.Size = new System.Drawing.Size(271, 13);
@@ -85,10 +85,10 @@
             // camposCadsatroUserControl1
             // 
             this.camposCadsatroUserControl1.BackColor = System.Drawing.Color.BurlyWood;
-            this.camposCadsatroUserControl1.Location = new System.Drawing.Point(28, 45);
+            this.camposCadsatroUserControl1.Location = new System.Drawing.Point(28, 3);
             this.camposCadsatroUserControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.camposCadsatroUserControl1.Name = "camposCadsatroUserControl1";
-            this.camposCadsatroUserControl1.Size = new System.Drawing.Size(415, 360);
+            this.camposCadsatroUserControl1.Size = new System.Drawing.Size(415, 472);
             this.camposCadsatroUserControl1.TabIndex = 20;
             // 
             // TelaCadastroCliente
@@ -96,7 +96,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(569, 477);
+            this.ClientSize = new System.Drawing.Size(569, 545);
             this.Controls.Add(this.camposCadsatroUserControl1);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.clienteCadastradoLabel);

@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TelaListagemEndereco
+    partial class TelaVisualizarEndereco
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaVisualizarEndereco));
             this.dataGridViewDados = new System.Windows.Forms.DataGridView();
             this.IDcolumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CEPColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,11 +53,12 @@
             this.IDUFColumn,
             this.IDPaisColumn,
             this.PaisColumn});
-            this.dataGridViewDados.Location = new System.Drawing.Point(12, 76);
+            this.dataGridViewDados.Location = new System.Drawing.Point(12, 1);
             this.dataGridViewDados.Name = "dataGridViewDados";
             this.dataGridViewDados.RowTemplate.Height = 25;
-            this.dataGridViewDados.Size = new System.Drawing.Size(841, 362);
+            this.dataGridViewDados.Size = new System.Drawing.Size(950, 362);
             this.dataGridViewDados.TabIndex = 0;
+            this.dataGridViewDados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewDados_CellFormatting);
             // 
             // IDcolumn
             // 
@@ -98,13 +100,15 @@
             this.PaisColumn.HeaderText = "Pais";
             this.PaisColumn.Name = "PaisColumn";
             // 
-            // TelaListagemEndereco
+            // TelaVisualizarEndereco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 450);
+            this.ClientSize = new System.Drawing.Size(957, 366);
             this.Controls.Add(this.dataGridViewDados);
-            this.Name = "TelaListagemEndereco";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "TelaVisualizarEndereco";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaListagemEndereco";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDados)).EndInit();
             this.ResumeLayout(false);

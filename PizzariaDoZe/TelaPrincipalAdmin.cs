@@ -17,13 +17,13 @@ namespace PizzariaDoZe
     public partial class TelaPrincipalAdmin : Form
     {
         readonly TelaPrincipalEntregador entregas = new TelaPrincipalEntregador();
-        readonly TelaCadastrarFuncionarios funcionarios = new TelaCadastrarFuncionarios();
-        readonly TelaCadastroCliente pedido = new TelaCadastroCliente();
+        readonly TelaFuncionario funcionarios = new TelaFuncionario();
+        readonly TelaCliente pedido = new TelaCliente();
         readonly TelaPizzaAdmin pizza = new TelaPizzaAdmin();
         readonly TelaCadastroFornecedor fornecedor = new TelaCadastroFornecedor();
         readonly TelaAcessarStatusPedidoAtendente editStatus = new TelaAcessarStatusPedidoAtendente();
         readonly TelaCadastrarBebidas bebidas = new TelaCadastrarBebidas();
-        readonly TelaListagemEndereco endereco = new TelaListagemEndereco();
+        readonly TelaVisualizarEndereco endereco = new TelaVisualizarEndereco();
 
         /// <summary>
         /// Tela quando um admin logar
