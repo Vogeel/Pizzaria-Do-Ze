@@ -29,7 +29,7 @@ namespace PizzariaDoZe
 
 
 
-        private void AtualizarTela()
+        public void AtualizarTela()
         {
             //Instância e Preenche o objeto com os dados da view
             var funcionario = new Funcionario();

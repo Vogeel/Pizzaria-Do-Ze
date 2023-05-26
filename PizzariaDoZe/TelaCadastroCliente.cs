@@ -17,7 +17,7 @@ namespace PizzariaDoZe
     /// </summary>
     public partial class TelaCadastroCliente : Form
     {
-        TelaVisualizarCliente vis;
+        TelaVisualizarCliente vis = new TelaVisualizarCliente();
         
         readonly TelaTamanhoPizza pedido = new TelaTamanhoPizza();
         /// <summary>
@@ -126,6 +126,12 @@ namespace PizzariaDoZe
             {
                 MessageBox.Show(ex.Message, "Pizzaria do Zé", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void TelaCadastroCliente_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            vis.AtualizarTela();
+            vis.ShowDialog();
         }
     }
 }

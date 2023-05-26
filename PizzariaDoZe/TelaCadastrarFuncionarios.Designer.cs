@@ -581,6 +581,7 @@
             this.Name = "TelaCadastrarFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar Funcionario";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelaCadastrarFuncionarios_FormClosing);
             this.GrupoGroupBox.ResumeLayout(false);
             this.GrupoGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

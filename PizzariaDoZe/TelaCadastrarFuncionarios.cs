@@ -18,6 +18,7 @@ namespace PizzariaDoZe
     /// </summary>
     public partial class TelaCadastrarFuncionarios : Form
     {
+        TelaVisualizarFuncionario vis = new TelaVisualizarFuncionario();
         private readonly EnderecoDAO enderecoDAO;
         private readonly FuncionarioDAO funcionarioDAO;
 
@@ -147,6 +148,10 @@ namespace PizzariaDoZe
             }
         }
 
-       
+        private void TelaCadastrarFuncionarios_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            vis.AtualizarTela();
+            vis.ShowDialog();
+        }
     }
 }
