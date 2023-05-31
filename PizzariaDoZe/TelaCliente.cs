@@ -12,6 +12,7 @@ namespace PizzariaDoZe
 
         private void visualizarClienteBtn_Click(object sender, EventArgs e)
         {
+            visualizarCliente.AtualizarTela();
             visualizarCliente.ShowDialog();
         }
 

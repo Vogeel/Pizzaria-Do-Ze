@@ -128,10 +128,6 @@ namespace PizzariaDoZe
             }
         }
 
-        private void TelaCadastroCliente_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            vis.AtualizarTela();
-            vis.ShowDialog();
-        }
+        
     }
 }
