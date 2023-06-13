@@ -12,6 +12,11 @@ namespace PizzariaDoZe.DAO
             Id = id;
             Nome = nome;
         }
+
+        public override string ToString()
+        {
+            return Nome;
+        }
     }
     public class IngredienteDAO
     {

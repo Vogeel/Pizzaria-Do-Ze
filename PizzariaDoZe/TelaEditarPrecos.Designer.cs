@@ -29,276 +29,228 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaEditarPrecos));
-            this.brotoLabel = new System.Windows.Forms.Label();
-            this.mediaLabel = new System.Windows.Forms.Label();
-            this.giganteLabel = new System.Windows.Forms.Label();
-            this.extragiganteLabel = new System.Windows.Forms.Label();
-            this.especiaisLabel = new System.Windows.Forms.Label();
             this.atualizarBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
-            this.acrecimoEspecialLabel = new System.Windows.Forms.Label();
             this.moedaLabel = new System.Windows.Forms.Label();
             this.moedaLabel1 = new System.Windows.Forms.Label();
-            this.moedaLabel2 = new System.Windows.Forms.Label();
-            this.moedaLabel3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.valorBrotoMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
-            this.valorGiganteMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
-            this.valorMediaMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
-            this.valorExtraMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.MaskedTextBoxValor = new System.Windows.Forms.MaskedTextBox();
+            this.MaskedTextBoxBorda = new System.Windows.Forms.MaskedTextBox();
+            this.listBoxTamanho = new System.Windows.Forms.ListBox();
+            this.listBoxCategoria = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxID = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.buttonVisualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // brotoLabel
-            // 
-            this.brotoLabel.AutoSize = true;
-            this.brotoLabel.BackColor = System.Drawing.Color.Wheat;
-            this.brotoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.brotoLabel.Location = new System.Drawing.Point(10, 84);
-            this.brotoLabel.Name = "brotoLabel";
-            this.brotoLabel.Size = new System.Drawing.Size(45, 18);
-            this.brotoLabel.TabIndex = 0;
-            this.brotoLabel.Text = "Broto";
-            // 
-            // mediaLabel
-            // 
-            this.mediaLabel.AutoSize = true;
-            this.mediaLabel.BackColor = System.Drawing.Color.Wheat;
-            this.mediaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mediaLabel.Location = new System.Drawing.Point(10, 109);
-            this.mediaLabel.Name = "mediaLabel";
-            this.mediaLabel.Size = new System.Drawing.Size(48, 18);
-            this.mediaLabel.TabIndex = 1;
-            this.mediaLabel.Text = "Media";
-            // 
-            // giganteLabel
-            // 
-            this.giganteLabel.AutoSize = true;
-            this.giganteLabel.BackColor = System.Drawing.Color.Wheat;
-            this.giganteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.giganteLabel.Location = new System.Drawing.Point(10, 136);
-            this.giganteLabel.Name = "giganteLabel";
-            this.giganteLabel.Size = new System.Drawing.Size(59, 18);
-            this.giganteLabel.TabIndex = 2;
-            this.giganteLabel.Text = "Gigante";
-            // 
-            // extragiganteLabel
-            // 
-            this.extragiganteLabel.AutoSize = true;
-            this.extragiganteLabel.BackColor = System.Drawing.Color.Wheat;
-            this.extragiganteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.extragiganteLabel.Location = new System.Drawing.Point(10, 161);
-            this.extragiganteLabel.Name = "extragiganteLabel";
-            this.extragiganteLabel.Size = new System.Drawing.Size(98, 18);
-            this.extragiganteLabel.TabIndex = 3;
-            this.extragiganteLabel.Text = "Extra-Gigante";
-            // 
-            // especiaisLabel
-            // 
-            this.especiaisLabel.AutoSize = true;
-            this.especiaisLabel.BackColor = System.Drawing.Color.Wheat;
-            this.especiaisLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.especiaisLabel.Location = new System.Drawing.Point(10, 188);
-            this.especiaisLabel.Name = "especiaisLabel";
-            this.especiaisLabel.Size = new System.Drawing.Size(72, 18);
-            this.especiaisLabel.TabIndex = 4;
-            this.especiaisLabel.Text = "Especiais";
             // 
             // atualizarBtn
             // 
             this.atualizarBtn.FlatAppearance.BorderSize = 0;
-            this.atualizarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.atualizarBtn.Location = new System.Drawing.Point(135, 240);
+            this.atualizarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.atualizarBtn.Location = new System.Drawing.Point(273, 249);
+            this.atualizarBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.atualizarBtn.Name = "atualizarBtn";
-            this.atualizarBtn.Size = new System.Drawing.Size(107, 35);
+            this.atualizarBtn.Size = new System.Drawing.Size(125, 40);
             this.atualizarBtn.TabIndex = 5;
-            this.atualizarBtn.Text = "Substituir preços";
+            this.atualizarBtn.Text = "Salvar";
             this.atualizarBtn.UseVisualStyleBackColor = true;
-            this.atualizarBtn.Click += new System.EventHandler(this.Atualizar_Click);
+            this.atualizarBtn.Click += new System.EventHandler(this.atualizarBtn_Click);
             // 
             // cancelBtn
             // 
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cancelBtn.Location = new System.Drawing.Point(399, 12);
+            this.cancelBtn.Location = new System.Drawing.Point(465, 14);
+            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(107, 35);
+            this.cancelBtn.Size = new System.Drawing.Size(125, 40);
             this.cancelBtn.TabIndex = 6;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
-            // acrecimoEspecialLabel
-            // 
-            this.acrecimoEspecialLabel.AutoSize = true;
-            this.acrecimoEspecialLabel.BackColor = System.Drawing.Color.Wheat;
-            this.acrecimoEspecialLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.acrecimoEspecialLabel.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.acrecimoEspecialLabel.Location = new System.Drawing.Point(10, 206);
-            this.acrecimoEspecialLabel.Name = "acrecimoEspecialLabel";
-            this.acrecimoEspecialLabel.Size = new System.Drawing.Size(236, 13);
-            this.acrecimoEspecialLabel.TabIndex = 12;
-            this.acrecimoEspecialLabel.Text = "*Tem um acrescimo de 30% sobre o valor normal";
-            // 
             // moedaLabel
             // 
             this.moedaLabel.AutoSize = true;
             this.moedaLabel.BackColor = System.Drawing.Color.Wheat;
-            this.moedaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moedaLabel.Location = new System.Drawing.Point(109, 84);
+            this.moedaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.moedaLabel.Location = new System.Drawing.Point(27, 140);
+            this.moedaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.moedaLabel.Name = "moedaLabel";
-            this.moedaLabel.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel.Size = new System.Drawing.Size(46, 18);
             this.moedaLabel.TabIndex = 13;
-            this.moedaLabel.Text = "R$";
+            this.moedaLabel.Text = "Valor:";
             // 
             // moedaLabel1
             // 
             this.moedaLabel1.AutoSize = true;
             this.moedaLabel1.BackColor = System.Drawing.Color.Wheat;
-            this.moedaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moedaLabel1.Location = new System.Drawing.Point(109, 112);
+            this.moedaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.moedaLabel1.Location = new System.Drawing.Point(27, 195);
+            this.moedaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.moedaLabel1.Name = "moedaLabel1";
-            this.moedaLabel1.Size = new System.Drawing.Size(27, 18);
+            this.moedaLabel1.Size = new System.Drawing.Size(124, 18);
             this.moedaLabel1.TabIndex = 15;
-            this.moedaLabel1.Text = "R$";
-            // 
-            // moedaLabel2
-            // 
-            this.moedaLabel2.AutoSize = true;
-            this.moedaLabel2.BackColor = System.Drawing.Color.Wheat;
-            this.moedaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moedaLabel2.Location = new System.Drawing.Point(109, 138);
-            this.moedaLabel2.Name = "moedaLabel2";
-            this.moedaLabel2.Size = new System.Drawing.Size(27, 18);
-            this.moedaLabel2.TabIndex = 16;
-            this.moedaLabel2.Text = "R$";
-            // 
-            // moedaLabel3
-            // 
-            this.moedaLabel3.AutoSize = true;
-            this.moedaLabel3.BackColor = System.Drawing.Color.Wheat;
-            this.moedaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moedaLabel3.Location = new System.Drawing.Point(109, 161);
-            this.moedaLabel3.Name = "moedaLabel3";
-            this.moedaLabel3.Size = new System.Drawing.Size(27, 18);
-            this.moedaLabel3.TabIndex = 17;
-            this.moedaLabel3.Text = "R$";
+            this.moedaLabel1.Text = "Valor com Borda:";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(283, 61);
+            this.pictureBox1.Location = new System.Drawing.Point(419, 99);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 228);
+            this.pictureBox1.Size = new System.Drawing.Size(194, 190);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // MaskedTextBoxValor
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-1, -104);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(257, 411);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 19;
-            this.pictureBox2.TabStop = false;
+            this.MaskedTextBoxValor.Location = new System.Drawing.Point(27, 161);
+            this.MaskedTextBoxValor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaskedTextBoxValor.Mask = "###.##";
+            this.MaskedTextBoxValor.Name = "MaskedTextBoxValor";
+            this.MaskedTextBoxValor.PromptChar = ' ';
+            this.MaskedTextBoxValor.Size = new System.Drawing.Size(116, 23);
+            this.MaskedTextBoxValor.TabIndex = 1;
+            this.MaskedTextBoxValor.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // valorBrotoMaskedTextBox
+            // MaskedTextBoxBorda
             // 
-            this.valorBrotoMaskedTextBox.Location = new System.Drawing.Point(142, 82);
-            this.valorBrotoMaskedTextBox.Mask = "#,###.##";
-            this.valorBrotoMaskedTextBox.Name = "valorBrotoMaskedTextBox";
-            this.valorBrotoMaskedTextBox.PromptChar = ' ';
-            this.valorBrotoMaskedTextBox.Size = new System.Drawing.Size(100, 20);
-            this.valorBrotoMaskedTextBox.TabIndex = 1;
+            this.MaskedTextBoxBorda.Location = new System.Drawing.Point(27, 216);
+            this.MaskedTextBoxBorda.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaskedTextBoxBorda.Mask = "###.##";
+            this.MaskedTextBoxBorda.Name = "MaskedTextBoxBorda";
+            this.MaskedTextBoxBorda.PromptChar = ' ';
+            this.MaskedTextBoxBorda.Size = new System.Drawing.Size(116, 23);
+            this.MaskedTextBoxBorda.TabIndex = 2;
+            this.MaskedTextBoxBorda.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // valorGiganteMaskedTextBox
+            // listBoxTamanho
             // 
-            this.valorGiganteMaskedTextBox.Location = new System.Drawing.Point(142, 136);
-            this.valorGiganteMaskedTextBox.Mask = "#,###.##";
-            this.valorGiganteMaskedTextBox.Name = "valorGiganteMaskedTextBox";
-            this.valorGiganteMaskedTextBox.PromptChar = ' ';
-            this.valorGiganteMaskedTextBox.Size = new System.Drawing.Size(100, 20);
-            this.valorGiganteMaskedTextBox.TabIndex = 3;
+            this.listBoxTamanho.FormattingEnabled = true;
+            this.listBoxTamanho.ItemHeight = 15;
+            this.listBoxTamanho.Location = new System.Drawing.Point(206, 31);
+            this.listBoxTamanho.Name = "listBoxTamanho";
+            this.listBoxTamanho.Size = new System.Drawing.Size(120, 109);
+            this.listBoxTamanho.TabIndex = 19;
             // 
-            // valorMediaMaskedTextBox
+            // listBoxCategoria
             // 
-            this.valorMediaMaskedTextBox.Location = new System.Drawing.Point(142, 109);
-            this.valorMediaMaskedTextBox.Mask = "#,###.##";
-            this.valorMediaMaskedTextBox.Name = "valorMediaMaskedTextBox";
-            this.valorMediaMaskedTextBox.PromptChar = ' ';
-            this.valorMediaMaskedTextBox.Size = new System.Drawing.Size(100, 20);
-            this.valorMediaMaskedTextBox.TabIndex = 2;
+            this.listBoxCategoria.FormattingEnabled = true;
+            this.listBoxCategoria.ItemHeight = 15;
+            this.listBoxCategoria.Location = new System.Drawing.Point(206, 175);
+            this.listBoxCategoria.Name = "listBoxCategoria";
+            this.listBoxCategoria.Size = new System.Drawing.Size(120, 64);
+            this.listBoxCategoria.TabIndex = 20;
             // 
-            // valorExtraMaskedTextBox
+            // label1
             // 
-            this.valorExtraMaskedTextBox.Location = new System.Drawing.Point(142, 162);
-            this.valorExtraMaskedTextBox.Mask = "#,###.##";
-            this.valorExtraMaskedTextBox.Name = "valorExtraMaskedTextBox";
-            this.valorExtraMaskedTextBox.PromptChar = ' ';
-            this.valorExtraMaskedTextBox.Size = new System.Drawing.Size(100, 20);
-            this.valorExtraMaskedTextBox.TabIndex = 4;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Wheat;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(27, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(26, 18);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "ID:";
+            // 
+            // textBoxID
+            // 
+            this.textBoxID.Location = new System.Drawing.Point(66, 31);
+            this.textBoxID.Name = "textBoxID";
+            this.textBoxID.Size = new System.Drawing.Size(100, 23);
+            this.textBoxID.TabIndex = 23;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Wheat;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(206, 154);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 18);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Categoria:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Wheat;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(206, 10);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 18);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Tamanho:";
+            // 
+            // buttonVisualizar
+            // 
+            this.buttonVisualizar.FlatAppearance.BorderSize = 0;
+            this.buttonVisualizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVisualizar.Location = new System.Drawing.Point(332, 14);
+            this.buttonVisualizar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonVisualizar.Name = "buttonVisualizar";
+            this.buttonVisualizar.Size = new System.Drawing.Size(93, 40);
+            this.buttonVisualizar.TabIndex = 26;
+            this.buttonVisualizar.Text = "Visualizar Preços";
+            this.buttonVisualizar.UseVisualStyleBackColor = true;
+            this.buttonVisualizar.Click += new System.EventHandler(this.buttonVisualizar_Click);
             // 
             // TelaEditarPrecos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(537, 301);
-            this.Controls.Add(this.valorExtraMaskedTextBox);
-            this.Controls.Add(this.valorMediaMaskedTextBox);
-            this.Controls.Add(this.valorGiganteMaskedTextBox);
-            this.Controls.Add(this.valorBrotoMaskedTextBox);
+            this.ClientSize = new System.Drawing.Size(626, 300);
+            this.Controls.Add(this.buttonVisualizar);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBoxID);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBoxCategoria);
+            this.Controls.Add(this.listBoxTamanho);
+            this.Controls.Add(this.MaskedTextBoxBorda);
+            this.Controls.Add(this.MaskedTextBoxValor);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.moedaLabel3);
-            this.Controls.Add(this.moedaLabel2);
             this.Controls.Add(this.moedaLabel1);
             this.Controls.Add(this.moedaLabel);
-            this.Controls.Add(this.acrecimoEspecialLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.atualizarBtn);
-            this.Controls.Add(this.especiaisLabel);
-            this.Controls.Add(this.extragiganteLabel);
-            this.Controls.Add(this.giganteLabel);
-            this.Controls.Add(this.mediaLabel);
-            this.Controls.Add(this.brotoLabel);
-            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TelaEditarPrecos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editar Preços";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label brotoLabel;
-        private System.Windows.Forms.Label mediaLabel;
-        private System.Windows.Forms.Label giganteLabel;
-        private System.Windows.Forms.Label extragiganteLabel;
-        private System.Windows.Forms.Label especiaisLabel;
         private System.Windows.Forms.Button atualizarBtn;
         private System.Windows.Forms.Button cancelBtn;
-        private System.Windows.Forms.Label acrecimoEspecialLabel;
         private System.Windows.Forms.Label moedaLabel;
         private System.Windows.Forms.Label moedaLabel1;
-        private System.Windows.Forms.Label moedaLabel2;
-        private System.Windows.Forms.Label moedaLabel3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.MaskedTextBox valorBrotoMaskedTextBox;
-        private System.Windows.Forms.MaskedTextBox valorGiganteMaskedTextBox;
-        private System.Windows.Forms.MaskedTextBox valorMediaMaskedTextBox;
-        private System.Windows.Forms.MaskedTextBox valorExtraMaskedTextBox;
+        private System.Windows.Forms.MaskedTextBox MaskedTextBoxValor;
+        private System.Windows.Forms.MaskedTextBox MaskedTextBoxBorda;
+        private ListBox listBoxTamanho;
+        private ListBox listBoxCategoria;
+        private Label label1;
+        private TextBox textBoxID;
+        private Label label2;
+        private Label label3;
+        private Button buttonVisualizar;
     }
 }

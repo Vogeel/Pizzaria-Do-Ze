@@ -15,7 +15,7 @@ namespace PizzariaDoZe
     /// </summary>
     public partial class TelaPizzaAdmin : Form
     {
-        readonly TelaSabores sabores = new TelaSabores();
+        readonly TelaOpcoesSabores sabores = new TelaOpcoesSabores();
         readonly TelaEditarPrecos precos = new TelaEditarPrecos();
         readonly TelaCadastrarIngrediente ingrediente = new TelaCadastrarIngrediente();
         readonly TelaCadastroBorda borda = new TelaCadastroBorda();

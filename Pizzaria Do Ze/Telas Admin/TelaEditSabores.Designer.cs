@@ -1,4 +1,4 @@
-﻿namespace PizzariaDoZe.Telas_Admin
+﻿namespace Pizzaria_Do_Ze.Telas_Admin
 {
     partial class TelaEditSabores
     {
