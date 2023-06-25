@@ -28,6 +28,10 @@ namespace PizzariaDoZe.DAO
             Tipo = tipo;
             ML = ml;
         }
+        public override string ToString()
+        {
+            return Descricao;
+        }
     }
 
     public class ProdutoDAO

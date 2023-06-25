@@ -108,6 +108,7 @@
             this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancelar";
             this.cancelBtn.UseVisualStyleBackColor = false;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // pictureBox2
             // 

@@ -141,9 +141,9 @@
             this.label1.Location = new System.Drawing.Point(37, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 15);
+            this.label1.Size = new System.Drawing.Size(21, 15);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Nome: ";
+            this.label1.Text = "ID:";
             // 
             // pictureBoxImagem
             // 

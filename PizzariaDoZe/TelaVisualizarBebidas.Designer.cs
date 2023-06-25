@@ -37,7 +37,7 @@
             // cancelBtn
             // 
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cancelBtn.Location = new System.Drawing.Point(653, 37);
+            this.cancelBtn.Location = new System.Drawing.Point(438, 34);
             this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(125, 40);
@@ -52,7 +52,7 @@
             this.dataGridViewDados.Location = new System.Drawing.Point(12, 92);
             this.dataGridViewDados.Name = "dataGridViewDados";
             this.dataGridViewDados.RowTemplate.Height = 25;
-            this.dataGridViewDados.Size = new System.Drawing.Size(776, 321);
+            this.dataGridViewDados.Size = new System.Drawing.Size(523, 321);
             this.dataGridViewDados.TabIndex = 8;
             this.dataGridViewDados.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewDados_CellFormatting);
             // 
@@ -61,7 +61,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(576, 450);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.dataGridViewDados);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

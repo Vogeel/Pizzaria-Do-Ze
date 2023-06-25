@@ -32,6 +32,10 @@ namespace PizzariaDoZe.DAO
             Numero = numero;
             Complemento = complemento;
         }
+        public override string ToString()
+        {
+            return Nome;
+        }
     }
     public class ClienteDAO
     {
